@@ -3,3 +3,5 @@ pandas
 plotly
 matplotlib
 seaborn
+flask
+Flask-SQLAlchemy

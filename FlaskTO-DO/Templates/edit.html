@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit To Do</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+</head>
+<body>
+    <div style="margin-top: 50px;" class="ui container">
+        <h1 class="ui center aligned header">Edit To Do</h1>
+        <form action="{{ url_for('edit', ToDo_id=ToDo_item.id) }}" method="post" class="ui form">
+            <div class="two fields">
+                <div class="field">
+                    <label for="title">To Do Title</label>
+                    <input type="text" name="title" placeholder="Enter To Do..." value="{{ ToDo_item.title }}" required>
+                </div>
+                <div class="field">
+                    <label for="tags">Tags</label>
+                    <input type="text" name="tags" placeholder="Enter tags..." value="{{ ToDo_item.tags }}">
+                </div>
+            </div>
+            <div class="two fields">
+                <div class="field">
+                    <label for="due_date">Due Date</label>
+                    <input type="date" name="due_date" value="{{ ToDo_item.due_date }}" required>
+                </div>
+                <div class="field">
+                    <label for="priority">Priority</label>
+                    <select name="priority" class="ui dropdown" required>
+                        <option value="1" {% if ToDo_item.priority == 1 %} selected {% endif %}>Low</option>
+                        <option value="2" {% if ToDo_item.priority == 2 %} selected {% endif %}>Medium</option>
+                        <option value="3" {% if ToDo_item.priority == 3 %} selected {% endif %}>High</option>
+                    </select>
+                </div>
+            </div>
+            <div class="field">
+                <label for="status">Status</label>
+                <select name="status" class="ui dropdown" required>
+                    <option value="0" {% if not ToDo_item.complete and not ToDo_item.in_progress %} selected {% endif %}>Not Completed</option>
+                    <option value="1" {% if ToDo_item.complete and not ToDo_item.in_progress %} selected {% endif %}>Completed</option>
+                    <option value="2" {% if not ToDo_item.complete and ToDo_item.in_progress %} selected {% endif %}>In Progress</option>
+                </select>
+            </div>            
+            <button class="ui blue button" type="submit">Update</button>
+        </form>
+    </div>
+</body>
+</html>

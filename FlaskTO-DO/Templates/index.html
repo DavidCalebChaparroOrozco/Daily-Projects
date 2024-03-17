@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+</head>
+
+<body>
+    <div style="margin-top: 50px;" class="ui container">
+        <h1 class="ui center aligned header">To Do App</h1>
+        <form action="/add" method="post" class="ui form">
+            <div class="two fields">
+                <div class="field">
+                    <label for="title">To Do Title</label>
+                    <input type="text" name="title" placeholder="Enter To Do..." required>
+                </div>
+                <div class="field">
+                    <label for="tags">Tags</label>
+                    <input type="text" name="tags" placeholder="Enter tags...">
+                </div>
+            </div>
+            <div class="two fields">
+                <div class="field">
+                    <label for="due_date">Due Date</label>
+                    <input type="date" name="due_date" value="{{ now.strftime('%Y-%m-%d') }}" required>
+                </div>
+                <div class="field">
+                    <label for="priority">Priority</label>
+                    <select name="priority" class="ui dropdown" required>
+                        <option value="1">Low</option>
+                        <option value="2">Medium</option>
+                        <option value="3">High</option>
+                    </select>
+                </div>
+            </div>
+            <button class="ui blue button" type="submit">Add</button>
+        </form>
+        <hr>
+        <form action="/search" method="get" class="ui form">
+            <div class="ui grid">
+                <div class="four wide column">
+                    <label for="search_title">Search By Title:</label>
+                    <input type="text" name="search_title" id="search_title" placeholder="Enter title...">
+                </div>
+                <div class="four wide column">
+                    <label for="search_complete">Search By Complete Status:</label>
+                    <select name="search_complete" id="search_complete" class="ui dropdown">
+                        <option value="">All</option>
+                        <option value="true">Completed</option>
+                        <option value="false">Not Completed</option>
+                    </select>
+                </div>
+                <div class="four wide column">
+                    <label for="sort_by">Sort By:</label>
+                    <select name="sort_by" id="sort_by" class="ui dropdown">
+                        <option value="id">ID</option>
+                        <option value="title">Title</option>
+                        <option value="complete">Status</option>
+                    </select>
+                </div>
+                <div class="four wide column">
+                    <label for="priority">Priority By:</label>
+                    <select name="priority" id="priority" class="ui dropdown" required>
+                        <option value="1">Low</option>
+                        <option value="2">Medium</option>
+                        <option value="3">High</option>
+                    </select>
+                </div>
+                <div class="two fields">
+                    <div class="field">
+                        <label for="start_date">Start Date:</label>
+                        <input type="date" name="start_date" value="{{ now.strftime('%Y-%m-%d') }}">
+                    </div>
+                    <div class="field">
+                        <label for="end_date">End Date:</label>
+                        <input type="date" name="end_date">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <button class="ui blue button" type="submit">Search & Sort</button>
+            <hr>
+        </form>
+        <div class="ui buttons">
+            <a href="{{ url_for('index') }}" class="ui purple button">Show All</a>
+            <form action="/set_all_status" method="get">
+                <input type="hidden" name="status" value="in_progress">
+                <button class="ui yellow button" type="submit">Mark All In Progress</button>
+            </form>
+            <form action="/set_all_status" method="get">
+                <input type="hidden" name="status" value="not_completed">
+                <button class="ui gray button" type="submit">Mark All Not Completed</button>
+            </form>
+            <form action="/set_all_status" method="get">
+                <input type="hidden" name="status" value="completed">
+                <button class="ui green button" type="submit">Mark All Completed</button>
+            </form>
+        </div>
+        <hr>
+        {% for ToDo in ToDo_list.items %}
+        <div class="ui segment">
+            <p class="ui big header">{{ ToDo.id }} | {{ ToDo.title }}</p>
+            <p>Tags: {{ ToDo.tags }}</p>
+            <p>Due Date: {{ ToDo.due_date }}</p>
+            <p>Priority: {% if ToDo.priority == 1 %} Low {% elif ToDo.priority == 2 %} Medium {% elif ToDo.priority == 3
+                %} High {% endif %}</p>
+            {% if ToDo.complete %}
+            <span class="ui green label">Completed</span>
+            {% elif ToDo.in_progress %}
+            <span class="ui yellow label">In Progress</span>
+            {% else %}
+            <span class="ui gray label">Not Completed</span>
+            {% endif %}
+            <a class="ui teal button" href="{{ url_for('edit', ToDo_id=ToDo.id) }}">Edit</a>
+            <a class="ui blue button" href="/update/{{ ToDo.id }}">Update</a>
+            <a class="ui red button" href="#" onclick="confirmDelete('{{ ToDo.id }}')">Delete</a>
+        </div>
+        {% endfor %}
+        {% if ToDo_list.has_prev %}
+        <a href="{{ url_for('index', page=ToDo_list.prev_num, sort_by=request.args.get('sort_by', 'id')) }}"
+            class="ui blue button">Previous</a>
+        {% endif %}
+        {% if ToDo_list.has_next %}
+        <a href="{{ url_for('index', page=ToDo_list.next_num, sort_by=request.args.get('sort_by', 'id')) }}"
+            class="ui blue button">Next</a>
+        {% endif %}
+    </div>
+
+    <script>
+        document.getElementById('search-sort-btn').addEventListener('click', function () {
+            document.querySelector('form[action="/"]').submit();
+        });
+
+        function confirmDelete(id) {
+            if (confirm("Are you sure you want to delete this task?")) {
+                window.location.href = "/delete/" + id;
+            }
+        }
+    </script>
+</body>
+
+</html>
