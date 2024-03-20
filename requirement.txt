@@ -7,3 +7,5 @@ flask
 Flask-SQLAlchemy
 tkcalendar
 scikit-learn
+pypokedex
+pillow
