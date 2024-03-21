@@ -9,3 +9,4 @@ tkcalendar
 scikit-learn
 pypokedex
 pillow
+flet
