@@ -10,3 +10,6 @@ scikit-learn
 pypokedex
 pillow
 flet
+nltk
+textblob
+newspaper3k
