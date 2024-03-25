@@ -13,3 +13,4 @@ flet
 nltk
 textblob
 newspaper3k
+pygame
