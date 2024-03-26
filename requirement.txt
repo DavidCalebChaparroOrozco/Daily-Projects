@@ -14,3 +14,4 @@ nltk
 textblob
 newspaper3k
 pygame
+email-to
