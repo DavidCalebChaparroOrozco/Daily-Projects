@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- JavaScript function to validate the form -->
+    <script>
+        function validateForm() {
+            var guess = document.getElementById("guess").value.trim();
+            if (guess === "") {
+                alert("Please enter a letter.");
+                return false;
+            }
+            if (!/^[a-zA-Z]$/.test(guess)) {
+                alert("Please enter a letter.");
+                return false;
+            }
+            var guesses = document.getElementById("guesses").value;
+            if (guesses.includes(guess.toLowerCase())) {
+                alert("You have already tried this letter.");
+                return false;
+            }
+            document.getElementById("guesses").value += guess.toLowerCase();
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h1>Hangman</h1>
+    <p>Word: {{ word_display }}</p>
+    <p>Guesses: {{ ', '.join(guesses) }}</p>
+    <p>Allowed Errors Left: {{ allowed_errors }}</p>
+    {% if game_over %}
+        <!-- Displaying game result -->
+        <p>{{ "You found the word!" if word_display == word else "Game Over!" }}</p>
+        <p>The word was: {{ word }}</p>
+    {% else %}
+        <!-- Form for submitting the next guess -->
+        <form method="post" onsubmit="return validateForm()">
+            <label for="guess">Next Guess:</label>
+            <input type="text" id="guess" name="guess" maxlength="1" style="text-align: center;">
+            <input type="hidden" name="word" value="{{ word }}">
+            <input type="hidden" name="guesses" value="{{ ''.join(guesses) }}">
+            <input type="hidden" name="allowed_errors" value="{{ allowed_errors }}">
+            <input type="submit" value="Submit">
+        </form>
+    {% endif %}
+    {% if error_message %}
+    <!-- Displaying error message if any -->
+    <p>{{ error_message }}</p>
+    {% endif %}
+    <!-- Form for retrying the game -->
+    <form action="{{ url_for('retry') }}" method="get">
+        <button type="submit">Try Again</button>
+    </form>
+</body>
+</html>
