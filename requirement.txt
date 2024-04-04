@@ -16,3 +16,4 @@ newspaper3k
 pygame
 email-to
 ttkbootstrap
+Faker
