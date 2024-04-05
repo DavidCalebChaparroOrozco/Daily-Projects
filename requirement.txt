@@ -18,3 +18,4 @@ email-to
 ttkbootstrap
 Faker
 yfinance
+streamlit
