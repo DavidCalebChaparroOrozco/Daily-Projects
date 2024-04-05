@@ -17,3 +17,4 @@ pygame
 email-to
 ttkbootstrap
 Faker
+yfinance
