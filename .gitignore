@@ -1,2 +1,2 @@
-.env
-./DashboardSteamlit/.venv
+*
+DashboardSteamlit/.venv
