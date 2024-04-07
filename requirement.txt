@@ -19,3 +19,4 @@ ttkbootstrap
 Faker
 yfinance
 streamlit
+colorthief
