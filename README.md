@@ -53,8 +53,4 @@ This repository contains my daily projects, challenging me to create something n
 * Day 26: Tree Node
   * On day 26, I focused on the implementation of a fundamental data structure, the tree node. Through Python, I constructed a TreeNode class capable of representing nodes within a binary search tree. With the aid of methods like insertion and various traversal techniques (preorder, inorder, and postorder), I delved into the intricacies of managing and navigating through binary trees. This exploration lays the groundwork for comprehending more complex tree-based algorithms and data structures, providing a solid foundation for further study in computer science and programming. 🌳🔍
 * Day 27: ML with FastAPI
-<<<<<<< HEAD
   * Today we learn how to easily turn machine learning models into usable APIs using FastAPI in Python.
-=======
-  * 
->>>>>>> df0de19 (Day 27)
