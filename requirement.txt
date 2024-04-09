@@ -20,3 +20,6 @@ Faker
 yfinance
 streamlit
 colorthief
+fastapi
+uvicorn
+python-multipart
