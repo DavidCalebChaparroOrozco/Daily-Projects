@@ -23,3 +23,4 @@ colorthief
 fastapi
 uvicorn
 python-multipart
+opencv-python
