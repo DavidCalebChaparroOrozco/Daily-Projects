@@ -71,3 +71,5 @@ This repository contains my daily projects, challenging me to create something n
   [Problem Description](https://leetcode.com/problems/fizz-buzz/description/)
 * Day 34: Quicksort
   * We implemented Quicksort, a divide-and-conquer algorithm used for sorting arrays or lists. Quicksort selects a pivot element, partitions the other elements into two sub-arrays based on whether they are less than or greater than the pivot, and recursively sorts the sub-arrays. Known for its efficiency, Quicksort is often used as a benchmark for comparison with other sorting algorithms, enhancing our understanding of algorithmic efficiency and problem-solving skills. 🔄📊🔍
+* Day 35: Live Weather Forecast Flask App
+  * In today's project, we'll develop a live weather forecast Flask app. This app will take a city name as input and provide various weather characteristics such as temperature in Celsius and Fahrenheit, humidity, wind speed, and more.

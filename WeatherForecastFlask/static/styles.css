@@ -1,0 +1,54 @@
+/* Setting background image and making it responsive */
+body {
+background-image: url('https://i.pinimg.com/originals/0e/f3/bb/0ef3bb66d9216fffcea9022628f7bb26.gif');
+background-size: cover;
+background-repeat: no-repeat;
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+color: #FFFFFF; 
+}
+
+/* Styling for registration form */
+.regform {
+background-color: rgba(0, 0, 0, 0.8); 
+border-radius: 15px;
+text-align: center;
+padding: 20px;
+/* Top and side margin adjustment */
+margin: 40px 20px 0; 
+}
+
+/* Styling for main form */
+.main-form {
+background-color: rgba(0, 0, 0, 0.7);
+border-radius: 0 0 15px 15px;
+padding: 20px;
+/* Side margin adjustment */
+margin: 0 20px; 
+}
+
+/* Styling for details */
+.details {
+font-weight: bold;
+font-size: 17px;
+/* Bottom margin adjustment */
+margin-bottom: 10px; 
+}
+
+/* Button styles */
+.btn {
+background-color: #4CAF50; 
+color: white;
+padding: 10px 20px; 
+border: none;
+border-radius: 5px;
+cursor: pointer;
+/* Smooth transition */
+transition: background-color 0.3s ease; 
+}
+
+/* Button hover effect */
+.btn:hover {
+background-color: #45a049;
+}
