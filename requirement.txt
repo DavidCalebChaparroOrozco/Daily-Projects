@@ -26,3 +26,4 @@ python-multipart
 opencv-python
 tensorflow
 fpdf
+validators
