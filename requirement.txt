@@ -27,3 +27,4 @@ opencv-python
 tensorflow
 fpdf
 validators
+tkintermapview
