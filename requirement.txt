@@ -28,3 +28,5 @@ tensorflow
 fpdf
 validators
 tkintermapview
+pyspark
+findspark
