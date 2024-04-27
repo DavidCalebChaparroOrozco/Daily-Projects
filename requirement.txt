@@ -30,3 +30,5 @@ validators
 tkintermapview
 pyspark
 findspark
+win10toast
+pyjokes
