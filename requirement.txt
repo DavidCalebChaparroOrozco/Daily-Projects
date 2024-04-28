@@ -32,3 +32,5 @@ pyspark
 findspark
 win10toast
 pyjokes
+langdetect
+langcodes
