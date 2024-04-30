@@ -34,3 +34,4 @@ win10toast
 pyjokes
 langdetect
 langcodes
+forex_python
