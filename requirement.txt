@@ -35,3 +35,4 @@ pyjokes
 langdetect
 langcodes
 forex_python
+python-vlc
