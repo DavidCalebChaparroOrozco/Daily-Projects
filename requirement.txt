@@ -39,3 +39,4 @@ python-vlc
 rembg
 pynput
 keyboard
+windows-curses
