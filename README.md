@@ -131,5 +131,10 @@ This repository contains my daily projects, challenging me to create something n
   * Today's focus is on creating a Matrix Effect, inspired by the iconic "Matrix" movie. This project involves generating a cascading effect of characters resembling the falling code seen in the film. Through this project, we'll explore concepts such as terminal manipulation, randomization, and animation. By implementing this Matrix Effect, we aim to recreate the visually stunning display seen in the movie, offering a fun and engaging coding exercise.
 * Day 59: Dice-Rolling [realpython.com](https://realpython.com/python-dice-roll/#step-1-code-the-tui-of-your-python-dice-rolling-app)
   * Today's focus is on implementing a Dice-Rolling application. This project involves creating a Python program to simulate rolling dice. We'll explore concepts such as random number generation, user input validation, and ASCII art for visual representation of dice faces. Additionally, we'll delve into creating a text-based user interface (TUI) for the application. By developing this Dice-Rolling application, we aim to provide users with a fun and interactive way to simulate rolling dice, suitable for various gaming and recreational purposes.
-* Day 60: 
-  * 
+* Day 60: Technical Test "letterCombinations" and "4Sum" [LeetCode](https://leetcode.com/problems/)
+  * **Letter Combinations of a Phone Number**: Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order. [Problem Description](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
+  * **4Sum**: Given an array `nums` of n integers, return an array of all the unique quadruplets `[nums[a], nums[b], nums[c], nums[d]]` such that:
+     - `0 <= a, b, c, d < n`
+     - `a, b, c, and d` are distinct.
+     - `nums[a] + nums[b] + nums[c] + nums[d] == target`
+  You may return the answer in any order. [Problem Description](https://leetcode.com/problems/4sum/)
