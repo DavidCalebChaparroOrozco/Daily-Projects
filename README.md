@@ -138,3 +138,5 @@ This repository contains my daily projects, challenging me to create something n
      - `a, b, c, and d` are distinct.
      - `nums[a] + nums[b] + nums[c] + nums[d] == target`
   You may return the answer in any order. [Problem Description](https://leetcode.com/problems/4sum/)
+* Day 61: Anemia Types Classification [Kaggle](https://www.kaggle.com/datasets/ehababoelnaga/anemia-types-classification/data)
+  * Today, we focus on anemia types classification using a dataset from Kaggle. This dataset contains CBC (Complete Blood Count) data labeled with the diagnosis of anemia type, collected from several CBCs and diagnosed manually. By analyzing this dataset, we aim to understand the relationships between CBC parameters and different types of anemia. This analysis can provide valuable insights for medical diagnosis and treatment strategies.
