@@ -150,3 +150,10 @@ This repository contains my daily projects, challenging me to create something n
   These problems test your proficiency in data structures and algorithms, particularly in linked list manipulation and dynamic programming. Working on them will enhance your problem-solving skills and algorithmic thinking.
 * Day 64: Contour Plots in Matplotlib - Visualize 3D Functions in 2D [NeuralNine](https://www.youtube.com/watch?v=DYn9HdTmt0E)
   * In today's session, we explore how to create contour plots in Matplotlib, a powerful visualization tool in Python. Contour plots allow us to represent 3D functions in 2D, providing a clear view of the function's behavior over a plane. We will generate 2D grids using `numpy.meshgrid` and define various 3D functions to visualize. The session includes creating both surface plots and filled contour plots using Matplotlib's `plot_surface` and `contourf` functions, respectively. This exercise will help you understand how to effectively visualize complex functions, enhancing your data presentation skills and making your plots more informative and visually appealing.
+* Day 65: Technical Test "isValidParentheses" and "MergeTwoSortedLists" [LeetCode](https://leetcode.com/problems/).
+  * isValidParentheses: Given a string `s` containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if:
+      * Open brackets must be closed by the same type of brackets.
+      * Open brackets must be closed in the correct order.
+      * Every close bracket has a corresponding open bracket of the same type. 
+      [Problem Description](https://leetcode.com/problems/valid-parentheses/description/)
+  * MergeTwoSortedLists: Given the heads of two sorted linked lists `list1` and `list2`, merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists. Return the head of the merged linked list. [Problem Description](https://leetcode.com/problems/merge-two-sorted-lists/description/)
