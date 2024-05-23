@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Ticket Generated </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1> Ticket Generated </h1>
+    <p> Name: {{ ticket.name }}</p>
+    <p> Ticket Number: {{ ticket.id }}</p>
+    <p> Generation Time: {{ ticket.timestamp }}</p>
+    <a href="{{ url_for('index') }}"> Back </a>
+</body>
+</html>
