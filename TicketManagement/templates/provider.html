@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Supplier - Manage Tickets</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <h1> Ticket management </h1>
+    {% if next_ticket %}
+    <h2> Next Ticket</h2>
+    <p> Name: {{ next_ticket.name }}</p>
+    <p> Ticket number: {{ next_ticket.id }}</p>
+    <p> Generation Time: {{ next_ticket.timestamp }}</p>
+    <form action="{{ url_for('next_ticket') }}" method="post">
+        <button type="submit"> Attend Next Ticket</button>
+    </form>
+    {% else %}
+    <p> There are no more tickets in the tail. </p>
+    {% endif %}
+    {% if current_ticket %}
+    <h2> Attending Ticket</h2>
+    <p> Name: {{ current_ticket.name }}</p>
+    <p> Ticket Number: {{ current_ticket.id }}</p>
+    <p> Generation time: {{ current_ticket.timestamp }}</p>
+    {% endif %}
+</body>
+
+</html>
