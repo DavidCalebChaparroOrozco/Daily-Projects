@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Product</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Edit Product</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Back to Inventory</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <form method="post">
+                <label>Name: <input type="text" name="name" value="{{ product.name }}"></label><br>
+                <label>Quantity: <input type="number" name="quantity" value="{{ product.quantity }}"></label><br>
+                <label>Price: <input type="text" name="price" value="{{ product.price }}"></label><br>
+                <button type="submit" class="btn">Save</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

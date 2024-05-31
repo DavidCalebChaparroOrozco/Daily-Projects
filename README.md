@@ -194,3 +194,12 @@ This repository contains my daily projects, challenging me to create something n
     - Turn Management: Enable the removal of specific turns and display the number of turns assigned to each user.
     - Transaction History: Maintain and showcase a history of all completed transactions, ensuring transparency and record-keeping.
 Through this project, we aim to enhance the efficiency of customer service in a banking environment by leveraging Python to build an intuitive and effective queue management system. Join us as we implement and explore this essential application, ensuring a smoother experience for both bank staff and customers.
+* Day 77: Inventory Management GUI
+Today, we embarked on the development of a Graphical User Interface (GUI) for an Inventory Management System. Leveraging the Flask web framework in Python, we crafted an intuitive interface that enables users to efficiently manage their inventory of products. The system offers a range of features to enhance inventory control and streamline operations, including:
+  - **Product Management:** Users can easily add, edit, and delete products from the inventory, facilitating seamless product catalog management.
+  - **Real-time Inventory Monitoring:** The application provides a comprehensive view of the current inventory status, allowing users to track product quantities and make informed decisions.
+  - **Report Generation:** With built-in reporting capabilities, users can generate detailed reports on inventory status, product performance, and more, empowering data-driven decision-making.
+  - **Low Stock Alerts:** The system automatically alerts users to products with low stock levels, helping prevent stockouts and optimize inventory replenishment.
+  - **Data Export:** Users can export inventory data to CSV or Excel formats for further analysis or integration with external systems.
+
+By developing this Inventory Management GUI, we aimed to provide businesses with a powerful tool to effectively manage their inventory, improve efficiency, and optimize resource utilization. Join us as we continue to explore the intersection of technology and business operations, empowering organizations to thrive in today's dynamic marketplace. 📦💻📊

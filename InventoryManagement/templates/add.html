@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Add Product</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Back to Inventory</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <form method="post">
+                <label>ID: <input type="text" name="id"></label><br>
+                <label>Name: <input type="text" name="name"></label><br>
+                <label>Quantity: <input type="number" name="quantity"></label><br>
+                <label>Price: <input type="text" name="price"></label><br>
+                <button type="submit" class="btn">Add</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
