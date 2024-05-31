@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventory Management</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Inventory Management</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('add_product') }}">Add Product</a></li>
+                    <li><a href="{{ url_for('index') }}">Inventory</a></li>
+                    <li><a href="{{ url_for('export_csv') }}">Export to CSV</a></li>
+                    <li><a href="{{ url_for('export_excel') }}">Export to Excel</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <section>
+                <h2>Inventory</h2>
+                <ul>
+                    {% for product in inventory %}
+                        <li>{{ product.name }} ({{ product.quantity }}) - ${{ product.price }}
+                            <a href="{{ url_for('edit_product', product_id=product.id) }}" class="btn">Edit</a>
+                            <a href="{{ url_for('delete_product', product_id=product.id) }}" class="btn">Delete</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Low Stock Alerts</h2>
+                <ul>
+                    {% for alert in low_stock_alerts %}
+                        <li>{{ alert.name }} ({{ alert.quantity }})</li>
+                    {% endfor %}
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
