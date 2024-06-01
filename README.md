@@ -203,3 +203,7 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Data Export:** Users can export inventory data to CSV or Excel formats for further analysis or integration with external systems.
 
 By developing this Inventory Management GUI, we aimed to provide businesses with a powerful tool to effectively manage their inventory, improve efficiency, and optimize resource utilization. Join us as we continue to explore the intersection of technology and business operations, empowering organizations to thrive in today's dynamic marketplace. 📦💻📊
+
+* Day 78: Technical Test "swapPairs" and "reverseKGroup" [LeetCode](https://leetcode.com/problems/).
+  * swapPairs: Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed) [Problem Description](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
+  * reverseKGroup: Given the head of a linked list, reverse the nodes of the list k at a time, and return the modified list. k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k, then the left-out nodes at the end should remain as they are. You may not alter the values in the list's nodes, only nodes themselves may be changed. [Problem Description](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
