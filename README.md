@@ -202,9 +202,19 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Low Stock Alerts:** The system automatically alerts users to products with low stock levels, helping prevent stockouts and optimize inventory replenishment.
   - **Data Export:** Users can export inventory data to CSV or Excel formats for further analysis or integration with external systems.
 
-By developing this Inventory Management GUI, we aimed to provide businesses with a powerful tool to effectively manage their inventory, improve efficiency, and optimize resource utilization. Join us as we continue to explore the intersection of technology and business operations, empowering organizations to thrive in today's dynamic marketplace. 📦💻📊
+  By developing this Inventory Management GUI, we aimed to provide businesses with a powerful tool to effectively manage their inventory, improve efficiency, and optimize resource utilization. Join us as we continue to explore the intersection of technology and business operations, empowering organizations to thrive in today's dynamic marketplace. 📦💻📊
 * Day 78: Technical Test "swapPairs" and "reverseKGroup" [LeetCode](https://leetcode.com/problems/).
   * swapPairs: Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed) [Problem Description](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
   * reverseKGroup: Given the head of a linked list, reverse the nodes of the list k at a time, and return the modified list. k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k, then the left-out nodes at the end should remain as they are. You may not alter the values in the list's nodes, only nodes themselves may be changed. [Problem Description](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
 * Day 79: Minesweeper GUI Pygame
   * Today, we're diving into the development of a Minesweeper game with a Graphical User Interface (GUI) using Pygame. This classic game challenges players to uncover hidden mines on a grid-based board without detonating any of them. Our implementation leverages Pygame's intuitive interface to provide an engaging and immersive gaming experience. Players can reveal tiles, flag potential mines, and navigate through various difficulty levels or customize their game settings. Join us as we explore the world of game development with Python and Pygame, bringing the timeless excitement of Minesweeper to life in a modern and visually appealing format. 🕹️💣🎮
+* Day 80: Student Practice Management System
+  * Today, we developed a Python-based system to manage student internships. This system features:
+    - Practice Registration: Capture student details, company name, and practice duration.
+    - Internship Tracking: Monitor ongoing practices with detailed views.
+    - Average Duration Calculation: Display the average length of internships.
+    - Company-Specific Intern Count: Determine the number of interns per company.
+    - Company Update for Practices: Modify the company associated with a student's practice.
+    - User-Friendly Menu Interface: Easily navigate and interact with the system.
+
+  This system aims to streamline the management of student internships, benefiting both students and administrators. 🎓🏢📊
