@@ -218,3 +218,5 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - User-Friendly Menu Interface: Easily navigate and interact with the system.
 
   This system aims to streamline the management of student internships, benefiting both students and administrators. 🎓🏢📊
+* Day 81: Random Roulette
+  * Today, we're building a Random Roulette web application using Flask. This app allows users to add and modify options for the roulette, and then spin to select a random option. With Flask's lightweight and flexible framework, we'll create an interactive and dynamic web interface where users can easily manage their options. The application features a simple design with an intuitive navigation system, ensuring a seamless user experience. Join us as we delve into web development with Flask, creating a fun and functional tool for making random selections. 🎡🔄✨

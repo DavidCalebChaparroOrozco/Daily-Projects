@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Option</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}" />
+</head>
+
+<body>
+    <h1>Add Option</h1>
+    <form method="POST">
+        <label for="option">New Option:</label>
+        <input type="text" name="option" id="option" required />
+        <button type="submit">Add</button>
+    </form>
+    <a href="{{ url_for('index') }}">Back</a>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Roulette</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <h1>Random Roulette</h1>
+    <a href="{{ url_for('add_option') }}">Add Option</a> |
+    <a href="{{ url_for('modify_options') }}">Modify Options</a> |
+    <a href="{{ url_for('spin') }}">Spin Wheel</a>
+
+    {% if selected_option %}
+    <h2>The selected option is: {{ selected_option }}!</h2>
+    {% endif %}
+
+    <h3>Current Options:</h3>
+    <ul>
+        {% for option in options %}
+        <li>{{ option }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

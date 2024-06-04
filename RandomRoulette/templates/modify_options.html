@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Modify Options</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <h1>Modify Options</h1>
+    <form method="POST">
+        {% for option in options %}
+        <input type="text" name="options" value="{{ option }}">
+        <br>
+        {% endfor %}
+        <button type="submit">Save Changes</button>
+    </form>
+    <a href="{{ url_for('index') }}">Back</a>
+</body>
+
+</html>
