@@ -209,12 +209,12 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   * Today, we're diving into the development of a Minesweeper game with a Graphical User Interface (GUI) using Pygame. This classic game challenges players to uncover hidden mines on a grid-based board without detonating any of them. Our implementation leverages Pygame's intuitive interface to provide an engaging and immersive gaming experience. Players can reveal tiles, flag potential mines, and navigate through various difficulty levels or customize their game settings. Join us as we explore the world of game development with Python and Pygame, bringing the timeless excitement of Minesweeper to life in a modern and visually appealing format. 🕹️💣🎮
 * Day 80: Student Practice Management System
   * Today, we developed a Python-based system to manage student internships. This system features:
-    - Practice Registration: Capture student details, company name, and practice duration.
-    - Internship Tracking: Monitor ongoing practices with detailed views.
-    - Average Duration Calculation: Display the average length of internships.
-    - Company-Specific Intern Count: Determine the number of interns per company.
-    - Company Update for Practices: Modify the company associated with a student's practice.
-    - User-Friendly Menu Interface: Easily navigate and interact with the system.
+    - **Practice Registration**: Capture student details, company name, and practice duration.
+    - **Internship Tracking**: Monitor ongoing practices with detailed views.
+    - **Average Duration Calculation**: Display the average length of internships.
+    - **Company-Specific Intern Count**: Determine the number of interns per company.
+    - **Company Update for Practices**: Modify the company associated with a student's practice.
+    - **User-Friendly Menu Interface**: Easily navigate and interact with the system.
 
   This system aims to streamline the management of student internships, benefiting both students and administrators. 🎓🏢📊
 * Day 81: Random Roulette
@@ -224,3 +224,14 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 * Day 83: Technical Test "removeDuplicates" and "removeElement" [LeetCode](https://leetcode.com/problems/).
   * removeDuplicates: Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums. [Problem Description](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
   * removeElement: Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val. [Problem Description](https://leetcode.com/problems/remove-element/description/)
+* Day 84: Complaint Management System
+  * Today, we developed a Python-based system to manage complaints for the General Prosecutor's Office. This system features:
+    - **Complaint Creation**: Record details such as complainant, accused, date, type, and unique code.
+    - **Complaint Deletion**: Remove complaints using a unique code.
+    - **Sublist Creation**: Generate a sublist of complaints involving a specific person.
+    - **Type-Based Percentage Calculation**: Calculate the percentage of each type of complaint.
+    - **Complaint Display**: Show all registered complaints.
+    - **Date Modification**: Update the date of a specific complaint.
+    - **User-Friendly Menu Interface**: Easily navigate and interact with the system.
+
+  This system is designed to streamline the management of complaints, making it easier for the General Prosecutor's Office to handle and organize them effectively. 📅📝🔍
