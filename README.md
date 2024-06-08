@@ -235,3 +235,12 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **User-Friendly Menu Interface**: Easily navigate and interact with the system.
 
   This system is designed to streamline the management of complaints, making it easier for the General Prosecutor's Office to handle and organize them effectively. 📅📝🔍
+* Day 85: Convert Word Files To PDF [NeuralNine](https://www.youtube.com/watch?v=i57uYpW5Ng8)
+  * Today, we worked on a project to convert Word files (.docx) to PDF format. This project was inspired by a video tutorial from NeuralNine. While the tutorial provided the basic functionality for converting a single DOCX file to PDF, we expanded the project by adding several new features:
+    - **Graphical User Interface (GUI)**: Using `tkinter`, we created an intuitive interface that allows users to easily select files and specify output options.
+    - **Single File Conversion**: Users can convert a single DOCX file to PDF by selecting the file and choosing a destination.
+    - **Multiple File Conversion**: Users can select multiple DOCX files and convert them all to PDF at once, saving the converted files in a specified directory.
+    - **Error Handling**: The application includes robust error handling to inform users of any issues during the conversion process.
+    - **User Notifications**: After a successful conversion, the application provides a notification to the user.
+    
+  These enhancements make the tool more user-friendly and versatile, offering a complete solution for converting Word documents to PDF efficiently.
