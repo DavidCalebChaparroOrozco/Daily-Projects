@@ -41,3 +41,4 @@ pynput
 keyboard
 windows-curses
 docx2pdf
+networkx

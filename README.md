@@ -244,3 +244,13 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **User Notifications**: After a successful conversion, the application provides a notification to the user.
     
   These enhancements make the tool more user-friendly and versatile, offering a complete solution for converting Word documents to PDF efficiently.
+
+* Day 86: Goldner-Harary Graph in 3D
+  * Today, we explored the fascinating world of graph theory by creating and visualizing the Goldner-Harary graph in 3D. This project helped us understand the properties of planar graphs and verify Euler's formula. Here are the key features and steps we implemented:
+    - **Graph Construction**: We created the Goldner-Harary graph, which consists of 11 vertices and 27 edges.
+    - **3D Visualization**: Using `matplotlib` and `networkx`, we plotted the graph in a 3D space, providing a comprehensive visual representation of its structure.
+    - **Planarity Check**: We verified the graph's planarity, confirming that it can be drawn on a plane without any edges crossing.
+    - **Euler's Formula Verification**: We checked Euler's formula (v - e + f = 2) for the graph, ensuring it holds true for planar graphs.
+    - **Graph Information**: We displayed essential information about the graph, including the number of vertices, edges, and faces.
+    
+  This project not only enhanced our understanding of graph theory but also provided practical experience with 3D data visualization techniques. The Goldner-Harary graph, with its complex structure, served as an excellent example for studying planar graphs and their properties. 🌐📊🔍
