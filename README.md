@@ -254,3 +254,11 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Graph Information**: We displayed essential information about the graph, including the number of vertices, edges, and faces.
     
   This project not only enhanced our understanding of graph theory but also provided practical experience with 3D data visualization techniques. The Goldner-Harary graph, with its complex structure, served as an excellent example for studying planar graphs and their properties. 🌐📊🔍
+* Day 87: Building Management System
+  * Today, we developed a Python-based Building Management System. This system offers functionalities such as generating invoices, making payments, and tracking property ownership. Key features include:
+    - **Invoice Generation**: Automatically generate monthly invoices for property owners.
+    - **Payment Processing**: Record and manage payments made by proprietors.
+    - **Account Statements**: Generate account statements for proprietors, detailing payments and dues.
+    - **Delinquency Monitoring**: Identify delinquent apartments based on overdue balances.
+    
+  This system streamlines property management tasks, enhancing efficiency and organization. 🏢💼💰
