@@ -1,3 +1,4 @@
+# Importing necessary libraries
 import sqlite3
 import datetime
 
