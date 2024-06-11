@@ -262,3 +262,6 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Delinquency Monitoring**: Identify delinquent apartments based on overdue balances.
     
   This system streamlines property management tasks, enhancing efficiency and organization. 🏢💼💰
+* Day 88: Technical Test "strStr" and "divide" [LeetCode](https://leetcode.com/problems/).
+  * strStr: Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack. This classic problem tests your ability to efficiently search substrings within a larger string. [Problem Description](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
+  * divide: Given two integers, dividend and divisor, divide them without using multiplication, division, and mod operator. Ensure the result is truncated toward zero. This problem challenges you to implement efficient division using basic arithmetic operations. [Problem Description](https://leetcode.com/problems/divide-two-integers/description/)
