@@ -265,3 +265,11 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 * Day 88: Technical Test "strStr" and "divide" [LeetCode](https://leetcode.com/problems/).
   * strStr: Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack. This classic problem tests your ability to efficiently search substrings within a larger string. [Problem Description](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
   * divide: Given two integers, dividend and divisor, divide them without using multiplication, division, and mod operator. Ensure the result is truncated toward zero. This problem challenges you to implement efficient division using basic arithmetic operations. [Problem Description](https://leetcode.com/problems/divide-two-integers/description/)
+* Day 89: Dragon Ball Radar Animation with DBSCAN Clustering
+  * Today, we crafted an animated Dragon Ball radar using Python, leveraging DBSCAN clustering to detect clusters of Dragon Balls. Here's a breakdown of what we accomplished:
+    - **Radar Animation**: We animated a radar line sweeping through 360 degrees, simulating the iconic Dragon Ball radar from the anime series.
+    - **DBSCAN Clustering**: Utilizing the DBSCAN algorithm, we clustered randomly generated Dragon Ball positions, mimicking their distribution across the radar's range.
+    - **Cluster Visualization**: Each cluster of Dragon Balls was represented by a yellow point on the radar, with the number of Dragon Balls in each cluster displayed alongside.
+    - **Interactive Animation**: The animation included blinking points and text to add dynamism and visual appeal to the radar display.
+
+  This project blends entertainment with data science, offering a playful yet educational exploration of clustering algorithms and animated visualizations. 🐉🔍✨
