@@ -273,3 +273,11 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Interactive Animation**: The animation included blinking points and text to add dynamism and visual appeal to the radar display.
 
   This project blends entertainment with data science, offering a playful yet educational exploration of clustering algorithms and animated visualizations. 🐉🔍✨
+* Day 90: Pong Game Development in Python
+  * Today, we developed a classic Pong game using Python and the Pygame library. Here's a summary of our progress:
+    - **Game Mechanics**: We implemented the basic mechanics of Pong, including ball movement, paddle control, and collision detection.
+    - **Scoring System**: A scoring system was added, with the game ending when a player reaches 5 points. The score is displayed on the screen, and a winning message is shown at the end.
+    - **Paddle Customization**: The paddles were given distinct colors (red for the left paddle and blue for the right paddle) to enhance the visual appeal.
+    - **Smooth Animation**: The game runs smoothly at 60 frames per second, providing a responsive and enjoyable gaming experience.
+
+  This project demonstrates the fundamentals of game development in Python, showcasing the power and flexibility of Pygame for creating interactive applications. 🎮🚀✨
