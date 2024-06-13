@@ -22,7 +22,7 @@ WIN_SCORE = 5
 
 # Screen setup
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Pong")
+pygame.display.set_caption("Pong by David Caleb")
 
 # Font setup
 font = pygame.font.Font(None, FONT_SIZE)
