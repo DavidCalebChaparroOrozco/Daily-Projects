@@ -1,0 +1,111 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* General body styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container for centering content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Navigation link */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="radio"], button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus {
+    border-color: #0066cc;
+    outline: none;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d99;
+}
+
+/* List styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li a {
+    font-size: 1.1em;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    label, button {
+        font-size: 0.9em;
+    }
+}
