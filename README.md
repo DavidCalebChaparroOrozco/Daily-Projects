@@ -281,3 +281,11 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Smooth Animation**: The game runs smoothly at 60 frames per second, providing a responsive and enjoyable gaming experience.
 
   This project demonstrates the fundamentals of game development in Python, showcasing the power and flexibility of Pygame for creating interactive applications. 🎮🚀✨
+* Day 91: Flask-based Online Survey Application
+  Today, we created a Flask-based Online Survey Application. This project allows users to create surveys and participate in them. Key functionalities include:
+
+    - **Survey Creation**: Users can create new surveys with customizable options.
+    - **Survey Participation**: Other users can vote in existing surveys.
+    - **Results Display**: The application displays results for each survey, showing the distribution of votes.
+    
+  This project aims to provide a straightforward platform for conducting surveys online, enhancing user engagement and feedback collection. 📊🖥️✅
