@@ -289,3 +289,9 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Results Display**: The application displays results for each survey, showing the distribution of votes.
     
   This project aims to provide a straightforward platform for conducting surveys online, enhancing user engagement and feedback collection. 📊🖥️✅
+* Day 92: Tower of Hanoi and N Queens Problem Solutions
+  * Today, we implemented solutions to the classic Tower of Hanoi and N Queens problems in Python. Here's a summary of our progress:
+    - **Tower of Hanoi**: We developed a recursive function to solve the Tower of Hanoi problem, which involves moving disks from one peg to another according to specific rules. The function efficiently moves disks from the source peg to the target peg using an auxiliary peg.
+    - **N Queens Problem**: We implemented a backtracking algorithm to solve the N Queens problem, which involves placing N queens on an NxN chessboard such that no queen attacks another. The algorithm ensures that each queen is placed safely by checking for conflicts with other queens in the same row, column, or diagonal.
+
+  These projects demonstrate the power of Python for solving complex problems and the importance of recursion and backtracking in solving these types of problems. 🎯👑
