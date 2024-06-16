@@ -295,3 +295,15 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **N Queens Problem**: We implemented a backtracking algorithm to solve the N Queens problem, which involves placing N queens on an NxN chessboard such that no queen attacks another. The algorithm ensures that each queen is placed safely by checking for conflicts with other queens in the same row, column, or diagonal.
 
   These projects demonstrate the power of Python for solving complex problems and the importance of recursion and backtracking in solving these types of problems. 🎯👑
+
+* Day 93: Word Search Puzzle GUI
+  * Today, we created a graphical user interface (GUI) for a word search puzzle using Python's Tkinter library. Here's an overview of what we accomplished:
+    - **Word Entry**: We added an input field for users to enter words (comma-separated) which will be hidden in the word search grid.
+    - **Grid Generation**: We implemented a function to generate a grid filled with random letters, ensuring that the words are placed in random directions (horizontal, vertical, diagonal).
+    - **Word Selection**: We enabled cell selection in the grid. Selected cells highlight in yellow until a word is completely formed. If the word is valid, the cells change to green, indicating that the word has been found. If not, the cells revert to their original state.
+    - **Word List Display**: The words are displayed on the right side of the interface. Found words are struck through.
+    - **Timer**: We added a configurable timer (5 to 10 minutes) that counts down. If the user doesn't find all the words within the time limit, a message prompts them to try again.
+    - **Solve Button**: A centrally placed "Solve" button highlights all the words in the grid, assisting the user in finding the words.
+    - **Completion and Reset**: Upon finding all the words or the timer running out, the user is prompted to play again, allowing the game to reset.
+
+  This project demonstrates the integration of Python with Tkinter to create interactive applications, enhancing user experience and interface design. 🧩🕹️
