@@ -1,3 +1,6 @@
+# Given a string `s` and an array of strings `words`, find all starting indices of substring(s) in `s` 
+# that is a concatenation of each word in `words` exactly once and without any intervening characters.
+
 # Importing necessary libraries
 from typing import List
 from collections import defaultdict
