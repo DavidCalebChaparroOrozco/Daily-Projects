@@ -307,3 +307,7 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Completion and Reset**: Upon finding all the words or the timer running out, the user is prompted to play again, allowing the game to reset.
 
   This project demonstrates the integration of Python with Tkinter to create interactive applications, enhancing user experience and interface design. 🧩🕹️
+
+* Day 94: Technical Test "findSubstring" and "nextPermutation" [LeetCode](https://leetcode.com/problems/).
+  * [Problem Description](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/): Given a string `s` and an array of strings `words`, find all starting indices of substring(s) in `s` that is a concatenation of each word in `words` exactly once and without any intervening characters.
+  * [Problem Description](https://leetcode.com/problems/next-permutation/description/): Implement the next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers. If such an arrangement is not possible, it must rearrange it as the lowest possible order (i.e., sorted in ascending order). The replacement must be in place and use only constant extra memory.
