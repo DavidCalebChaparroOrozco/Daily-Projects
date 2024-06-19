@@ -319,3 +319,11 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Hotmail Example**: Tested the filter with example Hotmail emails to demonstrate its effectiveness.
       
   This project highlights how Python can be used to enhance email security by detecting and blocking potential phishing attacks. 🛡️📧
+* Day 96: World Clock GUI
+  * Today, we developed a **World Clock GUI** using Python and Tkinter. Here's an overview of what we accomplished:
+    - **Time Zone Updates**: Implemented a function to update and display the current time for multiple time zones including Colombia, New York, China, Germany, and Norway.
+    - **GUI Design**: Created a user-friendly graphical interface with labeled clocks for each time zone, enhancing the visual appeal and usability.
+    - **Icon and Flags**: Added an application icon and country flags to represent each time zone, providing a clear and engaging visual representation.
+    - **Dynamic Updates**: Ensured the clock times are updated dynamically every second, keeping the displayed times accurate.
+
+  This project showcases how Python can be used to create a functional and visually appealing world clock application. 🕒🌍
