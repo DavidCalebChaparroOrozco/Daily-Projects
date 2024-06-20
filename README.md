@@ -327,3 +327,12 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Dynamic Updates**: Ensured the clock times are updated dynamically every second, keeping the displayed times accurate.
 
   This project showcases how Python can be used to create a functional and visually appealing world clock application. 🕒🌍
+* Day 97: Pipelines for inference [🤗 Transformers](https://huggingface.co/docs/transformers/pipeline_tutorial)
+  * Today, I explored the powerful pipeline feature from the Hugging Face Transformers library to perform automatic speech recognition (ASR) and text generation tasks. Here's a summary of what I accomplished:
+    - **Automatic Speech Recognition**: Utilized the `pipeline()` function for ASR to transcribe audio files into text. Implemented and tested the OpenAI Whisper model for improved accuracy.
+    - **Batch Processing**: Leveraged batch processing to handle multiple audio files efficiently, enhancing the pipeline's performance on a GPU.
+    - **Task-Specific Parameters**: Experimented with parameters such as `return_timestamps` for subtitling and `chunk_length_s` for processing long audio files, demonstrating the flexibility of the pipeline.
+    - **Device Management**: Configured the pipeline to run on the appropriate device (CPU or GPU) based on availability, optimizing computational resources.
+    - **Dataset Integration**: Integrated the pipeline with datasets to perform inference on large datasets, showing the capability of the pipeline to handle extensive data inputs seamlessly.
+
+  This project highlights the versatility and ease of using Hugging Face's pipeline feature for various NLP and ASR tasks, showcasing the practical applications of machine learning models in real-world scenarios.
