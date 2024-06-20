@@ -42,3 +42,4 @@ keyboard
 windows-curses
 docx2pdf
 networkx
+transformers
