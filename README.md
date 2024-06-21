@@ -336,3 +336,12 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Dataset Integration**: Integrated the pipeline with datasets to perform inference on large datasets, showing the capability of the pipeline to handle extensive data inputs seamlessly.
 
   This project highlights the versatility and ease of using Hugging Face's pipeline feature for various NLP and ASR tasks, showcasing the practical applications of machine learning models in real-world scenarios.
+* Day 98: Vehicle Management System
+  * Today, I developed a Vehicle Management System to help the Universidad de Envigado manage the vehicles that enter and exit the campus. The system identifies each vehicle by its license plate and entry date. Here's a summary of what I accomplished:
+    - **Vehicle Entry**: Implemented functionality to add a vehicle to the active vehicles list and log its entry time.
+    - **Vehicle Exit**: Created a method to remove a vehicle from the active list and log its exit in the history.
+    - **Date-Specific Entry Count**: Added a feature to determine the number of vehicles that entered the campus on a specific date.
+    - **Entry Count by Vehicle**: Developed a function to list the number of times a specific vehicle has entered the campus.
+    - **User-Friendly Menu**: Designed an interactive menu for users to manage vehicle entries and exits, check vehicle counts, and handle inputs gracefully, including validation for empty inputs.
+
+  This project showcases the application of object-oriented programming principles to solve real-world problems, providing an efficient solution for managing campus vehicle traffic. The user-friendly interface ensures ease of use, while robust input validation enhances reliability.
