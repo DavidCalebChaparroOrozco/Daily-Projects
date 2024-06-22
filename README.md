@@ -345,3 +345,14 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **User-Friendly Menu**: Designed an interactive menu for users to manage vehicle entries and exits, check vehicle counts, and handle inputs gracefully, including validation for empty inputs.
 
   This project showcases the application of object-oriented programming principles to solve real-world problems, providing an efficient solution for managing campus vehicle traffic. The user-friendly interface ensures ease of use, while robust input validation enhances reliability.
+* Day 99: 🌬️ Asthma Disease Dataset 🌬️ [Kaggle](https://www.kaggle.com/datasets/rabieelkharoua/asthma-disease-dataset/data)
+  * Today, I worked with the Asthma Disease Dataset from Kaggle, aiming to analyze and model the factors contributing to asthma diagnosis. Here's a summary of what I accomplished:
+    - **Data Exploration and Cleaning**: Conducted an initial exploration of the dataset to understand its structure and identify missing values. Cleaned the data by handling missing values and irrelevant columns.
+    - **Feature Analysis**: Performed an exploratory data analysis (EDA) to visualize distributions of numerical features, correlations, and demographic insights. Created plots to understand the relationships between various factors and asthma diagnosis.
+    - **Descriptive Statistics**: Calculated and interpreted key statistics for age distribution, gender, ethnicity, and education level among diagnosed and non-diagnosed patients.
+    - **Pie Charts and Histograms**: Generated pie charts for categorical variables like ethnicity, gender, and education level. Plotted histograms for age distribution of diagnosed patients to identify trends.
+    - **Correlation Heatmap**: Created a heatmap to visualize correlations between numerical features, helping to identify significant relationships.
+    - **Model Training and Evaluation**: Developed and evaluated several machine learning models, including Logistic Regression, Random Forest, Gradient Boosting, Support Vector Machine, XGBoost, and K-Nearest Neighbors. Assessed model performance using accuracy and ROC AUC scores.
+    - **Scaling and Splitting Data**: Preprocessed the data by scaling features and splitting it into training and testing sets to ensure robust model evaluation.
+
+  This project highlights the importance of data preprocessing, exploratory analysis, and model evaluation in the context of medical data. The insights and models developed can help in understanding the factors influencing asthma diagnosis and potentially aid in early detection and prevention strategies.
