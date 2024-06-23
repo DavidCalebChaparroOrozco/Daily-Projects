@@ -356,3 +356,17 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Scaling and Splitting Data**: Preprocessed the data by scaling features and splitting it into training and testing sets to ensure robust model evaluation.
 
   This project highlights the importance of data preprocessing, exploratory analysis, and model evaluation in the context of medical data. The insights and models developed can help in understanding the factors influencing asthma diagnosis and potentially aid in early detection and prevention strategies.
+* Day 100: 🎮 2048 Game with Flask 🎮
+
+  * Today, I created a web-based 2048 game using Flask. The project involved building the game logic, setting up a server, and creating a responsive user interface. Here's a summary of what I accomplished:
+    - **Flask Application Setup**: Initialized a Flask application to handle game logic and API endpoints. Defined routes for starting a new game, making moves, and autoplay functionality.
+    - **Game Logic Implementation**: Developed functions to initialize the game board, add new tiles, and perform moves in all directions (left, right, up, down). Ensured that the game logic correctly merges tiles and adds new ones after each move.
+    - **Autoplay Feature**: Implemented an autoplay feature that simulates moves automatically until the game ends. This feature helps demonstrate the game mechanics and provides a way to observe strategies for achieving higher scores.
+    - **Game Over Check**: Added functionality to detect when the game is over, offering the option to restart the game and encouraging continuous play.
+    - **User Interface Design**: Created a responsive UI using HTML and CSS, ensuring the game board is centered and visually appealing. Applied a dark background for better visibility and user experience.
+    - **Styling with CSS**: Separated CSS into an external file, focusing on clean design and readability. Styled the board and cells to clearly display game states and centered numbers within their cells.
+    - **JavaScript Integration**: Moved JavaScript code to an external file for better organization. Handled user input for moves, board rendering, and autoplay functionality.
+    - **Restart Option**: Added a restart button to allow users to start a new game when the current game ends.
+    - **Enhanced User Experience**: Improved the overall user experience by ensuring smooth interactions, clear game states, and responsive design elements.
+
+  This project demonstrates the integration of front-end and back-end technologies to create an interactive web application. It highlights the importance of clean code organization, user-centric design, and robust game logic implementation. The 2048 game serves as a fun and engaging way to explore web development with Flask.
