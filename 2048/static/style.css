@@ -1,0 +1,58 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #dd3030;
+}
+
+/* Styles for centering the board */
+#board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+/* Styles for the board */
+#board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 5px;
+}
+
+.cell {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for the autoplay button */
+#autoplay, #restart {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#autoplay:hover, #restart:hover {
+    background-color: #3e8e41;
+}
+
+/* Styles for the game title */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
