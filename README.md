@@ -370,3 +370,7 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Enhanced User Experience**: Improved the overall user experience by ensuring smooth interactions, clear game states, and responsive design elements.
 
   This project demonstrates the integration of front-end and back-end technologies to create an interactive web application. It highlights the importance of clean code organization, user-centric design, and robust game logic implementation. The 2048 game serves as a fun and engaging way to explore web development with Flask.
+
+* Day 101: Technical Test "longestValidParentheses" and "search" [LeetCode](https://leetcode.com/problems/).
+  * longestValidParentheses: Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring. [Problem Description](https://leetcode.com/problems/longest-valid-parentheses/description/)
+  * search: Given an array of integers `nums` sorted in ascending order, which is possibly rotated at an unknown pivot, and an integer `target`, find the index of `target` in `nums` or return -1 if it is not in `nums`. The algorithm must run in O(log n) time complexity. [Problem Description](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
