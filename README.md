@@ -374,3 +374,14 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 * Day 101: Technical Test "longestValidParentheses" and "search" [LeetCode](https://leetcode.com/problems/).
   * longestValidParentheses: Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring. [Problem Description](https://leetcode.com/problems/longest-valid-parentheses/description/)
   * search: Given an array of integers `nums` sorted in ascending order, which is possibly rotated at an unknown pivot, and an integer `target`, find the index of `target` in `nums` or return -1 if it is not in `nums`. The algorithm must run in O(log n) time complexity. [Problem Description](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+
+* Day 102: 🍦 Object-Oriented Programming in Python with Ice Cream Example 🍦
+
+  * Today, I explored the fundamentals of Object-Oriented Programming (OOP) in Python using a fun and relatable example: an ice cream shop. This project highlights the six basic principles of OOP—inheritance, cohesion, abstraction, polymorphism, coupling, and encapsulation. Here's a summary of what I accomplished:
+
+    - **Abstraction and Encapsulation**: Created an abstract base class `IceCream` to represent the common attributes and behaviors of all ice creams. Encapsulated the flavor and price attributes to protect them from direct modification.
+    - **Inheritance**: Developed two subclasses, `ScoopIceCream` and `Sundae`, inheriting from the `IceCream` class. These subclasses extend the base class by adding specific attributes like the number of scoops and toppings.
+    - **Polymorphism**: Implemented a function `print_ice_cream_details` that takes any `IceCream` object and prints its details. This demonstrates how different ice cream objects can be handled through a single interface.
+    - **Cohesion**: Ensured each class has a single, well-defined responsibility. For example, `ScoopIceCream` handles the specifics of scoop-based ice cream, while `Sundae` manages sundae-specific attributes.
+    - **Coupling**: Maintained loose coupling between classes to ensure that changes in one class minimally affect others. This was achieved through well-defined interfaces and clear separation of responsibilities.
+    - **Encapsulation**: Used private attributes to encapsulate the internal state of the objects, providing getter methods to access the values.
