@@ -385,3 +385,19 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Cohesion**: Ensured each class has a single, well-defined responsibility. For example, `ScoopIceCream` handles the specifics of scoop-based ice cream, while `Sundae` manages sundae-specific attributes.
     - **Coupling**: Maintained loose coupling between classes to ensure that changes in one class minimally affect others. This was achieved through well-defined interfaces and clear separation of responsibilities.
     - **Encapsulation**: Used private attributes to encapsulate the internal state of the objects, providing getter methods to access the values.
+* Day 103: [TensorFlow](https://www.tensorflow.org/tutorials/keras/text_classification_with_hub) Text classification with TF Hub
+
+  * Today, I explored text classification using TensorFlow Hub and TensorFlow Datasets. This project focused on building a neural network model to classify movie reviews as positive or negative. Here's a summary of what I accomplished:
+
+    - **Data Loading and Preparation**: Utilized TensorFlow Datasets to download and prepare the IMDB dataset, splitting it into training, validation, and test sets.
+    - **Exploration**: Examined the dataset to understand its structure and content. Each example in the dataset consists of a movie review (text) and a corresponding label (0 for negative, 1 for positive).
+    - **Text Embedding**: Leveraged a pre-trained text embedding from TensorFlow Hub to convert sentences into embedding vectors. This approach simplifies text preprocessing, benefits from transfer learning, and provides a fixed-size output.
+    - **Model Building**: Constructed a neural network model using Keras Sequential API. The model includes:
+      - A TensorFlow Hub layer for text embedding.
+      - A Dense layer with 16 hidden units and ReLU activation.
+      - A Dense output layer with a single unit for binary classification.
+    - **Loss Function and Optimizer**: Configured the model with the `binary_crossentropy` loss function and the Adam optimizer. This setup is suitable for binary classification tasks.
+    - **Model Training**: Trained the model for 10 epochs using mini-batches of 512 samples, monitoring the loss and accuracy on the validation set.
+    - **Model Evaluation**: Evaluated the model on the test set to measure its performance, reporting both loss and accuracy.
+
+  This project demonstrates the application of TensorFlow and TensorFlow Hub for natural language processing tasks. It highlights the importance of using pre-trained models for efficient text embedding and the benefits of a well-structured neural network for text classification.
