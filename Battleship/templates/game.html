@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Battleship Game by David Caleb</title>
+</head>
+
+<body>
+    <h1>Battleship Game by David Caleb</h1>
+    <table>
+        <tr>
+            <th></th>
+            {% for col in "ABCDEFGH" %}
+            <th>{{ col }}</th>
+            {% endfor %}
+        </tr>
+        {% for i in range(8) %}
+        <tr>
+            <th>{{ i + 1 }}</th>
+            {% for j in range(8) %}
+            <td
+                class="{% if guess_board[i][j] == 'X' %}hit{% elif guess_board[i][j] == '-' %}miss{% elif guess_board[i][j] == 'O' %}ship{% endif %}">
+                {{ guess_board[i][j] }}
+            </td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+    {% if not game_over %}
+    <form action="{{ url_for('game') }}" method="post">
+        <label for="row">Row:</label>
+        <input type="number" id="row" name="row" min="1" max="8" required>
+        <label for="column">Column:</label>
+        <input type="text" id="column" name="column" pattern="[A-Ha-h]" required>
+        <button type="submit">Guess</button>
+        <h2>{{ message }}</h2>
+    </form>
+    <p>You have {{ turns }} turns left.</p>
+    {% endif %}
+</body>
+
+</html>
