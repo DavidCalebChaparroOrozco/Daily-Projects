@@ -401,3 +401,13 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Model Evaluation**: Evaluated the model on the test set to measure its performance, reporting both loss and accuracy.
 
   This project demonstrates the application of TensorFlow and TensorFlow Hub for natural language processing tasks. It highlights the importance of using pre-trained models for efficient text embedding and the benefits of a well-structured neural network for text classification.
+* Day 104: Battleship Game with Flask
+  * Today, I developed a Battleship game using Flask, a micro web framework for Python. This project involved creating a web-based version of the classic Battleship game, where users can guess the locations of ships on a grid. Here's a summary of what I accomplished:
+
+    - **Setting Up Flask Application**: Initialized a Flask project, set up routes, and managed sessions to maintain game state between requests.
+    - **Game Logic Implementation**: Implemented the core game logic in Python, including functions for creating ships, processing user guesses, and checking for game over conditions.
+    - **Session Management**: Utilized Flask sessions to store the hidden and guess boards, ensuring the game state is preserved between user interactions.
+    - **User Interface**: Developed HTML templates using Jinja2 to render the game board and provide a user-friendly interface. Included labels for rows and columns to guide the user.
+    - **Game Mechanics**: Added functionality to handle user guesses, update the game board, and provide feedback on hits and misses. Also implemented logic to reveal ship locations if the user runs out of turns.
+
+  This project showcases how to build a simple yet interactive web application with Flask. It emphasizes the importance of session management in web applications and demonstrates how to create a dynamic user interface with Jinja2 templates. Additionally, it illustrates the implementation of classic game mechanics in a web-based environment.

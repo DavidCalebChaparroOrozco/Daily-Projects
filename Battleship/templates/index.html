@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Battleship Game by David Caleb</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <h1>Welcome to Battleship Game by David Caleb</h1>
+    <form action="{{ url_for('start_game') }}" method="post">
+        <button type="submit">Start Game</button>
+    </form>
+</body>
+
+</html>
