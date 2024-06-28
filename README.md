@@ -411,3 +411,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Game Mechanics**: Added functionality to handle user guesses, update the game board, and provide feedback on hits and misses. Also implemented logic to reveal ship locations if the user runs out of turns.
 
   This project showcases how to build a simple yet interactive web application with Flask. It emphasizes the importance of session management in web applications and demonstrates how to create a dynamic user interface with Jinja2 templates. Additionally, it illustrates the implementation of classic game mechanics in a web-based environment.
+
+* Day 105: Technical Test "searchRange" and "searchInsert" [LeetCode](https://leetcode.com/problems/).
+
+  - **searchRange**: Given an array of integers `nums` sorted in non-decreasing order, find the starting and ending position of a given target value. If the target is not found in the array, return [-1, -1]. The algorithm must run in O(log n) time complexity.
+  [Problem Description](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
+    
+  - **searchInsert**: Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order. The algorithm must run in O(log n) time complexity. [Problem Description](https://leetcode.com/problems/search-insert-position/description/)
