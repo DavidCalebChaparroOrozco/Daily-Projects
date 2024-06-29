@@ -418,3 +418,13 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   [Problem Description](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
     
   - **searchInsert**: Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order. The algorithm must run in O(log n) time complexity. [Problem Description](https://leetcode.com/problems/search-insert-position/description/)
+* Day 106: Create a Multipage App with Streamlit [Streamlit Tutorial](https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app)
+  * Today, I focused on building a multipage web application using Streamlit, a popular open-source app framework for Machine Learning and Data Science projects. This project involved creating a web application that can navigate between different pages, each displaying unique content or functionality. Here's a summary of what I accomplished:
+
+    - **Setting Up Streamlit Environment**: Installed Streamlit and set up the development environment.
+    - **Creating Pages**: Developed multiple pages for the application, each serving a distinct purpose. For example, a home page, a data visualization page, and a user input page.
+    - **Navigation Implementation**: Implemented a navigation system to switch between different pages. Used Streamlit’s built-in components to create a user-friendly interface for navigation.
+    - **Dynamic Content**: Ensured each page displays dynamic content based on user interactions. For instance, visualizations that update based on user input or data selections.
+    - **User Interface Design**: Designed the layout and style of the application to make it intuitive and visually appealing. Leveraged Streamlit’s layout options and widgets to enhance the user experience.
+
+  This project showcases the versatility of Streamlit in creating interactive and multipage web applications. It emphasizes the ease of setting up a multi-page structure and the ability to integrate dynamic content seamlessly. This was an excellent exercise in web development and user interface design, demonstrating how to build comprehensive applications using Streamlit.
