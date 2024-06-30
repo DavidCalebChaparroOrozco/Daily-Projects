@@ -428,3 +428,13 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **User Interface Design**: Designed the layout and style of the application to make it intuitive and visually appealing. Leveraged Streamlit’s layout options and widgets to enhance the user experience.
 
   This project showcases the versatility of Streamlit in creating interactive and multipage web applications. It emphasizes the ease of setting up a multi-page structure and the ability to integrate dynamic content seamlessly. This was an excellent exercise in web development and user interface design, demonstrating how to build comprehensive applications using Streamlit.
+* Day 107: Twenty One Card Game GUI
+  * Today, I developed a Twenty-One card game (similar to Blackjack) in Python. This project involved creating the core game logic, displaying cards, handling user interactions, and implementing the rules of the game. Here's a summary of what I accomplished:
+
+    - **Card Display Function**: Created a function to display cards in a visually appealing format using ASCII art. This function helps players see their cards and the dealer's cards clearly.
+    - **Random Card Generation**: Implemented a function to generate random cards, ensuring a mix of suits and values for each game.
+    - **Card Value Calculation**: Developed a function to calculate the value of each card, considering the special case for Aces, which can be worth either 1 or 11 points.
+    - **Game Logic**: Implemented the main game loop, handling the player's turn and the dealer's turn, including decision-making processes and win/lose conditions.
+    - **User Interaction**: Added functionality for user input to decide whether to continue playing or stop, and to determine if the player wants to try again after a game ends.
+
+  This project demonstrates the implementation of a classic card game using Python, focusing on interactive gameplay and dynamic card management. It emphasizes the importance of user-friendly design and accurate game mechanics.
