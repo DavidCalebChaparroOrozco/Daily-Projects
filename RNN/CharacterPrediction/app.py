@@ -7,7 +7,10 @@ from tensorflow.keras.layers import Embedding, SimpleRNN, Dense
 # Sample text for training the model
 text = """
 Hello family,
-How are you all doing? Greetings from my daily projects. Today, on Day 108, I have created a simple character-level language model to predict the next character in a sequence.
+How are you all doing? Greetings from my daily projects. 
+Today, on Day 108, I have created a simple character-level 
+language model to predict the next character in a sequence.
+
 Best regards,
 David Caleb
 """
