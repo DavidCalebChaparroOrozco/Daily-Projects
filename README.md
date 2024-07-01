@@ -438,3 +438,17 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **User Interaction**: Added functionality for user input to decide whether to continue playing or stop, and to determine if the player wants to try again after a game ends.
 
   This project demonstrates the implementation of a classic card game using Python, focusing on interactive gameplay and dynamic card management. It emphasizes the importance of user-friendly design and accurate game mechanics.
+* Day 108: Character-Level Language Model with RNN
+  * Today, I developed a simple character-level language model using Recurrent Neural Networks (RNN) with TensorFlow and Keras. This project involved creating a model to predict the next character in a sequence of text. Here's a summary of what I accomplished:
+
+    - **Text Preparation**: Prepared the input text by creating mappings from characters to indices and vice versa. Split the text into sequences for training.
+    - **Dataset Creation**: Generated training data by creating overlapping sequences of characters and the corresponding next character to predict.
+    - **Model Building**: Constructed an RNN model using Keras. The model includes:
+      - An Embedding layer to learn character embeddings.
+      - A SimpleRNN layer to capture sequential dependencies.
+      - A Dense output layer with softmax activation to predict the next character.
+    - **Model Compilation**: Compiled the model using categorical cross-entropy loss and the Adam optimizer.
+    - **Model Training**: Trained the model on the prepared dataset, using a batch size of 2 and running for 100 epochs.
+    - **Prediction Function**: Implemented a function to predict the next character given a sequence of characters. This function uses the trained model to generate predictions.
+
+  This project showcases the process of building a character-level language model using RNNs. It emphasizes the importance of text preprocessing, sequence generation, and model training for sequential data tasks. The model is capable of predicting the next character in a sequence, demonstrating the potential of RNNs in natural language processing.
