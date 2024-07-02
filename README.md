@@ -452,3 +452,15 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Prediction Function**: Implemented a function to predict the next character given a sequence of characters. This function uses the trained model to generate predictions.
 
   This project showcases the process of building a character-level language model using RNNs. It emphasizes the importance of text preprocessing, sequence generation, and model training for sequential data tasks. The model is capable of predicting the next character in a sequence, demonstrating the potential of RNNs in natural language processing.
+* Day 109: PolarsVSPandas (Polars Is The Faster Pandas) [NeuralNine](https://www.youtube.com/watch?v=zthI91ASV58)
+  * Today, I explored the performance differences between Pandas and Polars for data manipulation tasks. This project was inspired by NeuralNine's video on Polars being faster than Pandas. Here's a summary of what I accomplished:
+
+    - **Data Preparation**: Created a dataset with 120,000 rows of random data using NumPy.
+    - **DataFrame Creation**: Generated DataFrames using both Pandas and Polars to compare their performance.
+    - **Reading Data**: Measured the time taken to read the data into Pandas and Polars DataFrames.
+    - **Aggregation**: Performed aggregation operations to calculate the mean of column 'B' and the sum of column 'C' grouped by column 'A'.
+    - **Filtering**: Filtered the data to include only rows where column 'A' is greater than 50.
+    - **Joining**: Conducted join operations to merge two DataFrames on column 'A'.
+    - **Conditional Column Addition**: Added a new column to a DataFrame based on a condition using both Pandas and Polars.
+
+  This project demonstrates the significant performance improvements that Polars offers over Pandas for certain data manipulation tasks. It highlights the importance of choosing the right tools for data processing to achieve efficient and scalable solutions. Special thanks to NeuralNine for the step-by-step guide provided in his video.
