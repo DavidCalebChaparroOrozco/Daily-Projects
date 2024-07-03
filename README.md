@@ -464,3 +464,21 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Conditional Column Addition**: Added a new column to a DataFrame based on a condition using both Pandas and Polars.
 
   This project demonstrates the significant performance improvements that Polars offers over Pandas for certain data manipulation tasks. It highlights the importance of choosing the right tools for data processing to achieve efficient and scalable solutions. Special thanks to NeuralNine for the step-by-step guide provided in his video.
+
+* Day 110: Technical Test "isValidSudoku" and "solveSudoku" [LeetCode](https://leetcode.com/problems/).
+
+  - **isValidSudoku**: Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:
+    - Each row must contain the digits 1-9 without repetition.
+    - Each column must contain the digits 1-9 without repetition.
+    - Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without repetition.
+    Note:
+    - A Sudoku board (partially filled) could be valid but is not necessarily solvable.
+    - Only the filled cells need to be validated according to the mentioned rules.
+    [Problem Description](https://leetcode.com/problems/valid-sudoku/description/)
+    
+  - **solveSudoku**: Write a program to solve a Sudoku puzzle by filling the empty cells. A sudoku solution must satisfy all of the following rules:
+    - Each of the digits 1-9 must occur exactly once in each row.
+    - Each of the digits 1-9 must occur exactly once in each column.
+    - Each of the digits 1-9 must occur exactly once in each of the nine 3x3 sub-boxes of the grid.
+    The '.' character indicates empty cells.
+    [Problem Description](https://leetcode.com/problems/sudoku-solver/description/)
