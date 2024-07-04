@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #45a049;
+}
+
+/* Estilos del menú de navegación */
+nav {
+    background-color: #333;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 2em;
+}
+
+h1, h2 {
+    color: #4CAF50;
+}
+
+form {
+    background-color: #333;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos de las alertas */
+.alert {
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.alert.success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.alert.error {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 0.5em 0;
+    }
+}

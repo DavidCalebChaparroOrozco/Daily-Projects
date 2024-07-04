@@ -482,3 +482,16 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - Each of the digits 1-9 must occur exactly once in each of the nine 3x3 sub-boxes of the grid.
     The '.' character indicates empty cells.
     [Problem Description](https://leetcode.com/problems/sudoku-solver/description/)
+* Day 111: Library Management System
+
+  - Today, I developed a Flask-based system for managing books, members, loans, and returns in a library setting. Data storage is handled using JSON files.
+    - **Features**:
+      - **Books Management**: Add, view, and list books.
+      - **Members Management**: Add and list members.
+      - **Loans Management**: Loan and return books with member associations.
+    - **Technologies**: Flask, JSON, HTML/CSS.
+    - **Project Structure**:
+      - **app.py**: Flask application handling routes and data operations.
+      - **templates/**: HTML templates for rendering pages.
+      - **static/**: CSS styles for frontend.
+    - **Future Enhancements**: Implement editing and deletion functionalities for books and members, search functionality, and user authentication.

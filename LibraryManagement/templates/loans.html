@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{% block content %}
+<h1>Loans</h1>
+<form method="post" action="{{ url_for('loan_book') }}">
+    <h2>Loan Book</h2>
+    <label for="book_title">Book Title</label>
+    <input type="text" name="book_title" id="book_title" required>
+    <label for="member_name">Member Name</label>
+    <input type="text" name="member_name" id="member_name" required>
+    <button type="submit">Loan Book</button>
+</form>
+<form method="post" action="{{ url_for('return_book') }}">
+    <h2>Return Book</h2>
+    <label for="book_title">Book Title</label>
+    <input type="text" name="book_title" id="book_title" required>
+    <label for="member_name">Member Name</label>
+    <input type="text" name="member_name" id="member_name" required>
+    <button type="submit">Return Book</button>
+</form>
+<h2>Current Loans</h2>
+<ul>
+    {% for loan in loans %}
+    <li>{{ loan.book_title }} loaned to {{ loan.member_name }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

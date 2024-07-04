@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+{% block content %}
+<h1>Members</h1>
+<a href="{{ url_for('add_member') }}">Add New Member</a>
+<ul>
+    {% for member in members %}
+    <li>{{ member.name }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
