@@ -500,3 +500,8 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Maze Solver**: Developed a recursive solver to find the path from the start to the end of the maze. The path is drawn using a different color to indicate the solution.
 
   This project showcases the use of recursive algorithms for generating and solving mazes, highlighting the power of Python's turtle graphics library for visualizing the process.
+* Day 113: Basketball Scoreboard in Flask
+
+  - **Basketball Scoreboard**: Created a web application using Flask to simulate a basketball scoreboard. The scoreboard allows users to input the names of the home and away teams, track scores (1-point, 2-point, and 3-point baskets), fouls, and display the current quarter or overtime. The game progresses through regular quarters, halftime, and overtime periods as needed, with a final winner determined based on scores.
+
+  This project demonstrates the use of Flask for web development and real-time updating of game states, showcasing interactive elements like score tracking, foul recording, and game progression logic.
