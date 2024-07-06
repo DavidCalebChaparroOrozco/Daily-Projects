@@ -1,0 +1,102 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.team-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.team-section button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.team-section button:hover {
+    background-color: #0056b3;
+}
+
+.central-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.central-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.central-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.central-section button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.central-section button:hover {
+    background-color: #218838;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .scoreboard {
+        flex-direction: column;
+    }
+
+    .team-section {
+        margin-bottom: 30px;
+    }
+}

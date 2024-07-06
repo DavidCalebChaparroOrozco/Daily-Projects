@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function updateTime() {
+            $.getJSON("/get_time", function(data) {
+                var minutes, seconds;
+                if (data.halftime) {
+                    minutes = Math.floor(data.halftime_duration / 60);
+                    seconds = data.halftime_duration % 60;
+                    $("#time_remaining").text(("0" + minutes).slice(-2) + ":" + ("0" + seconds).slice(-2));
+                    $("#quarter").text("Halftime");
+                } else {
+                    minutes = Math.floor(data.time_remaining / 60);
+                    seconds = data.time_remaining % 60;
+                    $("#time_remaining").text(("0" + minutes).slice(-2) + ":" + ("0" + seconds).slice(-2));
+                    if (data.overtime > 0) {
+                        $("#quarter").text("Overtime");
+                    } else {
+                        $("#quarter").text("Quarter: " + data.quarter);
+                    }
+                }
+
+                if (data.winner) {
+                    $("#winner").text("Winner: " + data.winner + "!");
+                    $("#time_remaining").text("00:00");
+                } else {
+                    $("#winner").text("");
+                }
+            });
+        }
+        
+        $(document).ready(function() {
+            updateTime();
+            setInterval(updateTime, 1000);
+        });
+    </script>
+</head>
+<body>
+    <h1>Basketball Scoreboard by David Caleb</h1>
+    <div class="scoreboard">
+        <div class="team-section">
+            <h2>{{ data.home_team }}: {{ data.home_score }}</h2>
+            <form method="POST">
+                <input type="hidden" name="team" value="home">
+                <input type="hidden" name="points" value="1">
+                <button type="submit" name="add_score" {% if data.halftime or data.winner %}disabled{% endif %}>+1 Point</button>
+            </form>
+            <form method="POST">
+                <input type="hidden" name="team" value="home">
+                <input type="hidden" name="points" value="2">
+                <button type="submit" name="add_score" {% if data.halftime or data.winner %}disabled{% endif %}>+2 Points</button>
+            </form>
+            <form method="POST">
+                <input type="hidden" name="team" value="home">
+                <input type="hidden" name="points" value="3">
+                <button type="submit" name="add_score" {% if data.halftime or data.winner %}disabled{% endif %}>+3 Points</button>
+            </form>
+            <h3>Fouls: {{ data.home_fouls }}</h3>
+            <form method="POST">
+                <input type="hidden" name="team" value="home">
+                <button type="submit" name="add_foul" {% if data.halftime or data.winner %}disabled{% endif %}>Foul</button>
+            </form>
+        </div>
+
+        <div class="central-section">
+            <h3 id="quarter">Quarter: {{ data.quarter }}</h3>
+            <h3 id="time_remaining">Time Remaining: {{ '%02d:%02d' % (data.time_remaining // 60, data.time_remaining % 60) }}</h3>
+            <h2 id="winner"></h2>
+            <form method="POST">
+                <input type="hidden" name="reset" value="true">
+                <button type="submit">Reset Scoreboard</button>
+            </form>
+            <form method="POST">
+                <button type="submit" name="back_to_index">Back to Index</button>
+            </form>
+        </div>
+
+        <div class="team-section">
+            <h2>{{ data.away_team }}: {{ data.away_score }}</h2>
+            <form method="POST">
+                <input type="hidden" name="team" value="away">
+                <input type="hidden" name="points" value="1">
+                <button type="submit" name="add_score" {% if data.halftime or data.winner %}disabled{% endif %}>+1 Point</button>
+            </form>
+            <form method="POST">
+                <input type="hidden" name="team" value="away">
+                <input type="hidden" name="points" value="2">
+                <button type="submit" name="add_score" {% if data.halftime or data.winner %}disabled{% endif %}>+2 Points</button>
+            </form>
+            <form method="POST">
+                <input type="hidden" name="team" value="away">
+                <input type="hidden" name="points" value="3">
+                <button type="submit" name="add_score" {% if data.halftime or data.winner %}disabled{% endif %}>+3 Points</button>
+            </form>
+            <h3>Fouls: {{ data.away_fouls }}</h3>
+            <form method="POST">
+                <input type="hidden" name="team" value="away">
+                <button type="submit" name="add_foul" {% if data.halftime or data.winner %}disabled{% endif %}>Foul</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
