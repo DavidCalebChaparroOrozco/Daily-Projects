@@ -43,3 +43,4 @@ windows-curses
 docx2pdf
 networkx
 transformers
+speedtest-cli

@@ -505,3 +505,12 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Basketball Scoreboard**: Created a web application using Flask to simulate a basketball scoreboard. The scoreboard allows users to input the names of the home and away teams, track scores (1-point, 2-point, and 3-point baskets), fouls, and display the current quarter or overtime. The game progresses through regular quarters, halftime, and overtime periods as needed, with a final winner determined based on scores.
 
   This project demonstrates the use of Flask for web development and real-time updating of game states, showcasing interactive elements like score tracking, foul recording, and game progression logic.
+* Day 114: Internet Speed Test Application
+
+  - **Internet Speed Test Application**: Developed a desktop application using Tkinter to measure internet speed. The application tests the download and upload speed as well as the ping of the user's internet connection. Results are displayed in the application window in real-time.
+
+    - **Speed Test**: Utilized the Speedtest library to measure download and upload speeds in Mbps, and ping in milliseconds. The results are displayed in a user-friendly format.
+    - **User Interface**: Designed a simple and intuitive GUI using Tkinter, with buttons to start the speed test, display information about the application, and exit the program.
+    - **Information Dialog**: Added an information dialog box to provide users with details about the application's functionality.
+
+  This project demonstrates the use of Tkinter for building desktop applications and integrating third-party libraries to perform real-time internet speed tests.
