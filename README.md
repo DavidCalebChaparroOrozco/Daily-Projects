@@ -514,3 +514,12 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Information Dialog**: Added an information dialog box to provide users with details about the application's functionality.
 
   This project demonstrates the use of Tkinter for building desktop applications and integrating third-party libraries to perform real-time internet speed tests.
+* Day 115: Steganography Application using Flask
+
+  - **Steganography Application**: Developed a web application using Flask to hide and reveal secret messages within images using the Stegano library. This project involved creating a user-friendly interface for uploading images and entering messages to hide or reveal.
+
+    - **Hide Message**: Implemented functionality to allow users to upload an image and input a message, which is then hidden within the image using the LSB (Least Significant Bit) method provided by the Stegano library. The resulting image is saved and displayed to the user.
+    - **Reveal Message**: Added functionality to upload an image and extract any hidden message from it. The extracted message, if any, is displayed to the user along with the image.
+    - **User Interface**: Designed a clean and intuitive web interface with routes for hiding and revealing messages, ensuring ease of use and smooth user experience.
+
+    This project demonstrates the use of Flask for building web applications, integrating third-party libraries for steganography, and handling file uploads and processing.
