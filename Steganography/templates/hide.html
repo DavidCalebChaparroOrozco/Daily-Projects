@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Hidden</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Message Hidden Successfully</h1>
+        <h2>Your Image</h2>
+        <img src="{{ image_url }}" alt="Image with hidden message" style="max-width: 100%;">
+        <h2>Your Message</h2>
+        <p>{{ message }}</p>
+        <a href="/">Go back</a>
+    </div>
+</body>
+</html>

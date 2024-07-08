@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steganography App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Steganography App by David Caleb</h1>
+        
+        <h2>Hide Message in Image</h2>
+        <form action="/hide" method="post" enctype="multipart/form-data">
+            <label for="image">Select image:</label>
+            <input type="file" name="image" id="image" required>
+            <br>
+            <label for="message">Enter message:</label>
+            <textarea name="message" id="message" required></textarea>
+            <br>
+            <button type="submit">Hide Message</button>
+        </form>
+
+        <h2>Reveal Message from Image</h2>
+        <form action="/reveal" method="post" enctype="multipart/form-data">
+            <label for="image">Select image:</label>
+            <input type="file" name="image" id="image" required>
+            <br>
+            <button type="submit">Reveal Message</button>
+        </form>
+
+        <div class="explanation">
+            <h3>How to Use:</h3>
+            <p>Select an image and enter a message to hide. To reveal a hidden message, select the image with the hidden message.</p>
+        </div>
+    </div>
+</body>
+</html>
