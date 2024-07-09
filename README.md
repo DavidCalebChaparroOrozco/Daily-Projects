@@ -523,3 +523,16 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **User Interface**: Designed a clean and intuitive web interface with routes for hiding and revealing messages, ensuring ease of use and smooth user experience.
 
     This project demonstrates the use of Flask for building web applications, integrating third-party libraries for steganography, and handling file uploads and processing.
+* Day 116: Technical Test "countAndSay" and "combinationSum" [LeetCode](https://leetcode.com/problems/).
+
+  - **countAndSay**: Generate the nth term in the count-and-say sequence. The count-and-say sequence is a sequence of digit strings defined by the recursive formula:
+    - countAndSay(1) = "1"
+    - countAndSay(n) is the run-length encoding of countAndSay(n - 1).
+    
+    For example, to compress the string "3322251" using run-length encoding, replace "33" with "23", replace "222" with "32", replace "5" with "15" and replace "1" with "11". Thus the compressed string becomes "23321511".
+    [Problem Description](https://leetcode.com/problems/count-and-say/description/)
+
+  - **combinationSum**: Return a list of all unique combinations of candidates where the chosen numbers sum to a given target. Each number in candidates may be used an unlimited number of times in the combination. Two combinations are unique if the frequency of at least one of the chosen numbers is different.
+
+    Given an array of distinct integers `candidates` and a target integer `target`, this problem finds all unique combinations of candidates that sum to the target. The test cases are generated such that the number of unique combinations that sum up to the target is less than 150 combinations for the given input.
+    [Problem Description](https://leetcode.com/problems/combination-sum/description/)
