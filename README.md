@@ -536,3 +536,19 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
     Given an array of distinct integers `candidates` and a target integer `target`, this problem finds all unique combinations of candidates that sum to the target. The test cases are generated such that the number of unique combinations that sum up to the target is less than 150 combinations for the given input.
     [Problem Description](https://leetcode.com/problems/combination-sum/description/)
+* Day 117: Recursion "BinaryTreeExpressionEvaluator"
+  * This project defines a binary tree where each node can be a numeric value or an operator. It evaluates the expression represented by the binary tree using recursion. The supported operations are addition, subtraction, multiplication, division, and exponentiation.
+  
+  - **TreeNode Class**: A class that represents a node in the binary tree.
+    - `value`: The value of the node, which can be an integer (leaf node) or an operator (internal node).
+    - `left`: The left child node.
+    - `right`: The right child node.
+  
+  - **evaluate_tree Function**: A function that evaluates the binary tree to compute the result of the expression it represents.
+    - It takes the root node of the binary tree as an argument.
+    - It returns the result of the expression as an integer or float.
+    - It raises a `ValueError` if there is an attempt to divide by zero.
+  
+  - **Example Usage**: The project includes an example usage of creating a binary tree for the expression `((3 + 2) * (4 - 1)) ^ 2` and evaluating it to get the result.
+
+  This project showcases the power of recursion in evaluating complex expressions represented by binary trees, highlighting the versatility of binary trees in computational problems.
