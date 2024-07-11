@@ -552,3 +552,5 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Example Usage**: The project includes an example usage of creating a binary tree for the expression `((3 + 2) * (4 - 1)) ^ 2` and evaluating it to get the result.
 
   This project showcases the power of recursion in evaluating complex expressions represented by binary trees, highlighting the versatility of binary trees in computational problems.
+* Day 118: Shirt Store
+  * Implemented a Python application for managing a shirt store using object-oriented programming concepts. The application allows users to add shirts to the store's inventory, manage customer interactions including adding to cart and purchasing, and view store and customer details.
