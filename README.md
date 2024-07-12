@@ -554,3 +554,11 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   This project showcases the power of recursion in evaluating complex expressions represented by binary trees, highlighting the versatility of binary trees in computational problems.
 * Day 118: Shirt Store
   * Implemented a Python application for managing a shirt store using object-oriented programming concepts. The application allows users to add shirts to the store's inventory, manage customer interactions including adding to cart and purchasing, and view store and customer details.
+* Day 119: Household Basket
+  - **Household Basket Application**: Developed a desktop application using Tkinter to manage household items in a basket, including fruits, vegetables, meat, dairy, and other categories. The application connects to an SQLite database to store and manage the items.
+
+    - **Add Item**: Implemented functionality to add items to the household basket. Users can select a category, enter the name and quantity of the item, and add it to the database. Validation ensures proper input for name and quantity fields.
+    - **View Items**: Added a treeview to display all items in the household basket. Users can see the item ID, category, name, and quantity.
+    - **Delete Item**: Included functionality to delete selected items from the basket. Users can select an item from the treeview and remove it from the database with a single click.
+    - **Database Management**: Utilized SQLite to create a persistent storage solution for the household basket items. Functions were developed to create the table, insert items, retrieve items, and delete items from the database.
+    - **User Interface**: Designed a user-friendly and responsive interface with Tkinter, ensuring a smooth user experience. The interface includes input fields, buttons, and a treeview to manage and display items effectively.
