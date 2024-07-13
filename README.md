@@ -562,3 +562,9 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Delete Item**: Included functionality to delete selected items from the basket. Users can select an item from the treeview and remove it from the database with a single click.
     - **Database Management**: Utilized SQLite to create a persistent storage solution for the household basket items. Functions were developed to create the table, insert items, retrieve items, and delete items from the database.
     - **User Interface**: Designed a user-friendly and responsive interface with Tkinter, ensuring a smooth user experience. The interface includes input fields, buttons, and a treeview to manage and display items effectively.
+* Day 120: Copa America 2024 Groups [Dataset](https://en.wikipedia.org/wiki/2024_Copa_Am%C3%A9rica)
+  - **Copa America 2024 Groups**: Developed a Python script to scrape and process data from the Wikipedia page for the 2024 Copa América, extracting the group stage tables and organizing them into a dictionary for easy access and manipulation.
+    - **Data Scraping**: Used the `pandas` library to read all tables from the Wikipedia page, focusing on the relevant indices to extract the tables for Groups A to D.
+    - **Data Processing**: Renamed the second column of each table to "Team" and removed the "Qualification" column for cleaner data representation.
+    - **Data Organization**: Stored the processed tables in a dictionary, with group letters as keys for easy retrieval and display.
+    - **Data Persistence**: Saved the dictionary to a file using the `pickle` library for persistent storage and later use.
