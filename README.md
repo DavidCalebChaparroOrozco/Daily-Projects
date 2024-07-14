@@ -568,3 +568,7 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Data Processing**: Renamed the second column of each table to "Team" and removed the "Qualification" column for cleaner data representation.
     - **Data Organization**: Stored the processed tables in a dictionary, with group letters as keys for easy retrieval and display.
     - **Data Persistence**: Saved the dictionary to a file using the `pickle` library for persistent storage and later use.
+* Day 121: Technical Test "combinationSum2" and "firstMissingPositive" [LeetCode](https://leetcode.com/problems/).
+  - **combinationSum2**: Find all unique combinations in candidates where the candidate numbers sum to target. Each number in candidates may only be used once in the combination, and the solution set must not contain duplicate combinations. This problem involves using a backtracking approach to explore all possible combinations, ensuring that no duplicates are included in the result set. [Problem Description](https://leetcode.com/problems/combination-sum-ii/description/)
+
+  - **firstMissingPositive**: Return the smallest positive integer that is not present in an unsorted integer array `nums`. The algorithm must run in O(n) time and use O(1) auxiliary space. The solution involves rearranging the array so that each positive integer `n` is placed at index `n-1`. Then, the first index that does not contain the correct integer indicates the missing positive integer. [Problem Description](https://leetcode.com/problems/first-missing-positive/description/)
