@@ -572,3 +572,23 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **combinationSum2**: Find all unique combinations in candidates where the candidate numbers sum to target. Each number in candidates may only be used once in the combination, and the solution set must not contain duplicate combinations. This problem involves using a backtracking approach to explore all possible combinations, ensuring that no duplicates are included in the result set. [Problem Description](https://leetcode.com/problems/combination-sum-ii/description/)
 
   - **firstMissingPositive**: Return the smallest positive integer that is not present in an unsorted integer array `nums`. The algorithm must run in O(n) time and use O(1) auxiliary space. The solution involves rearranging the array so that each positive integer `n` is placed at index `n-1`. Then, the first index that does not contain the correct integer indicates the missing positive integer. [Problem Description](https://leetcode.com/problems/first-missing-positive/description/)
+* Day 122: Recursion "Knapsack"
+
+  * This project tackles the Knapsack problem using both recursive and dynamic programming approaches. The Knapsack problem is a classic algorithmic problem that involves selecting items with given weights and values to maximize the total value without exceeding the weight capacity.
+
+  - **knapsack_recursive Function**: A recursive function to solve the Knapsack problem.
+    - `weights`: A list of weights of the items.
+    - `values`: A list of values of the items.
+    - `W`: The maximum weight capacity of the knapsack.
+    - `n`: The number of items.
+    - This function returns the maximum value that can be obtained by including or excluding the nth item.
+    - Base cases include no items left or a knapsack capacity of 0. The function chooses the maximum value between including and not including the nth item.
+
+  - **knapsack_dynamic Function**: A dynamic programming function to solve the Knapsack problem.
+    - `weights`: A list of weights of the items.
+    - `values`: A list of values of the items.
+    - `W`: The maximum weight capacity of the knapsack.
+    - This function returns the maximum value that can be obtained using a bottom-up approach to build a table `dp` where `dp[i][w]` represents the maximum value that can be obtained with the first `i` items and a knapsack capacity of `w`.
+    - The function iterates over the items and capacities, filling the table based on whether the item is included or not.
+
+  - **Example Usage**: The project includes an example with weights `[1, 2, 3, 4]`, values `[10, 20, 30, 40]`, and a knapsack capacity `W = 5`. It demonstrates the maximum value calculation using both recursive and dynamic programming approaches.
