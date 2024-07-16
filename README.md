@@ -592,3 +592,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - The function iterates over the items and capacities, filling the table based on whether the item is included or not.
 
   - **Example Usage**: The project includes an example with weights `[1, 2, 3, 4]`, values `[10, 20, 30, 40]`, and a knapsack capacity `W = 5`. It demonstrates the maximum value calculation using both recursive and dynamic programming approaches.
+* Day 123: [TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+  - **NYC Taxi Data Analysis**: Developed a data analysis project using PySpark and Pandas to process and visualize the NYC Yellow Taxi Trip data. This project involved extensive data cleaning, transformation, and visualization to uncover patterns and insights from the dataset.
+
+    - **Data Cleaning and Transformation**: Utilized PySpark for efficient handling of large datasets. Performed data cleaning steps such as filtering out invalid data, handling missing values, and creating new columns for analysis.
+      - **Trip Duration Calculation**: Calculated trip duration from pickup and dropoff timestamps and added it as a new column.
+      - **Sampling**: Extracted a sample of the data to facilitate visualization and analysis in Pandas.
+
+    - **Data Visualization**: Converted the cleaned data to a Pandas DataFrame for visualization using Seaborn and Matplotlib.
+      - **Distribution of Trip Durations**: Plotted a histogram to show the distribution of trip durations.
+      - **Trips per Hour**: Visualized the number of trips per hour to identify peak times for taxi rides.
+      - **Trip Distance vs Fare Amount**: Created scatter plots to explore the relationship between trip distance and fare amount.
+      - **Heatmaps of Pickup and Dropoff Locations**: Generated heatmaps to show the frequency of pickups and dropoffs by location ID.
+      - **Passenger Count Distribution**: Displayed the distribution of the number of passengers per trip.
+      - **Payment Type Distribution**: Visualized the distribution of different payment types used in the trips.
+      - **Total Amount vs Tip Amount**: Plotted the relationship between the total fare amount and the tip amount.
+
+  This project demonstrates the use of PySpark for big data processing and Pandas/Seaborn for detailed data visualization, providing insights into the NYC taxi operations and passenger behaviors.
