@@ -609,3 +609,14 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - **Total Amount vs Tip Amount**: Plotted the relationship between the total fare amount and the tip amount.
 
   This project demonstrates the use of PySpark for big data processing and Pandas/Seaborn for detailed data visualization, providing insights into the NYC taxi operations and passenger behaviors.
+* Day 124: 🏫 Object-Oriented Programming in Python with University Enrollment System 🏫
+
+  * Today, I worked on a university enrollment system project to reinforce the principles of Object-Oriented Programming (OOP) in Python. This project incorporates key OOP concepts such as inheritance, encapsulation, and abstraction. Here's a summary of what I accomplished:
+
+    - **Abstraction and Encapsulation**: Created an abstract base class `Person` to represent common attributes and behaviors for both students and teachers. Encapsulated the name and ID number attributes to protect them from direct modification. Implemented abstract methods to enforce a consistent interface for subclasses.
+    - **Inheritance**: Developed two subclasses, `Student` and `Teacher`, inheriting from the `Person` class. These subclasses extend the base class by adding specific attributes and methods like enrolling in courses and assigning courses.
+    - **Course Management**: Created a `Course` class to represent a university course, including attributes for course name, credits, teacher, and maximum number of students. Added methods to handle student enrollment, calculate total students, and determine the cost per student.
+    - **User Interaction**: Implemented a menu-driven interface to allow users to enroll students in courses, display student details, and show course information. This interactive component showcases how OOP can be used to structure complex, real-world applications.
+    - **Data Storage**: Used dictionaries to manage and store student instances, demonstrating the practical use of data structures in conjunction with OOP to handle multiple objects efficiently.
+
+  This project provided a comprehensive exercise in applying OOP principles to a realistic scenario, reinforcing the importance of well-structured, maintainable, and scalable code.
