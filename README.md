@@ -624,3 +624,13 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **trap**: Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining. This problem involves using a two-pointer approach to traverse the elevation map and calculate the trapped water by comparing the heights of bars. It requires understanding how to efficiently track the maximum heights from both ends of the array to determine the water level at each position. [Problem Description](https://leetcode.com/problems/trapping-rain-water/description/)
 
   - **multiply**: Given two non-negative integers `num1` and `num2` represented as strings, return the product of `num1` and `num2`, also represented as a string. The solution must not use any built-in BigInteger library or convert the inputs to integers directly. This problem requires implementing a manual multiplication algorithm similar to the one learned in school, handling digit-by-digit multiplication, and managing carry-over between digits. [Problem Description](https://leetcode.com/problems/multiply-strings/description/)
+* Day 126: Basketball Ground Using Turtle
+  * Created a visual representation of a basketball court using the Turtle graphics library in Python. This project involves drawing a complete basketball court with various elements like the court boundaries, center circle, and basket areas.
+
+  - **Drawing the Court**: Utilized Turtle graphics to draw the court boundaries, including the outer lines and the rectangular playing area.
+  - **Center Circle and Baskets**: Implemented functions to draw the center circle and the areas around the baskets, including the semi-circles and rectangles that represent the key areas on the court.
+  - **Colors and Aesthetics**: Used different colors and fill patterns to differentiate various parts of the court, enhancing the visual appeal and clarity of the representation.
+
+  This project showcases the capabilities of the Turtle graphics library for creating detailed and visually appealing graphics. It also emphasizes the importance of geometric calculations and the use of loops and functions to create complex shapes and patterns.
+
+  The code for this project was adapted from an example on GeekforGeeks: [Create a Basketball Ground Using Turtle Library in Python](https://www.geeksforgeeks.org/create-a-basketball-ground-using-turtle-library-in-python/).
