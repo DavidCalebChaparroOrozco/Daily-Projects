@@ -634,3 +634,28 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   This project showcases the capabilities of the Turtle graphics library for creating detailed and visually appealing graphics. It also emphasizes the importance of geometric calculations and the use of loops and functions to create complex shapes and patterns.
 
   The code for this project was adapted from an example on GeekforGeeks: [Create a Basketball Ground Using Turtle Library in Python](https://www.geeksforgeeks.org/create-a-basketball-ground-using-turtle-library-in-python/).
+* Day 127: Employee Hours
+  - **Employee Hours Management System**: Developed a web application using Flask and SQLite to manage and track employee working hours. This project includes functionalities for user authentication, logging working hours, editing logged hours, and visualizing the weekly work schedule.
+
+    - **User Authentication**: Implemented login and registration features to ensure secure access to the application.
+      - **Login**: Users can log in with their username and password. If credentials are invalid, an error message is displayed.
+      - **Registration**: New users can register by providing a username and password. The registration page is linked from the login page.
+
+    - **Logging Working Hours**: Provided functionality to log working hours with task details.
+      - **Form Validation**: Ensured that logged hours are within weekdays (Monday to Friday) and between 06:00 and 23:00. If the user tries to log hours outside these constraints, an error message is displayed.
+
+    - **Editing Logged Hours**: Allowed users to edit previously logged hours.
+      - **Task and Start Time Modification**: Users can update the task description and the start time of logged hours, with the same validation constraints as logging new hours.
+
+    - **Data Visualization**: Displayed the logged hours in a tabular format showing the weekly schedule.
+      - **Weekly Schedule Table**: Organized logged hours by day and time, highlighting the tasks performed.
+      - **Total Hours Calculation**: Summed up the total hours worked in a week and displayed it. If total hours exceed 42, the overtime hours are also shown.
+
+    - **Database Management**: Used SQLite to store user credentials and logged hours.
+      - **Database Initialization**: Created tables for users and logged hours if they do not exist.
+
+    - **Additional Features**:
+      - **Clear Hours**: Added a button to clear all logged hours for the next week, ensuring a fresh start.
+      - **Responsive Design**: Implemented a professional CSS for a better user experience and user interface.
+
+    This project demonstrates the use of Flask for web development, SQLite for database management, and JavaScript for client-side validation. It provides a comprehensive solution for managing and tracking employee working hours, ensuring data integrity and user-friendliness.
