@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log Hours</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        function validateForm() {
+            var startTime = new Date(document.getElementById('start_time').value);
+            var day = startTime.getDay();
+            var hour = startTime.getHours();
+
+            if (day === 0 || day === 6) {
+                alert("Only weekdays (Monday to Friday) are allowed.");
+                return false;
+            }
+
+            if (hour < 6 || hour >= 23) {
+                alert("Only times between 06:00 and 23:00 are allowed.");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h1>Log Hours</h1>
+    <form method="POST" onsubmit="return validateForm()">
+        <label for="task">Task:</label>
+        <input type="text" id="task" name="task" required><br><br>
+        
+        <label for="start_time">Start Time:</label>
+        <input type="datetime-local" id="start_time" name="start_time" required><br><br>
+        
+        <button type="submit">Log Hours</button>
+    </form>
+</body>
+</html>

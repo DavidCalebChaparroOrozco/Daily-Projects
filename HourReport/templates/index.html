@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Hours</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Employee Hours</h1>
+    <a href="{{ url_for('log_hours') }}">Log Hours</a>
+    <form method="POST" action="{{ url_for('clear_hours') }}">
+        <button type="submit">Clear Hours</button>
+    </form>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        {% for hour in range(6, 23) %}
+        <tr>
+            <td>{{ '%02d:00 - %02d:00' | format(hour, hour+1) }}</td>
+            {% for day in range(5) %}
+            <td>
+                {% for record in hours %}
+                    {% if record[2].weekday() == day and record[2].hour == hour %}
+                        {{ record[1] }} <a href="{{ url_for('edit_hours', id=record[0]) }}">Edit</a>
+                    {% endif %}
+                {% endfor %}
+            </td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+    <p>Total Hours: {{ total_hours }}</p>
+    {% if total_hours > 42 %}
+    <p>Overtime Hours: {{ total_hours - 42 }}</p>
+    {% endif %}
+</body>
+</html>
