@@ -659,3 +659,13 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - **Responsive Design**: Implemented a professional CSS for a better user experience and user interface.
 
     This project demonstrates the use of Flask for web development, SQLite for database management, and JavaScript for client-side validation. It provides a comprehensive solution for managing and tracking employee working hours, ensuring data integrity and user-friendliness.
+* Day 128: Recursion "Letter Combinations"
+
+  * This project focuses on solving the "Letter Combinations of a Phone Number" problem using recursion. Given a string containing digits from 2-9 inclusive, the goal is to return all possible letter combinations that the number could represent. The mapping of digits to letters is based on the traditional telephone keypad.
+
+  - **letter_combinations Function**: A recursive function to find all possible letter combinations for a given phone number.
+    - `digits`: A string containing the digits from 2-9.
+    - This function returns a list of all possible letter combinations.
+    - The function uses a helper function `backtrack` to perform backtracking and explore all possible combinations.
+    - The `phone_map` dictionary maps each digit to its corresponding letters.
+    - The `backtrack` function iterates over all letters that map to the next available digit, appending the current letter to the combination and proceeding with the next digit until all digits are processed.
