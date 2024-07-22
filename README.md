@@ -669,3 +669,31 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - The function uses a helper function `backtrack` to perform backtracking and explore all possible combinations.
     - The `phone_map` dictionary maps each digit to its corresponding letters.
     - The `backtrack` function iterates over all letters that map to the next available digit, appending the current letter to the combination and proceeding with the next digit until all digits are processed.
+* Day 129: Pneumonia Detection Using Deep Learning
+
+  - **Pneumonia Detection System**: Developed a deep learning model to detect pneumonia from chest X-ray images. This project includes data wrangling, model training, and evaluation using TensorFlow.
+
+    - **Data Collection and Preparation**: 
+      - **Dataset**: Utilized a dataset from Kaggle containing chest X-ray images categorized as "NORMAL" or "PNEUMONIA".
+      - **Pathlib for File Handling**: Separated the dataset into training, validation, and test sets using Pathlib.
+      - **Data Wrangling**: Generated labels for the images based on their directory names.
+
+    - **Model Development**: 
+      - **Data Preprocessing**: Implemented functions to load, transform, and create TensorFlow datasets from the image paths and labels.
+      - **Model Architecture**: Used ResNet50V2 as the backbone for the CNN model, followed by GlobalAveragePooling2D and Dense layers with a sigmoid activation function.
+      - **Regularization Techniques**: Added dropout and L2 regularization to improve model generalization and prevent overfitting.
+
+    - **Model Training**: 
+      - **Compilation**: Compiled the model with the Adam optimizer and binary cross-entropy loss, tracking accuracy, precision, and recall metrics.
+      - **Callbacks**: Implemented ModelCheckpoint and EarlyStopping to save the best model and stop training early if no improvement was observed.
+      - **Training Process**: Trained the model on the training dataset, validating it with the validation dataset over multiple epochs.
+
+    - **Evaluation and Interpretation**: 
+      - **Model Evaluation**: Evaluated the model on the test dataset to calculate accuracy, precision, and recall.
+      - **Visualizations**: Plotted the training and validation metrics over epochs to interpret the model's performance.
+
+    - **Complete Model and Deployment**: 
+      - **Saving the Model**: Saved the best model weights and the complete trained model for future use.
+      - **Loading and Testing**: Loaded the saved model and tested it on new images to ensure it works as expected.
+
+    This project demonstrates the use of deep learning for medical image classification, involving data preprocessing, model building, training, and evaluation with TensorFlow. It provides a comprehensive solution for detecting pneumonia from chest X-rays, showcasing the potential of AI in healthcare.
