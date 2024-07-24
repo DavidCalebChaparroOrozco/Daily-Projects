@@ -700,3 +700,14 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 * Day 130: Technical Test "WildcardisMatch" and "jump" [LeetCode](https://leetcode.com/problems/)
   - **WildcardisMatch**: Given an input string `s` and a pattern `p`, implement wildcard pattern matching with support for `?` and `*`. The `?` matches any single character, while the `*` matches any sequence of characters (including the empty sequence). The solution should cover the entire input string, not just a partial match. This problem involves using dynamic programming to efficiently manage the different matching scenarios and ensure the pattern matches the entire string. [Problem Description](https://leetcode.com/problems/wildcard-matching/description/)
   - **jump**: Given a 0-indexed array of integers `nums` of length `n`, where each element `nums[i]` represents the maximum length of a forward jump from index `i`, return the minimum number of jumps to reach `nums[n - 1]`. The solution should use a greedy algorithm to track the farthest point that can be reached and count the jumps needed to reach the last index. The test cases guarantee that you can reach the last index. [Problem Description](https://leetcode.com/problems/jump-game-ii/description/)
+* Day 131: 🐕 Dogs vs Cats 🐈 [Kaggle](https://www.kaggle.com/datasets/salader/dogs-vs-cats)
+
+  * Today, I worked with the Dogs vs Cats dataset from Kaggle, focusing on developing a Convolutional Neural Network (CNN) to classify images of dogs and cats. Here's a summary of what I accomplished:
+    - **Data Preparation**: Downloaded and extracted the dataset, and created training and validation datasets using TensorFlow’s `image_dataset_from_directory` function. The images were normalized for better model performance.
+    - **Model Architecture**: Built a CNN using Keras, consisting of multiple Conv2D layers with Batch Normalization and MaxPooling. The model included three Conv2D layers with increasing filter sizes (32, 64, 128) to extract features from the images.
+    - **Fully Connected Layers**: Added fully connected Dense layers to the model, with Dropout for regularization, to perform the final classification.
+    - **Model Compilation**: Compiled the model with Adam optimizer and binary cross-entropy loss function, suitable for binary classification tasks.
+    - **Training**: Trained the model on the prepared dataset for 9 epochs, validating its performance on the validation dataset. Visualized the training and validation accuracy and loss over epochs using Matplotlib.
+    - **Testing**: Tested the model with sample images of dogs and cats to verify its predictions.
+
+  This project highlights the importance of proper data preprocessing, designing a robust neural network architecture, and evaluating the model's performance to achieve accurate image classification. The insights and models developed can be further refined and used for various image classification tasks.
