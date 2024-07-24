@@ -1,2 +1,5 @@
 DashboardSteamlit/.venv/*
 .env
+DogsVsCats/dogs_vs_cats
+DogsVsCats/test
+DogsVsCats/train
