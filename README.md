@@ -711,3 +711,14 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Testing**: Tested the model with sample images of dogs and cats to verify its predictions.
 
   This project highlights the importance of proper data preprocessing, designing a robust neural network architecture, and evaluating the model's performance to achieve accurate image classification. The insights and models developed can be further refined and used for various image classification tasks.
+* Day 132: 🎬 Object-Oriented Programming in Python with Movie Subscription System 🎬
+
+  * Today, I worked on a movie subscription system project to reinforce the principles of Object-Oriented Programming (OOP) in Python. This project incorporates key OOP concepts such as inheritance, encapsulation, and abstraction. Here's a summary of what I accomplished:
+
+    - **Abstraction and Encapsulation**: Created an abstract base class `Person` to represent common attributes and behaviors for both viewers and directors. Encapsulated the name and ID number attributes to protect them from direct modification. Implemented abstract methods to enforce a consistent interface for subclasses.
+    - **Inheritance**: Developed two subclasses, `Viewer` and `Director`, inheriting from the `Person` class. These subclasses extend the base class by adding specific attributes and methods like subscribing to genres and adding movies to the director's filmography.
+    - **Movie Management**: Created a `Movie` class to represent a movie, including attributes for the movie title, genre, director, rating, and duration. Added methods to handle movie details and categorize movies by genre.
+    - **User Interaction**: Implemented a menu-driven interface to allow users to subscribe viewers to genres, display viewer details, and show movie information. This interactive component showcases how OOP can be used to structure complex, real-world applications.
+    - **Data Storage**: Used dictionaries to manage and store viewer instances, demonstrating the practical use of data structures in conjunction with OOP to handle multiple objects efficiently.
+
+  This project provided a comprehensive exercise in applying OOP principles to a realistic scenario, reinforcing the importance of well-structured, maintainable, and scalable code.
