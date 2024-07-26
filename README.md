@@ -722,3 +722,16 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Data Storage**: Used dictionaries to manage and store viewer instances, demonstrating the practical use of data structures in conjunction with OOP to handle multiple objects efficiently.
 
   This project provided a comprehensive exercise in applying OOP principles to a realistic scenario, reinforcing the importance of well-structured, maintainable, and scalable code.
+* Day 133: 🤖 Implementing a Simple Neural Network in Python with Backpropagation 🤖
+
+  * Today, I worked on a project to build a simple neural network from scratch in Python, focusing on the fundamental concepts of neural networks and backpropagation. Here's a summary of what I accomplished:
+
+    - **Activation Function**: Implemented the sigmoid function and its derivative, which are essential for the forward and backward passes in the neural network.
+    - **Loss Function**: Used the mean squared error (MSE) as the loss function to measure the performance of the neural network.
+    - **Network Initialization**: Created a `NeuralNetwork` class with two hidden layers. Randomly initialized the weights for connections between the input layer, hidden layers, and output layer.
+    - **Forward Propagation**: Developed a method to pass input data through the network, compute the activations of the hidden layers and the final output.
+    - **Backward Propagation**: Implemented the backpropagation algorithm to update the weights based on the error between predicted and actual outputs. This involved calculating deltas for each layer and adjusting the weights using the learning rate.
+    - **Training the Network**: Trained the neural network using a small dataset, splitting it into training and validation sets. Monitored the training and validation loss to ensure the network was learning correctly.
+    - **Prediction**: Added a function to test the trained network with new input data, demonstrating its ability to make predictions.
+
+  This project provided a hands-on exercise in understanding and implementing the core components of a neural network, from initialization to training and prediction. It reinforced key concepts in machine learning, such as forward and backward propagation, weight updates, and performance evaluation.
