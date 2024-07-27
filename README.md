@@ -735,3 +735,28 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Prediction**: Added a function to test the trained network with new input data, demonstrating its ability to make predictions.
 
   This project provided a hands-on exercise in understanding and implementing the core components of a neural network, from initialization to training and prediction. It reinforced key concepts in machine learning, such as forward and backward propagation, weight updates, and performance evaluation.
+* Day 134: ♟️ Building a Chess Game in Python with Object-Oriented Programming ♟️
+
+  * Today, I worked on a project to create a chess game in Python, focusing on the principles of Object-Oriented Programming (OOP). This project involved designing classes for different chess pieces and implementing their movements on the board. Here's a summary of what I accomplished:
+
+    - **ChessPiece Base Class**: Developed an abstract `ChessPiece` class to represent a generic chess piece. This class includes a `color` attribute and an abstract method `get_legal_moves` which must be implemented by subclasses.
+    
+    - **King Class**: Created a `King` class that inherits from `ChessPiece` and implements the `get_legal_moves` method to return all possible legal moves for the king, considering its unique movement rules.
+
+    - **Queen Class**: Developed a `Queen` class that combines straight and diagonal moves, mimicking the behavior of both a rook and a bishop. This class uses helper methods `get_straight_moves` and `get_diagonal_moves` to calculate all legal moves.
+
+    - **Rook Class**: Created a `Rook` class that inherits from `ChessPiece` and reuses the `get_straight_moves` method from the `Queen` class to determine its legal moves.
+
+    - **Bishop Class**: Implemented a `Bishop` class that inherits from `ChessPiece` and reuses the `get_diagonal_moves` method from the `Queen` class to calculate its legal moves.
+
+    - **Knight Class**: Designed a `Knight` class with a unique movement pattern, implementing its own `get_legal_moves` method to return all possible L-shaped moves.
+
+    - **Pawn Class**: Developed a `Pawn` class that includes specific movement rules such as moving forward one or two squares from the starting position and capturing diagonally.
+
+    - **ChessBoard Class**: Created a `ChessBoard` class to initialize the board with all pieces in their starting positions. This class includes methods to display the board, move pieces, check for valid moves, and evaluate the position.
+
+    - **Move Validation**: Implemented logic in the `move_piece` method to ensure moves are legal according to each piece's movement rules. This method also switches the current turn between white and black players.
+
+    - **Evaluation and Legal Moves Generation**: Added methods to evaluate the board's position and generate all legal moves for a given color, providing a foundation for future enhancements like check and checkmate detection.
+
+  This project provided a comprehensive exercise in applying OOP principles to a classic game, reinforcing the importance of creating maintainable and scalable code. It also offered a practical way to implement and test various chess piece movements and game mechanics.
