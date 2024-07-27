@@ -182,10 +182,12 @@ if __name__ == "__main__":
     chess_board.display()
     # Example moves
     print("\nMaking a move:")
-    chess_board.move_piece((6, 4), (4, 4))  # Move white pawn from e2 to e4
+    # Move white pawn from e2 to e4
+    chess_board.move_piece((6, 4), (4, 4))  
     chess_board.display()
     print("\nMaking a move:")
-    chess_board.move_piece((1, 4), (3, 4))  # Move black pawn from e7 to e5
+    # Move black pawn from e7 to e5
+    chess_board.move_piece((1, 4), (3, 4))  
     chess_board.display()
     print("\nEvaluating position:")
     print(chess_board.evaluate_position())
