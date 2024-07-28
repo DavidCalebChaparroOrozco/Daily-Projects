@@ -760,3 +760,33 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Evaluation and Legal Moves Generation**: Added methods to evaluate the board's position and generate all legal moves for a given color, providing a foundation for future enhancements like check and checkmate detection.
 
   This project provided a comprehensive exercise in applying OOP principles to a classic game, reinforcing the importance of creating maintainable and scalable code. It also offered a practical way to implement and test various chess piece movements and game mechanics.
+* Day 135: ☕ Analyzing Worldwide Coffee Consumption Trends with Python ☕
+
+Today, I focused on a data analysis project that examines coffee consumption patterns across various countries using a dataset that spans from 2000 to 2023. This project provided valuable insights into how coffee is enjoyed around the world. Here's a summary of what I accomplished:
+
+- **Loading the Data**: Imported the dataset containing information on coffee consumption, prices, types of coffee consumed, and population for different countries.
+
+- **Data Exploration**: Explored the dataset to understand its structure, including the number of records, data types, and basic statistics.
+  - **Fields and Data Types**:
+    - `Country`: The name of the country where the data was collected.
+    - `Year`: The year of the record, spanning from 2000 to 2023.
+    - `Coffee Consumption (kg per capita per year)`: The amount of coffee consumed per person annually.
+    - `Average Coffee Price (USD per kg)`: The average price of coffee per kilogram in US dollars.
+    - `Type of Coffee Consumed`: The most popular types of coffee enjoyed in each country.
+    - `Population (millions)`: The estimated population of each country.
+
+- **Data Cleaning**: Renamed columns to remove spaces and make them more code-friendly.
+
+- **Handling Missing Data**: Checked for and handled any missing data to ensure the dataset was complete and accurate for analysis.
+
+- **Exploratory Data Analysis (EDA)**: Conducted various analyses to gain insights into the data:
+  - **Distributions**: Plotted histograms for numerical features to understand their distributions.
+  - **Trends Over Time**: Analyzed the number of records per year for different types of coffee.
+  - **Correlation Analysis**: Created a heatmap to visualize the correlations between numerical features.
+  - **Pie Charts**: Visualized the distribution of different types of coffee consumed.
+  - **Stacked Bar Chart**: Showed the trends of coffee types consumed over the years.
+  - **Box Plot**: Compared coffee prices across different countries.
+  - **Top Countries Analysis**: Identified and analyzed the top 10 countries by average coffee consumption.
+  - **Heatmap**: Displayed the distribution of different types of coffee consumed across countries.
+
+This project provided a comprehensive exercise in data analysis, helping to reinforce key concepts in data cleaning, exploration, visualization, and interpretation.
