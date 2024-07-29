@@ -790,3 +790,6 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Heatmap**: Displayed the distribution of different types of coffee consumed across countries.
 
   This project provided a comprehensive exercise in data analysis, helping to reinforce key concepts in data cleaning, exploration, visualization, and interpretation.
+* Day 136: Technical Test "permute" and "permuteUnique" [LeetCode](https://leetcode.com/problems/)
+  - **permute**: Given an array `nums` of distinct integers, return all possible permutations. The solution involves using backtracking to generate permutations by swapping elements and recursively building each permutation until the entire array is permuted. [Problem Description: Permutations](https://leetcode.com/problems/permutations/description/)
+  - **permuteUnique**: Given a collection of numbers that might contain duplicates, return all possible unique permutations. The solution sorts the input array and uses backtracking with a set to skip over duplicate elements during the permutation process. [Problem Description: Permutations II](https://leetcode.com/problems/permutations-ii/description/)
