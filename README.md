@@ -795,3 +795,23 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **permuteUnique**: Given a collection of numbers that might contain duplicates, return all possible unique permutations. The solution sorts the input array and uses backtracking with a set to skip over duplicate elements during the permutation process. [Problem Description: Permutations II](https://leetcode.com/problems/permutations-ii/description/)
 * Day 137: Test Projects "NotesManager"
   * Today, we're focusing on writing unit tests for a simple Note Manager application. Testing is a crucial part of software development, ensuring that our code works as expected and helps prevent bugs from creeping into our projects. We'll use Python's unittest module to create and run our tests. This exercise will help you understand the basics of writing tests and how to use them to verify the correctness of your code.
+* Day 138: 🐾 Developing a Pet Store Management System in Python with Unit Testing 🐾
+
+  * Today, I worked on a project to create a Pet Store Management System in Python, emphasizing the principles of Object-Oriented Programming (OOP) and unit testing. This project involved designing classes for customers, staff, and pets, and implementing a menu-driven interface for interactions. Here's a summary of what I accomplished:
+
+    - **Person Base Class**: Developed an abstract `Person` class to represent a generic person in the system, including attributes for name and ID number. This class also includes an abstract method `get_description` which must be implemented by subclasses.
+
+    - **Customer Class**: Created a `Customer` class that inherits from `Person` and includes methods to adopt pets and retrieve a list of adopted pets. The class also implements the `get_description` method to return customer details.
+
+    - **Staff Class**: Developed a `Staff` class that inherits from `Person` and includes methods to assign pets to staff and retrieve a list of assigned pets. This class also implements the `get_description` method to return staff details.
+
+    - **Pet Class**: Designed a `Pet` class with attributes for name, breed, age, and price. This class includes a method `get_description` to return pet details.
+
+    - **Menu Interface**: Implemented a menu-driven interface that allows users to adopt a pet, display customer details, and display pet details. The interface interacts with the `Customer`, `Staff`, and `Pet` classes to manage the store's operations.
+
+    - **Unit Testing**: Wrote comprehensive unit tests using Python's `unittest` module to verify the functionality of the application. The tests cover:
+      - Adding pets to customers and ensuring they are correctly added to the list.
+      - Assigning pets to staff and verifying the assignment.
+      - Retrieving and verifying descriptions of customers, staff, and pets.
+
+  This project provided an in-depth exercise in applying OOP principles and writing effective unit tests to maintain code quality. It reinforced the importance of encapsulation, inheritance, and abstraction in creating maintainable and scalable code.
