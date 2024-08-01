@@ -46,3 +46,5 @@ transformers
 speedtest-cli
 stegano
 Werkzeug
+torch
+tf-keras

@@ -815,3 +815,24 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Retrieving and verifying descriptions of customers, staff, and pets.
 
   This project provided an in-depth exercise in applying OOP principles and writing effective unit tests to maintain code quality. It reinforced the importance of encapsulation, inheritance, and abstraction in creating maintainable and scalable code.
+* Day 139: Top 20 Play Store App Reviews [Kaggle](https://www.kaggle.com/datasets/odins0n/top-20-play-store-app-reviews-daily-update/data)
+
+  * Today, I worked with the Top 20 Play Store App Reviews dataset from Kaggle, focusing on analyzing review sentiments using the DistilBERT model. Here's a summary of what I accomplished:
+    - **Data Loading**: Loaded the dataset using Pandas to get a comprehensive view of the reviews and their scores.
+    - **Review Analysis**: 
+      - Visualized the distribution of review scores to understand the general sentiment of the reviews.
+      - Sampled 200 reviews from the dataset for detailed analysis.
+    - **Sentiment Analysis with DistilBERT**:
+      - Utilized the DistilBERT model for sentiment analysis. The model was fine-tuned on the SST-2 dataset for sentiment classification.
+      - Created a sentiment analysis pipeline using the model and tokenizer.
+      - Performed sentiment analysis on the reviews and added the results to the dataset.
+    - **Visualization**:
+      - Plotted the distribution of sentiments (Positive vs. Negative) to get an overview of the sentiment spread.
+    - **Model Evaluation**:
+      - Evaluated the model's performance using a confusion matrix and classification report.
+      - Compared the sentiment analysis results with the actual review scores to assess the model's accuracy.
+    - **Key Insights**:
+      - The model achieved an overall accuracy of 85% in predicting sentiments.
+      - Highlighted the balance between precision and recall, showing effective performance in classifying both positive and negative reviews.
+
+  This project demonstrates the practical application of pre-trained transformer models in sentiment analysis, emphasizing the importance of data preprocessing, model evaluation, and visualization in deriving meaningful insights from textual data.
