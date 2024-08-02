@@ -836,3 +836,21 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Highlighted the balance between precision and recall, showing effective performance in classifying both positive and negative reviews.
 
   This project demonstrates the practical application of pre-trained transformer models in sentiment analysis, emphasizing the importance of data preprocessing, model evaluation, and visualization in deriving meaningful insights from textual data.
+* Day 140: 🎮 Memory Game 🎮
+  * Today, I created a memory game using Pygame, focusing on building a fun and interactive application that challenges players to find matching pairs of colored cards. Here's a summary of what I accomplished:
+    - **Game Setup**: Initialized Pygame and set up the display with a grid of cards.
+    - **Card Generation**: 
+      - Defined a set of colors and created pairs for the memory game.
+      - Shuffled the colors and assigned them to the cards in a grid layout.
+    - **Game Logic**: 
+      - Implemented the logic for flipping cards and checking for matches.
+      - Handled user input to select and flip cards, and checked for matched pairs.
+      - Included a mechanism to hide unmatched cards after a short delay.
+    - **Graphics and Display**:
+      - Drew the cards on the screen, showing either the card back or the front color based on their state.
+      - Added text to display a winning message when all pairs are found.
+    - **Game Loop**: 
+      - Managed the main game loop to handle events, update the game state, and redraw the screen.
+      - Ensured the game runs smoothly and responds to user actions.
+
+  This project highlights the use of Pygame for game development, emphasizing the importance of game logic, user interaction, and visual display to create an engaging user experience. The memory game is a great way to practice Pygame and develop skills in interactive application design.
