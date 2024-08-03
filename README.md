@@ -854,3 +854,31 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Ensured the game runs smoothly and responds to user actions.
 
   This project highlights the use of Pygame for game development, emphasizing the importance of game logic, user interaction, and visual display to create an engaging user experience. The memory game is a great way to practice Pygame and develop skills in interactive application design.
+* Day 141: 🧮 EMI Calculator with Tkinter and Matplotlib 📊
+  * Today, I developed an EMI (Equated Monthly Installment) Calculator using Tkinter for the GUI and Matplotlib for visualizing the EMI breakdown. This project involved creating a user-friendly interface and implementing the logic for EMI calculation and graphical representation. Here's a summary of what I accomplished:
+
+    - **GUI Setup**:
+      - Created the main window using Tkinter and set the title and background color.
+      - Registered validation commands to ensure the user inputs are valid.
+
+    - **Input Fields**:
+      - Added input fields for total loan amount, loan period (years and months), and interest rate.
+      - Used Tkinter's Entry widget for text inputs and Spinbox for selecting years and months.
+
+    - **Calculation Logic**:
+      - Implemented the EMI calculation formula to compute the monthly payment.
+      - Calculated the total payment, interest amount, and the breakdown of payments over time.
+
+    - **Result Display**:
+      - Formatted and displayed the calculation results in a message box.
+      - Showed the monthly payment, total EMI period, total amount, interest amount, and total payment.
+
+    - **Graphical Visualization**:
+      - Utilized Matplotlib to plot the EMI breakdown over time.
+      - Displayed the balance, interest, and principal components month-wise in a line graph.
+      - Added titles, labels, legends, and grid to the plot for better readability.
+
+    - **Clear Functionality**:
+      - Implemented a clear function to reset all input fields and prepare the form for new input.
+
+    This project demonstrates the integration of Tkinter for building interactive GUI applications and Matplotlib for data visualization. The EMI Calculator is a practical tool for understanding loan repayment schedules and visualizing the impact of different loan parameters.
