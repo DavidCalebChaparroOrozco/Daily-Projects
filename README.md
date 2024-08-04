@@ -882,3 +882,6 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Implemented a clear function to reset all input fields and prepare the form for new input.
 
     This project demonstrates the integration of Tkinter for building interactive GUI applications and Matplotlib for data visualization. The EMI Calculator is a practical tool for understanding loan repayment schedules and visualizing the impact of different loan parameters.
+* Day 142: Technical Test "rotate" and "groupAnagrams" [LeetCode](https://leetcode.com/problems/)
+  - **rotate**: This function rotates an `n x n` 2D matrix by 90 degrees clockwise. The solution involves first transposing the matrix (swapping rows and columns) and then reversing each row. [Problem Description: Rotate Image](https://leetcode.com/problems/rotate-image/description/)
+  - **groupAnagrams**: This function groups anagrams together from a list of strings. The solution uses a dictionary where the key is the sorted version of the word and the value is the list of words that, when sorted, match the key. [Problem Description: Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
