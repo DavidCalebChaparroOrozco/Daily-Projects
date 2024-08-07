@@ -904,3 +904,13 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Inspiration**: Based this project on a tutorial by NeuralNine. You can watch the video here: [NeuralNine YouTube Tutorial](https://www.youtube.com/watch?v=xjjmkg9J7Gg).
 
   This project provided a deep dive into both mathematical computation and data visualization, reinforcing the importance of combining theoretical concepts with practical implementation.
+* Day 145: 🌳 Recursive Tree Animation 🌳
+  * Today, I explored the world of recursive graphics by creating an animated visualization of a fractal tree using Python. This project combined recursion with animation to produce a dynamic and captivating visual representation. Here's a summary of what I accomplished:
+
+    - **Recursive Tree Drawing**: Implemented a recursive function to draw a tree. The function calculates the end points of each branch using trigonometric functions and recursively draws smaller branches at specified angles. This method creates the characteristic fractal structure of a tree.
+    - **Animation Setup**: Used `matplotlib` and `numpy` to set up the initial figure and axis for the animation. Defined the limits and aspect ratio to ensure the tree is displayed correctly.
+    - **Frame Updates**: Created an animation function that updates the tree's depth with each frame, gradually increasing the depth of recursion to animate the growth of the tree. This function clears the previous frame, sets the axis limits, and draws the tree with the current depth.
+    - **Creating the Animation**: Utilized `matplotlib.animation.FuncAnimation` to create the animation. Defined the initial and maximum depth, and set the interval between frames to control the animation speed.
+    - **Displaying the Animation**: Configured `matplotlib` to display the animation, showcasing the growth of the fractal tree in real-time.
+
+  This project provided an exciting opportunity to delve into recursive algorithms and animation techniques, demonstrating the power of combining mathematical concepts with visual art.
