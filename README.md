@@ -914,3 +914,15 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Displaying the Animation**: Configured `matplotlib` to display the animation, showcasing the growth of the fractal tree in real-time.
 
   This project provided an exciting opportunity to delve into recursive algorithms and animation techniques, demonstrating the power of combining mathematical concepts with visual art.
+* Day 146: 🏦 ATM Machine Simulation 🏦
+  * Today, I ventured into the realm of GUI programming by creating an ATM machine simulation using Python and Tkinter. This project involved developing a user-friendly interface that mimics the functionalities of a real ATM, providing an interactive experience for users. Here's a summary of what I accomplished:
+
+    - **GUI Design**: Designed the main application window with Tkinter, setting up the initial balance and PIN. Configured the window to be non-resizable and applied a consistent color scheme for a professional look.
+    - **PIN Validation**: Implemented a PIN entry system to authenticate users. The application verifies the entered PIN and provides appropriate feedback using message boxes.
+    - **ATM Menu**: Created a menu with options to check balance, deposit money, withdraw money, and exit. Each menu option is linked to its corresponding function, ensuring smooth navigation.
+    - **Balance Check**: Developed a function to display the current balance in a message box.
+    - **Deposit Money**: Added functionality to allow users to deposit money into their account. Implemented input validation to ensure the deposited amount is a positive number.
+    - **Withdraw Money**: Enabled users to withdraw money, with validation to check for sufficient balance and ensure the withdrawn amount is positive.
+    - **Code Organization**: Structured the code into functions and classes to enhance readability and maintainability. This modular approach ensures that each part of the application is clearly defined and easy to understand.
+
+  This project provided valuable insights into GUI development and user interaction, demonstrating the importance of creating intuitive and functional interfaces.
