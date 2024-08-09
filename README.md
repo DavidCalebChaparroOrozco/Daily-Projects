@@ -926,3 +926,6 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Code Organization**: Structured the code into functions and classes to enhance readability and maintainability. This modular approach ensures that each part of the application is clearly defined and easy to understand.
 
   This project provided valuable insights into GUI development and user interaction, demonstrating the importance of creating intuitive and functional interfaces.
+* Day 147: Technical Test "myPow" and "NQueens" [LeetCode](https://leetcode.com/problems/)
+  - **myPow**: Implemented a function that calculates \( x^n \) (x raised to the power n) efficiently. This problem involves optimizing the power calculation by leveraging recursion and handling edge cases such as negative powers. [Problem Description: myPow](https://leetcode.com/problems/powx-n/description/)
+  - **NQueens**: Solved the N-Queens problem, which involves placing n queens on an n x n chessboard so that no two queens attack each other. The solution uses backtracking to explore all possible placements and returns all distinct configurations. [Problem Description: NQueens](https://leetcode.com/problems/n-queens/description/)
