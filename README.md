@@ -929,3 +929,14 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 * Day 147: Technical Test "myPow" and "NQueens" [LeetCode](https://leetcode.com/problems/)
   - **myPow**: Implemented a function that calculates \( x^n \) (x raised to the power n) efficiently. This problem involves optimizing the power calculation by leveraging recursion and handling edge cases such as negative powers. [Problem Description: myPow](https://leetcode.com/problems/powx-n/description/)
   - **NQueens**: Solved the N-Queens problem, which involves placing n queens on an n x n chessboard so that no two queens attack each other. The solution uses backtracking to explore all possible placements and returns all distinct configurations. [Problem Description: NQueens](https://leetcode.com/problems/n-queens/description/)
+* Day 148: 🎮 Video Game Subscription System in Python 🎮
+
+  * Today, I expanded my understanding of Object-Oriented Programming (OOP) by developing a Video Game Subscription System using Python. This project leverages fundamental OOP principles such as inheritance, encapsulation, and abstraction. Here’s a summary of the key elements:
+
+    - **Abstraction and Encapsulation**: Defined an abstract base class `Person` representing common features for both `Player` and `Developer`. Encapsulated attributes like name and ID number to ensure data integrity. The abstract method `get_description` enforces a consistent interface for subclasses.
+    - **Inheritance**: Created two subclasses, `Player` and `Developer`, that inherit from `Person`. These subclasses add specific attributes and methods, such as subscribing to game genres for `Player` and adding games to a portfolio for `Developer`.
+    - **Game Management**: Introduced a `Game` class to represent individual games, including details such as title, genre, developer, rating, and release year. Methods within this class manage game-related information and allow interaction with player and developer objects.
+    - **User Interaction**: Built a menu-driven interface allowing users to register players and developers, add new games, subscribe players to game genres, and display details for players, games, and developers. This interactive component illustrates the practical application of OOP in creating user-friendly software systems.
+    - **Data Organization**: Employed dictionaries to efficiently manage and store instances of players, developers, and games. This approach highlights the integration of OOP and data structures to handle complex, real-world data scenarios.
+
+  This project provided an engaging and insightful exercise in implementing OOP principles to simulate a real-world application, reinforcing the importance of design patterns and code maintainability.
