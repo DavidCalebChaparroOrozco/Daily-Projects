@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Game by David Caleb</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Wordle by David Caleb</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('restart') }}">New Game</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="game-info">
+                <p>Guess the 5-letter word. You have up to 8 attempts. After each guess, you'll get feedback:</p>
+                <ul>
+                    <li><span class="correct">Correct</span>: The letter is in the correct position.</li>
+                    <li><span class="present">Present</span>: The letter is in the word but in the wrong position.</li>
+                    <li><span class="absent">Absent</span>: The letter is not in the word.</li>
+                </ul>
+            </section>
+            
+            <section class="game-status">
+                {% if won %}
+                    <p>Congratulations! You guessed the word!</p>
+                    <a href="{{ url_for('restart') }}" class="button">Play Again</a>
+                {% elif game_over %}
+                    <p>Game over! The correct word was <strong>{{ correct_word }}</strong>.</p>
+                    <a href="{{ url_for('restart') }}" class="button">Try Again</a>
+                {% else %}
+                    <form method="POST">
+                        <input type="text" name="guess" maxlength="5" required autofocus>
+                        <button type="submit">Submit</button>
+                    </form>
+                    {% if error %}
+                        <p class="error">{{ error }}</p>
+                    {% endif %}
+                {% endif %}
+            </section>
+        </main>
+        
+        <section class="attempts">
+            <h2>Attempts Log</h2>
+            {% for attempt in attempts %}
+                <div class="attempt">
+                    <span class="word">{{ attempt['guess'] }}</span>
+                    <div class="feedback">
+                        {% for f in attempt['feedback'] %}
+                            <span class="feedback-item {{ f }}">{{ f[0].upper() }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        </section>
+    </div>
+</body>
+</html>

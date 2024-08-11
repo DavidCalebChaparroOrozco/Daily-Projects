@@ -940,3 +940,14 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Data Organization**: Employed dictionaries to efficiently manage and store instances of players, developers, and games. This approach highlights the integration of OOP and data structures to handle complex, real-world data scenarios.
 
   This project provided an engaging and insightful exercise in implementing OOP principles to simulate a real-world application, reinforcing the importance of design patterns and code maintainability.
+* Day 149: 🧩 Wordle Game with Flask and CSS 🖥️
+
+  * Today, I worked on developing a Wordle-inspired game using Flask for the backend and custom CSS for styling. This project integrates web development skills with game logic to create an interactive user experience. Here’s a summary of the key components:
+
+    - **Flask Application**: Implemented a Flask application to handle game logic, including word selection, guess validation, and feedback management. Used session variables to track game state, including the target word, attempts, and game status.
+    - **Word Management**: Loaded a list of possible words from a text file and used it to randomly select a word for each game session. Validated player guesses against this word and provided feedback on correctness, presence, or absence of letters.
+    - **User Interface**: Designed a user-friendly interface using HTML and CSS, featuring forms for guess input, feedback display, and game status updates. The interface also includes a responsive design to ensure compatibility across different devices.
+    - **Feedback System**: Incorporated a feedback mechanism to visually represent the correctness of each guessed letter, including color-coded indicators for correct, present, and absent letters.
+    - **Game Flow Control**: Managed game flow with options to restart the game or handle game-over scenarios, providing an engaging experience with clear instructions and error handling.
+
+  This project allowed me to apply web development and design skills in a practical context, creating an enjoyable and visually appealing game experience.
