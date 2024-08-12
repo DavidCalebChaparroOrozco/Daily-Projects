@@ -951,3 +951,31 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Game Flow Control**: Managed game flow with options to restart the game or handle game-over scenarios, providing an engaging experience with clear instructions and error handling.
 
   This project allowed me to apply web development and design skills in a practical context, creating an enjoyable and visually appealing game experience.
+
+* Day 150: 🧠 Brain Tumor Dataset 🧠 Analysis [Kaggle](https://www.kaggle.com/datasets/odins0n/brain-tumor-dataset)
+
+  * Today, I worked with the Brain Tumor dataset from Kaggle, focusing on exploring various aspects of the data and performing detailed analyses. Here's a summary of what I accomplished:
+    - **Data Loading**: Loaded the dataset using Pandas, and explored the initial structure of the data.
+    - **Data Cleaning**:
+      - Renamed columns for consistency and easier access.
+      - Checked for and handled missing data, ensuring the dataset was ready for analysis.
+    - **Exploratory Data Analysis (EDA)**:
+      - **Categorical Features**: 
+        - Created count plots for features like Tumor Type, Location, and Gender to visualize their distributions.
+        - Analyzed the correlation between Tumor Location and Grade using a heatmap.
+      - **Numerical Features**:
+        - Generated correlation heatmaps to understand relationships between numeric features like Age and Tumor Size.
+        - Visualized the distribution of Tumor Grade by Age and Gender, and Tumor Size by Type and Grade.
+      - **Outlier Detection**:
+        - Used boxplots to detect outliers in Age and Tumor Size, identifying specific data points for further investigation.
+    - **Principal Component Analysis (PCA)**:
+      - Applied PCA to reduce dimensionality, focusing on numeric features like Age and Size.
+      - Visualized the resulting principal components to explore potential clustering by Tumor Type.
+    - **Feature Engineering**:
+      - Grouped Age into categories to simplify analysis.
+      - Created a binary feature indicating whether a tumor was in a critical location.
+    - **Automated Report**:
+      - Developed functions to generate a statistical summary, distribution graphs, and correlation analysis for both numerical and categorical variables.
+      - Automated the generation of visual and textual insights from the dataset.
+
+  * This work provided valuable insights into the distribution and relationships within the dataset, which could be crucial for understanding and predicting outcomes related to brain tumors. The automated report functions developed can also be reused for similar datasets in future projects.
