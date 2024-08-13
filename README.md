@@ -979,3 +979,19 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Automated the generation of visual and textual insights from the dataset.
 
   * This work provided valuable insights into the distribution and relationships within the dataset, which could be crucial for understanding and predicting outcomes related to brain tumors. The automated report functions developed can also be reused for similar datasets in future projects.
+* Day 151: 🏗️ Tower of Babel - Recursive Algorithm 🏗️
+
+  * Today, I implemented and explored the Tower of Babel problem, a variation of the classic Tower of Hanoi, using a recursive algorithm. This project focused on moving blocks from one position to another following specific rules. Here's a summary of what I accomplished:
+    - **Recursive Function Design**:
+      - Developed a recursive function `build_tower` that moves blocks between positions to simulate the construction of a tower.
+      - The base case handles the movement of a single block, while the recursive case manages the movement of multiple blocks.
+    - **Block Movement Logic**:
+      - Implemented the `move_block` function to transfer blocks between positions, ensuring that each move is printed to the console for clarity.
+    - **Initial and Final Tower States**:
+      - Initialized the tower with a specific number of blocks in one position.
+      - The recursive process successfully moved all blocks to the target position, maintaining the rules of the problem.
+    - **Visualization and Debugging**:
+      - Provided clear output of the tower's state before and after the recursive process, aiding in debugging and understanding the algorithm's flow.
+      - Used print statements to trace each block movement, making it easier to follow the recursive calls.
+
+  * This exercise was a great opportunity to reinforce my understanding of recursion, particularly in solving problems that involve multiple recursive calls and complex state management. The Tower of Babel problem also highlights the importance of clear base cases and recursive steps in algorithm design.
