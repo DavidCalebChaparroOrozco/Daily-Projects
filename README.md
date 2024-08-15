@@ -999,3 +999,19 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **totalNQueens**: Implemented a solution to the N-Queens II problem, which involves counting the number of distinct solutions for placing n queens on an n x n chessboard so that no two queens attack each other. The solution uses backtracking to explore all valid placements and utilizes arrays to track columns and diagonals that are under attack. The efficient marking and unmarking of attacked positions allow the algorithm to explore all configurations systematically. [Problem Description: totalNQueens](https://leetcode.com/problems/n-queens-ii/description/)
 
   - **maxSubArray**: Solved the Maximum Subarray problem, where the goal is to find the contiguous subarray within a one-dimensional numeric array that has the largest sum. The solution employs a dynamic programming approach, where the maximum sum is updated as the algorithm iterates through the array, considering each element either as a standalone subarray or as an extension of the previous subarray. This approach ensures an optimal solution with a time complexity of O(n). [Problem Description: maxSubArray](https://leetcode.com/problems/maximum-subarray/description/)
+* Day 153: 🎮 Rock Paper Scissor Game with Tkinter 🎮
+
+  * Today, I developed a Rock Paper Scissor game using Python's Tkinter library. The game allows the player to select between Rock, Paper, or Scissors, while the computer randomly selects its move. Here’s a summary of the key components of this project:
+    - **Graphical User Interface (GUI) Design**:
+      - Created an intuitive and user-friendly interface with buttons for the player's choices, as well as labels for displaying the results.
+      - Utilized Tkinter widgets such as `Label`, `Button`, and `Frame` to organize the layout and display game elements.
+    - **Game Logic Implementation**:
+      - Implemented the game logic for Rock, Paper, Scissors, where the player’s choice is compared with the computer’s random selection.
+      - Handled different outcomes such as "Player Wins", "Computer Wins", or "Match Draw" based on the rules of the game.
+    - **Reset and State Management**:
+      - Added a reset button to allow players to restart the game without closing the application.
+      - Disabled buttons after each round to prevent multiple choices in a single game, ensuring a fair gameplay experience.
+    - **Random Computer Selection**:
+      - Used Python's `random` library to simulate the computer's choice, making the game unpredictable and engaging.
+
+  * This project was a great way to practice my skills in building GUI applications with Tkinter, as well as implementing simple game mechanics in Python. It reinforced concepts such as event handling, state management, and the importance of a well-structured user interface.
