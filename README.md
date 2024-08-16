@@ -1015,3 +1015,14 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Used Python's `random` library to simulate the computer's choice, making the game unpredictable and engaging.
 
   * This project was a great way to practice my skills in building GUI applications with Tkinter, as well as implementing simple game mechanics in Python. It reinforced concepts such as event handling, state management, and the importance of a well-structured user interface.
+* Day 154: 🏥 Medical Appointment System in Python 🩺
+
+  * Today, I developed a Medical Appointment System using Python, implementing Object-Oriented Programming (OOP) principles such as inheritance, encapsulation, and abstraction. This project focuses on managing patients, doctors, and appointments in an organized and scalable manner. Here's a summary of the key features:
+
+    - **Abstraction and Encapsulation**: Defined an abstract base class `Person` to represent common attributes for both `Patient` and `Doctor`, ensuring a consistent interface through the abstract method `get_description`. Encapsulated sensitive data like name and ID number to protect the integrity of the information.
+    - **Inheritance**: Created two subclasses, `Patient` and `Doctor`, that extend the functionality of the `Person` class. The `Patient` class manages patient-specific data like age and appointments, while the `Doctor` class tracks the doctor's specialty and assigned patients.
+    - **Appointment Scheduling**: Introduced an `Appointment` class to manage the scheduling of appointments between patients and doctors, storing details like date, time, and reason for the visit. This class ties together both patient and doctor information, ensuring smooth coordination.
+    - **Menu-Driven Interaction**: Built a user-friendly interface that allows the registration of new patients and doctors, scheduling of appointments, and viewing detailed information about patients and doctors. This menu system showcases the integration of OOP with real-world applications.
+    - **Data Management**: Used dictionaries to organize and store instances of patients and doctors efficiently. This approach facilitates quick access and updates to patient and doctor records, demonstrating the importance of effective data structures in software systems.
+
+  This project was a great opportunity to practice implementing OOP concepts in a practical scenario, creating a robust system for managing medical appointments. It deepened my understanding of how OOP principles can streamline the organization of complex data and processes.
