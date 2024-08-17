@@ -1036,4 +1036,8 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Visualization with Seaborn**: Converted the PySpark DataFrame to a pandas DataFrame and used Seaborn to create a bar chart representing the distribution of ratings across movies. This visual representation helped highlight the most common rating values and their occurrences.
     - **Interactive Data Exploration**: Implemented a menu-driven interface allowing exploration of the data, including displaying top-rated movies, most active users, and the distribution of ratings. This approach ties together both data processing and visualization in a cohesive project.
 
+<<<<<<< HEAD
   This project was a great opportunity to dive deeper into big data processing with PySpark, as well as exploring data visualization techniques with Seaborn. It enhanced my ability to work with large datasets and transform them into meaningful insights, while reinforcing the importance of visualizations in data analysis.
+=======
+  This project was a great opportunity to dive deeper into big data processing with PySpark, as well as exploring data visualization techniques with Seaborn. It enhanced my ability to work with large datasets and transform them into meaningful insights, while reinforcing the importance of visualizations in data analysis.
+>>>>>>> 8ede0681f844512fb5f0b6b7bc8e624cfb8ea792
