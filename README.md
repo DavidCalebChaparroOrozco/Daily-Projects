@@ -1026,3 +1026,14 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Data Management**: Used dictionaries to organize and store instances of patients and doctors efficiently. This approach facilitates quick access and updates to patient and doctor records, demonstrating the importance of effective data structures in software systems.
 
   This project was a great opportunity to practice implementing OOP concepts in a practical scenario, creating a robust system for managing medical appointments. It deepened my understanding of how OOP principles can streamline the organization of complex data and processes.
+* Day 155: 🎬 Movie Ratings Analysis with PySpark and Seaborn 🎥 [Dataset](https://grouplens.org/datasets/rating-disposition-2023/)
+
+  * Today, I worked on a data analysis project focused on movie ratings using PySpark for distributed data processing and Seaborn for visualizations. The project involved cleaning, processing, and analyzing a dataset of movie ratings to uncover trends and insights. Here's a breakdown of the key features:
+
+    - **Data Processing with PySpark**: Utilized PySpark to handle a large dataset of movie ratings, allowing efficient computation on big data. I loaded the data into a DataFrame, filtered, and aggregated it using PySpark’s powerful functions like `groupBy`, `agg`, and `filter` to analyze ratings per movie and user.
+    - **Average Rating Calculation**: Calculated the average rating for each movie and determined the number of ratings each movie received. This information was crucial for identifying popular movies and trends in user preferences.
+    - **User Activity Analysis**: Analyzed user behavior by calculating the average rating given by each user and identifying the most active users, showcasing how PySpark can be used to extract valuable insights from large datasets.
+    - **Visualization with Seaborn**: Converted the PySpark DataFrame to a pandas DataFrame and used Seaborn to create a bar chart representing the distribution of ratings across movies. This visual representation helped highlight the most common rating values and their occurrences.
+    - **Interactive Data Exploration**: Implemented a menu-driven interface allowing exploration of the data, including displaying top-rated movies, most active users, and the distribution of ratings. This approach ties together both data processing and visualization in a cohesive project.
+
+  This project was a great opportunity to dive deeper into big data processing with PySpark, as well as exploring data visualization techniques with Seaborn. It enhanced my ability to work with large datasets and transform them into meaningful insights, while reinforcing the importance of visualizations in data analysis.
