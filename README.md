@@ -1026,7 +1026,6 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Data Management**: Used dictionaries to organize and store instances of patients and doctors efficiently. This approach facilitates quick access and updates to patient and doctor records, demonstrating the importance of effective data structures in software systems.
 
   This project was a great opportunity to practice implementing OOP concepts in a practical scenario, creating a robust system for managing medical appointments. It deepened my understanding of how OOP principles can streamline the organization of complex data and processes.
-<<<<<<< HEAD
 * Day 155: 🎬 Movie Ratings Analysis with PySpark and Seaborn 🎥 [Dataset](https://grouplens.org/datasets/rating-disposition-2023/)
 
   * Today, I worked on a data analysis project focused on movie ratings using PySpark for distributed data processing and Seaborn for visualizations. The project involved cleaning, processing, and analyzing a dataset of movie ratings to uncover trends and insights. Here's a breakdown of the key features:
@@ -1037,10 +1036,4 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Visualization with Seaborn**: Converted the PySpark DataFrame to a pandas DataFrame and used Seaborn to create a bar chart representing the distribution of ratings across movies. This visual representation helped highlight the most common rating values and their occurrences.
     - **Interactive Data Exploration**: Implemented a menu-driven interface allowing exploration of the data, including displaying top-rated movies, most active users, and the distribution of ratings. This approach ties together both data processing and visualization in a cohesive project.
 
-<<<<<<< HEAD
   This project was a great opportunity to dive deeper into big data processing with PySpark, as well as exploring data visualization techniques with Seaborn. It enhanced my ability to work with large datasets and transform them into meaningful insights, while reinforcing the importance of visualizations in data analysis.
-=======
-  This project was a great opportunity to dive deeper into big data processing with PySpark, as well as exploring data visualization techniques with Seaborn. It enhanced my ability to work with large datasets and transform them into meaningful insights, while reinforcing the importance of visualizations in data analysis.
->>>>>>> 8ede0681f844512fb5f0b6b7bc8e624cfb8ea792
-=======
->>>>>>> be0c47718d7e5c0244bc40d1c37fc0dae381fab1
