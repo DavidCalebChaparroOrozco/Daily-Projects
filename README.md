@@ -1037,3 +1037,14 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Interactive Data Exploration**: Implemented a menu-driven interface allowing exploration of the data, including displaying top-rated movies, most active users, and the distribution of ratings. This approach ties together both data processing and visualization in a cohesive project.
 
   This project was a great opportunity to dive deeper into big data processing with PySpark, as well as exploring data visualization techniques with Seaborn. It enhanced my ability to work with large datasets and transform them into meaningful insights, while reinforcing the importance of visualizations in data analysis.
+* Day 156: 🗒️ To-Do List Application with Flet 📝
+
+  * Today, I created a To-Do List application using Flet, a modern framework for building interactive web applications in Python. This project was a fantastic exercise in using Flet to manage user input, display dynamic content, and handle interactive events. Here's a summary of the key features:
+
+    - **User Interface Design**: Designed a clean and user-friendly interface with a centered layout. The application features a title, input field, and button for adding tasks, along with a dynamically updated list of tasks.
+    - **Task Management**: Implemented functionality to add new tasks to the list and display them with checkboxes. Tasks are displayed in a list view, allowing users to see and manage their to-dos easily.
+    - **Interactive Elements**: Incorporated interactive elements such as a `TextField` for task input and a `FilledButton` to add tasks. Added checkboxes next to each task to allow users to mark tasks as completed.
+    - **Dynamic Updates**: Created functions to update the task list and display selected tasks based on user interactions. The list updates in real-time to reflect new tasks and changes in task selection.
+    - **Data Handling**: Used a list to manage and store tasks, and updated the displayed list dynamically. The application tracks which tasks are selected and updates the display accordingly.
+
+  This project was an excellent opportunity to explore Flet's capabilities in building interactive web applications and to apply concepts of UI design and event handling in a practical context.
