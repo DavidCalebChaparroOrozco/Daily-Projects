@@ -1053,3 +1053,21 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **spiralOrder**: Solved the Spiral Matrix problem, where the task is to traverse a 2D matrix in spiral order and return the elements in the order they are visited. The algorithm follows a structured approach by traversing the matrix in four directions (right, down, left, up) while adjusting the boundaries (top, bottom, left, right) as the spiral tightens. This method ensures that each element is visited exactly once. The solution has a time complexity of O(m * n), where m and n are the dimensions of the matrix. [Problem Description: Spiral Order](https://leetcode.com/problems/spiral-matrix/description/)
 
   - **canJump**: Implemented a solution for the Jump Game problem, which asks whether it is possible to reach the last index of an array given that each element represents the maximum jump length from that position. The algorithm utilizes a greedy approach to track the farthest reachable index as it iterates through the array. If at any point the current index is beyond the farthest reachable index, the function returns `False`. Otherwise, it returns `True` if the last index is reachable. This solution operates in linear time with a time complexity of O(n). [Problem Description: Can Jump](https://leetcode.com/problems/jump-game/description/)
+* Day 158: 🖌️ Floodfill Image Color Changer with Tkinter 🖌️
+
+  * Today, I created a graphical application in Python using Tkinter that allows users to apply a floodfill operation to an image. The application provides a simple interface for loading an image, selecting a color, and applying the floodfill to change the color of a specific region. Here’s a summary of the key components of this project:
+    - **Image Loading and Display**:
+      - Implemented a file dialog to allow users to select an image from their system. The selected image is then displayed on a Tkinter canvas.
+      - Utilized the PIL (Python Imaging Library) to handle image loading and conversion to the RGB format, ensuring compatibility with various image types.
+    - **Floodfill Operation**:
+      - Added a floodfill feature where the user can choose a color using a color chooser dialog, and apply it to a specific pixel on the image.
+      - The floodfill algorithm fills all connected pixels with the chosen color, making it easy to change the appearance of large areas within the image.
+    - **Saving the Modified Image**:
+      - Integrated a save dialog that allows users to save the modified image in their desired format (PNG, JPEG, etc.).
+      - Ensured that the application handles any errors during the save process, providing user feedback through message boxes.
+    - **User Interface**:
+      - Designed a clean and intuitive user interface with buttons for loading, applying floodfill, and saving the image. The interface is styled with colors and fonts to enhance the user experience.
+    - **Error Handling**:
+      - Included comprehensive error handling to manage issues like unsupported image formats, out-of-bound pixel selections, and file save errors, ensuring a robust application.
+
+  * This project was an excellent exercise in working with images and enhancing my skills in Tkinter and PIL. It allowed me to delve deeper into image processing techniques and GUI development in Python.
