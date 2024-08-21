@@ -1071,3 +1071,29 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Included comprehensive error handling to manage issues like unsupported image formats, out-of-bound pixel selections, and file save errors, ensuring a robust application.
 
   * This project was an excellent exercise in working with images and enhancing my skills in Tkinter and PIL. It allowed me to delve deeper into image processing techniques and GUI development in Python.
+* Day 159: 🏠 Real Estate Data Visualization with Folium 🗺️
+
+  * Today, I worked on a project that visualizes real estate data using Folium, a powerful Python library for creating interactive maps. The project was inspired by a [NeuralNine](https://www.youtube.com/watch?v=5UQyxgiQAzk) video, which provided a great foundation for this type of data visualization. Here’s a summary of the key components of this project:
+  
+    - **Data Handling**:
+      - Utilized the California Housing dataset provided by Scikit-Learn to analyze various features such as median house value, average number of rooms, and population.
+      - Converted the dataset into a Pandas DataFrame for easy manipulation and analysis.
+
+    - **Map Initialization**:
+      - Created an interactive map centered on the average latitude and longitude of the data points.
+      - Used Folium to set up the base map with a zoom level appropriate for visualizing the entire California region.
+
+    - **Marker Creation**:
+      - Iterated through each row of the dataset to add circle markers on the map, with each marker representing a location in the dataset.
+      - Adjusted the size of the markers based on the normalized average number of rooms, providing a visual indication of housing density.
+      - Applied a color gradient to the markers based on the median house value, allowing for quick visual identification of high-value areas.
+
+    - **Popup Information**:
+      - Added detailed popups to each marker, displaying information such as median house value, average rooms, population, and median income.
+      - Ensured the popups are clear and informative, making the map not only visually appealing but also data-rich.
+
+    - **Additional Features**:
+      - Integrated a minimap plugin for better navigation and spatial context, enhancing the user’s ability to explore different regions.
+      - Saved the final interactive map as an HTML file, making it easy to share and view on any web browser.
+
+  * This project was a great exercise in combining data science with geographic visualization. It allowed me to deepen my understanding of how to represent complex datasets in a user-friendly manner using Python and Folium. Special thanks to NeuralNine for the inspiration!
