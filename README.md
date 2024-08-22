@@ -1097,3 +1097,30 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Saved the final interactive map as an HTML file, making it easy to share and view on any web browser.
 
   * This project was a great exercise in combining data science with geographic visualization. It allowed me to deepen my understanding of how to represent complex datasets in a user-friendly manner using Python and Folium. Special thanks to NeuralNine for the inspiration!
+* Day 160: Top 1000 Global Tech Companies Dataset (2024) [Kaggle](https://www.kaggle.com/datasets/muhammadehsan000/top-1000-global-tech-companies-dataset-2024/code)
+
+  * Today, I explored the Top 1000 Global Tech Companies dataset from Kaggle, focusing on data analysis and visualization. Below is a summary of the key activities and findings:
+  
+    - **Data Loading**: 
+      - Loaded the dataset using Pandas and inspected the initial data structure.
+  
+    - **Data Cleaning**:
+      - Renamed the "Market Cap" column to "Market_Cap" for easier access and consistency.
+      - Checked for and identified any missing data within the dataset.
+  
+    - **Exploratory Data Analysis (EDA)**:
+      - **Categorical Features**:
+        - Created count plots for the "Country," "Sector," and "Industry" features to visualize their distributions.
+        - Analyzed the distribution of industries across different countries using a heatmap.
+        - Focused on the top 10 industries to further analyze their distribution by country.
+      - **Numerical Features**:
+        - Visualized the distribution of company rankings within the dataset.
+        - Examined the top 10 companies by market capitalization, converting the values to billions for clarity.
+      - **Country Distribution**:
+        - Analyzed the distribution of companies by country, identifying the top 10 countries by the number of companies.
+  
+    - **Automated Reporting**:
+      - Developed functions to automate the generation of statistical summaries, distribution graphs, and correlation analyses for both numerical and categorical variables.
+      - These functions facilitate rapid insights and visualizations for future projects involving similar datasets.
+
+  * This analysis provided a comprehensive understanding of the distribution of tech companies globally, with insights into key industries and market leaders. The automated report generation process developed can be applied to future datasets for efficient and consistent analysis.
