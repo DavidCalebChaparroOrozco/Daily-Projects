@@ -1124,3 +1124,22 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - These functions facilitate rapid insights and visualizations for future projects involving similar datasets.
 
   * This analysis provided a comprehensive understanding of the distribution of tech companies globally, with insights into key industries and market leaders. The automated report generation process developed can be applied to future datasets for efficient and consistent analysis.
+* Day 161: 🏨 Hotel Reservation System in Python 🏢
+
+  Today, I developed a Hotel Reservation System using Python, focusing on Object-Oriented Programming (OOP) principles such as inheritance, encapsulation, and abstraction. This project is designed to manage guests, rooms, and reservations in a streamlined and efficient manner. Here's a summary of the key features:
+
+  - **Encapsulation**: The `Person` class encapsulates the attributes `name` and `ID number`, making them private to protect data integrity. Getter methods are provided to access these attributes safely.
+    
+  - **Inheritance**: The `Guest` class inherits from the abstract base class `Person`, which defines common attributes for all persons in the system. This ensures code reusability and consistency.
+
+  - **Abstraction**: The `Person` class includes an abstract method `get_description`, which is implemented by the `Guest` class to provide a detailed description of the guest. This enforces a consistent interface across different types of persons in the system.
+
+  - **Room Management**: The `Room` class manages the details of each room, such as the number of beds, baths, food service, and entertainment availability. It also tracks the guests assigned to each room.
+
+  - **Reservation System**: The `Reservation` class ties together the guest and room information, storing details such as check-in and check-out dates. Guests can have multiple reservations, and rooms can accommodate multiple guests.
+
+  - **User Interaction**: A menu-driven interface allows users to register new guests and rooms, make reservations, and view detailed information about guests and rooms. This interface demonstrates the practical application of OOP principles in a real-world scenario.
+
+  - **Data Organization**: Dictionaries are used to store and manage instances of guests and rooms, providing efficient access and updates to the data.
+
+  This project was an excellent opportunity to apply OOP concepts in creating a functional and user-friendly hotel reservation system. It reinforced my understanding of how abstraction, inheritance, and encapsulation can be used to build organized and scalable software solutions.
