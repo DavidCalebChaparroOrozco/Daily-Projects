@@ -1143,3 +1143,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Data Organization**: Dictionaries are used to store and manage instances of guests and rooms, providing efficient access and updates to the data.
 
   This project was an excellent opportunity to apply OOP concepts in creating a functional and user-friendly hotel reservation system. It reinforced my understanding of how abstraction, inheritance, and encapsulation can be used to build organized and scalable software solutions.
+* Day 162: 🌀 Gray Code Generator - Recursive Algorithm 🌀
+
+  * Today, I explored and implemented a Gray Code Generator using a recursive algorithm in Python. Gray codes are binary sequences where two successive values differ in only one bit, making them useful in error correction, digital communications, and other fields. Here's a summary of what I accomplished:
+    - **Recursive Generation of Gray Codes**:
+      - Developed the function `generateGrayarr(n)` to generate all possible n-bit Gray codes.
+      - Utilized recursion to progressively build the Gray code sequences, starting with the base patterns "0" and "1".
+    - **Base Case Handling**:
+      - Established a base case that handles scenarios where `n` is 0 or negative, ensuring no Gray codes are generated when `n` is invalid.
+    - **Efficient Code Generation**:
+      - Implemented a loop to iteratively generate 2^n Gray codes by appending previously generated codes in reverse order.
+      - Prefixed "0" to the first half and "1" to the second half of the Gray codes during each iteration, effectively doubling the number of codes.
+    - **Binary Manipulation**:
+      - Utilized bitwise operations (`<<` and `1 << n`) to manage and generate the appropriate number of codes efficiently.
+    - **Output Display**:
+      - Printed all generated n-bit Gray codes, providing a clear representation of the output for a 5-bit Gray code sequence.
+
+  * This project provided a solid exercise in recursion, bitwise operations, and efficient algorithm design. The Gray Code Generator is a powerful tool in various computational applications, and implementing it was a great way to deepen my understanding of recursive sequences and binary operations.
