@@ -1166,3 +1166,22 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **merge_intervals**: Developed a solution for the Merge Intervals problem, where the goal is to merge all overlapping intervals in a given list of intervals. The algorithm starts by sorting the intervals based on their starting times. It then iterates through the sorted list, merging intervals that overlap by adjusting the end time of the current interval. If no overlap is found, the current interval is added to the list of merged intervals. This approach ensures that all overlapping intervals are merged efficiently. The solution has a time complexity of O(n log n) due to the initial sorting step, where n is the number of intervals. [Problem Description: Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)
 
   - **insert_intervals**: Solved the Insert Interval problem, where the task is to insert a new interval into an existing list of non-overlapping intervals and merge if necessary. The solution involves three main steps: adding all intervals that come before the new interval, merging the new interval with any overlapping intervals, and then adding the remaining intervals that come after. This method ensures that the intervals remain sorted and non-overlapping after insertion. The algorithm has a time complexity of O(n), where n is the number of intervals in the list. [Problem Description: Insert Interval](https://leetcode.com/problems/insert-interval/description/)
+* Day 164: 🧮 BMI Calculator with Tkinter and Matplotlib 📊
+
+  * Today, I developed a Body Mass Index (BMI) calculator using Python, Tkinter, and Matplotlib. The application not only calculates BMI based on user input but also provides health recommendations and visualizes BMI and weight trends. Here’s a breakdown of the key features of this project:
+    - **BMI Calculation**:
+      - Implemented a function to calculate BMI from the user's weight and height, converting height from centimeters to meters for accurate results.
+      - Displayed the BMI result in the interface along with a personalized health recommendation based on the calculated BMI.
+    - **Dynamic Interface**:
+      - Enhanced the user experience by changing the background color of the interface based on the BMI category (e.g., underweight, normal weight, overweight, obese).
+      - Added the ability to reset input fields and clear the results, making the application user-friendly and intuitive.
+    - **Calculation History**:
+      - Implemented a history feature that keeps track of the last five BMI calculations, displaying them in a list within the application.
+      - Provided options to save and load the calculation history to/from a JSON file, ensuring data persistence and allowing users to track their BMI over time.
+    - **Graphical Visualization**:
+      - Used Matplotlib to create and display graphs that show the evolution of BMI and weight over time, giving users a clear visual representation of their progress.
+      - Incorporated interactive elements in the Tkinter interface to seamlessly integrate the graphs with the rest of the application.
+    - **Error Handling**:
+      - Included robust error handling to manage invalid inputs, such as non-numeric values, ensuring the application operates smoothly and provides helpful feedback to users.
+
+  * This project was a great way to practice integrating graphical elements with data processing in Python. It allowed me to enhance my skills in both Tkinter and Matplotlib, creating a functional and visually appealing health tool.
