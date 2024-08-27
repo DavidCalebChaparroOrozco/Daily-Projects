@@ -1185,3 +1185,27 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Included robust error handling to manage invalid inputs, such as non-numeric values, ensuring the application operates smoothly and provides helpful feedback to users.
 
   * This project was a great way to practice integrating graphical elements with data processing in Python. It allowed me to enhance my skills in both Tkinter and Matplotlib, creating a functional and visually appealing health tool.
+* Day 165: 🗂️ File Manager Pro with Python 🖥️
+
+  - Today, I developed a File Manager system in Python that enables users to efficiently manage their files and folders. This application allows for creating, finding, listing, and deleting files or folders while also calculating the total size of all files in a directory. Below are the key features and components of this project:
+
+    - **File and Folder Creation**:
+      - Implemented functionality to create new files with specified names, extensions, and sizes. The system also supports the creation of folders within the base directory.
+      - Ensured that the necessary directories are created automatically if they don't exist before a file is generated.
+
+    - **Search Functionality**:
+      - Developed a search feature to locate the path of a specific file or folder within the base directory. The system recursively searches through all subdirectories to find the desired item.
+
+    - **Listing Contents**:
+      - Created a method to list all files and folders within a given directory, providing an easy overview of the contents.
+
+    - **Size Calculation**:
+      - Added the ability to calculate the total size of all files within the base directory, summing up the sizes of individual files to give an accurate total.
+
+    - **File Deletion by Extension**:
+      - Included a feature to delete all files with a specified extension across the entire directory structure, helping in bulk file management.
+
+    - **Interactive Command-Line Interface**:
+      - Built a user-friendly menu that allows users to interact with the system through various options, such as creating files, listing contents, and deleting files.
+
+    This project provided an excellent opportunity to delve into file management operations using Python’s `os` library. It helped me strengthen my understanding of directory traversal, file handling, and creating user-friendly command-line interfaces.
