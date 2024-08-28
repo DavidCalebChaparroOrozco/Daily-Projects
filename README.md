@@ -1209,3 +1209,21 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Built a user-friendly menu that allows users to interact with the system through various options, such as creating files, listing contents, and deleting files.
 
     This project provided an excellent opportunity to delve into file management operations using Python’s `os` library. It helped me strengthen my understanding of directory traversal, file handling, and creating user-friendly command-line interfaces.
+* Day 164: 🥤 Soda Combinations Generator - Recursive Algorithm 🥤
+
+  * Today, I developed a Python program to generate all possible combinations of a list of sodas using recursion. This project focused on understanding and implementing recursive algorithms to explore all subsets of a given set. Here’s what I achieved:
+  
+    - **Recursive Generation of Combinations**:
+      - Created the function `soda_combinations(sodas, current_combo=[], index=0)` to recursively generate and print all possible combinations of sodas.
+      - Implemented two recursive cases: one to include the current soda in the combination and another to exclude it, ensuring all subsets are covered.
+    
+    - **Base Case Handling**:
+      - The base case handles scenarios where all sodas have been considered (`index == len(sodas)`). When this condition is met, the current combination is printed, representing one possible subset.
+    
+    - **Exploring All Possibilities**:
+      - The algorithm explores every combination, from no sodas to the full list, by either including or excluding each soda in the list. This approach ensures that all possible combinations are generated and displayed.
+    
+    - **Output Display**:
+      - Each combination is printed as it is generated, providing a clear and immediate representation of all subsets of the soda list.
+
+  * This project was a great exercise in recursive thinking and subset generation. The ability to systematically explore all possible combinations is a fundamental technique in combinatorial problems, and this implementation deepened my understanding of recursive algorithms in Python.
