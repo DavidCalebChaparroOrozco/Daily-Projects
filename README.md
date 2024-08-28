@@ -1209,7 +1209,7 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Built a user-friendly menu that allows users to interact with the system through various options, such as creating files, listing contents, and deleting files.
 
     This project provided an excellent opportunity to delve into file management operations using Python’s `os` library. It helped me strengthen my understanding of directory traversal, file handling, and creating user-friendly command-line interfaces.
-* Day 164: 🥤 Soda Combinations Generator - Recursive Algorithm 🥤
+* Day 166: 🥤 Soda Combinations Generator - Recursive Algorithm 🥤
 
   * Today, I developed a Python program to generate all possible combinations of a list of sodas using recursion. This project focused on understanding and implementing recursive algorithms to explore all subsets of a given set. Here’s what I achieved:
   
