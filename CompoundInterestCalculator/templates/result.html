@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Calculation Results by David Caleb</title>
+</head>
+<body>
+    <h1 class="centered-title">Calculation Results by David Caleb</h1>
+    <p>Final Amount with Interest: ${{ final_amount }}</p>
+    <p>Difference from contribution without interest: ${{ difference }}</p>
+
+    <h2>Difference and growth over time</h2>
+    <img src="data:image/png;base64, {{ plot_url }}" alt="Chart">
+    <br><br>
+
+    <a href="/">Back </a>
+</body>
+</html>

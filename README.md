@@ -1232,3 +1232,28 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **lengthOfLastWord**: Implemented a solution for the "Length of Last Word" problem, where the goal is to find the length of the last word in a given string. The algorithm trims any trailing spaces from the string and then finds the index of the last space to determine the length of the last word. The solution efficiently handles different cases, including strings with multiple spaces and empty strings. This method has a time complexity of O(n), where n is the length of the string. [Problem Description: length Of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
 
   - **generateMatrix**: Solved the "Spiral Matrix II" problem, which involves generating an n x n matrix filled with elements from 1 to n² in a spiral order. The solution uses a systematic approach to fill the matrix by defining boundaries (left, right, top, bottom) and progressively moving inward while filling the matrix. This ensures that the matrix is filled correctly in spiral order. The algorithm has a time complexity of O(n²), where n is the dimension of the matrix. [Problem Description: generate Matrix](https://leetcode.com/problems/spiral-matrix-ii/description/)
+* Day 168: Compound Interest Calculator in Python by [NeuralNine](https://www.youtube.com/watch?v=OqCqFfLfFsk)
+
+  * Today, I worked on a project that implements a Compound Interest Calculator using Python and Flask, inspired by a [NeuralNine](https://www.youtube.com/watch?v=OqCqFfLfFsk) tutorial. Here's a breakdown of the key components and features of the project:
+
+    - **User Interface**:
+      - Built a simple and user-friendly web interface using HTML and Flask, allowing users to input initial deposit, interest rate, contribution amount, compounding type, and time period in years.
+      - Integrated form handling in Flask to process the user input and display the calculated results.
+
+    - **Compound Interest Calculation**:
+      - Implemented the compound interest formula to calculate the final amount, considering both the initial deposit and regular contributions over time.
+      - Allowed users to choose between monthly and annual compounding, affecting the frequency of interest application.
+
+    - **Visualization**:
+      - Used Matplotlib to generate a line graph comparing the growth of the investment with and without interest over the specified time period.
+      - Embedded the graph directly in the web page, providing a visual representation of the investment’s growth.
+
+    - **Results Display**:
+      - Displayed the final amount with interest and the difference compared to the total contributions without interest.
+      - Provided a clear comparison of how much the investment grows due to compound interest.
+
+    - **Technical Implementation**:
+      - Utilized Python for back-end calculations and Matplotlib for data visualization.
+      - Designed the front-end using HTML, with integration into the Flask framework for dynamic content rendering.
+
+  * This project was a fantastic opportunity to apply mathematical concepts to a real-world financial application, and to further my skills in web development using Flask. The ability to visualize the results added an extra layer of insight into the power of compound interest, making the project both educational and practical.

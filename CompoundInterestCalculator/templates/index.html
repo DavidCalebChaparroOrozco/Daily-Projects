@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Compound Interest Calculator by David Caleb</title>
+</head>
+<body>
+    <h1 class="centered-title">Compound Interest Calculator by David Caleb</h1>
+    <form method="POST" action="/">
+        <label for="initial_deposit">Initial Deposit</label><br>
+        <input type="number" id="initial_deposit" name="initial_deposit" step="100" required><br><br>
+
+        <label for="interest_rate">Interest Rate</label><br>
+        <input type="number" id="interest_rate" name="interest_rate" step="0.01" required><br><br>
+
+        <label for="contribution">Contribution</label><br>
+        <input type="number" id="contribution" name="contribution" step="10" required><br><br>
+
+        <label for="compounding_type">Compound Type</label><br>
+        <select name="compounding_type" id="compounding_type">
+            <option value="monthly">Monthly</option>
+            <option value="annually">Annually</option>
+        </select><br><br>
+
+        <label for="time_period_years">Time Period in Years</label><br>
+        <input type="number" id="time_period_years" name="time_period_years" step="1" required><br><br>
+
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
