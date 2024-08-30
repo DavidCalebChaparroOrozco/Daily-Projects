@@ -1,0 +1,128 @@
+/* General styles for the body of the page */
+body {
+    /* Dark background */
+    background-color: #333;
+    /* Light text color */
+    color: #fff;
+    /* Font and text size */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    /* Margin for content */
+    margin: 20px;
+    /* Adjust text size based on device */
+    line-height: 1.6;
+}
+
+/* Styles for centered main title */
+.centered-title {
+    /* Center title horizontally */
+    text-align: center;
+    /* Title size */
+    font-size: 2.5em;
+    /* Bottom margin */
+    margin-bottom: 10px;
+}
+
+/* Styles for the main title */
+h1 {
+    /* Title size */
+    font-size: 2.5em;
+    /* Bottom margin */
+    margin-bottom: 10px;
+}
+
+/* Styles for the form */
+form {
+    /* Maximum form width */
+    max-width: 500px;
+    /* Auto margin to center the form */
+    margin: 0 auto;
+    /* Padding for internal space */
+    padding: 20px;
+    /* Rounded borders */
+    border-radius: 10px;
+    /* Shadow to add depth */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for form labels and inputs */
+label, input, select {
+    /* Full width for form elements */
+    width: 100%;
+    /* Bottom margin to separate elements */
+    margin-bottom: 15px;
+    /* Padding for internal space */
+    padding: 10px;
+    /* Rounded borders */
+    border-radius: 5px;
+    /* Background color for inputs */
+    background-color: #444;
+    /* Text color for inputs */
+    color: #fff;
+    /* Border for inputs */
+    border: none;
+}
+
+/* Styles for the submit button */
+input[type="submit"] {
+    /* Button background color */
+    background-color: #66d9ef; /* Azul claro */
+    /* Button text color */
+    color: #333; /* Texto oscuro */
+    /* Rounded borders */
+    border-radius: 5px;
+    /* Padding for internal space */
+    padding: 10px 20px;
+    /* Hand cursor on hover */
+    cursor: pointer;
+    /* Border for button */
+    border: none;
+    /* Transition for hover effect */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    /* Button background color on hover */
+    background-color: #4dd2ff; /* Azul más claro */
+}
+
+/* Styles for the back link */
+a {
+    /* Link text color */
+    color: #fff;
+    /* Text decoration for the link */
+    text-decoration: none;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    /* Adjust title size on mobile devices */
+    h1 {
+        font-size: 2em;
+    }
+    /* Adjust form width on mobile devices */
+    form {
+        max-width: 90%;
+    }
+    /* Adjust form padding on mobile devices */
+    form {
+        padding: 10px;
+    }
+}
+
+/* Media query for smaller devices */
+@media only screen and (max-width: 480px) {
+    /* Adjust title size on smaller devices */
+    h1 {
+        font-size: 1.8em;
+    }
+    /* Adjust form width on smaller devices */
+    form {
+        max-width: 100%;
+    }
+    /* Adjust form padding on smaller devices */
+    form {
+        padding: 5px;
+    }
+}
