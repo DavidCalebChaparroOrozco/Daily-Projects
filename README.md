@@ -1257,3 +1257,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Designed the front-end using HTML, with integration into the Flask framework for dynamic content rendering.
 
   * This project was a fantastic opportunity to apply mathematical concepts to a real-world financial application, and to further my skills in web development using Flask. The ability to visualize the results added an extra layer of insight into the power of compound interest, making the project both educational and practical.
+* Day 169: 🌱 Plant Management System for "La Planta Feliz" Nursery 🌿
+
+  Today, I developed a Plant Management System using Python to help "La Planta Feliz" nursery efficiently manage their inventory of plants. This project focused on leveraging Object-Oriented Programming (OOP) principles to create a flexible and user-friendly system. Here’s a breakdown of the key features:
+
+  - **Plant Creation**: The `Plant` class was designed to represent each plant in the nursery, encapsulating details such as the plant’s code, name, size, species, and price. This structured approach makes it easy to manage and manipulate plant data.
+
+  - **Handling Tall Plants**: I implemented a method in the `Nursery` class to generate a sublist of plants taller than 2 meters. This feature allows the nursery to quickly identify and manage plants that may require special care or different pricing due to their size.
+
+  - **Removing Plants by Name**: The system includes functionality to remove all plants with a specified name. This is particularly useful for managing inventory when certain plants are discontinued or need to be cleared from stock.
+
+  - **Species Counting**: Another key feature is the ability to count the number of plants of a specific species. This helps in understanding the diversity of the nursery’s inventory and making informed decisions about species-specific care or sales strategies.
+
+  - **User Interaction**: The system is designed with a simple interface that allows users to add new plants, filter plants by size, remove plants by name, and count plants by species. This demonstrates the practical application of OOP principles in managing real-world data.
+
+  - **Data Management**: All plant data is managed using lists and list comprehensions, ensuring efficient storage and retrieval of information. This approach facilitates scalability as the nursery's inventory grows.
+
+  This project was an insightful experience in applying OOP concepts to create a functional and efficient system for managing plant inventory. It reinforced my understanding of how encapsulation and data handling can be effectively used in software development to meet specific business needs.
