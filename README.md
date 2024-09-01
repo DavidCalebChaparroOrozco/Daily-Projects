@@ -1274,3 +1274,31 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Data Management**: All plant data is managed using lists and list comprehensions, ensuring efficient storage and retrieval of information. This approach facilitates scalability as the nursery's inventory grows.
 
   This project was an insightful experience in applying OOP concepts to create a functional and efficient system for managing plant inventory. It reinforced my understanding of how encapsulation and data handling can be effectively used in software development to meet specific business needs.
+* Day 170: 🍕🍽️ Pizza Restaurant Sales [Kaggle](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales/data)
+
+  * Today, I delved into the Pizza Restaurant Sales dataset from Kaggle, focusing on data analysis and visualization. Below is a summary of the key activities and findings:
+
+    - **Data Loading**:
+      - Loaded the dataset using Pandas and examined the initial data structure to understand its composition.
+  
+    - **Data Cleaning**:
+      - Checked for missing values and verified the integrity of the data.
+      - Converted `order_time` to a string type and extracted hour, minute, and second for further analysis.
+  
+    - **Exploratory Data Analysis (EDA)**:
+      - **Categorical Features**:
+        - Created count plots for the `pizza_size`, `pizza_category`, and `pizza_name` features to visualize their distributions.
+        - Analyzed the distribution of pizza sizes and categories using pie charts.
+        - Examined the frequency of orders by hour and day of the week, along with monthly trends.
+      - **Numerical Features**:
+        - Analyzed total price distributions by pizza name and size using box plots and sunburst charts.
+        - Visualized the median prices by pizza size and category using a treemap.
+      - **Time Series Analysis**:
+        - Investigated order frequencies across different hours of the day and days of the week.
+        - Created visualizations to show how order distributions vary by date and hour.
+  
+    - **Advanced Visualizations**:
+      - Generated interactive plots using Plotly, including bar charts for order distributions and sunburst plots for price distributions.
+      - Used seaborn and Matplotlib for detailed count plots and box plots, enhancing visual insights.
+  
+  * This analysis provided a detailed view of the pizza sales data, including insights into order trends, pizza categories, and pricing. The generated visualizations offer a comprehensive understanding of the sales dynamics, aiding in decision-making and strategy formulation for the restaurant.
