@@ -1302,3 +1302,24 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Used seaborn and Matplotlib for detailed count plots and box plots, enhancing visual insights.
   
   * This analysis provided a detailed view of the pizza sales data, including insights into order trends, pizza categories, and pricing. The generated visualizations offer a comprehensive understanding of the sales dynamics, aiding in decision-making and strategy formulation for the restaurant.
+* Day 171: 🔍 Partitioning a List into Two Equal Subsets - Recursive Algorithm 🔍
+
+  * Today, I developed a Python program to determine if a given list of integers can be partitioned into two subsets with equal sum using recursion. This project focused on implementing recursive techniques to explore the possibility of such a partition. Below is a summary of the key tasks and insights:
+
+    - **Understanding the Problem**:
+      - The goal was to check if a list can be split into two subsets with an equal sum, a common problem in dynamic programming and recursion.
+
+    - **Recursive Approach**:
+      - Implemented the `can_partition_recursive(nums, target_sum, index, subset)` function, which uses recursion to explore whether a subset with a target sum can be found within the list.
+      - The function considers two main scenarios: excluding the current number from the subset and including it, then recursively checks the remaining elements.
+
+    - **Base Case Handling**:
+      - The base cases include situations where the target sum becomes zero (indicating a successful partition) or when all elements are considered, and the target sum remains unmet.
+
+    - **Exploring Subsets**:
+      - By exploring all possible combinations of the list’s elements, the algorithm identifies whether a valid subset exists that equals half the total sum, thus confirming if the list can be partitioned into two equal subsets.
+
+    - **Output and Visualization**:
+      - If a valid partition is found, the program outputs the subsets, providing a clear visual representation of the solution.
+
+  * This project reinforced key concepts in recursive problem-solving and subset exploration, offering a deeper understanding of how to approach partitioning problems with Python. The recursive approach not only highlights the power of recursion in combinatorial problems but also emphasizes the importance of base case management and backtracking in algorithm design.
