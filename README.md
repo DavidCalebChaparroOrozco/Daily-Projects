@@ -1323,3 +1323,23 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - If a valid partition is found, the program outputs the subsets, providing a clear visual representation of the solution.
 
   * This project reinforced key concepts in recursive problem-solving and subset exploration, offering a deeper understanding of how to approach partitioning problems with Python. The recursive approach not only highlights the power of recursion in combinatorial problems but also emphasizes the importance of base case management and backtracking in algorithm design.
+* Day 172: 🏀 Basketball Player Statistics Generator with Python 📊
+
+  * Today, I developed a Python program that allows users to input basic basketball statistics for a player (points, rebounds, assists) and calculates key metrics such as averages per game, shooting percentages, and more. This project provided an excellent opportunity to work with object-oriented programming and data visualization. Below is a summary of the key tasks and insights:
+
+    - **Understanding the Problem**:
+      - The goal was to create a system where users can input game statistics for basketball players and easily calculate and visualize key metrics, such as points per game, rebounds per game, assists per game, and shooting percentages.
+
+    - **Class-Based Approach**:
+      - Implemented the `BasketballPlayer` class, which tracks a player's game statistics, calculates averages, and computes shooting percentages. The class structure allowed for a clean and modular design, making it easy to manage and update player stats.
+
+    - **Data Input and Handling**:
+      - The program features a menu-driven interface that allows users to create players, select existing players, and input game statistics. This interactive approach ensures that the program is user-friendly and can handle multiple players seamlessly.
+
+    - **Statistics Calculation**:
+      - The `calculate_averages` method computes the player's averages per game for points, rebounds, and assists, while the `calculate_shooting_percentage` method determines the shooting accuracy based on the shots made and attempted. These calculations are crucial for analyzing player performance.
+
+    - **Data Visualization**:
+      - The `plot_stats` method uses Matplotlib to generate bar charts that visually represent the player's statistics. This feature enhances the program by providing a graphical interpretation of the data, making it easier to identify trends and performance levels.
+
+  * This project reinforced my understanding of object-oriented programming, particularly in the context of sports statistics. The integration of data visualization added an extra layer of insight, demonstrating the value of combining algorithmic calculations with graphical outputs. I'm excited to explore further enhancements, such as incorporating advanced metrics and player comparisons.
