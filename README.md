@@ -1343,3 +1343,26 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - The `plot_stats` method uses Matplotlib to generate bar charts that visually represent the player's statistics. This feature enhances the program by providing a graphical interpretation of the data, making it easier to identify trends and performance levels.
 
   * This project reinforced my understanding of object-oriented programming, particularly in the context of sports statistics. The integration of data visualization added an extra layer of insight, demonstrating the value of combining algorithmic calculations with graphical outputs. I'm excited to explore further enhancements, such as incorporating advanced metrics and player comparisons.
+* Day 173: 🎵 Discord Music Bot with Python and discord.py 🎶
+
+  * Today, I developed a Discord music bot using Python, `discord.py`, and `yt-dlp`. This bot allows users to play and manage music in a voice channel, providing functionalities such as queuing songs, playing the next track, and skipping the current song. Here’s a summary of the key tasks and insights:
+
+    - **Understanding the Problem**:
+      - The goal was to create a Discord bot that can play audio from YouTube in a voice channel. The bot should handle commands for adding songs to a queue, playing them, and managing playback.
+
+    - **Bot Setup and Intents**:
+      - Configured the bot with necessary intents to read message content and handle voice state updates. This setup ensures the bot can interact with users and manage voice connections effectively.
+
+    - **Music Playback**:
+      - Implemented the `play` command to search for a song on YouTube, retrieve its URL, and add it to a queue. The bot connects to the user's voice channel if it is not already connected.
+
+    - **Queue Management**:
+      - Developed a queue system to manage song playback. The `play_next` method handles playing the next song in the queue and automatically continues playback when a song ends.
+
+    - **Error Handling**:
+      - Incorporated error handling to manage issues that may arise during the search and playback process, providing users with clear feedback if something goes wrong.
+
+    - **Skipping Songs**:
+      - Added a `skip` command to stop the currently playing song and move to the next one, enhancing the bot's usability.
+
+  * This project provided valuable experience in integrating Discord's API with audio streaming, handling asynchronous tasks, and implementing user commands. The bot's functionality showcases the practical application of Python in creating interactive and useful tools for Discord communities.
