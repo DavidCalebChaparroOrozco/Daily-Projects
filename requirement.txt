@@ -49,3 +49,6 @@ Werkzeug
 torch
 tf-keras
 folium
+pynacl
+discord 
+yt_dlp
