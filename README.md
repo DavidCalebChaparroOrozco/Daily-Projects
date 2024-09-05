@@ -1366,3 +1366,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Added a `skip` command to stop the currently playing song and move to the next one, enhancing the bot's usability.
 
   * This project provided valuable experience in integrating Discord's API with audio streaming, handling asynchronous tasks, and implementing user commands. The bot's functionality showcases the practical application of Python in creating interactive and useful tools for Discord communities.
+* Day 174: Technical Test "getPermutation" and "rotateRight" [LeetCode](https://leetcode.com/problems/)
+
+  - **getPermutation**: Implemented a solution for the "Permutation Sequence" problem, where the task is to return the k-th permutation sequence of numbers from 1 to n. The approach involves calculating the factorial of n to determine the number of permutations for each block of numbers. The solution uses this factorial to pick the correct digit for each position in the permutation and progressively builds the k-th sequence by updating k for the next position. The algorithm efficiently finds the desired permutation by reducing the search space with each step. The time complexity is O(n²) due to the factorial computations and list manipulations.  
+    [Problem Description: getPermutation](https://leetcode.com/problems/permutation-sequence/description/)
+
+  - **rotateRight**: Solved the "Rotate List" problem, where the objective is to rotate a linked list to the right by k places. The algorithm first calculates the length of the list and makes it circular by connecting the last node to the head. Afterward, it determines the new tail and head by traversing the list based on the modulo of k with the list length. The final step involves breaking the circular connection to form the rotated list. This method has a time complexity of O(n), where n is the length of the list.  
+    [Problem Description: rotateRight](https://leetcode.com/problems/rotate-list/description/)
