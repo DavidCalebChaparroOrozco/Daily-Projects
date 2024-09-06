@@ -1373,3 +1373,28 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **rotateRight**: Solved the "Rotate List" problem, where the objective is to rotate a linked list to the right by k places. The algorithm first calculates the length of the list and makes it circular by connecting the last node to the head. Afterward, it determines the new tail and head by traversing the list based on the modulo of k with the list length. The final step involves breaking the circular connection to form the rotated list. This method has a time complexity of O(n), where n is the length of the list.  
     [Problem Description: rotateRight](https://leetcode.com/problems/rotate-list/description/)
+* Day 175: Build Your Own News Hub in Python - RSS Feed Aggregator by [NeuralNine](https://www.youtube.com/watch?v=5mEmE7pBI1A)
+
+  * Today, I worked on a project to create an RSS Feed Aggregator using Python and Flask, inspired by a [NeuralNine](https://www.youtube.com/watch?v=5mEmE7pBI1A) tutorial. This project fetches and displays news articles from multiple sources in a user-friendly interface. Here's a breakdown of the key components and features:
+
+    - **User Interface**:
+      - Developed a simple web interface with HTML templates and Flask, allowing users to browse the latest news articles from different sources.
+      - Implemented a search functionality that enables users to look for specific keywords across the fetched news articles.
+
+    - **RSS Feed Parsing**:
+      - Used the `feedparser` library to fetch and parse RSS feeds from various news sources such as Yahoo Finance, Hacker News, Wall Street Journal, and CNBC.
+      - Dynamically displayed the fetched articles in a paginated format, allowing for better user experience when browsing through large sets of articles.
+
+    - **Search Functionality**:
+      - Added a search form to the header of the website, enabling users to input a keyword and retrieve relevant articles containing that term.
+      - Filtered the RSS feed entries to match the search query, displaying the results in a dedicated search results page.
+
+    - **Pagination**:
+      - Implemented a pagination system that divides articles into pages, showing 10 articles per page. Users can navigate between pages using the “Next” and “Previous” buttons.
+
+    - **Technical Implementation**:
+      - The back-end logic was implemented in Python using the Flask framework, while HTML was used for the front-end.
+      - The project makes use of RSS feeds and dynamically updates the content based on the fetched data.
+      - Designed reusable HTML templates with `base.html` providing a consistent layout, and specific pages like `index.html` and `search_results.html` handling different types of content.
+
+  * This project was an excellent exercise in integrating multiple technologies, including Flask for web development, RSS feeds for content aggregation, and HTML for building dynamic and responsive web pages. It provided a great opportunity to work on creating a functional news hub with real-time data.
