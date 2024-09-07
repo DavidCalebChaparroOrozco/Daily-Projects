@@ -1398,3 +1398,25 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Designed reusable HTML templates with `base.html` providing a consistent layout, and specific pages like `index.html` and `search_results.html` handling different types of content.
 
   * This project was an excellent exercise in integrating multiple technologies, including Flask for web development, RSS feeds for content aggregation, and HTML for building dynamic and responsive web pages. It provided a great opportunity to work on creating a functional news hub with real-time data.
+* Day 176: 🔺 Maximum Sum Path in a Triangle - Recursive Algorithm 🔺
+
+  * Today, I worked on a Python program that finds the maximum sum path from the top to the bottom of a triangle using recursion. The project focused on applying recursive techniques to explore different paths and choose the one with the maximum sum. Below is an overview of the key components and insights:
+
+    - **Understanding the Problem**:
+      - The goal was to navigate a triangle from the top to the bottom, selecting adjacent numbers in each row, and calculating the maximum possible sum along the way.
+
+    - **Recursive Approach**:
+      - Implemented the `max_sum_path(triangle, row, col, n)` function to recursively calculate the maximum sum path by exploring two possible moves: directly below or diagonally to the right.
+      - At each step, the function returns the maximum sum path by comparing the two possible paths (left and right).
+
+    - **Base Case Handling**:
+      - The base case occurs when the recursion reaches the last row of the triangle, where the function simply returns the value of the current element.
+      - This ensures the recursion terminates when all rows are processed.
+
+    - **Initiating the Recursion**:
+      - The `find_max_sum(triangle)` function initiates the recursive process from the top of the triangle, passing the necessary parameters to the recursive function to explore all paths.
+
+    - **Output and Visualization**:
+      - The program prints the maximum sum path from the top to the base of the triangle, providing a clear indication of the optimal path for maximizing the sum.
+
+  * This project was a great way to apply recursive problem-solving to a real-world mathematical challenge. It also reinforced the importance of recursion in exploring all possible combinations and selecting the optimal solution, offering valuable insights into dynamic programming techniques as well.
