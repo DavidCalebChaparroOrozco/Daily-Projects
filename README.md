@@ -1420,3 +1420,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - The program prints the maximum sum path from the top to the base of the triangle, providing a clear indication of the optimal path for maximizing the sum.
 
   * This project was a great way to apply recursive problem-solving to a real-world mathematical challenge. It also reinforced the importance of recursion in exploring all possible combinations and selecting the optimal solution, offering valuable insights into dynamic programming techniques as well.
+* Day 177: 📂 File System Management in Python 🖥️
+
+  Today, I worked on a File System Management project using Python, which focused on applying Object-Oriented Programming (OOP) principles like inheritance, encapsulation, and abstraction to manage files and folders. Here are the key highlights of the project:
+
+  - **Encapsulation**: The `FileSystemItem` class encapsulates the attributes `name` and `path`, making them private to ensure data protection. Getter methods provide controlled access to these attributes.
+
+  - **Inheritance**: The `File` and `Folder` classes inherit from the abstract base class `FileSystemItem`. This ensures that both files and folders have common attributes and behaviors, promoting code reusability.
+
+  - **Abstraction**: The `FileSystemItem` class includes an abstract method `get_description`, which is implemented differently by `File` and `Folder` classes to return specific details about each item. This maintains a consistent interface while allowing customized behavior for different types of items.
+
+  - **File and Folder Operations**: Users can register new files and folders, check their details, and perform operations on files (such as reading or writing). A menu-driven interface makes interaction with the system user-friendly and practical.
+
+  - **File System Interaction**: The project interacts with the actual file system, checking if the paths provided for files and folders exist and retrieving file sizes. This adds a layer of real-world utility by directly integrating with the operating system.
+
+  - **File Operations**: The `FileOperation` class logs operations performed on files (such as read, write, or execute), along with the date of the operation, providing a history of interactions with each file.
+
+  This project provided a practical implementation of OOP concepts and demonstrated how they can be used to build scalable and structured systems. It was a great opportunity to reinforce my understanding of how inheritance, encapsulation, and abstraction contribute to clean, maintainable code in real-world applications.
