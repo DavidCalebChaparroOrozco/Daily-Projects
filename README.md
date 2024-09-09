@@ -1437,3 +1437,33 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **File Operations**: The `FileOperation` class logs operations performed on files (such as read, write, or execute), along with the date of the operation, providing a history of interactions with each file.
 
   This project provided a practical implementation of OOP concepts and demonstrated how they can be used to build scalable and structured systems. It was a great opportunity to reinforce my understanding of how inheritance, encapsulation, and abstraction contribute to clean, maintainable code in real-world applications.
+
+* Day 178: 🛒📊 Customer Purchasing Behaviors [Kaggle](https://www.kaggle.com/datasets/hanaksoy/customer-purchasing-behaviors/data)
+
+  * Today, I worked with the Customer Purchasing Behaviors dataset from Kaggle, focusing on data analysis and visualization. Below is a summary of the key activities and insights obtained:
+
+    - **Data Loading**:
+      - Imported the dataset using Pandas and conducted an initial examination to understand the data structure and key features.
+
+    - **Data Cleaning**:
+      - Checked for missing values and ensured the data's integrity.
+      - Performed data type conversions, particularly for dates and categorical variables, to facilitate analysis.
+    
+    - **Exploratory Data Analysis (EDA)**:
+      - **Categorical Features**:
+        - Created count plots for various features like product categories, customer segments, and purchase channels.
+        - Analyzed the distribution of customer segments and product categories using pie charts.
+        - Investigated the frequency of purchases across different days, months, and customer segments to identify trends.
+      - **Numerical Features**:
+        - Analyzed the distribution of total spending by customer and product category using box plots and bar charts.
+        - Visualized the average and median purchase amounts across different customer segments and product types.
+      - **Time Series Analysis**:
+        - Explored how purchasing behaviors varied by time of day, day of the week, and month.
+        - Created visualizations showing the distribution of purchases over time, including monthly and daily trends.
+
+    - **Advanced Visualizations**:
+      - Utilized Plotly to create interactive visualizations such as heatmaps for purchase frequency across different days and customer segments.
+      - Generated detailed bar charts and sunburst plots to explore customer purchase patterns by product category and segment.
+      - Used seaborn and Matplotlib to produce enhanced count plots, box plots, and time series graphs for deeper insights.
+
+  * This analysis provided valuable insights into customer purchasing behaviors, including trends across product categories, spending patterns, and customer segments. The visualizations helped uncover key patterns that can guide marketing and sales strategies for businesses looking to optimize their offerings based on customer data.
