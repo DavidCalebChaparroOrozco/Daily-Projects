@@ -1467,3 +1467,18 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Used seaborn and Matplotlib to produce enhanced count plots, box plots, and time series graphs for deeper insights.
 
   * This analysis provided valuable insights into customer purchasing behaviors, including trends across product categories, spending patterns, and customer segments. The visualizations helped uncover key patterns that can guide marketing and sales strategies for businesses looking to optimize their offerings based on customer data.
+* Day 179: Movie Recommendation App with Streamlit  
+  * Today, I focused on building a **Movie Recommendation App** using Streamlit, a powerful open-source framework designed for creating web applications. The app allows users to select a movie genre and receive recommendations based on a dataset of movies. Here's a breakdown of what I accomplished:
+
+    - **Setting Up the Environment**: Installed Streamlit and other necessary libraries like Pandas for data manipulation.
+    - **Dataset**: Used a dataset from [Kaggle](https://www.kaggle.com/datasets/akshaypawar7/millions-of-movies) that contains information about millions of movies, including genres, ratings, release dates, and more.
+    - **Loading Data Efficiently**: Implemented data caching using `st.cache_data` to improve performance when loading the movie dataset.
+    - **User Interface**: Built an intuitive UI where users can:
+      - Preview the movie dataset, showing details like title, genres, release date, rating, and vote count.
+      - Select a movie genre from a dropdown menu and receive a list of recommended movies from that genre.
+    - **Movie Filtering and Display**: Filtered the movies by genre and displayed each recommendation with details such as the title, release year, rating, vote count, and a brief overview. Additionally, the app displays the movie poster fetched from an external source.
+    - **Sidebar with Additional Information**: Created a sidebar that provides information about the app and some statistics about the dataset, including the total number of movies and the top 5 highest-rated films.
+  
+  This project highlights the ease of using Streamlit to build interactive applications with dynamic content based on user input. The recommendation feature provides a practical use case for filtering and displaying data, making it a helpful tool for exploring movie options by genre. 
+
+  This was an excellent exercise in building a recommendation system, working with movie datasets, and creating a user-friendly interface.
