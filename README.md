@@ -1482,3 +1482,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   This project highlights the ease of using Streamlit to build interactive applications with dynamic content based on user input. The recommendation feature provides a practical use case for filtering and displaying data, making it a helpful tool for exploring movie options by genre. 
 
   This was an excellent exercise in building a recommendation system, working with movie datasets, and creating a user-friendly interface.
+* Day 180: Technical Test "uniquePaths" and "uniquePathsWithObstacles" [LeetCode](https://leetcode.com/problems/)
+  
+  - **uniquePaths**: Implemented a solution for the "Unique Paths" problem, where the task is to determine the number of unique paths a robot can take to reach the bottom-right corner of an m x n grid, starting from the top-left corner. The robot can only move either right or down at any point. The approach uses dynamic programming to compute the number of ways to reach each cell in the grid by adding the number of ways to reach the top and left cells. The solution has a time complexity of O(m * n) as we fill up the grid iteratively.
+    [Problem Description: uniquePaths](https://leetcode.com/problems/unique-paths/description/)
+
+  - **uniquePathsWithObstacles**: Solved the "Unique Paths II" problem, which is an extension of the "Unique Paths" problem but introduces obstacles in the grid, marked as 1. The robot must avoid these obstacles when moving to the bottom-right corner. The algorithm uses a modified dynamic programming approach to track valid paths, ensuring that any cell marked with an obstacle is not considered in the path calculation. The time complexity remains O(m * n), as the grid is processed similarly to the first problem but with obstacle checks.
+    [Problem Description: uniquePathsWithObstacles](https://leetcode.com/problems/unique-paths-ii/description/)
