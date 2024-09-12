@@ -1489,3 +1489,26 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **uniquePathsWithObstacles**: Solved the "Unique Paths II" problem, which is an extension of the "Unique Paths" problem but introduces obstacles in the grid, marked as 1. The robot must avoid these obstacles when moving to the bottom-right corner. The algorithm uses a modified dynamic programming approach to track valid paths, ensuring that any cell marked with an obstacle is not considered in the path calculation. The time complexity remains O(m * n), as the grid is processed similarly to the first problem but with obstacle checks.
     [Problem Description: uniquePathsWithObstacles](https://leetcode.com/problems/unique-paths-ii/description/)
+
+* Day 181: 🏀 Basketball Team Generator and Visualizer with Python 📊
+
+  * Today, I developed a Python program that generates a team of random basketball players and visualizes their statistics using various charts. This project allowed me to explore data generation, visualization, and file handling in Python. Here’s a summary of the key tasks and insights:
+
+    - **Understanding the Problem**:
+      - The objective was to create a system that generates random basketball player statistics and provides visualizations for analysis. The program includes functionalities to generate player data, display it in graphical formats, and optionally save the generated data to a file.
+
+    - **Player Generation**:
+      - Implemented the `generate_player` function to create random player profiles, including attributes such as name, height, position, and performance metrics like points per game, rebounds, assists, and field goal percentage. This function uses the `random` library to ensure that each player’s statistics are unique and realistic.
+
+    - **Data Visualization**:
+      - The `plot_player_stats` function creates a polar bar chart using Matplotlib to visualize rebounds, assists, and field goal percentage. This chart helps in comparing these metrics in a circular format, making it easier to see the distribution of stats.
+      - The `plot_points` function generates a separate bar chart to display the points scored per game by each player. This visualization highlights the player's scoring ability in a straightforward bar format.
+
+    - **Team Creation and Saving**:
+      - The `create_team` function generates a list of random players based on user input for the number of players. This feature allows for flexible team sizes.
+      - The `save_team` function saves the generated team data to a text file, making it easy to store and review the player information later. The data is written in a human-readable format, providing a comprehensive view of each player’s attributes.
+
+    - **Interactive User Experience**:
+      - The main program includes user prompts to determine the number of players to generate and whether to save the team data. This interactive approach ensures that the program can be used effectively based on user preferences.
+
+  * This project provided valuable experience in combining data generation with visualization techniques. By integrating polar and bar charts, the program offers a comprehensive view of player statistics. The file-saving feature also enhances the program’s usability by allowing users to store and manage player data efficiently. Moving forward, I plan to explore additional enhancements, such as advanced statistical analyses and more sophisticated visualizations.

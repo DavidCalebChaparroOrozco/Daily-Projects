@@ -1,0 +1,10 @@
+Player_865, Position: Shooting Guard, Height: 1.84m, PTS: 20.2, REB: 7.1, AST: 10.7, FG%: 40.2
+Player_452, Position: Center, Height: 1.88m, PTS: 20.6, REB: 4.8, AST: 7.5, FG%: 55.1
+Player_352, Position: Point Guard, Height: 2.09m, PTS: 6.4, REB: 14.7, AST: 10.4, FG%: 59.3
+Player_573, Position: Power Forward, Height: 2.13m, PTS: 10.4, REB: 11.7, AST: 5.1, FG%: 43.1
+Player_189, Position: Center, Height: 2.08m, PTS: 23.2, REB: 13.0, AST: 4.5, FG%: 50.9
+Player_430, Position: Center, Height: 1.85m, PTS: 10.5, REB: 14.3, AST: 5.8, FG%: 56.1
+Player_297, Position: Point Guard, Height: 1.98m, PTS: 13.8, REB: 7.9, AST: 5.6, FG%: 45.9
+Player_877, Position: Shooting Guard, Height: 1.86m, PTS: 6.2, REB: 8.9, AST: 7.9, FG%: 58.0
+Player_554, Position: Shooting Guard, Height: 1.76m, PTS: 10.4, REB: 13.0, AST: 6.6, FG%: 47.7
+Player_206, Position: Shooting Guard, Height: 2.14m, PTS: 19.4, REB: 14.4, AST: 7.6, FG%: 58.5
