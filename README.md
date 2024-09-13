@@ -1512,3 +1512,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - The main program includes user prompts to determine the number of players to generate and whether to save the team data. This interactive approach ensures that the program can be used effectively based on user preferences.
 
   * This project provided valuable experience in combining data generation with visualization techniques. By integrating polar and bar charts, the program offers a comprehensive view of player statistics. The file-saving feature also enhances the program’s usability by allowing users to store and manage player data efficiently. Moving forward, I plan to explore additional enhancements, such as advanced statistical analyses and more sophisticated visualizations.
+* Day 182: 🍽️ Restaurant Management System in Python 🍴
+
+  Today, I worked on a Restaurant Management System using Python, with a focus on Object-Oriented Programming (OOP) principles such as inheritance, encapsulation, and abstraction. The project allows customers to place orders, manage food and drinks, calculate tips, and keep track of the server responsible for each order. Below are the key highlights:
+
+  - **Encapsulation**: The `Person` class encapsulates attributes like `name` and `id_number`, ensuring that personal information is protected by making them private. Controlled access is provided through getter methods.
+
+  - **Inheritance**: The system uses inheritance for customer and server classes, both derived from the `Person` abstract class. This allows reusability of common attributes (like `name` and `id_number`) while providing specialized functionality for each subclass.
+
+  - **Abstraction**: The `Person` class contains an abstract method `get_description`, which is implemented by both `Customer` and `Server` classes. This ensures that each type of person in the system has a tailored description, maintaining a consistent interface.
+
+  - **Order Management**: Customers can place orders that include food, drinks, and optional tips. The `Order` class captures details like order number, total price, and the server assigned to the order. This makes the system easy to extend with new features in the future.
+
+  - **Billing and Tips**: The system calculates the total bill based on the items ordered, with an option to add a tip. The final payment amount is clearly displayed, offering both customer satisfaction and ease of tracking for the restaurant.
+
+  - **Menu Options**: A menu-driven interface allows for interaction with the system, where users can place orders, check order details, and calculate the final bill. This makes the program user-friendly and practical for a real restaurant scenario.
+
+  This project was an excellent exercise in applying OOP principles to create a well-structured and maintainable system. I had the opportunity to refine my understanding of how abstraction, encapsulation, and inheritance work together to create clean and reusable code, all while building a practical restaurant management tool.
