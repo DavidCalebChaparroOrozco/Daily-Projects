@@ -1529,3 +1529,30 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Menu Options**: A menu-driven interface allows for interaction with the system, where users can place orders, check order details, and calculate the final bill. This makes the program user-friendly and practical for a real restaurant scenario.
 
   This project was an excellent exercise in applying OOP principles to create a well-structured and maintainable system. I had the opportunity to refine my understanding of how abstraction, encapsulation, and inheritance work together to create clean and reusable code, all while building a practical restaurant management tool.
+
+
+* Day 183: 🌊 Crossing the River Problem - Recursive Solution 🌊
+
+  * Today, I developed a Python program that solves the classic **Crossing the River Problem** using a recursive approach. This problem involves moving a farmer, a wolf, a goat, and a cabbage across a river with specific constraints, ensuring no dangerous combinations are left unsupervised. Here's an overview of the key components and insights from this project:
+
+    - **Understanding the Problem**:
+      - The goal is to transport the farmer, the wolf, the goat, and the cabbage from the left bank of the river to the right bank using a boat. However, there are restrictions:
+        - The wolf cannot be left alone with the goat.
+        - The goat cannot be left alone with the cabbage.
+        - Only two items (the farmer and one other) can cross the river at a time.
+
+    - **Recursive Approach**:
+      - Implemented the `solve(state, path=[])` function to recursively explore possible moves while ensuring the state remains valid after each crossing.
+      - The program explores all possible combinations of moves, considering the constraints and checking if the goal state (all items on the right bank) is achieved.
+
+    - **State Validation**:
+      - A helper function `is_valid_state(state)` ensures that no illegal combinations occur on either bank when the farmer is absent. This prevents situations where the goat is eaten by the wolf or the cabbage is eaten by the goat.
+
+    - **Recursive Movement**:
+      - The `move_item(state, item)` function moves the farmer and an optional item between the banks. The recursion avoids revisiting the same state to ensure efficiency.
+
+    - **Goal Achievement**:
+      - The base case occurs when all objects are successfully transported to the right bank, and the recursion terminates with the correct solution path.
+
+    - **Output and Visualization**:
+      - The program prints each step of the solution, showing the left and right bank configurations after each crossing, leading to the final state where all items have crossed safely.
