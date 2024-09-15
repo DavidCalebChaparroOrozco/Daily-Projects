@@ -36,6 +36,6 @@ print("=".center(50,"="))
 # Example 2
 grid2 = [[1,2,3],[4,5,6]]
 print("Example 2:")
-print("Input num2:", grid2)
+print("Input grid2:", grid2)
 print("Output:", sol.minPathSum(grid2))
 print("=".center(50,"="))
