@@ -1556,3 +1556,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
     - **Output and Visualization**:
       - The program prints each step of the solution, showing the left and right bank configurations after each crossing, leading to the final state where all items have crossed safely.
+* Day 184: Technical Test "minPathSum" and "isNumber" [LeetCode](https://leetcode.com/problems/) 
+
+  - **minPathSum**: Implemented a solution for the "Minimum Path Sum" problem, where the task is to find the path from the top-left corner to the bottom-right corner of a grid that minimizes the sum of all numbers along the path. The robot can only move either right or down at any point in time. The approach uses dynamic programming to iteratively update the grid by calculating the minimum sum required to reach each cell. The time complexity is O(m * n), where m and n represent the dimensions of the grid.
+    [Problem Description: minPathSum](https://leetcode.com/problems/minimum-path-sum/description/)
+
+  - **isNumber**: Solved the "Valid Number" problem, which validates if a given string can be interpreted as a valid number according to specific rules, including handling integers, decimal numbers, and exponents. The solution uses regular expressions to match the structure of valid numbers, ensuring correct handling of edge cases such as signs, decimal points, and scientific notation. The solution processes the string in O(1) time, as regular expressions offer an efficient way to match the pattern.
+    [Problem Description: isNumber](https://leetcode.com/problems/valid-number/description/)
