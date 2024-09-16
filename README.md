@@ -1563,3 +1563,28 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **isNumber**: Solved the "Valid Number" problem, which validates if a given string can be interpreted as a valid number according to specific rules, including handling integers, decimal numbers, and exponents. The solution uses regular expressions to match the structure of valid numbers, ensuring correct handling of edge cases such as signs, decimal points, and scientific notation. The solution processes the string in O(1) time, as regular expressions offer an efficient way to match the pattern.
     [Problem Description: isNumber](https://leetcode.com/problems/valid-number/description/)
+* Day 185: Estimating Pi with Monte Carlo Method
+  Today, I focused on building a Python program to estimate the value of **Pi** using the **Monte Carlo** method. This method involves generating random points in a unit square and calculating how many fall within a unit circle to estimate the value of Pi. Here's a breakdown of what I accomplished:
+
+  - **Importing Libraries**: Utilized essential Python libraries like `matplotlib` for plotting and `numpy` for generating random points and mathematical calculations.
+    
+  - **Monte Carlo Method Implementation**:
+    - Created a function `pi_montecarlo(n, n_exp)` where:
+      - `n` represents the number of random points generated per experiment.
+      - `n_exp` represents the number of experiments to perform.
+    - For each experiment, the program generates random `(x, y)` points between 0 and 1.
+    - It calculates the distance of each point from the origin and checks whether the point lies inside the unit circle.
+    - Repeated the experiment `n_exp` times and averaged the results to get a more accurate estimate of Pi.
+
+  - **Visualizing the Results**:
+    - Plotted the estimated values of Pi over multiple experiments to observe how the accuracy improves as the number of experiments increases.
+    - The final plot includes:
+      - Estimated values of Pi for each experiment.
+      - Clear labels for the x-axis (Experiment Number) and y-axis (Estimated Pi).
+      - A title to make the plot more informative: "Estimated Pi Values over Experiments."
+    
+  - **Program Execution**:
+    - Ran the function with 10,000 points per experiment and 200 experiments.
+    - Displayed the average estimated value of Pi and plotted the results for visualization.
+
+  This project provides an excellent example of applying statistical techniques to estimate a mathematical constant. The Monte Carlo method demonstrates how random sampling can be used to approximate complex values with increasing accuracy as more data points are used.
