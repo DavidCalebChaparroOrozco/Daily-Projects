@@ -1588,3 +1588,28 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - Displayed the average estimated value of Pi and plotted the results for visualization.
 
   This project provides an excellent example of applying statistical techniques to estimate a mathematical constant. The Monte Carlo method demonstrates how random sampling can be used to approximate complex values with increasing accuracy as more data points are used.
+* Day 186: BMI Calculator in Python - Flask Application
+  * Today, I worked on building a simple BMI (Body Mass Index) calculator using Python and Flask. This project allows users to input their weight and height, calculate their BMI, and receive a health category based on the result. Below is a breakdown of the key components and features:
+
+    - **User Interface**:
+      - Developed a clean and minimalistic web interface using HTML and CSS. The form takes the user’s weight (in kilograms) and height (in meters) as inputs and calculates the BMI upon form submission.
+      - Implemented responsive design with a focus on user-friendliness, ensuring the form and results are clearly visible on both desktop and mobile devices.
+
+    - **BMI Calculation**:
+      - Used a simple formula to calculate BMI: `BMI = weight / (height^2)` where weight is in kilograms and height is in meters.
+      - Displayed the calculated BMI along with a corresponding health category:
+        - **Underweight**: BMI less than 18.5
+        - **Normal weight**: BMI between 18.5 and 24.9
+        - **Overweight**: BMI between 25 and 29.9
+        - **Obesity**: BMI of 30 or higher
+
+    - **Result Display**:
+      - After submitting the form, the user is shown their calculated BMI and the associated health category (e.g., "Normal weight").
+      - Implemented condition-based formatting for better visual feedback. For example, different BMI categories are highlighted with different colors for clarity.
+
+    - **Technical Implementation**:
+      - The back-end logic is written in Python using the Flask framework, which processes the input data, calculates the BMI, and renders the result back to the user.
+      - A `POST` method was used to handle form submission and calculation. The results are dynamically displayed using Jinja2 templates.
+      - The front-end includes a `style.css` file in the `/static/css` directory to ensure the application has a clean, modern look.
+
+    * This project was a great opportunity to further enhance my Flask skills while building a practical health-related application. It provided insights into form handling, dynamic content generation, and simple calculations based on user input.

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>BMI Calculator by David Caleb</h1>
+    <form method="POST" action="/">
+        <div class="form-group">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" name="weight" id="weight" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="height">Height (m):</label>
+            <input type="number" name="height" id="height" step="0.01" required>
+        </div>
+        <button type="submit">Calculate BMI</button>
+    </form>
+
+    <!-- Display BMI result and health category -->
+    {% if bmi %}
+    <div class="result">
+        <p><strong>Your BMI: </strong>{{ bmi }}</p>
+        <p><strong>Category: </strong>{{ category }}</p>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>

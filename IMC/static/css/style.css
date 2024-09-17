@@ -1,0 +1,79 @@
+/* Setting global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+}
+
+/* Styles for the main container */
+.container {
+    max-width: 600px; /* Maximum width for better visualization */
+    margin: 20px; /* Margin for small devices */
+    padding: 20px;
+    background-color: #1e1e1e; /* Container background lighter than the general background */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* More pronounced shadow */
+}
+
+/* Styles for headings */
+h1 {
+    text-align: center;
+    color: #ffffff; /* White color for the title */
+}
+
+/* Styles for paragraphs */
+p {
+    color: #b0b0b0; /* Light gray text color */
+}
+
+/* Styles for the form */
+form {
+    margin-top: 20px;
+    display: flex; /* Use flexbox for aligning elements in the form */
+    flex-direction: column; /* Column layout */
+    align-items: center; /* Center elements within the form */
+}
+
+/* Styles for buttons */
+button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold; /* Bold text to highlight button text */
+    border-radius: 5px; /* Softer rounded borders */
+    padding: 12px 24px;
+    border: none; /* No border for a clean design */
+    color: #ffffff; /* White text on button */
+    background-color: #007bff; /* Vibrant blue color for button */
+    line-height: 1.15;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition when changing color */
+}
+
+/* Hover effect for button */
+button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Styles for input fields */
+input[type="text"], input[type="number"] {
+    width: calc(100% - 22px); /* Full width minus padding and border */
+    padding: 10px;
+    border: 1px solid #444; /* Dark border for input fields */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #2a2a2a; /* Dark background for input fields */
+    color: #ffffff; /* White text in input fields */
+}
+
+/* Styles for error messages (if implemented) */
+.error {
+    color: #ff4d4d; /* Bright red for error messages */
+    font-weight: bold;
+}
