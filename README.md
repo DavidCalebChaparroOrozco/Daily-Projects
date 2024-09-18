@@ -1613,3 +1613,19 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - The front-end includes a `style.css` file in the `/static/css` directory to ensure the application has a clean, modern look.
 
     * This project was a great opportunity to further enhance my Flask skills while building a practical health-related application. It provided insights into form handling, dynamic content generation, and simple calculations based on user input.
+* Day 187: 🎲 Lottery Simulator in Python 🎯 
+
+  Today, I worked on a Lottery Simulator using Python and Tkinter, creating a graphical interface for users to choose their lottery numbers and check if they match randomly generated lottery results. Below are the key highlights of the project:
+
+  - **User Input**: The program allows users to input six unique numbers between 1 and 49. These numbers are validated to ensure they meet the required conditions, such as being within the range and not repeating.
+
+  - **Random Number Generation**: The program generates six random lottery numbers using Python's `random.sample` function, ensuring that each number is unique. These numbers are then compared with the user's input.
+
+  - **Matching Logic**: The user’s input is compared with the randomly generated lottery numbers, and the number of matches is displayed in a message box. If all six numbers match, a congratulatory message appears, declaring the user as the winner.
+
+  - **Graphical User Interface (GUI)**: The program uses Tkinter to create a simple and clean interface. The layout is organized with entry boxes for user input and a button that triggers the lottery check. The interface includes:
+    - **Entry Fields**: Six entry fields for users to input their numbers.
+    - **Lottery Check Button**: A button that checks the user's numbers against the generated lottery numbers and displays the result.
+    - **Message Box**: A message box to display the outcome, whether it's a win or how many numbers matched.
+
+  - **Error Handling**: The system handles input errors gracefully, ensuring that users input valid numbers and receive informative messages if they don't.
