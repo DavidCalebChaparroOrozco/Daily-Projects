@@ -1629,3 +1629,9 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - **Message Box**: A message box to display the outcome, whether it's a win or how many numbers matched.
 
   - **Error Handling**: The system handles input errors gracefully, ensuring that users input valid numbers and receive informative messages if they don't.
+* Day 188: Technical Test "addBinary" and "plusOne" [LeetCode](https://leetcode.com/problems/) 
+  - **addBinary**: Implemented a solution for the "Add Binary" problem, which involves adding two binary strings and returning their sum as a binary string. The approach processes the binary strings from right to left, simulating manual addition by summing digits and tracking carry. The solution handles cases where the strings have different lengths and ensures that any remaining carry is accounted for in the final result. The time complexity is O(max(n, m)), where n and m are the lengths of the input strings.
+    [Problem Description: addBinary](https://leetcode.com/problems/add-binary/description/)
+
+  - **plusOne**: Solved the "Plus One" problem, where the task is to increment an integer represented by an array of its digits. The algorithm starts from the least significant digit and adds one, adjusting for carries as necessary. If the entire number consists of nines, a new digit is added at the beginning of the array. The time complexity is O(n), where n is the number of digits in the input array.
+    [Problem Description: plusOne](https://leetcode.com/problems/plus-one/description/)
