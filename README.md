@@ -1635,3 +1635,22 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **plusOne**: Solved the "Plus One" problem, where the task is to increment an integer represented by an array of its digits. The algorithm starts from the least significant digit and adds one, adjusting for carries as necessary. If the entire number consists of nines, a new digit is added at the beginning of the array. The time complexity is O(n), where n is the number of digits in the input array.
     [Problem Description: plusOne](https://leetcode.com/problems/plus-one/description/)
+* Day 189: 🔍 Longest Common Subsequence (LCS) 
+
+  Today, I worked on the Longest Common Subsequence (LCS) problem using Python, focusing on recursion to solve the problem. This algorithm finds the longest subsequence common between two given strings. Below are the key highlights:
+
+  - **Recursion**: The solution is implemented using a recursive approach. The base case checks if either of the strings is empty, in which case the LCS is zero. Otherwise, the function compares the last characters of both strings.
+
+  - **Character Matching**: If the last characters of the two strings match, the function proceeds by removing the last character from both strings and recursively calling itself. The result is incremented by 1, indicating that the matched character contributes to the LCS.
+
+  - **Character Mismatch**: When the last characters differ, the algorithm explores two options: removing the last character from one of the strings and calling the function recursively on the remaining parts of the strings. The maximum result from these two recursive calls is taken as the LCS length.
+
+  - **Efficiency**: This recursive approach, while intuitive, is not the most efficient for large strings due to its exponential time complexity. However, it serves as a clear demonstration of how recursion can be applied to complex problems like LCS.
+
+  - **Base Cases**: The base cases are crucial to the recursive approach. When either string is reduced to an empty substring, the recursion stops, ensuring that the solution does not continue indefinitely.
+
+  - **Example Case**: For the strings `"AGGTAB"` and `"GXTXAYB"`, the algorithm correctly identifies that the LCS is `"GTAB"` with a length of 4.
+
+  - **Future Enhancements**: This recursive solution can be further optimized using dynamic programming techniques to avoid redundant calculations, making it feasible for larger inputs.
+
+  This project was an excellent opportunity to deepen my understanding of recursion in Python. I explored how breaking down a problem into subproblems can simplify the overall structure, even when the solution is not the most optimal. I look forward to extending this solution with dynamic programming to handle more complex cases efficiently.
