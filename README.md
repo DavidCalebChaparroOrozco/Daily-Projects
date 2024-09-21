@@ -1654,3 +1654,21 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Future Enhancements**: This recursive solution can be further optimized using dynamic programming techniques to avoid redundant calculations, making it feasible for larger inputs.
 
   This project was an excellent opportunity to deepen my understanding of recursion in Python. I explored how breaking down a problem into subproblems can simplify the overall structure, even when the solution is not the most optimal. I look forward to extending this solution with dynamic programming to handle more complex cases efficiently.
+* Day 190: 🧠 MNIST Neural Network with Hyperparameter Tuning in Python 🤖
+  Today, I worked on building a neural network model using Python and TensorFlow to classify handwritten digits from the MNIST dataset. This project is based on the amazing work and tutorial by **NeuralNine**, which I followed on [YouTube](https://www.youtube.com/watch?v=lKusotIjzwk). I respect and admire the quality of content NeuralNine provides, and this tutorial was a fantastic learning experience. Below are the key highlights:
+
+  - **Model Architecture**: The neural network consists of an input layer, a flattening layer to convert the 2D images into a 1D vector, hidden layers with ReLU activation functions, and a final output layer using softmax activation for multiclass classification. This architecture allows the network to learn complex features of the handwritten digits.
+
+  - **Normalization**: The input data was normalized to ensure that the values fall between 0 and 1, which helps the model converge faster and improves accuracy during training.
+
+  - **Adam Optimizer**: The model is trained using the Adam optimizer, with a learning rate of 0.005. Adam is well-suited for large datasets and adjusts the learning rate dynamically, leading to faster convergence.
+
+  - **GridSearchCV**: I implemented hyperparameter tuning using GridSearchCV from scikit-learn, which allowed me to search for the best combination of hyperparameters such as the number of hidden layers, the number of neurons per layer, and batch normalization/dropout options. This optimization process helps in finding the model with the highest accuracy on the test set.
+
+  - **Dropout and Batch Normalization**: The project includes options to add dropout layers and batch normalization to prevent overfitting and ensure that the model generalizes well to unseen data.
+
+  - **Model Evaluation**: The model was evaluated using the test dataset after training. Accuracy and loss were calculated to assess the model’s performance, ensuring that it classifies the digits with high precision.
+
+  - **Hyperparameter Tuning Results**: After running GridSearchCV, the best model was selected based on the highest accuracy score. The optimal hyperparameters, such as the number of hidden layers and neurons, were determined and applied to improve the model's performance.
+
+  This project was a valuable exercise in neural network construction, model optimization, and hyperparameter tuning using scikit-learn. I learned a lot from NeuralNine's tutorial, and I deeply respect their commitment to delivering high-quality educational content.
