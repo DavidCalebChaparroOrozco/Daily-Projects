@@ -1672,7 +1672,7 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Hyperparameter Tuning Results**: After running GridSearchCV, the best model was selected based on the highest accuracy score. The optimal hyperparameters, such as the number of hidden layers and neurons, were determined and applied to improve the model's performance.
 
   This project was a valuable exercise in neural network construction, model optimization, and hyperparameter tuning using scikit-learn. I learned a lot from NeuralNine's tutorial, and I deeply respect their commitment to delivering high-quality educational content.
-* Day 182: 🚗 Vehicle Management System in Python 🚙
+* Day 191: 🚗 Vehicle Management System in Python 🚙
   Today, I developed a Vehicle Management System using Python, incorporating Object-Oriented Programming (OOP) principles such as inheritance, encapsulation, and abstraction. The project allows for the registration and management of different types of vehicles, such as Sports Cars, Minivans, and more. Below are the key highlights of the project:
 
   - **Encapsulation**: The `Vehicle` class encapsulates attributes like `make`, `model`, and `license_plate`, ensuring that sensitive information is protected by making them private. Controlled access is provided through getter methods, allowing secure data handling.
