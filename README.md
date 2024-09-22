@@ -1672,4 +1672,19 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Hyperparameter Tuning Results**: After running GridSearchCV, the best model was selected based on the highest accuracy score. The optimal hyperparameters, such as the number of hidden layers and neurons, were determined and applied to improve the model's performance.
 
   This project was a valuable exercise in neural network construction, model optimization, and hyperparameter tuning using scikit-learn. I learned a lot from NeuralNine's tutorial, and I deeply respect their commitment to delivering high-quality educational content.
-* Day 191: 
+* Day 182: 🚗 Vehicle Management System in Python 🚙
+  Today, I developed a Vehicle Management System using Python, incorporating Object-Oriented Programming (OOP) principles such as inheritance, encapsulation, and abstraction. The project allows for the registration and management of different types of vehicles, such as Sports Cars, Minivans, and more. Below are the key highlights of the project:
+
+  - **Encapsulation**: The `Vehicle` class encapsulates attributes like `make`, `model`, and `license_plate`, ensuring that sensitive information is protected by making them private. Controlled access is provided through getter methods, allowing secure data handling.
+
+  - **Inheritance**: The system employs inheritance for different vehicle categories, such as `SportsCar` and `Minivan`, both derived from the base `Vehicle` class. This design allows for reusability of common attributes (like `make` and `model`) while providing specialized functionality for each subclass, enhancing flexibility and scalability.
+
+  - **Abstraction**: The `Vehicle` class contains an abstract method `get_description`, which is implemented by each specific vehicle category. This ensures that every type of vehicle in the system has a tailored description, maintaining a consistent interface and making the code easily extensible.
+
+  - **Category Management**: The system allows users to register vehicles in various categories (Sports Car, Minivan, etc.), record details such as mileage, owner information, and maintenance history, and retrieve comprehensive vehicle data. This feature-rich structure provides a realistic scenario for a vehicle management application.
+
+  - **Data Handling**: The system tracks key details such as vehicle types, mileage, and ownership history. It also includes methods to retrieve and display this data in an organized manner, simulating a real-world vehicle management scenario.
+
+  - **Menu Options**: A menu-driven interface facilitates interaction with the system, allowing users to register new vehicles, display vehicle details, and manage various aspects of each vehicle category. This makes the program user-friendly and practical for real-world applications.
+
+  This project was an excellent exercise in applying OOP principles to create a structured and maintainable system. It provided a great opportunity to deepen my understanding of how abstraction, encapsulation, and inheritance can be effectively used to build a versatile and efficient vehicle management tool.
