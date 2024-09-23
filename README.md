@@ -1688,3 +1688,35 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Menu Options**: A menu-driven interface facilitates interaction with the system, allowing users to register new vehicles, display vehicle details, and manage various aspects of each vehicle category. This makes the program user-friendly and practical for real-world applications.
 
   This project was an excellent exercise in applying OOP principles to create a structured and maintainable system. It provided a great opportunity to deepen my understanding of how abstraction, encapsulation, and inheritance can be effectively used to build a versatile and efficient vehicle management tool.
+
+
+* Day 192: 💤💪 Health and Sleep Statistics [Kaggle](https://www.kaggle.com/datasets/hanaksoy/health-and-sleep-statistics/data) 
+
+  * Today, I worked with the Health and Sleep Statistics dataset from Kaggle, focusing on data analysis and visualization. Below is a summary of the key activities and insights obtained:
+
+    - **Data Loading**:
+      - Imported the dataset using Pandas and conducted an initial examination to understand the data structure and key features.
+
+    - **Data Cleaning**:
+      - Checked for missing values and ensured the data's integrity.
+      - Performed data type conversions, especially for dates and numerical fields, to prepare the data for analysis.
+
+    - **Exploratory Data Analysis (EDA)**:
+      - **Sleep and Health Analysis**:
+        - Analyzed sleep patterns, including average sleep duration and sleep efficiency.
+        - Created visualizations to explore relationships between sleep duration and factors like age, gender, and activity levels.
+        - Investigated correlations between health metrics such as BMI, daily steps, and sleep quality.
+      - **Physical Activity Insights**:
+        - Visualized the distribution of daily steps, calories burned, and active minutes across different age groups and genders.
+        - Explored the relationship between physical activity and sleep quality using scatter plots and heatmaps.
+      - **General Health Metrics**:
+        - Examined the distribution of BMI, resting heart rate, and other health indicators.
+        - Generated insights into how these health metrics are influenced by sleep patterns and activity levels.
+
+    - **Advanced Visualizations**:
+      - Utilized Plotly to create interactive visualizations, such as:
+        - **Heatmaps**: Showing correlations between sleep efficiency, activity levels, and health metrics.
+        - **Line Graphs**: Illustrating trends in sleep duration and physical activity over time.
+      - Developed sunburst plots and bar charts to provide deeper insights into health statistics across different demographics.
+
+  * This analysis provided valuable insights into how sleep patterns and physical activity are connected to overall health. The visualizations revealed important trends and correlations that can be beneficial for individuals aiming to improve their health and sleep habits.
