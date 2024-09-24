@@ -1720,3 +1720,18 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
       - Developed sunburst plots and bar charts to provide deeper insights into health statistics across different demographics.
 
   * This analysis provided valuable insights into how sleep patterns and physical activity are connected to overall health. The visualizations revealed important trends and correlations that can be beneficial for individuals aiming to improve their health and sleep habits.
+* Day 193: 🔍 Anagram Finder in Python 🧩 
+
+  Today, I worked on an Anagram Finder project using Python. This program is designed to find all valid anagrams of a given set of letters based on a predefined dictionary, applying concepts of recursion and permutation generation. Below are the key highlights of the project:
+
+  - **Dictionary Loading**: The program uses a text file `dictionary.txt` containing a list of valid words, which is loaded into a set. This enables fast lookup operations and ensures that only valid words are considered as anagrams.
+
+  - **Permutation Generation**: By utilizing Python's `itertools.permutations` module, the program generates all possible permutations of the input letters, efficiently producing every combination without requiring manual iteration. This approach captures all potential anagram candidates in a compact manner.
+
+  - **Anagram Validation**: Each generated permutation is checked against the loaded dictionary to determine if it forms a valid word. This step ensures that only meaningful words are included in the list of anagrams, filtering out nonsensical combinations.
+
+  - **User Input and Output**: The system prompts the user to enter a set of letters and then displays all valid anagrams found in the dictionary. This interactive feature makes the program engaging and easy to use.
+
+  - **Efficiency**: By using sets and efficient permutation generation, the program is optimized to handle larger sets of letters with minimal computational overhead, demonstrating the practical use of data structures and algorithm optimization.
+  
+  This project was an excellent opportunity to explore permutation generation and apply dictionary lookups efficiently. It provided valuable insights into handling recursive problems, optimizing data handling, and integrating external data into a Python program.
