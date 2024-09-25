@@ -1735,3 +1735,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Efficiency**: By using sets and efficient permutation generation, the program is optimized to handle larger sets of letters with minimal computational overhead, demonstrating the practical use of data structures and algorithm optimization.
   
   This project was an excellent opportunity to explore permutation generation and apply dictionary lookups efficiently. It provided valuable insights into handling recursive problems, optimizing data handling, and integrating external data into a Python program.
+* Day 194: Technical Test "fullJustify" and "mySqrt" [LeetCode](https://leetcode.com/problems/)
+
+  - **fullJustify**: Implemented a solution for the "Text Justification" problem, where the task is to format a list of words such that each line has exactly `maxWidth` characters and is fully justified. The solution packs words into lines using a greedy approach, ensuring that spaces are distributed as evenly as possible between words. For the last line, the text is left-justified, with any remaining spaces added to the end. The implementation efficiently handles the distribution of spaces, achieving the desired justification in O(n) time complexity, where n is the total number of words.
+    [Problem Description: fullJustify](https://leetcode.com/problems/text-justification/description/)
+
+  - **mySqrt**: Solved the "Sqrt(x)" problem, which involves finding the square root of a non-negative integer `x` rounded down to the nearest integer. The solution employs a binary search approach to efficiently calculate the integer square root without using built-in exponent functions or operators. The algorithm has a time complexity of O(log x), making it well-suited for handling large values of `x`.
+    [Problem Description: mySqrt](https://leetcode.com/problems/sqrtx/description/)
