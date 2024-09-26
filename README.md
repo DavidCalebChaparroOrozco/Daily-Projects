@@ -1742,3 +1742,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **mySqrt**: Solved the "Sqrt(x)" problem, which involves finding the square root of a non-negative integer `x` rounded down to the nearest integer. The solution employs a binary search approach to efficiently calculate the integer square root without using built-in exponent functions or operators. The algorithm has a time complexity of O(log x), making it well-suited for handling large values of `x`.
     [Problem Description: mySqrt](https://leetcode.com/problems/sqrtx/description/)
+* Day 195: 📊 Final Exam Score Calculator in Python 🎓 
+
+  Today, I worked on a Final Exam Score Calculator using Python and Tkinter, with a strong emphasis on user interactivity, data validation, and GUI design principles. This project helps students calculate the required score for their final exam to pass their course, considering their current grades and weights. Here are the key highlights:
+
+  - **User Interactivity**: The calculator provides an intuitive and dynamic interface for adding multiple scores and percentages. Users can easily input their grades and the corresponding weights, making the experience user-friendly and practical.
+
+  - **Data Validation**: The system includes robust data validation to ensure that scores and percentages are within the allowed ranges (0.0 - 5.0 for scores and 0 - 100 for percentages). This ensures accurate calculations and prevents errors, with clear error messages guiding the user.
+
+  - **Dynamic Entry Management**: The project allows users to add multiple input fields dynamically, making it adaptable for different scenarios. The entries can be reset at any time, allowing for multiple calculations without restarting the application.
+
+  - **Progress Tracking**: A progress bar visually represents the total percentage of completed coursework, providing users with immediate feedback on how much weight they have already accumulated and how much is still required.
+
+  - **Result Display**: The program calculates the score needed on the final exam and provides motivational feedback based on the result. This helps users understand their current standing and what they need to achieve to pass.
+
+  - **Motivational Feedback**: The application offers encouraging messages based on the required final score, helping students stay motivated regardless of their current standing. This feature adds a personalized and supportive touch to the tool.
+
+  This project was a fantastic opportunity to enhance my skills in GUI programming with Tkinter, focusing on data validation, dynamic UI updates, and user experience design. It demonstrates how practical applications can be created using Python to solve everyday problems, such as managing academic goals effectively.
