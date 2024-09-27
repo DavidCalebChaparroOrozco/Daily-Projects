@@ -1759,3 +1759,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Motivational Feedback**: The application offers encouraging messages based on the required final score, helping students stay motivated regardless of their current standing. This feature adds a personalized and supportive touch to the tool.
 
   This project was a fantastic opportunity to enhance my skills in GUI programming with Tkinter, focusing on data validation, dynamic UI updates, and user experience design. It demonstrates how practical applications can be created using Python to solve everyday problems, such as managing academic goals effectively.
+* Day 196: 🧩 Sudoku Solver in Python 🔢 
+
+  Today, I worked on a Sudoku Solver using Python, focusing on recursion and backtracking techniques. This project aimed to solve a 9x9 Sudoku puzzle while respecting the rules of the game. Below are the key highlights:
+
+  - **Recursion**: The solution uses a recursive function to attempt filling the Sudoku grid cell by cell. If a valid number can be placed in a cell, the function proceeds to solve the rest of the grid recursively.
+
+  - **Backtracking**: If a conflict arises or no valid number can be placed in a cell, the algorithm backtracks, resetting the cell and trying the next possible number. This systematic approach ensures that all possibilities are explored until the puzzle is solved.
+
+  - **Sudoku Validation**: The solver includes a validation method that checks if placing a number in a specific row, column, or 3x3 grid adheres to the game's rules. This ensures that no invalid placements are made during the solving process.
+
+  - **Grid Representation**: The Sudoku puzzle is represented as a 9x9 grid, where empty cells are denoted by `0`. The program attempts to fill these cells while respecting the constraints, ultimately arriving at a valid solution.
+
+  - **Efficient Backtracking**: By using efficient backtracking, the solver quickly finds solutions to even the most complex puzzles. This process ensures that the program is both effective and optimized for speed.
+
+  - **User Interface**: The project includes a simple function to display the Sudoku board before and after solving, making it easy to visualize the solution process.
+
+  This project was a great opportunity to practice and apply recursion and backtracking, fundamental techniques for solving constraint satisfaction problems. It demonstrated how powerful these techniques can be when building a solution that explores possibilities efficiently. The project also reinforced the importance of validation checks to maintain the integrity of the solution, making it a valuable learning experience.
