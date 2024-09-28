@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Point Shot Success Calculator by David Caleb</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>3-Point Shot Success Calculator by David Caleb</h1>
+    <form method="POST">
+        <label for="attempted">3-Point Shots Attempted:</label>
+        <input type="number" id="attempted" name="attempted" min="0" required><br>
+
+        <label for="made">3-Point Shots Made:</label>
+        <input type="number" id="made" name="made" min="0" required><br>
+
+        <input type="submit" value="Calculate Success Percentage">
+    </form>
+
+    {% if percentage is not none %}
+        {% if percentage == 'Invalid values! Made shots cannot exceed attempted shots, and values must be non-negative.' %}
+            <p class="error">{{ percentage }}</p>
+        {% else %}
+            <h2 class="success">Success Percentage: {{ percentage }}%</h2>
+        {% endif %}
+    {% endif %}
+
+    {% if history %}
+    <div class="history">
+        <h2>Calculation History</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Attempted</th>
+                    <th>Made</th>
+                    <th>Success %</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for entry in history %}
+                    <tr>
+                        <td>{{ entry.attempted }}</td>
+                        <td>{{ entry.made }}</td>
+                        <td>{{ entry.percentage }}%</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+
+    <a href="{{ url_for('reset') }}" class="reset-btn">Reset</a>
+</body>
+</html>

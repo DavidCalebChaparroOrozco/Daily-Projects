@@ -1776,3 +1776,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **User Interface**: The project includes a simple function to display the Sudoku board before and after solving, making it easy to visualize the solution process.
 
   This project was a great opportunity to practice and apply recursion and backtracking, fundamental techniques for solving constraint satisfaction problems. It demonstrated how powerful these techniques can be when building a solution that explores possibilities efficiently. The project also reinforced the importance of validation checks to maintain the integrity of the solution, making it a valuable learning experience.
+* Day 197: 🏀 Three-Point Shot Success Calculator in Flask 🎯 
+
+  Today, I worked on a Three-Point Shot Success Calculator using Flask, focusing on creating a basic web application that calculates the success rate of three-point shots in basketball. This project allowed me to practice essential Flask concepts and build an interactive web-based calculator. Here are the key highlights:
+
+  - **User Input Handling**: The web application allows users to input the number of attempted and successful three-point shots through a simple HTML form. This input is processed securely on the server side, ensuring accurate calculation of the success rate.
+
+  - **Backend Calculation**: The application captures the data and performs a calculation to determine the percentage of successful three-point shots. This demonstrates how Python can be used on the backend to handle logic and return the result to the user.
+
+  - **Session Management**: Implemented session management using `app.secret_key`, which ensures that user data remains secure during interactions with the web application. The secret key was generated using Python's `secrets` library, demonstrating the use of cryptographic methods for secure session handling.
+
+  - **Flask Integration**: The project utilizes Flask's routing capabilities to handle different routes (`/` for the home page and `/calculate` for processing the calculation), showcasing how Flask can manage multiple endpoints in a web application.
+
+  - **Error Handling**: Basic error handling is included to ensure that the program reacts appropriately to invalid or missing inputs, providing a smooth user experience.
+
+  - **Interactive Feedback**: The calculated success rate is displayed back to the user in a user-friendly format, demonstrating how server-side calculations can be rendered on a web page.
+
+  This project was an excellent opportunity to reinforce my understanding of how Flask can be used to build simple yet functional web applications. It helped me practice session management, user input handling, and backend calculations, all while applying them to a fun and practical example in the context of basketball statistics.
