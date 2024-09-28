@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Headings */
+h1,
+h2 {
+    text-align: center;
+    color: #ffcc00; /* Golden color for the title */
+}
+
+/* Form Styles */
+form {
+    max-width: 400px; /* Increase width for better usability */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(50, 50, 50, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Input and Button Styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"],
+input[type="submit"] {
+    width: calc(100% - 16px); /* Adjust width for padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none; /* No border for a cleaner look */
+}
+
+input[type="submit"] {
+    background-color: #ff6666; /* Button color */
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3333; /* Color on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #333333; /* Dark background for headers */
+}
+
+/* Success and Error Messages */
+.success {
+    color: #66ff66; /* Light green for success */
+}
+
+.error {
+    color: #ff6666; /* Light red for errors */
+}
+
+/* History Section Styles */
+.history {
+    max-width: 600px; /* Increase width of history section */
+    margin: 20px auto;
+}
+
+/* Reset Button Styles */
+.reset-btn {
+    display: block;
+    width: calc(100% - 16px); /* Adjust width for padding */
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #ff6666; /* Reset button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.reset-btn:hover {
+    background-color: #ff3333; /* Color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    form {
+        width: calc(100% - 40px); /* Adjust on small screens */
+        padding: 15px; /* Reduce padding on small screens */
+    }
+
+    input[type="number"],
+    input[type="submit"],
+    .reset-btn {
+        width: calc(100% - 10px); /* Adjust width of inputs and buttons on mobile */
+        padding-left: 5px; /* Adjust padding on mobile */
+        padding-right: 5px; 
+        font-size: larger; /* Increase font size on mobile for better usability */
+        margin-bottom: 10px;
+    }
+}
