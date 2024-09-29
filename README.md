@@ -1793,3 +1793,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Interactive Feedback**: The calculated success rate is displayed back to the user in a user-friendly format, demonstrating how server-side calculations can be rendered on a web page.
 
   This project was an excellent opportunity to reinforce my understanding of how Flask can be used to build simple yet functional web applications. It helped me practice session management, user input handling, and backend calculations, all while applying them to a fun and practical example in the context of basketball statistics.
+* Day 198: 🐾 Cats Dataset [Kaggle](https://www.kaggle.com/datasets/waqi786/cats-dataset/data) 
+
+  Today, I worked on analyzing the Cats Dataset from Kaggle using Python. The focus was on data exploration and visualization using libraries such as Pandas, Seaborn, and Matplotlib. The project includes generating statistical summaries, visualizing distributions of numerical and categorical variables, and analyzing correlations between features. Below are the key highlights:
+
+  - **Statistical Summary**: The project includes a function that generates a statistical summary of numerical variables, providing insights such as mean, median, and standard deviation. This helps in understanding the central tendency and spread of the data.
+
+  - **Categorical Distribution**: I created a function to display the distribution of categorical variables, such as breed, color, and gender of the cats. This gives a clear view of how many instances exist for each category, aiding in categorical analysis.
+
+  - **Numerical Distributions**: The code generates histograms for numerical variables, allowing for visual inspection of their distributions. This helps identify any skewness, outliers, or normality in the data.
+
+  - **Bar Graphs for Categorical Variables**: I implemented bar graphs to visualize the distribution of each categorical variable. This enhances the ability to quickly grasp the frequency of categories visually.
+
+  - **Correlation Analysis**: A correlation matrix is generated to analyze relationships between numerical variables. This provides insights into potential relationships that can be explored further, and is visualized with a heatmap for clarity.
+
+  - **User-Friendly Functions**: The project includes functions for generating the full report, making it easy to run all analyses in one go. This modular approach enhances code readability and maintainability.
+
+  This project was an excellent opportunity to deepen my understanding of data analysis techniques in Python, as well as to explore the Cats Dataset thoroughly. The experience reinforced the importance of visualizing data to extract meaningful insights and understand underlying patterns.
