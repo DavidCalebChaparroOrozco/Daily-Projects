@@ -1810,3 +1810,27 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **User-Friendly Functions**: The project includes functions for generating the full report, making it easy to run all analyses in one go. This modular approach enhances code readability and maintainability.
 
   This project was an excellent opportunity to deepen my understanding of data analysis techniques in Python, as well as to explore the Cats Dataset thoroughly. The experience reinforced the importance of visualizing data to extract meaningful insights and understand underlying patterns.
+
+
+* Day 199: 📚 Book Subscription System in Python 📖
+
+  Today, I developed a Book Subscription System using Python, focusing on the Model-View-Controller (MVC) architectural pattern along with Object-Oriented Programming (OOP) principles. The project allows readers to subscribe to different book genres, view reader details, and check the information of available books. Here are the key highlights of the project:
+
+  - **Encapsulation**: The `Person` class, which serves as a base class for `Reader` and `Author`, encapsulates attributes such as `name` and `id_number`. These attributes are private and accessed via getter methods, ensuring data protection and controlled access.
+
+  - **Inheritance**: The system demonstrates inheritance by having `Reader` and `Author` classes inherit from the `Person` abstract class. This allows for the reuse of common attributes like `name` and `id_number`, while enabling each subclass to extend with unique functionality, such as subscribing to genres or adding books.
+
+  - **Abstraction**: The `Person` class features an abstract method `get_description`, which is implemented by both `Reader` and `Author` classes. This ensures a consistent interface across different types of persons in the system while allowing specific details to be tailored to each subclass.
+
+  - **MVC Pattern**: The system is structured according to the MVC pattern:
+    - **Model**: Represents the core data (Person, Reader, Author, and Book) and logic of the application.
+    - **View**: Handles the display of information and interaction with the user.
+    - **Controller**: Manages the communication between the Model and View, processing user input and updating the Model accordingly.
+
+  - **Book Subscription Management**: Readers can subscribe to genres, and authors can add books to the system. The `Controller` class facilitates the logic to manage these interactions, providing a seamless experience for users to interact with the system.
+
+  - **Book Details and Reader Information**: The project includes functionality to display detailed information about books and readers, helping users keep track of their subscriptions and explore different genres.
+
+  - **User Interaction**: A menu-driven interface allows users to navigate the system, subscribe to genres, view reader details, and access book information, making it user-friendly and practical for real-world use.
+
+  This project was a valuable experience in applying the MVC pattern along with OOP principles to build a well-structured and maintainable application. It provided a great opportunity to strengthen my understanding of encapsulation, inheritance, and abstraction while working with an architectural design that ensures a clean separation of concerns.
