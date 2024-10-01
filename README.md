@@ -1834,3 +1834,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **User Interaction**: A menu-driven interface allows users to navigate the system, subscribe to genres, view reader details, and access book information, making it user-friendly and practical for real-world use.
 
   This project was a valuable experience in applying the MVC pattern along with OOP principles to build a well-structured and maintainable application. It provided a great opportunity to strengthen my understanding of encapsulation, inheritance, and abstraction while working with an architectural design that ensures a clean separation of concerns.
+* Day 200: Technical Test "climbStairs" and "simplifyPath" [LeetCode](https://leetcode.com/problems/)
+  
+  - **climbStairs**: Implemented a solution for the "Climbing Stairs" problem, where the task is to determine the number of distinct ways to reach the top of a staircase with `n` steps, given that you can climb either 1 or 2 steps at a time. The solution employs a dynamic programming approach similar to the Fibonacci sequence to calculate the total number of ways to reach the top efficiently. The time complexity is O(n), where `n` represents the number of steps, as it iteratively calculates the possible ways without redundant computations.
+    [Problem Description: climbStairs](https://leetcode.com/problems/climbing-stairs/)
+
+  - **simplifyPath**: Solved the "Simplify Path" problem, which requires converting an absolute Unix-style file path into its canonical form. The approach utilizes a stack to process the path components, effectively handling elements like current (`.`), parent (`..`) directories, and redundant slashes (`//`). The final solution reconstructs the canonical path with a time complexity of O(n), where `n` is the length of the path, ensuring efficient processing of all path elements.
+    [Problem Description: simplifyPath](https://leetcode.com/problems/simplify-path/description/)
