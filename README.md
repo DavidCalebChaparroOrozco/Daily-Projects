@@ -1841,3 +1841,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **simplifyPath**: Solved the "Simplify Path" problem, which requires converting an absolute Unix-style file path into its canonical form. The approach utilizes a stack to process the path components, effectively handling elements like current (`.`), parent (`..`) directories, and redundant slashes (`//`). The final solution reconstructs the canonical path with a time complexity of O(n), where `n` is the length of the path, ensuring efficient processing of all path elements.
     [Problem Description: simplifyPath](https://leetcode.com/problems/simplify-path/description/)
+* Day 201: 🌊 Count Islands in a Grid Using Recursion 🏝️ 
+
+  Today, I worked on a project that counts the number of islands in a grid using Python, focusing on recursion and depth-first search (DFS). The main objective was to identify and count all distinct "islands" in a grid represented by `1`s (land) and `0`s (water). Below are the key highlights:
+
+  - **Recursion**: The solution uses a recursive function to traverse the grid, identifying connected land cells (`1`s). For every unvisited land cell, the function explores all 8 possible directions (up, down, left, right, and the four diagonals) to mark the entire island as visited.
+
+  - **Depth-First Search (DFS)**: By using a DFS approach, the algorithm ensures that every part of an island is explored fully before moving to the next. This allows the algorithm to handle islands of any shape or size, ensuring accurate counting.
+
+  - **Grid Representation**: The grid is represented as a 2D list where `1`s denote land and `0`s represent water. The function recursively marks all connected `1`s as visited (changing them to `0`s), ensuring that each island is counted only once.
+
+  - **Efficient Island Counting**: The project efficiently iterates through the grid, invoking the DFS function each time an unvisited `1` is found. This approach minimizes the number of recursive calls and ensures that all islands are correctly identified.
+
+  - **Handling Edge Cases**: The algorithm effectively handles edge cases, such as single-cell islands or grids with no islands at all, making it robust for different input scenarios.
+
+  - **Example Visualization**: The project includes an example grid and prints the total number of islands found, demonstrating the algorithm's effectiveness in various configurations.
+
+  This project provided a valuable opportunity to apply recursion in a real-world scenario, reinforcing the importance of depth-first search for exploring connected components. It also showcased how recursive algorithms can be used to solve problems involving adjacency and connectivity in grids, which is a fundamental concept in graph theory.
