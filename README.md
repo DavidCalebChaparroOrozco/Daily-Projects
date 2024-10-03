@@ -1858,3 +1858,25 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Example Visualization**: The project includes an example grid and prints the total number of islands found, demonstrating the algorithm's effectiveness in various configurations.
 
   This project provided a valuable opportunity to apply recursion in a real-world scenario, reinforcing the importance of depth-first search for exploring connected components. It also showcased how recursive algorithms can be used to solve problems involving adjacency and connectivity in grids, which is a fundamental concept in graph theory.
+
+* Day 202: 🃏 Flashcard Creator with Tkinter 🎓 
+
+  Today, I worked on a **Flashcard Creator** using **Tkinter**, where users can create, edit, and review study flashcards, including an option for quizzes to track progress in learning different subjects. The project focuses on building an intuitive GUI for managing flashcards, and the code is designed with object-oriented principles in mind. Here are the main features:
+
+  - **Flashcard Creation**: Users can create flashcards by entering a question or term (front) and its corresponding answer or definition (back). These flashcards are stored and can be navigated or edited as needed, offering flexibility for users to adapt to new topics or modify existing cards.
+
+  - **Editing Flashcards**: The program allows users to edit the content of existing flashcards. This feature ensures that any mistakes or updates can be easily managed, without the need to recreate the flashcard.
+
+  - **Flashcard Navigation**: A user-friendly interface provides navigation between flashcards with "Next" and "Previous" buttons, allowing users to browse through their entire set of cards effortlessly.
+
+  - **Quiz Mode**: The application features a quiz mode where users can test their knowledge. The program randomly selects flashcards, prompting the user to provide the correct answer. After each attempt, feedback is provided (correct or incorrect), and a score is tracked throughout the quiz.
+
+  - **Progress Tracking**: Once the quiz ends, users are presented with their final score, giving them an overview of how well they know the content. This is useful for self-assessment and tracking learning progress over time.
+
+  - **Object-Oriented Design**: The project uses **classes** to represent both the individual flashcards and the flashcard manager, which handles operations like adding, editing, and navigating flashcards. This structure makes the code easy to maintain and extend in future iterations.
+
+  - **User-Friendly Interface**: Built with Tkinter, the application features an intuitive and clean interface that is accessible to users with no prior programming experience. The GUI provides immediate feedback for user actions, making the learning process efficient.
+
+  - **Practical Application**: This project is ideal for students, teachers, or anyone looking to reinforce their knowledge through flashcards. The flexibility of creating custom flashcards makes this tool applicable to various fields of study, from vocabulary building to technical subjects.
+
+  This project was a great exercise in applying both GUI development and object-oriented programming in Python. It allowed me to refine my understanding of class-based structures while creating an educational tool that can easily be extended with additional features like progress charts or importing/exporting flashcards in the future.
