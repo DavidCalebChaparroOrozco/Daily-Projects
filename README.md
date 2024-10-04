@@ -1880,3 +1880,21 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Practical Application**: This project is ideal for students, teachers, or anyone looking to reinforce their knowledge through flashcards. The flexibility of creating custom flashcards makes this tool applicable to various fields of study, from vocabulary building to technical subjects.
 
   This project was a great exercise in applying both GUI development and object-oriented programming in Python. It allowed me to refine my understanding of class-based structures while creating an educational tool that can easily be extended with additional features like progress charts or importing/exporting flashcards in the future.
+* Day 203: ♟️ FEN Notation Converter for Chess in Python ♟️ 
+
+  Today, I worked on a **FEN Notation Converter** project using Python, which allows converting between **Forsyth-Edwards Notation (FEN)** and a visual representation of a chessboard. This project was designed to help chess enthusiasts understand and visualize the FEN notation used in chess software to represent board positions. Below are the key highlights:
+
+  - **FEN to Board Conversion**: The converter reads a FEN string (used to represent chess positions) and generates an 8x8 chessboard matrix. Each row and column is accurately translated to the corresponding chess pieces or empty squares.
+
+  - **Board to FEN Conversion**: The program also allows reversing the process, taking a chessboard (represented as an 8x8 array) and converting it back into a valid FEN string. This was implemented by counting empty spaces and placing piece symbols according to FEN formatting rules.
+
+  - **Visualization**: The board is printed in the console for a quick visual representation of the current chess position. This feature is useful for debugging or simply viewing the position described by the FEN string.
+
+  - **Handling Edge Cases**: The project handles edge cases in FEN notation, such as positions with many empty squares or special symbols for castling rights, active color, and other fields.
+
+  - **User-friendly Functions**: 
+    - `fen_to_board(fen)`: Converts a FEN string into an 8x8 chessboard array.
+    - `board_to_fen(board)`: Converts a chessboard array back into a FEN string.
+    - `print_board(board)`: Prints the visual representation of the chessboard in the console.
+
+  Working on this project gave me the opportunity to improve my skills in string manipulation and matrix operations in Python. Additionally, it deepened my understanding of how FEN notation works and how it can be utilized in chess software.
