@@ -1898,4 +1898,22 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - `print_board(board)`: Prints the visual representation of the chessboard in the console.
 
   Working on this project gave me the opportunity to improve my skills in string manipulation and matrix operations in Python. Additionally, it deepened my understanding of how FEN notation works and how it can be utilized in chess software.
-* Day 204: 
+# Day 204: 🚗🔋 Electric Vehicle Charging Patterns Dataset [Kaggle]https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns/data)
+
+Today, I focused on exploring the Electric Vehicle Charging Patterns Dataset from Kaggle. This dataset offers a comprehensive view of electric vehicle (EV) charging behaviors, capturing key metrics related to energy consumption, user patterns, and vehicle data. The project leverages Python for data analysis and visualization, employing libraries such as Pandas, Seaborn, Matplotlib, and Plotly. Below are the highlights of the day:
+
+- **Data Exploration**: The dataset contains various features such as user IDs, vehicle models, charging station IDs, and charging behaviors. The initial steps involved inspecting the data types, dimensions, and performing a basic statistical summary of the dataset. The dataset was then cleaned and missing values were addressed, ensuring reliable analysis.
+
+- **Feature Renaming**: I renamed the dataset's columns to remove spaces and special characters, simplifying further data handling. This step improves code readability and allows for easier manipulation of the dataset.
+
+- **Exploratory Data Analysis (EDA)**: Key insights were derived through visualizations of both categorical and numerical features:
+  - **Count Plots**: Created for categorical features such as vehicle models, user types, charger types, and time of day to observe charging behavior trends.
+  - **Distribution Plots**: Visualized numerical features like battery capacity, energy consumption, charging cost, and charging rate to understand their distributions and identify any skewness or outliers.
+  - **Boxplots**: Used to detect outliers in numerical features and ensure that the data was well-prepared for further analysis.
+  - **Correlation Heatmap**: Generated to analyze relationships between numerical features and identify any strong correlations that could be useful for predictive modeling.
+
+- **Clustering Analysis**: Applied **K-Means Clustering** to group similar charging patterns based on numeric features such as battery capacity, energy consumption, and charging rate. The results were visualized using **Principal Component Analysis (PCA)** to reduce dimensionality and display the clusters in a 2D space.
+
+- **Visualization with Annotations**: Created annotated plots, such as for charging cost, with clear labeling of key statistics like median values. These annotations enhanced the interpretability of the visualizations.
+
+This project was an excellent way to dive into real-world EV data, offering valuable insights into user behavior and charging patterns. The combination of statistical analysis and rich visualizations allowed for a deeper understanding of energy consumption trends and the factors influencing them.
