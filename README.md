@@ -1898,3 +1898,4 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - `print_board(board)`: Prints the visual representation of the chessboard in the console.
 
   Working on this project gave me the opportunity to improve my skills in string manipulation and matrix operations in Python. Additionally, it deepened my understanding of how FEN notation works and how it can be utilized in chess software.
+* Day 204: 
