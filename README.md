@@ -1917,3 +1917,27 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Visualization with Annotations**: Created annotated plots, such as for charging cost, with clear labeling of key statistics like median values. These annotations enhanced the interpretability of the visualizations.
 
   This project was an excellent way to dive into real-world EV data, offering valuable insights into user behavior and charging patterns. The combination of statistical analysis and rich visualizations allowed for a deeper understanding of energy consumption trends and the factors influencing them.
+* Day 205: 📚 Lesson Subscription and Management System in Python 🎓 
+
+  Today, I completed a Lesson Subscription and Management System using Python, with a focus on the Model-View-Controller (MVC) architectural pattern and validation techniques. The project allows students to subscribe to lessons, and instructors to manage and teach these lessons, while ensuring proper input validation. Here are the key features and highlights:
+
+  - **Input Validation**: To ensure data integrity, the system validates that names (for both students and instructors) contain only letters and spaces, preventing the entry of numbers or special characters. This enhances the quality of the data being processed.
+
+  - **Model-View-Controller (MVC)**: The system is built around the MVC pattern, providing a clear separation of concerns:
+    - **Model**: The `Person`, `Student`, and `Instructor` classes handle data-related logic. These models encapsulate attributes and implement behavior related to the core entities in the system.
+    - **View**: The `View` class handles all user interactions, such as displaying menus, getting input, and showing results.
+    - **Controller**: The `Controller` class acts as the intermediary, processing the user's input, updating models, and ensuring that the correct data is shown in the view.
+
+  - **Encapsulation**: The `Person` class encapsulates sensitive attributes like `name` and `id_number`, providing controlled access through getter methods. This ensures that data is protected and follows proper OOP practices.
+
+  - **Inheritance and Abstraction**: The `Student` and `Instructor` classes inherit from the `Person` abstract class, ensuring code reusability. The abstract method `get_description` is implemented by both classes to provide specific details for students and instructors.
+
+  - **Lesson Management**: Instructors are responsible for managing lessons, and students can subscribe to those lessons. Each lesson is linked to an instructor, and students can view which lessons they are subscribed to.
+
+  - **Instructor Lookup**: The system allows users to query which instructor is teaching a particular lesson. This feature makes it easier to organize lesson schedules and track instructor responsibilities.
+
+  - **Error Handling**: The system includes robust error handling for invalid inputs (such as names containing numbers), providing meaningful feedback to users and ensuring smooth operation without crashes.
+
+  - **Menu-Driven Interface**: A user-friendly, menu-driven interface allows for seamless interaction with the system. Users can subscribe students to lessons, view lesson details, and check which instructor is teaching a specific lesson.
+
+  This project helped me deepen my understanding of the MVC architecture and how it can be applied to build modular and scalable software solutions. I also improved my input validation skills, ensuring that the system is reliable and handles edge cases effectively.
