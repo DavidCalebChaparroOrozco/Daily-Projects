@@ -1898,7 +1898,7 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - `print_board(board)`: Prints the visual representation of the chessboard in the console.
 
   Working on this project gave me the opportunity to improve my skills in string manipulation and matrix operations in Python. Additionally, it deepened my understanding of how FEN notation works and how it can be utilized in chess software.
-* Day 204: 🚗🔋 Electric Vehicle Charging Patterns Dataset [Kaggle]https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns/data)
+* Day 204: 🚗🔋 Electric Vehicle Charging Patterns Dataset [Kaggle](https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns/data)
 
   Today, I focused on exploring the Electric Vehicle Charging Patterns Dataset from Kaggle. This dataset offers a comprehensive view of electric vehicle (EV) charging behaviors, capturing key metrics related to energy consumption, user patterns, and vehicle data. The project leverages Python for data analysis and visualization, employing libraries such as Pandas, Seaborn, Matplotlib, and Plotly. Below are the highlights of the day:
 
@@ -1941,3 +1941,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Menu-Driven Interface**: A user-friendly, menu-driven interface allows for seamless interaction with the system. Users can subscribe students to lessons, view lesson details, and check which instructor is teaching a specific lesson.
 
   This project helped me deepen my understanding of the MVC architecture and how it can be applied to build modular and scalable software solutions. I also improved my input validation skills, ensuring that the system is reliable and handles edge cases effectively.
+* Day 206: Technical Test "minDistance" and "setZeroes" [LeetCode](https://leetcode.com/problems/)
+
+  - **minDistance**: Implemented a solution for the "Edit Distance" problem, where the goal is to transform one string into another using the minimum number of operations, such as inserting, deleting, or replacing characters. The solution uses dynamic programming to build a matrix that keeps track of the number of operations needed to transform substrings of `word1` into `word2`. The time complexity is O(m * n), where `m` and `n` are the lengths of the input strings. This approach ensures efficient calculation by avoiding redundant recalculations.
+    [Problem Description: minDistance](https://leetcode.com/problems/edit-distance/description/)
+
+  - **setZeroes**: Solved the "Set Matrix Zeroes" problem, which involves modifying a given matrix in-place such that if an element is 0, its entire row and column are set to 0. The solution utilizes the first row and the first column as markers to remember which rows and columns need to be zeroed. This method allows the problem to be solved in O(m * n) time complexity with O(1) additional space complexity, ensuring that the matrix is updated efficiently without using extra memory.
+    [Problem Description: setZeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
