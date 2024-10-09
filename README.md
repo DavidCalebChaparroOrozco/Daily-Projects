@@ -1948,3 +1948,21 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **setZeroes**: Solved the "Set Matrix Zeroes" problem, which involves modifying a given matrix in-place such that if an element is 0, its entire row and column are set to 0. The solution utilizes the first row and the first column as markers to remember which rows and columns need to be zeroed. This method allows the problem to be solved in O(m * n) time complexity with O(1) additional space complexity, ensuring that the matrix is updated efficiently without using extra memory.
     [Problem Description: setZeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)
+
+* Day 207: 🎨 Painting Problem in Python 🌈
+
+  Today, I worked on solving the "Painting Problem" using Python, focusing on recursion and backtracking techniques. The goal of the project was to color a grid of cells using a set of available colors, ensuring that no two adjacent cells share the same color. Here are the main highlights:
+
+  - **Recursion**: The core of the solution revolves around a recursive function that attempts to color each cell of the grid. If a valid color is found for the current cell, the function recursively proceeds to the next cell. 
+
+  - **Backtracking**: Whenever a conflict occurs, meaning no valid color can be placed in a specific cell without violating the adjacency constraint, the algorithm backtracks. It resets the current cell and tries the next available color, ensuring all possibilities are explored.
+
+  - **Adjacency Validation**: A key part of the solution is the validation method, which ensures that no cell has the same color as its neighboring cells (top, bottom, left, and right). This check guarantees that all cells are colored according to the given rules.
+
+  - **Grid Representation**: The grid is represented as a 2D list, and each cell is either colored with one of the available colors or left as `None` when uncolored. The recursive algorithm efficiently explores all possible configurations to find valid solutions.
+
+  - **Exploring All Possibilities**: By using recursion and backtracking, the program explores every potential coloring configuration, printing each valid solution where no adjacent cells share the same color.
+
+  - **Versatility**: The solution is flexible and works with any grid size and any number of available colors, making it adaptable for different problem instances.
+
+  This project was an excellent way to deepen my understanding of how recursion and backtracking can be used to solve complex constraint satisfaction problems. It demonstrated the importance of validating constraints and systematically exploring all possible solutions while ensuring optimal performance.
