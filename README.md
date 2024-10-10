@@ -1966,3 +1966,24 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Versatility**: The solution is flexible and works with any grid size and any number of available colors, making it adaptable for different problem instances.
 
   This project was an excellent way to deepen my understanding of how recursion and backtracking can be used to solve complex constraint satisfaction problems. It demonstrated the importance of validating constraints and systematically exploring all possible solutions while ensuring optimal performance.
+* Day 208: ♟️ Chess Move Validator in Python ♟️ 
+
+  Today, I worked on a **Chess Move Validator** program using Python, focusing on validating the legality of chess moves according to the rules of the game. The project supports different types of pieces, including special movements such as castling and en passant. Below are the key highlights:
+
+  - **Chess Board Representation**: The chess board is represented as an 8x8 grid, with pieces initialized in their standard positions. The board uses a list of lists to manage the state of each square effectively.
+
+  - **Move Validation**: The `is_move_legal` method validates moves for each type of piece, checking for:
+    - **Pawns**: Standard moves, captures, and en passant.
+    - **Rooks**: Straight line movements.
+    - **Knights**: Unique L-shaped movements.
+    - **Bishops**: Diagonal movements.
+    - **Queens**: Combination of rook and bishop movements.
+    - **Kings**: Single square movements and castling conditions.
+
+  - **Error Handling**: The program provides feedback for illegal moves, detailing the specific reasons for each invalid action, such as moves that leave the player in check or moves that are not permissible for the specific piece type.
+
+  - **Move Description**: When a legal move is identified, the program generates a descriptive output in chess notation style, detailing the piece's movement from the starting to the ending position.
+
+  - **User Interaction**: The validator allows users to input moves in a tuple format, simulating the move's legality check. Additionally, the current state of the board is printed after each attempt to facilitate understanding of the game state.
+
+  This project was a great exercise in applying programming principles to simulate the logic of chess movements, deepening my understanding of both the game itself and Python's capabilities. It was rewarding to build a tool that enhances engagement with chess by validating moves according to established rules.
