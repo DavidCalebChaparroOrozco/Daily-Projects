@@ -1987,3 +1987,22 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **User Interaction**: The validator allows users to input moves in a tuple format, simulating the move's legality check. Additionally, the current state of the board is printed after each attempt to facilitate understanding of the game state.
 
   This project was a great exercise in applying programming principles to simulate the logic of chess movements, deepening my understanding of both the game itself and Python's capabilities. It was rewarding to build a tool that enhances engagement with chess by validating moves according to established rules.
+* Day 209: 📱 Cellphone Inventory Management System in Python 📊 
+
+  Today, I worked on a **Cellphone Inventory Management System** using Python, structured around the **Model-View-Controller (MVC)** design pattern. This project focused on managing an inventory of cellphone models, updating stock levels, and displaying the entire inventory. Below are the key highlights:
+
+  - **Model**: The `Cellphone` class represents individual cellphone models with attributes like `model_name`, `brand`, and `stock`. The `Inventory` class manages a collection of these cellphones, allowing for searching and stock updates.
+
+  - **View**: The `View` class handles user interactions, including displaying menu options, taking input for new cellphones, updating stock, and showing the current inventory. This separation allows for clear distinction between user interface logic and business logic.
+
+  - **Controller**: The `Controller` class serves as the intermediary between the `Model` and `View`, processing user input from the `View`, manipulating the `Model`, and updating the user interface accordingly. This pattern enforces a clean, organized structure for managing data and logic separately.
+
+  - **Add New Cellphones**: Users can input details like the model name, brand, and initial stock. These cellphones are then added to the inventory and stored for later access or updates.
+
+  - **Update Stock**: The stock of any cellphone can be updated by searching for the model name and inputting the new stock level, ensuring that the inventory remains accurate.
+
+  - **View Inventory**: The system allows users to view all cellphones currently in the inventory, displaying details such as model name, brand, and stock.
+
+  - **User-Friendly Interface**: A menu-driven interface simplifies interactions, offering options to add new cellphones, update stock, view all cellphones, or exit the program. This intuitive design makes it easy to navigate and use.
+
+  This project provided a solid understanding of how to apply the **MVC architecture** in Python, helping me to create a clean, maintainable, and scalable system. I particularly enjoyed the process of separating concerns between the model (data), view (user interface), and controller (logic), as this is a highly effective way to build software systems.
