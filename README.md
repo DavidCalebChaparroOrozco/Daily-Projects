@@ -2006,3 +2006,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **User-Friendly Interface**: A menu-driven interface simplifies interactions, offering options to add new cellphones, update stock, view all cellphones, or exit the program. This intuitive design makes it easy to navigate and use.
 
   This project provided a solid understanding of how to apply the **MVC architecture** in Python, helping me to create a clean, maintainable, and scalable system. I particularly enjoyed the process of separating concerns between the model (data), view (user interface), and controller (logic), as this is a highly effective way to build software systems.
+* Day 210: Technical Test "searchMatrix" and "sortColors" [LeetCode](https://leetcode.com/problems/)
+
+  - **searchMatrix**: Implemented a solution for the "Search a 2D Matrix" problem. The matrix has rows sorted in non-decreasing order, and each row starts with a number greater than the last number of the previous row. The goal is to efficiently find if a target integer exists within the matrix. The solution uses binary search to achieve a time complexity of O(log(m * n)), where `m` is the number of rows and `n` is the number of columns, by treating the matrix as a flattened sorted array.
+    [Problem Description: searchMatrix](https://leetcode.com/problems/search-a-2d-matrix/description/)
+
+  - **sortColors**: Solved the "Sort Colors" problem using the Dutch National Flag algorithm. This problem asks to sort an array of integers where 0, 1, and 2 represent red, white, and blue colors respectively. The challenge was to sort the array in-place without using any built-in sort function. The approach uses three pointers (`low`, `high`, and `i`) to organize the array in one pass, achieving O(n) time complexity and O(1) space complexity.
+    [Problem Description: sortColors](https://leetcode.com/problems/sort-colors/)
