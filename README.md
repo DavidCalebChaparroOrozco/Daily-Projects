@@ -2013,3 +2013,21 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **sortColors**: Solved the "Sort Colors" problem using the Dutch National Flag algorithm. This problem asks to sort an array of integers where 0, 1, and 2 represent red, white, and blue colors respectively. The challenge was to sort the array in-place without using any built-in sort function. The approach uses three pointers (`low`, `high`, and `i`) to organize the array in one pass, achieving O(n) time complexity and O(1) space complexity.
     [Problem Description: sortColors](https://leetcode.com/problems/sort-colors/)
+* Day 211: 🧩 Tiling Problem Solver in Python 🎲 
+
+  Today, I worked on solving the classic **Tiling Problem** using a recursive approach in Python. The task was to count the total number of ways to tile a 2xN board using 2x1 tiles. This project helped strengthen my understanding of recursion and dynamic problem-solving. Below are the key highlights of the project:
+
+  - **Recursion**: The problem was tackled using a recursive function that breaks the problem down into smaller subproblems. By reducing the size of the board step by step (either by placing a vertical tile or two horizontal tiles), the solution is built by combining these smaller problems. This demonstrates the power of recursion for solving complex tiling problems.
+
+  - **Base Cases**: 
+    - If the board has a length of `0`, there is exactly **one way** to tile it—by doing nothing.
+    - If the board has a length of `1`, there is only **one possible tiling** (one vertical 2x1 tile).
+
+  - **Recursive Case**: 
+    - If you place a single vertical tile, you reduce the board to a size of 2x(N-1).
+    - If you place two horizontal tiles, the board is reduced to 2x(N-2).
+    - The total number of ways to tile a 2xN board is the sum of these two possibilities.
+
+  - **Input Flexibility**: The user can input any board length (N) and get the total number of ways to tile it.
+
+  - **Mathematical Insight**: This problem closely relates to the Fibonacci sequence. The number of ways to tile a 2xN board follows the same recurrence relation as Fibonacci numbers, with each solution building upon the previous ones.
