@@ -2031,3 +2031,22 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Input Flexibility**: The user can input any board length (N) and get the total number of ways to tile it.
 
   - **Mathematical Insight**: This problem closely relates to the Fibonacci sequence. The number of ways to tile a 2xN board follows the same recurrence relation as Fibonacci numbers, with each solution building upon the previous ones.
+* Day 212: 🎳 Bowling Scoreboard App in Python 🎯 
+
+  Today, I worked on a **Bowling Scoreboard App** using **Python** and **Tkinter**, focusing on handling dynamic user input and maintaining a live scoreboard for multiple players. The project aimed to create an interactive user interface for entering scores, validating inputs, and automatically calculating bonuses like strikes and spares. Below are the key highlights:
+
+  - **Dynamic Score Calculation**: The app allows multiple players to enter their scores for each frame. The total score is dynamically updated as players input their rolls, accounting for strikes and spares in the calculations. This ensures real-time feedback for users.
+
+  - **Handling Strikes and Spares**: The project implements logic for handling bonuses from strikes (10 points plus the next two rolls) and spares (10 points plus the next roll). It ensures that incomplete frames don’t cause errors, as missing scores are handled gracefully.
+
+  - **Tkinter GUI**: A user-friendly interface is built using Tkinter, where players' names can be added dynamically, and their frame-by-frame scores are input through entry fields. The app automatically moves the cursor to the next input field after each valid entry, improving the user experience.
+
+  - **Validation of Inputs**: The app includes input validation to ensure that users only enter valid scores (0–10), and handles edge cases like strikes (10 pins on the first roll) by auto-filling the second roll with a 0. This keeps the score entry process smooth and error-free.
+
+  - **Scoreboard Display**: Each player has their own row in the scoreboard with frames clearly displayed. The total score per frame is shown, updating immediately as users complete their rolls.
+
+  - **Focus Management**: The app ensures the user interface is responsive by automatically shifting focus to the next input field after a roll, streamlining the data entry process for players.
+
+  - **Real-Time Total Calculation**: For each player, the app calculates and displays the cumulative score after each frame, factoring in the correct bonus points for strikes and spares.
+
+  This project was a great opportunity to apply my knowledge of **Tkinter** for building graphical user interfaces, as well as handling user inputs and calculations dynamically. It was challenging but rewarding to integrate real-time score updates and ensure that the app remained responsive, accurate, and easy to use throughout the game. I gained deeper insights into managing GUI-based applications with Python and learned how to ensure robust input validation and dynamic interaction.
