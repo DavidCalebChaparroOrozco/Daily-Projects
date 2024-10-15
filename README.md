@@ -2050,3 +2050,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Real-Time Total Calculation**: For each player, the app calculates and displays the cumulative score after each frame, factoring in the correct bonus points for strikes and spares.
 
   This project was a great opportunity to apply my knowledge of **Tkinter** for building graphical user interfaces, as well as handling user inputs and calculations dynamically. It was challenging but rewarding to integrate real-time score updates and ensure that the app remained responsive, accurate, and easy to use throughout the game. I gained deeper insights into managing GUI-based applications with Python and learned how to ensure robust input validation and dynamic interaction.
+* Day 213: 🛤️ Self-Avoiding Walk in Python 🚶‍♂️
+
+  Today, I worked on a **Self-Avoiding Walk** simulation using Python, exploring the use of recursion and backtracking. The self-avoiding walk is a mathematical model that represents a path on a grid that never crosses itself. Below are the key highlights of the project:
+
+  - **Recursion**: The solution is built using a recursive function that explores the grid step-by-step, attempting to find valid moves without revisiting any previously visited cells. The function continues to explore until either a full path is found or no valid moves remain.
+
+  - **Backtracking**: If a path reaches a dead-end (i.e., no more valid moves), the algorithm backtracks by resetting the last visited cell to try a different direction. This ensures that all possibilities are explored.
+
+  - **Grid Representation**: The grid is represented as an `n x n` matrix where each cell is either `True` (visited) or `False` (unvisited). The walk starts from the center of the grid, and the program attempts to navigate randomly without crossing the same path.
+
+  - **Randomized Movement**: To simulate various outcomes, valid moves are shuffled randomly at each step. This randomness leads to different results on every execution of the walk.
+
+  - **Termination and Success Check**: The walk can end in two ways: either it fills the entire grid successfully without crossing itself, or it fails due to lack of valid moves. A message indicating success or failure is displayed at the end.
+
+  - **Practical Applications**: The self-avoiding walk has applications in areas such as combinatorics, physical simulations (like polymer chain modeling), and probability theory. It is an interesting problem that highlights the importance of recursion and efficient backtracking.
+
+  This project provided valuable insight into recursive exploration and the challenges involved in simulating random processes on a grid.
