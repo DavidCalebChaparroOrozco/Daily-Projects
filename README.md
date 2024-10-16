@@ -2067,3 +2067,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Practical Applications**: The self-avoiding walk has applications in areas such as combinatorics, physical simulations (like polymer chain modeling), and probability theory. It is an interesting problem that highlights the importance of recursion and efficient backtracking.
 
   This project provided valuable insight into recursive exploration and the challenges involved in simulating random processes on a grid.
+* Day 214: Technical Test "minWindow" and "combine" [LeetCode](https://leetcode.com/problems/)
+
+  - **minWindow**: Implemented a solution for the "Minimum Window Substring" problem, where the goal is to find the smallest substring in `s` that contains all characters in `t` (including duplicates). The solution uses the sliding window technique to dynamically adjust the window size while ensuring all characters in `t` are included. A dictionary is used to track the frequency of characters in the window, and a second dictionary ensures the frequency matches the required count for each character in `t`. This approach ensures an efficient solution with a time complexity of O(m + n), where `m` and `n` are the lengths of the strings `s` and `t`, respectively.
+    [Problem Description: minWindow](https://leetcode.com/problems/minimum-window-substring/description/)
+
+  - **combine**: Solved the "Combinations" problem, where the task is to generate all possible combinations of size `k` from a range of numbers from `1` to `n`. The solution utilizes backtracking to explore different combinations by recursively adding elements to a temporary list and backtracking when the combination size reaches `k`. This method efficiently generates all possible combinations, with a time complexity of O(C(n, k))—the number of ways to choose `k` elements from `n`.
+    [Problem Description: combine](https://leetcode.com/problems/combinations/description/)
