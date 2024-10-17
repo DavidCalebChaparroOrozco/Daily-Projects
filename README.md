@@ -2074,3 +2074,18 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **combine**: Solved the "Combinations" problem, where the task is to generate all possible combinations of size `k` from a range of numbers from `1` to `n`. The solution utilizes backtracking to explore different combinations by recursively adding elements to a temporary list and backtracking when the combination size reaches `k`. This method efficiently generates all possible combinations, with a time complexity of O(C(n, k))—the number of ways to choose `k` elements from `n`.
     [Problem Description: combine](https://leetcode.com/problems/combinations/description/)
+* Day 215: 🎳 Console-Based Bowling Game in Python 🕹️ 
+
+  Today, I developed an interactive Bowling Game using Python, played entirely in the console. This project focuses on creating a simple yet fun bowling simulation using ASCII art to represent the pins and providing a real-time score after each roll. Below are the key highlights:
+
+  - **ASCII Art**: The bowling pins are represented in the console using ASCII characters (`O` for standing pins and ` ` for knocked-down pins). The `display_pins` function visually organizes the pins in a triangular format, providing a clear representation of the current game state.
+
+  - **Roll Simulation**: The game uses the `roll_ball` function to simulate each roll of the ball. This function randomly determines which pins are knocked down, simulating a real bowling experience where the outcome of each roll is unpredictable.
+
+  - **Real-time Score Calculation**: After each roll, the `calculate_score` function counts the number of knocked-down pins, giving the player instant feedback on their performance. The total score is updated in real-time after each roll.
+
+  - **Game Flow**: The game allows the player to take two rolls per frame. After the second roll, the player is given the option to either restart the game or exit. This makes the game easily replayable and provides a complete user experience.
+
+  - **Reset and Exit Options**: After completing two rolls, players can choose whether to reset the game and try again or exit. This feature gives users flexibility in how long they wish to play.
+
+  This project was a fun way to combine Python logic with interactive gameplay, using simple text-based output. It was also a great exercise in creating a user-friendly interface, even when working in a console environment. The real-time scoring and ability to reset or exit make this project engaging, and I look forward to building more games like this!
