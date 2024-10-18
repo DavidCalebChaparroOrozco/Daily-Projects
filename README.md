@@ -2089,3 +2089,36 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Reset and Exit Options**: After completing two rolls, players can choose whether to reset the game and try again or exit. This feature gives users flexibility in how long they wish to play.
 
   This project was a fun way to combine Python logic with interactive gameplay, using simple text-based output. It was also a great exercise in creating a user-friendly interface, even when working in a console environment. The real-time scoring and ability to reset or exit make this project engaging, and I look forward to building more games like this!
+* Day 216: 📊 Leetcode Questions Dataset Analysis [Kaggle](https://www.kaggle.com/datasets/mohitkumar282/leetcode-questions-dataset/data)
+
+  Today, I focused on exploring the Leetcode Questions Dataset from Kaggle. This dataset offers insights into various Leetcode questions, including their acceptance rates, difficulty levels, and whether they require a premium subscription. The project employs Python for data analysis and visualization, utilizing libraries such as Pandas, Seaborn, Matplotlib, and WordCloud. Below are the key highlights of today's analysis:
+
+  - **Data Loading and Overview**:
+    - Loaded the dataset and explored its structure, including the features: `Question_No`, `Question`, `Acceptance`, `isPremium`, `Difficulty`, `Question_Link`, and `Solution`.
+    - Performed a brief inspection of data types and missing values to understand the initial data quality.
+
+  - **Handling Missing Data**:
+    - Verified the presence of any missing values across all features to determine if any data imputation was necessary.
+
+  - **Exploratory Data Analysis (EDA)**:
+    - Customized the figure settings for improved visualization aesthetics, including background color adjustments and font settings.
+    - Created various plots to gain insights into the dataset:
+      - **Count Plots**: Visualized distributions for categorical features such as `Difficulty` and `isPremium` to observe the balance of different categories.
+      - **Histogram Plot**: Examined the distribution of `Difficulty` by `isPremium` status using a stacked histogram.
+      - **Link Validity Check**: Verified the validity of `Question_Link` and `Solution` links, visualizing the proportion of valid and invalid links.
+      - **Acceptance Rate Distribution**: Converted the `Acceptance` feature to a numerical format and analyzed its distribution.
+
+  - **Data Cleaning and Feature Engineering**:
+    - Removed special characters and converted the `Acceptance` rates from percentages to numerical values for consistency.
+    - Ensured that the `Question_No` column had unique values to identify each question uniquely.
+
+  - **Classification Model to Predict Difficulty**:
+    - Encoded the `Difficulty` feature as numerical labels for machine learning purposes.
+    - Trained a **Random Forest Classifier** using features such as `isPremium` and `Acceptance` to predict the difficulty level.
+    - Evaluated the model's performance using **accuracy** and a **classification report**, providing insights into prediction quality.
+    - **Feature Importance Analysis**: Visualized feature importances to understand which factors most influenced the difficulty predictions.
+
+  - **Text Analysis and WordCloud**:
+    - Generated a **WordCloud** from the question titles to visualize the most frequently used words.
+    
+  This project provided a practical approach to exploring and modeling data related to Leetcode questions, combining data cleaning, EDA, and machine learning for predictive analysis. The visualization efforts highlighted patterns in question difficulty, while the classification model demonstrated the feasibility of predicting difficulty levels based on specific features.
