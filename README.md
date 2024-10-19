@@ -2122,3 +2122,25 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - Generated a **WordCloud** from the question titles to visualize the most frequently used words.
     
   This project provided a practical approach to exploring and modeling data related to Leetcode questions, combining data cleaning, EDA, and machine learning for predictive analysis. The visualization efforts highlighted patterns in question difficulty, while the classification model demonstrated the feasibility of predicting difficulty levels based on specific features.
+* Day 217: 🖼️ Art Store Management System in Python 🎨 
+
+  Today, I worked on an Art Store Management System using Python, designed using the MVC (Model-View-Controller) architecture and Object-Oriented Programming (OOP) principles. The project allows users to manage an inventory of art pieces, including adding, viewing, and removing items. Below are the key highlights:
+
+  - **Model-View-Controller (MVC) Architecture**: The system is divided into three main components:
+    - **Model**: Responsible for representing the data and business logic, the `ArtPiece` class captures the attributes of each art piece, and the `Inventory` class manages the collection of art pieces.
+    - **View**: Handles the user interface and interaction, allowing users to input and retrieve data. The `ArtStoreView` class displays options and receives inputs like new art piece details or the ID of a piece to be removed.
+    - **Controller**: Acts as a bridge between the model and the view. The `ArtStoreController` class controls the flow of data between the inventory and the user interface, ensuring that actions like adding or removing art pieces are handled correctly.
+
+  - **Object-Oriented Principles**: The system leverages OOP principles to ensure clarity, reusability, and modularity:
+    - **Encapsulation**: Art piece details are stored and managed securely within the `ArtPiece` class, with clearly defined methods to add or remove pieces from the inventory.
+    - **Abstraction**: The program abstracts the details of managing the inventory by providing clear interfaces through methods in the controller and model classes, hiding unnecessary complexity from the user.
+    - **Modularity**: Each class has a single responsibility, allowing for easy extension of the system with new functionalities.
+
+  - **Inventory Management**: Users can perform several actions related to the art pieces:
+    - **View All Art Pieces**: Displays a list of all art pieces currently in the inventory.
+    - **Add New Art Piece**: Allows users to input details for a new art piece, including title, artist, price, and stock.
+    - **Remove Art Piece**: Provides the option to remove an art piece by its unique ID.
+
+  - **Menu-Driven Interface**: The system offers a user-friendly menu that provides options for managing art pieces. Users can view all items, add new items, remove items, and exit the system, ensuring a smooth interaction experience.
+
+  This project was an excellent exercise in applying the MVC pattern and solidifying my understanding of OOP principles such as encapsulation, abstraction, and modularity. By using this architecture, I was able to separate concerns effectively, creating a more maintainable and scalable system for managing an art store's inventory.
