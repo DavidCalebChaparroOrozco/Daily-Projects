@@ -2144,3 +2144,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Menu-Driven Interface**: The system offers a user-friendly menu that provides options for managing art pieces. Users can view all items, add new items, remove items, and exit the system, ensuring a smooth interaction experience.
 
   This project was an excellent exercise in applying the MVC pattern and solidifying my understanding of OOP principles such as encapsulation, abstraction, and modularity. By using this architecture, I was able to separate concerns effectively, creating a more maintainable and scalable system for managing an art store's inventory.
+* Day 218: Technical Test "Subsets" and "WordSearch" [LeetCode](https://leetcode.com/problems/)
+
+  - **Subsets**: Implemented a solution for the "Subsets" problem, where the task is to generate all possible subsets (the power set) from a given list of unique elements. The approach uses an iterative method that starts with an empty subset and adds new subsets by iterating through the input list. Each new element is added to all existing subsets to create new ones. The time complexity of the solution is O(2^n), where n is the number of elements in the input list.
+    [Problem Description: Subsets](https://leetcode.com/problems/subsets/description/)
+
+  - **WordSearch**: Solved the "Word Search" problem, which involves determining if a given word can be found in a 2D grid of characters. The word must be formed by letters of sequentially adjacent cells (horizontally or vertically), and each cell can only be used once in the path. The approach uses Depth-First Search (DFS) to explore all possible paths from each cell. The algorithm carefully marks cells as visited during the search to prevent reuse and restores them once the search backtracks. The solution runs with a time complexity of O(m * n * 4^L), where m and n are the dimensions of the grid and L is the length of the word.
+    [Problem Description: WordSearch](https://leetcode.com/problems/word-search/description/)
