@@ -2151,3 +2151,18 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **WordSearch**: Solved the "Word Search" problem, which involves determining if a given word can be found in a 2D grid of characters. The word must be formed by letters of sequentially adjacent cells (horizontally or vertically), and each cell can only be used once in the path. The approach uses Depth-First Search (DFS) to explore all possible paths from each cell. The algorithm carefully marks cells as visited during the search to prevent reuse and restores them once the search backtracks. The solution runs with a time complexity of O(m * n * 4^L), where m and n are the dimensions of the grid and L is the length of the word.
     [Problem Description: WordSearch](https://leetcode.com/problems/word-search/description/)
+* Day 219: 🎨 Tkinter Color Picker 
+
+  Today, I worked on developing a **Color Picker** application using **Tkinter** in Python. This project is designed for designers and programmers, allowing them to select a color and instantly view its corresponding **Hexadecimal** and **RGB** values. Below are the key highlights of the project:
+
+  - **Color Picker Functionality**: The core of the project is a color picker dialog that allows users to choose a color from a palette. The color is then displayed in a preview section, along with its Hex and RGB codes. This is useful for applications where precise color selection is required.
+
+  - **Hexadecimal and RGB Display**: After selecting a color, the application automatically displays both the Hex code (e.g., `#FF5733`) and the RGB values (e.g., `(255, 87, 51)`), making it convenient to copy the values for further use in design or development work.
+
+  - **Interactive User Interface**: The app provides an intuitive and simple UI, with a button to open the color picker and labels that update dynamically based on the selected color.
+
+  - **Dynamic Background Update**: The background of the display section changes according to the selected color, providing a real-time preview of the chosen color.
+
+  - **Code Modularity**: The code is modular and organized into functions, making it easy to understand, extend, and maintain. Each function serves a specific purpose, ensuring a clean and readable codebase.
+
+  This project helped me further develop my skills in **Tkinter**, particularly in handling user inputs and updating the GUI dynamically based on interactions. It also reinforced the importance of designing simple and intuitive interfaces for utility-based applications.
