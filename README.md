@@ -2166,3 +2166,18 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Code Modularity**: The code is modular and organized into functions, making it easy to understand, extend, and maintain. Each function serves a specific purpose, ensuring a clean and readable codebase.
 
   This project helped me further develop my skills in **Tkinter**, particularly in handling user inputs and updating the GUI dynamically based on interactions. It also reinforced the importance of designing simple and intuitive interfaces for utility-based applications.
+* Day 220: 💰 Tip Calculator with Tkinter
+
+  Today, I worked on developing a **Tip Calculator** using Tkinter in Python. This simple and interactive tool allows users to input their bill total and desired tip percentage, automatically calculating both the tip amount and the total amount to be paid. The project highlights the power of Tkinter for building user-friendly interfaces. Below are the key aspects:
+
+  - **User Input for Bill Amount and Tip Percentage**: The program includes fields where users can enter the total bill amount and tip percentage. This makes it easy for users to quickly calculate tips based on their preferences.
+  
+  - **Tip Calculation**: A core function calculates the tip amount by multiplying the bill by the percentage input. This ensures an accurate calculation every time.
+
+  - **Total Amount Display**: In addition to showing the tip amount, the program calculates and displays the total amount to be paid, including both the bill and the tip.
+
+  - **Error Handling**: The program includes error handling to manage invalid inputs (e.g., non-numeric entries) using a simple error message dialog. This enhances user experience by preventing crashes.
+
+  - **Clean User Interface**: Built with simplicity in mind, the interface is straightforward and easy to navigate, making it accessible for a wide range of users.
+
+  This project allowed me to further improve my skills in creating real-world applications using **Tkinter** while emphasizing user interaction and error handling. It demonstrates how small, practical tools can enhance everyday tasks and offer convenience in situations like dining out or splitting bills.
