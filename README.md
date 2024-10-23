@@ -2181,3 +2181,22 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Clean User Interface**: Built with simplicity in mind, the interface is straightforward and easy to navigate, making it accessible for a wide range of users.
 
   This project allowed me to further improve my skills in creating real-world applications using **Tkinter** while emphasizing user interaction and error handling. It demonstrates how small, practical tools can enhance everyday tasks and offer convenience in situations like dining out or splitting bills.
+* Day 221: 🌍 Choropleth Map Generator with Flask 🗺️ 
+
+  Today, I worked on a project using Flask to create an interactive choropleth map generator where users can input country names and associated values. The application generates a choropleth map to visually represent the input data. Below are the key highlights:
+
+  - **User-Friendly Interface**: The project provides a web interface using Flask, allowing users to easily input country names and corresponding values via a simple HTML form. This makes the process intuitive for any user, without the need for technical knowledge of how the data will be processed.
+
+  - **Form Validation**: The system validates each country name using the `pycountry` library, ensuring that only valid country names are used in the map. If an invalid country is entered, the user is notified, and no map is generated until the input is corrected.
+
+  - **Dynamic Choropleth Map**: The choropleth map is dynamically generated based on the valid country names and values provided by the user. The map uses Plotly for visualization and is displayed directly in the browser, making it easy to interpret and understand the data visually.
+
+  - **Data Customization**: Users can associate specific numeric values with each country, allowing for the visualization of various metrics (e.g., population, economic data) through the choropleth map. The data is customizable and easy to extend for different use cases.
+
+  - **Real-Time Feedback**: Once the form is submitted, the map is displayed directly on the same page using an embedded HTML frame, giving users immediate feedback on their input and the resulting map.
+
+  - **Error Handling**: The project handles user input errors gracefully. If the user inputs an invalid country name or a non-numeric value, an error message is displayed on the page, guiding the user to correct their input.
+
+  - **Tech Stack**: This project utilized Flask as the web framework, Plotly for creating the interactive maps, `pycountry` for validating country names, and Pandas for handling the data. The generated map is rendered using Plotly’s choropleth functionality and saved as an HTML file, which is then embedded into the webpage for visualization.
+
+  This project allowed me to integrate web development with data visualization. It was a great opportunity to create an interactive, user-friendly tool while improving my Flask skills and working with Plotly for dynamic data representation. The combination of data validation and real-time visual feedback made this a practical and enjoyable project to build.

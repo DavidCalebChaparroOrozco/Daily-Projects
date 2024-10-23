@@ -52,3 +52,4 @@ folium
 pynacl
 discord 
 yt_dlp
+pycountry
