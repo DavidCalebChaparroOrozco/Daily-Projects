@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Choropleth Map Generator</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        form { margin: 20px 0; }
+        label { display: block; margin-top: 10px; }
+        input[type="text"], input[type="number"] { padding: 5px; margin: 5px 0; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Country Choropleth Map Generator by David Caleb</h1>
+    <p>Enter country names and their corresponding values below:</p>
+    
+    <form method="POST" action="/">
+        <div>
+            <label for="country">Country 1:</label>
+            <input type="text" name="country" required>
+            <label for="value">Value 1:</label>
+            <input type="number" name="value" required>
+        </div>
+        <div>
+            <label for="country">Country 2:</label>
+            <input type="text" name="country">
+            <label for="value">Value 2:</label>
+            <input type="number" name="value">
+        </div>
+        <div>
+            <label for="country">Country 3:</label>
+            <input type="text" name="country">
+            <label for="value">Value 3:</label>
+            <input type="number" name="value">
+        </div>
+        <button type="submit">Generate Map</button>
+    </form>
+    
+    <!-- Error message if country is invalid -->
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+    
+    <!-- Display the generated map -->
+    {% if map_generated %}
+        <h2>Generated Choropleth Map</h2>
+        <iframe src="{{ map_url }}" width="100%" height="500px"></iframe>
+    {% endif %}
+</body>
+</html>
