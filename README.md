@@ -2200,3 +2200,47 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Tech Stack**: This project utilized Flask as the web framework, Plotly for creating the interactive maps, `pycountry` for validating country names, and Pandas for handling the data. The generated map is rendered using Plotly’s choropleth functionality and saved as an HTML file, which is then embedded into the webpage for visualization.
 
   This project allowed me to integrate web development with data visualization. It was a great opportunity to create an interactive, user-friendly tool while improving my Flask skills and working with Plotly for dynamic data representation. The combination of data validation and real-time visual feedback made this a practical and enjoyable project to build.
+* Day 222: 💼 LevelUp Jobs - MVC Python Application 🖥️ 
+
+Today, I developed a job management system called **LevelUp Jobs** using Python with the **Model-View-Controller (MVC)** design pattern. The focus of the project was to create a system where users can register for job offers, and employers can post new job openings. Below are the key highlights of this project:
+
+- **Model-View-Controller (MVC)**: The application is structured using the MVC pattern, dividing the code into three interconnected components: 
+  - **Model**: Handles the logic and data of the job offers and users.
+  - **View**: Manages the interface and interaction with the user.
+  - **Controller**: Bridges the model and view, handling user input and updating both the model and view accordingly.
+
+- **Job Registration**: Employers can input detailed job information, such as:
+  - Job title
+  - Company name
+  - Salary (validated to ensure only numeric inputs)
+  - Required experience (years)
+  - Description and benefits
+  - Work schedule
+  - Job type (remote or on-site)
+
+  Each job is automatically assigned a unique job ID to ensure easy tracking and management.
+
+- **User Validation**: The system performs validation checks on the user’s inputs:
+  - Ensures that names do not contain numbers.
+  - Ensures that the salary and phone numbers are valid numeric inputs.
+  - Validates that remote options are entered as 'y' or 'n'.
+
+- **Edit and Remove Job Offers**: Employers can edit existing job offers by searching for a job via its ID. They can also remove job offers if needed. The system ensures that all input fields are validated during the edit process to prevent invalid data entry.
+
+- **Job Listings**: Users can view all available job offers, which are displayed in a clean and organized manner. The system shows details such as the job title, company, salary, required experience, and whether the job is remote or on-site.
+
+- **OOP Principles**: 
+  - **Encapsulation**: Each model class encapsulates attributes and provides methods to access or modify these properties.
+  - **Abstraction**: The job creation and management process is abstracted from the user, allowing for smooth interaction.
+  - **Inheritance**: The system can be extended to allow different types of users, such as job seekers and employers.
+
+- **Menu-Driven Interface**: The application provides a simple menu for users to:
+  1. View all job offers
+  2. Add new job offers
+  3. Edit existing job offers
+  4. Remove job offers
+  5. Exit the system
+  
+  This makes it easy to interact with the system and manage job offers efficiently.
+
+This project was an excellent opportunity to apply the MVC pattern in a practical scenario, allowing me to separate concerns between the model, view, and controller, making the code more modular and maintainable. Through this experience, I enhanced my skills in data validation, Python's OOP principles, and the development of user-friendly applications.
