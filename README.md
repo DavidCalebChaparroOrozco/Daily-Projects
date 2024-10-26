@@ -2251,3 +2251,19 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **searchII**: Solved the "Search in Rotated Sorted Array II" problem, which requires determining whether a target value exists in a rotated sorted array, where the array may contain duplicates. The solution uses a modified binary search to handle the rotation and duplicates efficiently, adjusting the search space based on the sorted half of the array. In the worst case (due to duplicates), the time complexity is O(n), but on average, it runs in O(log n).
     [Problem Description: SearchII](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
+Aquí tienes el `README.md` para el **Día 224**, siguiendo el formato del ejemplo anterior:
+* Day 224: 💵 Recursive Investment Growth Calculator in Python 📈
+
+  Today, I developed a Recursive Investment Growth Calculator in Python to project the future value of an investment in USD based on compound interest. The project demonstrates recursion by calculating the year-over-year growth of an investment, with a focus on breaking down the compound interest formula into recursive function calls. Key features and highlights of the project are outlined below:
+
+  - **Recursion for Compound Interest**: The core of the project is a recursive function, `compound_interest_recursive`, that calculates the compounded investment amount by repeatedly applying the interest rate over the specified years. This function takes the principal, annual interest rate, and remaining years as inputs, stopping once all years have been processed.
+
+  - **Investment Report**: Using the `investment_growth_report` function, the program generates a report that displays the balance at the end of each year, allowing the user to observe the compounding effect of the investment over time. This report is easy to read and provides a year-by-year breakdown of the investment's growth.
+
+  - **User-Friendly Output**: Each year’s projected balance is displayed with a simple and clear format, helping users understand the impact of compounding interest and how investments grow over time. 
+
+  - **Practical Financial Application**: This project showcases how recursion can be applied to financial calculations, especially for simulating the growth of investments. It serves as a basic model that can be expanded with additional features, such as varying interest rates or different compounding frequencies (e.g., monthly, quarterly).
+
+  - **Python Basics in Finance**: This project is not only a good example of recursion but also introduces fundamental financial concepts like compound interest, making it accessible for those interested in combining Python programming with finance.
+
+  This Recursive Investment Growth Calculator was a valuable project to deepen my understanding of recursion and how it can simplify complex calculations like compound interest. It also served as a practical demonstration of how Python can be applied to model real-world financial scenarios, making it a useful tool for anyone interested in finance and programming.
