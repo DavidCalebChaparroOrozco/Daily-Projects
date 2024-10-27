@@ -2267,3 +2267,22 @@ Aquí tienes el `README.md` para el **Día 224**, siguiendo el formato del ejemp
   - **Python Basics in Finance**: This project is not only a good example of recursion but also introduces fundamental financial concepts like compound interest, making it accessible for those interested in combining Python programming with finance.
 
   This Recursive Investment Growth Calculator was a valuable project to deepen my understanding of recursion and how it can simplify complex calculations like compound interest. It also served as a practical demonstration of how Python can be applied to model real-world financial scenarios, making it a useful tool for anyone interested in finance and programming.
+* Day 225: 🌳 Company Organizational Structure Tree in Python 📊 
+
+  Today, I developed a Company Organizational Structure Tree in Python to model and explore hierarchical relationships within an organization. This project utilizes a binary tree structure to represent positions, with each node holding a company role, enabling traversal and understanding of the company's structure. The tree allows for traversal using **pre-order**, **in-order**, and **post-order** methods, providing insights into managerial hierarchies, employee details, and team structures. Below are the main highlights of the project:
+
+  - **Binary Tree Structure**: The company’s organizational structure is represented as a binary tree, where each node corresponds to a company role, with left and right children representing subordinate relationships.
+
+  - **Pre-order Traversal (Management Hierarchy)**: The pre-order traversal visits the nodes in top-down management order, which is helpful for understanding the hierarchy from executives to individual team members.
+
+  - **In-order Traversal (Detailed Structure)**: The in-order traversal lists the structure left-to-right, which can help identify team structures in a balanced manner, making it ideal for reviewing employee details by levels.
+
+  - **Post-order Traversal (Team Completion)**: The post-order traversal processes each team before its respective manager, which is useful for ensuring all sub-levels are accounted for before each managerial level.
+
+  - **Encapsulation**: Each node contains `position` and `name` attributes, encapsulated within the `TreeNode` class. This structure ensures a clear distinction between the nodes, making it easier to extend the tree with additional attributes if needed.
+
+  - **Methodical Structure**: The `OrgStructureTree` class includes traversal methods, making it easy to manage and interact with the tree structure. This design promotes modularity and maintainability, allowing for flexible additions to the tree structure or traversal methods in the future.
+
+
+
+  This project provided valuable experience in structuring and traversing hierarchical data, showcasing how binary trees can be adapted to real-world scenarios. The traversal methods add flexibility, making it straightforward to analyze the company hierarchy from different perspectives.
