@@ -2283,6 +2283,24 @@ Aquí tienes el `README.md` para el **Día 224**, siguiendo el formato del ejemp
 
   - **Methodical Structure**: The `OrgStructureTree` class includes traversal methods, making it easy to manage and interact with the tree structure. This design promotes modularity and maintainability, allowing for flexible additions to the tree structure or traversal methods in the future.
 
-
-
   This project provided valuable experience in structuring and traversing hierarchical data, showcasing how binary trees can be adapted to real-world scenarios. The traversal methods add flexibility, making it straightforward to analyze the company hierarchy from different perspectives.
+* Day 226: 📱 Mobile Device Usage and User Behavior Dataset 📱 [Kaggle](https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user-behavior-dataset/data)
+
+  Today, I focused on analyzing the Mobile Device Usage and User Behavior Dataset from Kaggle using Python. The project emphasized data exploration and visualization through libraries such as Pandas, Seaborn, and Matplotlib. Below are the key highlights:
+
+  - **Data Overview**: The dataset includes attributes such as User ID, Device Model, Operating System, App Usage Time, Screen On Time, Battery Drain, Number of Apps Installed, Data Usage, Age, Gender, and User Behavior Class. Each attribute plays a crucial role in understanding user behavior.
+
+  - **Handling Missing Data**: A thorough check for missing values was performed to ensure data integrity before proceeding with analysis.
+
+  - **Exploratory Data Analysis (EDA)**: Various visualizations were created to explore relationships among features. This included:
+    - **Count Plots**: Displaying the distribution of categorical features like Operating System and Gender.
+    - **Distribution Plots**: Analyzing numeric variables such as App Usage Time and Battery Drain to identify patterns.
+    - **Correlation Heatmap**: Visualizing correlations among numeric variables to understand relationships.
+
+  - **Modeling for Classification**: I implemented several classification algorithms (Logistic Regression, Random Forest, Gradient Boosting, SVC, XGBoost, K-Nearest Neighbors) to predict user behavior classes based on device usage patterns. Performance metrics such as accuracy and confusion matrices were generated for each model.
+
+  - **Prediction of Battery Drain**: Regression models (Linear Regression, Random Forest Regressor, Gradient Boosting Regressor, XGBoost Regressor) were trained to predict battery drain based on user behavior data. Evaluation metrics like Mean Squared Error and R² Score provided insights into model performance.
+
+  - **Visualization Techniques**: Advanced visualizations such as pair plots and joint plots were utilized to identify potential relationships among variables. These visualizations help in understanding the complex interactions within the dataset.
+
+  This project offered a valuable opportunity to enhance my skills in data analysis and visualization techniques in Python while providing insights into mobile device usage patterns. The experience underscored the significance of exploratory analysis in uncovering meaningful trends and relationships within data.
