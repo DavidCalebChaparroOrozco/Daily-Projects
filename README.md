@@ -2304,3 +2304,20 @@ Aquí tienes el `README.md` para el **Día 224**, siguiendo el formato del ejemp
   - **Visualization Techniques**: Advanced visualizations such as pair plots and joint plots were utilized to identify potential relationships among variables. These visualizations help in understanding the complex interactions within the dataset.
 
   This project offered a valuable opportunity to enhance my skills in data analysis and visualization techniques in Python while providing insights into mobile device usage patterns. The experience underscored the significance of exploratory analysis in uncovering meaningful trends and relationships within data.
+* Day 227: 🍏 Food Inventory Management System in Python 🥦
+
+  Today, I developed a Food Inventory Management System using Python, focusing on Object-Oriented Programming (OOP) principles. This project allows users to manage food items, track their expiration dates, and maintain an inventory history. Below are the key highlights:
+
+  - **Encapsulation**: The `FoodItem` class encapsulates attributes such as `name`, `category`, `quantity`, `price`, and `expiration_date`. This ensures that the data is protected and can only be manipulated through defined methods.
+
+  - **Inventory Management**: Users can add and remove food items from the inventory. The system keeps track of each action in an inventory history log, allowing users to see what changes have been made over time.
+
+  - **Expiration Tracking**: The system checks for items that are near expiration (within 7 days) and provides a method to view these items. This feature helps users manage their inventory effectively and reduce food waste.
+
+  - **Data Import/Export**: Users can import food item data from a CSV file and export the current inventory to a CSV file. This functionality makes it easy to manage large datasets and integrate with other systems.
+
+  - **Search Functionality**: The system allows users to search for food items by name and category. This makes it easy to find specific items in a potentially large inventory.
+
+  - **User-Friendly Interface**: A menu-driven interface guides users through the various functionalities of the system, making it intuitive and easy to use for anyone managing food inventory.
+
+  This project was an excellent opportunity to apply OOP principles in creating a structured and maintainable system. I enhanced my understanding of how encapsulation, inheritance, and abstraction work together to produce clean, reusable code while building a practical tool for food inventory management.
