@@ -2251,7 +2251,6 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **searchII**: Solved the "Search in Rotated Sorted Array II" problem, which requires determining whether a target value exists in a rotated sorted array, where the array may contain duplicates. The solution uses a modified binary search to handle the rotation and duplicates efficiently, adjusting the search space based on the sorted half of the array. In the worst case (due to duplicates), the time complexity is O(n), but on average, it runs in O(log n).
     [Problem Description: SearchII](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)
-Aquí tienes el `README.md` para el **Día 224**, siguiendo el formato del ejemplo anterior:
 * Day 224: 💵 Recursive Investment Growth Calculator in Python 📈
 
   Today, I developed a Recursive Investment Growth Calculator in Python to project the future value of an investment in USD based on compound interest. The project demonstrates recursion by calculating the year-over-year growth of an investment, with a focus on breaking down the compound interest formula into recursive function calls. Key features and highlights of the project are outlined below:
@@ -2321,3 +2320,10 @@ Aquí tienes el `README.md` para el **Día 224**, siguiendo el formato del ejemp
   - **User-Friendly Interface**: A menu-driven interface guides users through the various functionalities of the system, making it intuitive and easy to use for anyone managing food inventory.
 
   This project was an excellent opportunity to apply OOP principles in creating a structured and maintainable system. I enhanced my understanding of how encapsulation, inheritance, and abstraction work together to produce clean, reusable code while building a practical tool for food inventory management.
+* Day 228: Technical Test "deleteDuplicates" and "deleteDuplicatesll" [LeetCode](https://leetcode.com/problems/)
+
+  - **deleteDuplicates**: Implemented a solution for the "Remove Duplicates from Sorted Array II" problem, which involves modifying a sorted array in place to remove duplicates such that each element appears at most twice. The approach uses a two-pointer technique to efficiently traverse the array and manage the count of duplicates, ensuring that the final array maintains the required order. The time complexity is O(n), where n is the number of elements in the array.
+    [Problem Description: deleteDuplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)
+
+  - **deleteDuplicatesll**: Developed a solution for the "Remove Duplicates from Sorted List" problem, which requires removing all duplicates from a sorted linked list. The solution involves traversing the linked list while checking for duplicate values and adjusting the pointers accordingly to skip over any duplicate nodes. This ensures that only unique values remain in the list. The time complexity is O(n), where n is the number of nodes in the linked list.
+    [Problem Description: deleteDuplicatesll](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
