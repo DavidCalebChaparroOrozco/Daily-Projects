@@ -1,3 +1,4 @@
+# Import necessary libraries
 import time
 
 # Recursive countdown timer that prints the remaining time in minutes and seconds.
