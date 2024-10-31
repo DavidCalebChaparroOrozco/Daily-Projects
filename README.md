@@ -2327,3 +2327,18 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **deleteDuplicatesll**: Developed a solution for the "Remove Duplicates from Sorted List" problem, which requires removing all duplicates from a sorted linked list. The solution involves traversing the linked list while checking for duplicate values and adjusting the pointers accordingly to skip over any duplicate nodes. This ensures that only unique values remain in the list. The time complexity is O(n), where n is the number of nodes in the linked list.
     [Problem Description: deleteDuplicatesll](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
+* Day 229: ⏳ Recursive Countdown Timer in Python ⏲️
+
+  Today, I developed a **Recursive Countdown Timer** using Python, which demonstrates the power of recursion in programming. This timer counts down from a specified number of minutes and seconds, providing real-time updates on the remaining time. Below are the key highlights of this project:
+
+  - **Recursion**: The core functionality of the timer is implemented using a recursive function `recursive_timer`. This function calls itself with updated time values until the countdown reaches zero, showcasing how recursion can simplify complex repetitive tasks.
+
+  - **Time Formatting**: The timer displays the remaining time in a user-friendly format (MM:SS), ensuring that users can easily read the countdown. The use of formatted strings enhances clarity and presentation.
+
+  - **Real-Time Simulation**: To simulate real-time countdown, the program uses `time.sleep(1)`, which pauses execution for one second between updates. This feature provides an accurate representation of the passage of time during the countdown.
+
+  - **Base Case Handling**: The implementation includes a well-defined base case that checks if both minutes and seconds have reached zero. When this condition is met, it prints "Time's up!" and terminates the recursion, demonstrating effective control flow.
+
+  - **Example Usage**: The timer can be initiated with any starting time, as shown in the example usage comment. For instance, calling `recursive_timer(0, 10)` starts a countdown from 10 seconds, allowing for easy testing and demonstration of functionality.
+
+  This project was an excellent exercise in understanding recursion and its practical applications in creating a simple yet effective countdown timer. It reinforced my knowledge of Python programming concepts while providing a useful tool for timing applications.
