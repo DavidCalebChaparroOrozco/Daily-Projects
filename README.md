@@ -2342,3 +2342,26 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Example Usage**: The timer can be initiated with any starting time, as shown in the example usage comment. For instance, calling `recursive_timer(0, 10)` starts a countdown from 10 seconds, allowing for easy testing and demonstration of functionality.
 
   This project was an excellent exercise in understanding recursion and its practical applications in creating a simple yet effective countdown timer. It reinforced my knowledge of Python programming concepts while providing a useful tool for timing applications.
+* Day 230: 🎃 Jack-o'-Lantern in Python with Turtle Graphics 🎨
+
+  Today, I created a fun Halloween-themed drawing of a Jack-o'-Lantern using Python's Turtle graphics library. This project allowed me to explore basic graphics programming while enhancing my understanding of functions and object-oriented principles in Python. Below are the key highlights of the project:
+
+  - **Turtle Graphics**: Utilized the Turtle module to create graphical representations, focusing on shapes and colors that reflect a Halloween theme. The drawing includes features like eyes, a nose, a mouth, and a stem, all designed to resemble a classic Jack-o'-Lantern.
+
+  - **Functionality**: The program is structured around several functions:
+    - `drawcircle(x, y)`: Draws filled circles representing the eyes of the pumpkin.
+    - `triangle(x, y)`: Draws triangles for the pupils and nose.
+    - `mouth()`: Creates a spooky mouth with a unique shape.
+    - `stem()`: Draws the pumpkin's stem with an organic shape.
+
+  - **Customizable Aesthetics**: The colors used in the drawing are carefully chosen to enhance the Halloween spirit:
+    - Orange for the pumpkin body.
+    - Red for the pupils.
+    - Yellow for the mouth.
+    - Dark green for the stem.
+
+  - **Message Display**: Added a function to display a festive message: "Happy Halloween, October 31, 2024," below the drawing. This enhances user engagement and adds to the overall theme of the project.
+
+  - **User Interaction**: The program runs in a window that remains open until closed by the user, allowing them to enjoy the completed artwork.
+
+  This project was an enjoyable way to combine creativity with programming. It provided an opportunity to practice using functions effectively and understand how to manipulate graphical elements in Python. Overall, it was a delightful exercise in creating something visually appealing while celebrating Halloween!
