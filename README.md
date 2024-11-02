@@ -2365,3 +2365,22 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **User Interaction**: The program runs in a window that remains open until closed by the user, allowing them to enjoy the completed artwork.
 
   This project was an enjoyable way to combine creativity with programming. It provided an opportunity to practice using functions effectively and understand how to manipulate graphical elements in Python. Overall, it was a delightful exercise in creating something visually appealing while celebrating Halloween!
+* Day 231: 🔐 Password Manager in Python 🛡️
+
+  Today, I developed a Password Manager application using Python and Tkinter, focusing on secure password storage and management. The project allows users to store, generate, and view passwords for various accounts while ensuring data security through encryption. Below are the key highlights:
+
+  - **User Interface**: The application features a user-friendly interface built with Tkinter, providing input fields for the site name, username, and password. The dark-themed background enhances usability and reduces eye strain.
+
+  - **Password Generation**: Users can generate strong, random passwords with a single click. The generated password is automatically inserted into the password field, ensuring that users can easily copy or modify it before saving.
+
+  - **Data Encryption**: The application employs the `cryptography` library to encrypt passwords before storing them in a text file. This ensures that sensitive information remains secure and protected from unauthorized access.
+
+  - **Saving Entries**: Users can save their passwords along with associated site names and usernames. The application appends new entries to a text file (`passwords.txt`), making it easy to manage multiple accounts.
+
+  - **Viewing Saved Passwords**: A feature allows users to view all saved passwords in a secure manner. When requested, the application reads the stored entries, decrypts the passwords, and displays them in a message box for easy reference.
+
+  - **Error Handling**: Basic error handling is implemented to manage potential issues when reading from or writing to the file. This ensures that users receive informative feedback if something goes wrong.
+
+  - **Future Enhancements**: This project lays the groundwork for future enhancements such as editing or deleting saved entries, implementing user authentication, and transitioning to a more robust database solution for storing credentials.
+
+  This project was an excellent opportunity to apply my knowledge of Python and Tkinter while focusing on security best practices. It reinforced my understanding of encryption techniques and how to create intuitive user interfaces, all while building a practical tool for managing passwords securely.
