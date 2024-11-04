@@ -2403,3 +2403,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Scoring System**: Each player has a score tracked by the `score` property in the `PongPaddle` class. When a player fails to intercept the ball, their opponent scores a point, and the game resets with a new serve.
 
   This project was an enjoyable exercise in game development using Kivy. It provided valuable insights into handling user inputs, managing object interactions, and implementing real-time updates in a graphical environment. I gained practical experience in structuring a game application while enhancing my programming skills in Python.
+* Day 233: 🍬 Candy Inventory Management System in Python 🍭
+
+  Today, I developed a Candy Inventory Management System using Python, focusing on Object-Oriented Programming (OOP) principles. This project allows users to manage their candy inventory by adding, removing, and displaying candy types and quantities. Below are the key highlights:
+
+  - **Class Structure**: The `CandyInventory` class serves as the main structure for managing the candy inventory. It utilizes a dictionary to store different types of candies along with their quantities, ensuring efficient data management.
+
+  - **Adding Candies**: The `add_candy` method allows users to add a specified quantity of a given type of candy. It includes validation to ensure that the quantity is greater than zero and updates the inventory accordingly.
+
+  - **Removing Candies**: The `remove_candy` method implements a recursive approach to check if there are enough candies available for removal. If the quantity reaches zero after removal, the candy type is deleted from the inventory, maintaining a clean and accurate record.
+
+  - **Displaying Inventory**: The `display_inventory` method provides a user-friendly way to view all candies currently in stock. If the inventory is empty, it informs the user, enhancing usability.
+
+  - **Error Handling**: The system includes error handling for various scenarios, such as attempting to remove more candies than are available or adding an invalid quantity. This ensures robustness and improves user experience.
+
+  - **User Interaction**: The program can be run as a standalone script, allowing users to interact with the candy inventory through simple method calls. This makes it easy to test and extend with additional features in the future.
+
+  This project was an enjoyable exercise in applying OOP principles to create a functional and maintainable system. It provided me with valuable experience in managing data structures and implementing recursive logic in Python while building a practical tool for candy inventory management.
