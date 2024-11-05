@@ -2420,3 +2420,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **User Interaction**: The program can be run as a standalone script, allowing users to interact with the candy inventory through simple method calls. This makes it easy to test and extend with additional features in the future.
 
   This project was an enjoyable exercise in applying OOP principles to create a functional and maintainable system. It provided me with valuable experience in managing data structures and implementing recursive logic in Python while building a practical tool for candy inventory management.
+* Day 234: Technical Test "largestRectangleArea" and "maximalRectangle" [LeetCode](https://leetcode.com/problems/)
+
+  - **largestRectangleArea**: Implemented a solution for the "Largest Rectangle in Histogram" problem, which involves finding the area of the largest rectangle that can be formed within a histogram represented by an array of heights. The solution utilizes a stack-based approach to efficiently compute the maximum rectangular area by iterating through each bar in the histogram and calculating possible rectangle areas based on bar heights. The time complexity is \(O(n)\), where \(n\) is the number of bars in the histogram.
+    [Problem Description: largestRectangleArea](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
+
+  - **maximalRectangle**: Solved the "Maximal Rectangle" problem, which finds the largest rectangle consisting of only `1`s in a binary matrix. By treating each row of the matrix as the base of a histogram, the solution calculates the maximum area of rectangles row by row, using the `largestRectangleArea` function for each updated histogram height array. The approach ensures efficient processing with a time complexity of \(O(rows \times cols)\), where `rows` and `cols` are the dimensions of the matrix.
+    [Problem Description: maximalRectangle](https://leetcode.com/problems/maximal-rectangle/description/)
