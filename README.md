@@ -2427,3 +2427,23 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **maximalRectangle**: Solved the "Maximal Rectangle" problem, which finds the largest rectangle consisting of only `1`s in a binary matrix. By treating each row of the matrix as the base of a histogram, the solution calculates the maximum area of rectangles row by row, using the `largestRectangleArea` function for each updated histogram height array. The approach ensures efficient processing with a time complexity of \(O(rows \times cols)\), where `rows` and `cols` are the dimensions of the matrix.
     [Problem Description: maximalRectangle](https://leetcode.com/problems/maximal-rectangle/description/)
+* Day 235: 🏠 Rent Houses Management System in Python 🏡
+
+  Today, I developed a Rent Houses Management System using Python, employing the Model-View-Controller (MVC) architectural pattern. This project allows users to manage rental properties, including adding new houses, viewing available houses, and removing houses from the list. Below are the key highlights:
+
+  - **Model-View-Controller (MVC) Structure**: The application is organized into three distinct components:
+    - **Model**: Manages the data and business logic related to houses. The `HouseModel` class handles operations like adding, removing, and retrieving house listings.
+    - **View**: Responsible for user interaction. The `HouseView` class provides a menu-driven interface for users to interact with the system and validates user input.
+    - **Controller**: Acts as an intermediary between the model and view. The `HouseController` class orchestrates user actions and updates the model accordingly.
+
+  - **Data Management**: The `House` class encapsulates attributes such as ID, address, rent amount, number of bedrooms and bathrooms, and availability status. This structure allows for easy management of rental properties.
+
+  - **User Interaction**: A simple text-based menu allows users to choose from various options, including viewing all houses, adding new houses, or removing existing ones. Input validation ensures that data entered by users is accurate and consistent.
+
+  - **Dynamic ID Assignment**: Each house is assigned a unique ID upon creation, which simplifies the process of managing listings and ensures that each property can be easily referenced.
+
+  - **Error Handling**: The application includes robust error handling to manage invalid inputs gracefully. Users receive clear feedback when they make mistakes, enhancing the overall user experience.
+
+  - **Extensibility**: The modular design of the application makes it easy to extend functionality in the future. Additional features such as searching for houses based on criteria or integrating a database can be implemented without significant restructuring.
+
+  This project was an excellent opportunity to deepen my understanding of MVC architecture in Python while creating a practical tool for managing rental properties. It reinforced my skills in structuring code for maintainability and usability while providing a functional application that could be further developed.
