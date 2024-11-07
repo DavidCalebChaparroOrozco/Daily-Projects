@@ -2447,3 +2447,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Extensibility**: The modular design of the application makes it easy to extend functionality in the future. Additional features such as searching for houses based on criteria or integrating a database can be implemented without significant restructuring.
 
   This project was an excellent opportunity to deepen my understanding of MVC architecture in Python while creating a practical tool for managing rental properties. It reinforced my skills in structuring code for maintainability and usability while providing a functional application that could be further developed.
+* Day 236: 🥗 Total Daily Energy Expenditure (TDEE) Calculator in Python ⚖️
+
+  Today, I developed a Total Daily Energy Expenditure (TDEE) Calculator using Python, which incorporates fundamental programming concepts such as functions, recursion, and data handling. This project calculates the TDEE based on individual health metrics and activity levels, providing valuable insights into daily caloric needs. Below are the key highlights:
+
+  - **Basal Metabolic Rate (BMR) Calculation**: The project implements the Harris-Benedict equation to calculate BMR based on weight, height, age, and gender. This foundational metric is crucial for understanding an individual's caloric needs at rest.
+
+  - **Activity Level Integration**: The TDEE is calculated by multiplying the BMR by an activity factor that corresponds to different levels of physical activity (sedentary, light, moderate, active, very active). This allows for a more personalized assessment of daily energy expenditure.
+
+  - **Recursive Data Processing**: A recursive function processes a list of individuals' health data to calculate both BMR and TDEE. This approach demonstrates how recursion can simplify repetitive tasks and enhance code readability.
+
+  - **Sample Data Handling**: The program includes sample data representing various individuals with different weights, heights, ages, genders, and activity levels. This showcases the calculator's versatility and ability to handle diverse inputs.
+
+  - **Results Presentation**: The final output clearly displays each individual's weight, height, age, gender, BMR, and TDEE in a user-friendly format. This enhances the usability of the program and makes it easy to interpret results.
+
+  - **Health Insights**: By calculating TDEE, users can gain insights into their caloric needs for weight maintenance or adjustment. This project serves as a practical tool for individuals looking to manage their health and fitness goals effectively.
+
+  This project was an excellent opportunity to apply programming concepts in a meaningful way while contributing to health awareness. It reinforced my understanding of how functions and recursion can be utilized to create efficient and organized code for real-world applications.
