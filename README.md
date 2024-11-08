@@ -2464,3 +2464,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Health Insights**: By calculating TDEE, users can gain insights into their caloric needs for weight maintenance or adjustment. This project serves as a practical tool for individuals looking to manage their health and fitness goals effectively.
 
   This project was an excellent opportunity to apply programming concepts in a meaningful way while contributing to health awareness. It reinforced my understanding of how functions and recursion can be utilized to create efficient and organized code for real-world applications.
+* Day 237: 📝 Word Counter Application in Python 🖥️
+
+  Today, I developed a Word Counter application using Python's Tkinter library. The application allows users to input text and provides a count of both words and characters, all within a user-friendly graphical interface. Below are the key features and highlights of the project:
+
+  - **User Interface**: The application features a clean and intuitive GUI, built using Tkinter. Users can easily enter their text in a multi-line text box and see the results displayed in real-time.
+
+  - **Word and Character Count**: The core functionality includes counting the number of words and characters in the input text. Users can click a button to trigger the counting process, which updates the displayed counts dynamically.
+
+  - **Dark Theme**: To enhance user experience, the application is designed with a dark theme. The background color is set to a dark shade, with contrasting text colors for better visibility, making it easier for users to read their input.
+
+  - **Clear Functionality**: A "Clear Text" button allows users to quickly reset the text box and clear the counts, providing a seamless experience for repeated use.
+
+  - **Responsive Design**: The layout is designed to be responsive, ensuring that it looks good on various screen sizes while maintaining usability.
+
+  - **Code Structure**: The code is structured for readability and maintainability. Functions are clearly defined for counting words, clearing text, and updating the user interface, making it easy to extend or modify in the future.
+
+  This project was a great opportunity to practice GUI development in Python and enhance my skills with Tkinter. It reinforced my understanding of event-driven programming and how to create interactive applications that are both functional and visually appealing. I look forward to exploring more complex GUI applications in future projects!
