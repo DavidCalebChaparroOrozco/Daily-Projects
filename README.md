@@ -2481,7 +2481,6 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Code Structure**: The code is structured for readability and maintainability. Functions are clearly defined for counting words, clearing text, and updating the user interface, making it easy to extend or modify in the future.
 
   This project was a great opportunity to practice GUI development in Python and enhance my skills with Tkinter. It reinforced my understanding of event-driven programming and how to create interactive applications that are both functional and visually appealing. I look forward to exploring more complex GUI applications in future projects!
-Here’s a `README.md` for your project on Day 238, following the format and style of the previous entry you provided:
 * Day 238: 📚 Data Structure Management System in Python 📊
 
   Today, I developed a Data Structure Management System in Python, focusing on implementing a stack and a singly linked list. This project allows users to manage player data effectively through a menu-driven interface. Below are the key highlights:
@@ -2503,3 +2502,20 @@ Here’s a `README.md` for your project on Day 238, following the format and sty
   - **Code Structure**: The code is organized into classes (`Node`, `SinglyLinkedList`, and `Stack`), promoting modularity and reusability. Each class encapsulates specific functionalities, making it easier to maintain and extend in the future.
 
   This project was an enriching experience that deepened my understanding of fundamental data structures in Python. It provided practical insights into how stacks and linked lists operate, along with the importance of user interaction through menu systems. Overall, this exercise enhanced my coding skills while building a functional data management tool.
+* Day 239: 🏀 Basketball Team Manager in Python 🏆
+
+  Today, I developed a Basketball Team Manager using Python, focusing on Object-Oriented Programming (OOP) principles. This project allows users to manage a basketball team by adding players, tracking their statistics, and calculating the team's average points scored. Below are the key highlights:
+
+  - **Encapsulation**: The `Player` class encapsulates attributes like `name`, `position`, and `points`. This ensures that player statistics are managed internally while providing methods to interact with these attributes, such as scoring points and retrieving stats.
+
+  - **Team Management**: The `Team` class manages a roster of players. It includes methods for adding players, displaying their statistics, and calculating average points scored by the team. This structure allows for easy updates and maintenance of player data.
+
+  - **Scoring System**: Players can score points through the `score_points` method, which updates their total points. This feature simulates real-game scenarios where players contribute to the team's score.
+
+  - **Average Points Calculation**: The program calculates the average points scored by all players in the team, providing insights into team performance. This functionality can be useful for coaches and managers when evaluating player contributions.
+
+  - **User Interaction**: The `main` function serves as the entry point for the program, creating a user-friendly experience by allowing easy additions of players and displaying their statistics in a clear format.
+
+  - **Future Enhancements**: This project lays a solid foundation for future enhancements, such as adding more player statistics (rebounds, assists), implementing game simulations, or incorporating a user interface for better interaction.
+
+  This project was an excellent opportunity to apply OOP principles in a practical context. I refined my understanding of encapsulation and class interactions while building a useful tool for basketball team management. I'm excited about the potential to expand this project further and explore more complex functionalities!
