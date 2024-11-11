@@ -2519,3 +2519,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Future Enhancements**: This project lays a solid foundation for future enhancements, such as adding more player statistics (rebounds, assists), implementing game simulations, or incorporating a user interface for better interaction.
 
   This project was an excellent opportunity to apply OOP principles in a practical context. I refined my understanding of encapsulation and class interactions while building a useful tool for basketball team management. I'm excited about the potential to expand this project further and explore more complex functionalities!
+* Day 240: Technical Test "partitionList" and "isScramble" [LeetCode](https://leetcode.com/problems/)
+
+  - **partitionList**: Developed a solution for the "Partition List" problem, where the objective is to reorder a linked list based on a given integer `x`. All nodes with values less than `x` are moved to the left of nodes with values greater than or equal to `x`, while preserving their original relative order. This is achieved by using two dummy nodes to create two partitions ("less than `x`" and "greater than or equal to `x`"), which are later connected. The final solution has a time complexity of O(n), where `n` is the length of the linked list, as it iterates through the list once.
+    [Problem Description: partitionList](https://leetcode.com/problems/partition-list/description/)
+
+  - **isScramble**: Implemented the solution for the "Scramble String" problem, which determines if one string is a scrambled version of another. A string is considered scrambled if it can be obtained by recursively swapping its substrings. The solution uses recursion and memoization to efficiently check all possible partitions and swaps, ensuring optimal performance. With memoization, the approach avoids redundant computations, significantly improving runtime for larger strings. This solution has a time complexity of O(n^4) due to recursive checking of substring partitions.
+    [Problem Description: isScramble](https://leetcode.com/problems/scramble-string/description/)
