@@ -2526,3 +2526,17 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **isScramble**: Implemented the solution for the "Scramble String" problem, which determines if one string is a scrambled version of another. A string is considered scrambled if it can be obtained by recursively swapping its substrings. The solution uses recursion and memoization to efficiently check all possible partitions and swaps, ensuring optimal performance. With memoization, the approach avoids redundant computations, significantly improving runtime for larger strings. This solution has a time complexity of O(n^4) due to recursive checking of substring partitions.
     [Problem Description: isScramble](https://leetcode.com/problems/scramble-string/description/)
+* Day 241: 📈 Fibonacci Sequence Calculator in Python 🔢
+  Today, I focused on implementing a Fibonacci Sequence Calculator using Python, emphasizing the concept of recursion. The project demonstrates how recursive functions can be utilized to solve problems that can be broken down into smaller, similar subproblems. Here are the key highlights:
+
+  - **Recursion**: The main feature of this project is the recursive function `fibonacci(n)`, which calculates the nth Fibonacci number. The function calls itself with smaller values until it reaches the base case, demonstrating the power and simplicity of recursion.
+
+  - **Base Case**: The function includes a base case that returns `n` when it is 0 or 1. This is crucial for stopping the recursion and preventing infinite loops, ensuring that the function eventually returns a result.
+
+  - **Recursive Case**: For values greater than 1, the function computes the Fibonacci number by summing the results of two recursive calls: `fibonacci(n - 1)` and `fibonacci(n - 2)`. This showcases how complex problems can be solved by combining solutions to simpler problems.
+
+  - **Example Usage**: The code includes an example usage section where users can easily modify the position in the Fibonacci sequence they wish to calculate. This makes it straightforward to test and understand how the function operates.
+
+  - **Performance Consideration**: While this recursive approach is elegant and easy to read, it is important to note that it may not be efficient for larger values of `n` due to exponential time complexity. Future improvements could include memoization or iterative solutions to enhance performance.
+
+  This project was a valuable exercise in understanding recursion and its applications in programming. It reinforced my ability to break down problems into manageable parts and implement solutions in a clear and concise manner. Overall, it was a rewarding experience that deepened my understanding of recursive algorithms in Python.
