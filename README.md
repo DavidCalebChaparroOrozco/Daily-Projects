@@ -2540,3 +2540,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Performance Consideration**: While this recursive approach is elegant and easy to read, it is important to note that it may not be efficient for larger values of `n` due to exponential time complexity. Future improvements could include memoization or iterative solutions to enhance performance.
 
   This project was a valuable exercise in understanding recursion and its applications in programming. It reinforced my ability to break down problems into manageable parts and implement solutions in a clear and concise manner. Overall, it was a rewarding experience that deepened my understanding of recursive algorithms in Python.
+* Day 242: ♟️ Simple Chess Game in Python ♟️
+
+  Today, I developed a simple console-based chess game using Python. The project focuses on Object-Oriented Programming (OOP) principles and provides a basic structure for two players to play against each other. Below are the key highlights of the project:
+
+  - **Chess Board Representation**: The `ChessBoard` class initializes an 8x8 grid representing the chessboard, setting up all pieces in their starting positions. The board is displayed in a user-friendly format, making it easy to visualize the game state.
+
+  - **Chess Pieces**: The `ChessPiece` class represents individual chess pieces, encapsulating attributes such as color and type. Each piece can be identified by its abbreviated representation (e.g., `wP` for white pawn).
+
+  - **Move Validation**: The game includes a basic move validation method within the `ChessBoard` class. This method checks whether a move is valid based on simple rules, such as ensuring that players cannot capture their own pieces.
+
+  - **User Interaction**: The game runs in a loop that prompts players for their moves. Players enter the starting and ending coordinates of the piece they wish to move, allowing for an interactive gameplay experience.
+
+  - **Turn Management**: The game alternates turns between the two players (White and Black), ensuring that each player has an equal opportunity to make their moves. This adds a strategic element to the gameplay.
+
+  - **Future Enhancements**: While the current implementation covers basic functionalities, there are numerous opportunities for expansion, such as implementing specific movement rules for each piece, handling check/checkmate scenarios, and adding a graphical user interface (GUI) for improved user experience.
+
+  This project was an excellent exercise in applying OOP principles to create a functional and engaging game. It allowed me to deepen my understanding of class design, encapsulation, and user interaction while building a classic game of chess. I look forward to enhancing this project further and exploring more complex chess mechanics!
