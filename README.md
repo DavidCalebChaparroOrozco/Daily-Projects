@@ -2557,3 +2557,21 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Future Enhancements**: While the current implementation covers basic functionalities, there are numerous opportunities for expansion, such as implementing specific movement rules for each piece, handling check/checkmate scenarios, and adding a graphical user interface (GUI) for improved user experience.
 
   This project was an excellent exercise in applying OOP principles to create a functional and engaging game. It allowed me to deepen my understanding of class design, encapsulation, and user interaction while building a classic game of chess. I look forward to enhancing this project further and exploring more complex chess mechanics!
+* Day 243: 🧴 Lotion Management System in Python 🌿
+
+  Today, I developed a Lotion Management System using Python, focusing on Object-Oriented Programming (OOP) principles. This project allows users to manage a collection of lotions, including adding, removing, viewing, and updating stock levels. Below are the key highlights:
+
+  - **Encapsulation**: The `Lotion` class encapsulates attributes such as `lotion_id`, `name`, `brand`, `price`, and `stock`. This ensures that the details of each lotion are kept together and can be managed through methods that control access to these attributes.
+
+  - **Model-View-Controller (MVC) Architecture**: The application is structured using the MVC design pattern, separating the logic into three components:
+    - **Model**: The `LotionModel` class manages the data and business logic, including methods for adding, removing, and retrieving lotions.
+    - **View**: The `LotionView` class handles user interaction, displaying menus and messages while gathering input from users.
+    - **Controller**: The `LotionController` class orchestrates the flow of data between the model and view, responding to user inputs and updating the model accordingly.
+
+  - **User Interaction**: A menu-driven interface allows users to interact with the system easily. Users can choose options to view all lotions, add new lotions, remove existing ones, or update stock levels. This enhances usability and makes the application practical for everyday use.
+
+  - **Data Management**: The system maintains a list of lotions in memory. Users can add new lotions with details such as ID, name, brand, price, and stock quantity. The application checks for valid inputs when removing or updating lotions to ensure data integrity.
+
+  - **Feedback Mechanism**: The application provides feedback for user actions through success and error messages. This helps users understand whether their actions were successful or if they need to correct any mistakes.
+
+  This project was a valuable exercise in applying OOP principles to create a functional and maintainable system. I enhanced my understanding of how encapsulation works in practice while implementing an MVC architecture that promotes separation of concerns. Overall, this lotion management tool serves as a practical application of my programming skills in Python.
