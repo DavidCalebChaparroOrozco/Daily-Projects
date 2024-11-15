@@ -2575,3 +2575,25 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Feedback Mechanism**: The application provides feedback for user actions through success and error messages. This helps users understand whether their actions were successful or if they need to correct any mistakes.
 
   This project was a valuable exercise in applying OOP principles to create a functional and maintainable system. I enhanced my understanding of how encapsulation works in practice while implementing an MVC architecture that promotes separation of concerns. Overall, this lotion management tool serves as a practical application of my programming skills in Python.
+* Day 244: Guava Fruit Disease Dataset [Kaggle](https://www.kaggle.com/datasets/asadullahgalib/guava-disease-dataset/data)
+
+  Today, I focused on developing a convolutional neural network (CNN) to classify diseases in guava fruits using the Guava Disease Dataset from Kaggle. The project involved data preprocessing, model training, and evaluation using TensorFlow and Keras. Below are the key highlights:
+
+  - **Data Loading and Preprocessing**: I utilized TensorFlow's `image_dataset_from_directory` function to load the dataset, which automatically infers labels from the directory structure. The images were resized to a uniform size of 180x180 pixels and split into training and validation sets.
+
+  - **Data Visualization**: I created visualizations to display sample images from the dataset along with their corresponding labels. This helped in understanding the types of diseases present in the dataset and ensured that the data was loaded correctly.
+
+  - **Model Architecture**: I implemented several CNN architectures, including:
+    - A **basic CNN** model with multiple convolutional and pooling layers.
+    - A **CNN with Dropout** layers to mitigate overfitting.
+    - A **transfer learning model** using MobileNetV2, which leverages pre-trained weights for better performance.
+
+  - **Model Compilation and Training**: Each model was compiled using the Adam optimizer and trained for a specified number of epochs. The training process included monitoring both training and validation accuracy to assess model performance.
+
+  - **Performance Evaluation**: After training, I evaluated each model on the validation set, reporting metrics such as validation loss and accuracy. This step provided insights into how well each model generalized to unseen data.
+
+  - **Visualization of Results**: I plotted graphs to compare training and validation accuracy and loss for each model type. This visualization aids in understanding the models' learning behavior over epochs.
+
+  - **Model Saving**: The best-performing model based on validation accuracy was saved for future use, ensuring that the results can be reproduced or deployed later.
+
+  This project provided an excellent opportunity to apply deep learning techniques to image classification tasks. It reinforced my understanding of CNNs, data preprocessing, and the importance of model evaluation in machine learning workflows. Additionally, working with real-world datasets like the Guava Disease Dataset highlighted the challenges and considerations involved in agricultural image classification tasks.
