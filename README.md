@@ -2597,3 +2597,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Model Saving**: The best-performing model based on validation accuracy was saved for future use, ensuring that the results can be reproduced or deployed later.
 
   This project provided an excellent opportunity to apply deep learning techniques to image classification tasks. It reinforced my understanding of CNNs, data preprocessing, and the importance of model evaluation in machine learning workflows. Additionally, working with real-world datasets like the Guava Disease Dataset highlighted the challenges and considerations involved in agricultural image classification tasks.
+* Day 245: Technical Test "merge" and "grayCode" [LeetCode](https://leetcode.com/problems/)
+
+- **merge**: Implemented a solution for the "Merge Sorted Array" problem, where the goal is to merge two sorted arrays into one sorted array. The first array has enough space to hold the elements of both arrays. The approach involves using two pointers to traverse each array from the end towards the beginning, ensuring that elements are merged in-place without requiring additional space. The time complexity of this solution is O(m + n), where m and n are the sizes of the two arrays.
+  [Problem Description: merge](https://leetcode.com/problems/merge-sorted-array/description/)
+
+- **grayCode**: Developed a solution for generating an n-bit Gray code sequence. The Gray code is a binary numeral system where two successive values differ in only one bit. The implementation uses a mathematical formula to compute the Gray code directly from its index, allowing efficient generation of the sequence. This method runs in O(2^n) time, as it generates all 2^n Gray codes for n bits.
+  [Problem Description: grayCode](https://leetcode.com/problems/gray-code/description/)
