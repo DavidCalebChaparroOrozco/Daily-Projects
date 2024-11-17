@@ -2604,3 +2604,31 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
 - **grayCode**: Developed a solution for generating an n-bit Gray code sequence. The Gray code is a binary numeral system where two successive values differ in only one bit. The implementation uses a mathematical formula to compute the Gray code directly from its index, allowing efficient generation of the sequence. This method runs in O(2^n) time, as it generates all 2^n Gray codes for n bits.
   [Problem Description: grayCode](https://leetcode.com/problems/gray-code/description/)
+* Day 246: 🗂️ Task Prioritization Matrix in Python 📊
+
+  Today, I focused on developing a **Task Prioritization Matrix** application using Python, leveraging the **Tkinter** library for the graphical user interface (GUI). This project is designed to help users categorize and manage tasks based on their urgency and importance. Below are the key highlights:
+
+  - **Object-Oriented Design**: The application utilizes OOP principles to create a clean and maintainable code structure. The `Task` class encapsulates task-related attributes such as `description` and `category`, allowing for easy management of task data.
+
+  - **User Interface**: The GUI consists of four quadrants representing different categories of tasks:
+    - **Urgent & Important**
+    - **Urgent & Not Important**
+    - **Not Urgent & Important**
+    - **Not Urgent & Not Important**
+    
+    Each quadrant features a list box displaying tasks, enabling users to interact with their task lists intuitively.
+
+  - **Task Management Features**:
+    - **Add Task**: Users can add new tasks by specifying a description and selecting a category. The application provides prompts for input, ensuring a user-friendly experience.
+    - **Edit Task**: Users can select an existing task to edit its description, allowing for updates as priorities change.
+    - **Delete Task**: Selected tasks can be removed from the list, helping users keep their task lists relevant.
+    
+  - **Drag-and-Drop Functionality**: Users can drag tasks between different quadrants, facilitating easy reorganization based on changing priorities.
+
+  - **Weekly Report Generation**: The application includes functionality to generate a weekly report of tasks categorized by urgency and importance. The report is saved in JSON format, making it easy to share or analyze later.
+
+  - **Colorful UI Elements**: Buttons are designed with friendly colors to enhance usability and make the interface visually appealing. For example:
+    - Add Task button: Green
+    - Edit Task button: Blue
+    - Delete Task button: Red
+    - Generate Report button: Yellow
