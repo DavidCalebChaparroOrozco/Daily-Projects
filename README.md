@@ -2632,3 +2632,24 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - Edit Task button: Blue
     - Delete Task button: Red
     - Generate Report button: Yellow
+* Day 247: 🏥 Medication Reminder System in Flask 💊
+
+  Today, I worked on a **Medication Reminder System** using Flask, which allows nurses to manage medication schedules for patients effectively. The application provides features for adding, editing, and deleting patient records, as well as setting reminders for medication times. Below are the key highlights:
+
+  - **Responsive Design**: The application is fully responsive and centers its content for an optimal user experience across various devices. This ensures that nurses can easily access and manage patient information on tablets or smartphones.
+
+  - **Real-Time Clock**: A large real-time clock is displayed at the top of the interface, allowing nurses to quickly reference the current time and plan medication schedules accordingly.
+
+  - **Patient Management**: Nurses can add patients with detailed information including ID, name, room number, medications (which can be multiple), allergies, and medication times. The application supports multiple medications with different administration times.
+
+  - **Dynamic Fields**: The system allows users to dynamically add multiple medication time fields for each patient. This flexibility is crucial for patients who require multiple doses throughout the day.
+
+  - **Edit and Delete Functionality**: Each patient's information can be edited or deleted as necessary. This feature ensures that the system remains up-to-date with any changes in patient care plans.
+
+  - **Medication Reminders**: The application runs a background thread that checks the current time against each patient's medication schedule, providing reminders when it's time to administer medication. This helps prevent missed doses.
+
+  - **Weekly Report Generation**: A feature to generate a weekly report in JSON format is included, allowing for easy tracking and documentation of patient medication schedules.
+
+  - **User-Friendly Interface**: The interface is designed with a dark theme and colorful buttons for better usability. Each button serves a distinct function, making navigation intuitive for users.
+
+  This project was an excellent opportunity to deepen my understanding of web development with Flask while implementing features that are practical and beneficial in a healthcare setting. I learned how to manage stateful data in a web application and ensure that user interactions are seamless and efficient. Overall, it was a rewarding experience to create a tool that can help improve patient care through better medication management.

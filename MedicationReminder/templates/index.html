@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Medication Reminder</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Medication Reminder System</h1>
+        
+        <div id="clock" class="clock"></div>
+
+        <form action="/add_patient" method="post">
+            <input type="text" name="id" placeholder="Patient ID" required>
+            <input type="text" name="name" placeholder="Patient Name" required>
+            <input type="text" name="room_number" placeholder="Room Number" required>
+            <textarea name="medications" placeholder="Medications (comma separated)" required></textarea>
+            
+            <label><input type="checkbox" name="allergies" id="allergiesCheckbox"> Allergies</label>
+            <input type="text" name="allergy_details" id="allergyDetails" placeholder="Allergy Details (if any)" style="display:none;">
+            
+            <label><input type="checkbox" name="falls"> History of Falls</label>
+            
+            <textarea name="description" placeholder="Description of Patient"></textarea>
+            
+            <div id="medicationFields">
+                <input type="time" name="medication_times[]" placeholder="Medication Time (HH:MM)" required>
+                <button type="button" onclick="addMedicationField()">Add Another Medication Time</button>
+            </div>
+
+            <button type="submit">Add Patient</button>
+            <button type="button" onclick="clearFields()">Clear Fields</button>
+            <button type="button" onclick="generateReport()">Generate Weekly Report</button>
+        </form>
+
+        <h2>Current Patients</h2>
+        
+        <ul id="patientList">
+            {% for patient in patients %}
+                <li>
+                    {{ patient.name }} (ID: {{ patient.id }}) - Room: {{ patient.room_number }}
+                    <!-- Edit Form -->
+                    <form action="/edit_patient/{{ loop.index0 }}" method="post" style="display:inline;">
+                        <input type="text" name="name" value="{{ patient.name }}" required>
+                        <input type="text" name="room_number" value="{{ patient.room_number }}" required>
+                        <textarea name="medications">{{ patient.medications | join(', ') }}</textarea>
+
+                        <label><input type="checkbox" name="allergies" {% if patient.allergies %}checked{% endif %}> Allergies</label>
+                        <input type="text" name="allergy_details" value="{{ patient.allergy_details }}" placeholder="Allergy Details (if any)">
+                        
+                        <label><input type="checkbox" name="falls" {% if patient.falls %}checked{% endif %}> History of Falls</label>
+
+                        <textarea name="description">{{ patient.description }}</textarea>
+
+                        {% for time in patient.medication_times %}
+                            <input type='time' name='medication_times[]' value='{{ time }}'>
+                        {% endfor %}
+                        
+                        <button type='submit'>Edit</button>
+                    </form>
+
+                    <!-- Delete Form -->
+                    <form action="/delete_patient/{{ loop.index0 }}" method='post' style='display:inline;'>
+                        <button type='submit'>Delete</button>
+                    </form>
+
+                    <!-- Timer Display -->
+                    {% for time in patient.medication_times %}
+                        <span class='timer'>Next dose at {{ time }}</span><br/>
+                    {% endfor %}
+                </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+
+</body>
+
+<script>
+// Show allergy details field if allergies checkbox is checked
+document.getElementById('allergiesCheckbox').addEventListener('change', function() {
+    document.getElementById('allergyDetails').style.display = this.checked ? 'block' : 'none';
+});
+
+// Clear all input fields function
+function clearFields() {
+    document.querySelectorAll('input[type=text], input[type=time], textarea').forEach(input => input.value = '');
+}
+
+// Generate weekly report function
+function generateReport() {
+    fetch('/generate_report')
+      .then(response => response.json())
+      .then(data => alert(data.message))
+      .catch(error => console.error('Error:', error));
+}
+
+// Function to add another medication time field dynamically
+function addMedicationField() {
+    const div = document.createElement("div");
+    div.innerHTML = "<input type='time' name='medication_times[]' placeholder='Medication Time (HH:MM)' required>";
+    document.getElementById("medicationFields").appendChild(div);
+}
+
+// Real-time clock function
+function updateClock() {
+   const now = new Date();
+   const formattedTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+   document.getElementById("clock").innerText = formattedTime;
+}
+setInterval(updateClock, 1000);
+updateClock();
+
+</script>
+
+</html>
