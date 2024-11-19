@@ -2653,3 +2653,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **User-Friendly Interface**: The interface is designed with a dark theme and colorful buttons for better usability. Each button serves a distinct function, making navigation intuitive for users.
 
   This project was an excellent opportunity to deepen my understanding of web development with Flask while implementing features that are practical and beneficial in a healthcare setting. I learned how to manage stateful data in a web application and ensure that user interactions are seamless and efficient. Overall, it was a rewarding experience to create a tool that can help improve patient care through better medication management.
+* Day 248: ⏱️ Chess Clock Simulation in Python ♟️
+
+  Today, I developed a Chess Clock Simulation using Python, designed for players to engage in quick-paced games, such as blitz chess. The project focuses on creating a user-friendly command-line interface that allows players to manage their time effectively during matches. Here are the key highlights:
+
+  - **Timer Management**: The `ChessClock` class manages the countdown timers for two players. It tracks the remaining time and ensures that the clock runs accurately for the active player.
+
+  - **Multithreading**: The timer runs in a separate thread, allowing the main program to remain responsive. This enables players to switch turns without interrupting the countdown, ensuring smooth gameplay.
+
+  - **Time Modes**: The simulation supports various time controls (e.g., "5+0" and "3+2"), allowing users to select their preferred game format. Each mode initializes the players' times accordingly.
+
+  - **Player Switching**: Players can easily switch turns by pressing a key, which updates the active player and resumes their timer. This feature enhances the interactivity of the simulation.
+
+  - **User Interface**: A simple command-line interface displays the remaining time for both players in a clear format. Players can view their time and choose to switch or quit at any moment during the game.
+
+  - **Final Time Display**: When the game ends, either by running out of time or user intervention, the remaining times for both players are displayed in an easy-to-read format, providing a clear conclusion to the match.
+
+  This project was an engaging exercise in applying programming concepts such as multithreading and user input handling. It allowed me to explore how to create an interactive tool that enhances the chess-playing experience. I also gained valuable insights into managing state and ensuring thread safety in a real-time application.
