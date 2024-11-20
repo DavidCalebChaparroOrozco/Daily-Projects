@@ -2670,3 +2670,22 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Final Time Display**: When the game ends, either by running out of time or user intervention, the remaining times for both players are displayed in an easy-to-read format, providing a clear conclusion to the match.
 
   This project was an engaging exercise in applying programming concepts such as multithreading and user input handling. It allowed me to explore how to create an interactive tool that enhances the chess-playing experience. I also gained valuable insights into managing state and ensuring thread safety in a real-time application.
+* Day 249: 🏀 Basketball Tournament Management System in Python 🏆
+
+  Today, I developed a Basketball Tournament Management System using Python, focusing on Object-Oriented Programming (OOP) principles. The system allows users to register teams and players, create match schedules, record results, and display standings. Below are the key highlights:
+
+  - **Encapsulation**: The `Player` and `Team` classes encapsulate attributes such as `name`, `position`, and match records (wins and losses). This ensures that the internal state of these objects is protected and can only be modified through defined methods.
+
+  - **Class Relationships**: The system features a clear relationship between classes:
+    - The `Tournament` class manages multiple `Team` instances and their associated `Match` instances.
+    - The `Match` class handles the details of individual matches between two teams, including scheduling and result recording.
+
+  - **Match Scheduling**: The system creates a randomized match schedule for registered teams. This feature ensures that teams are paired fairly and allows for easy extension to include more complex scheduling algorithms in the future.
+
+  - **Statistics Tracking**: After matches are played, results can be recorded, and the system automatically updates each team's win-loss record. This functionality provides real-time feedback on team performance throughout the tournament.
+
+  - **User Interaction**: A menu-driven interface allows users to interact with the system seamlessly. Users can register teams and players, create schedules, record results, and view current standings in an intuitive manner.
+
+  - **Future Enhancements**: The current implementation serves as a solid foundation for future enhancements, such as adding player statistics, integrating a database for persistent storage, or developing a graphical user interface (GUI) for better user experience.
+
+  This project was an excellent opportunity to apply OOP principles while creating a functional system for managing basketball tournaments. I gained valuable experience in designing classes with clear responsibilities and interactions, resulting in clean and maintainable code. Overall, this Basketball Tournament Management System is both practical and scalable for future development.
