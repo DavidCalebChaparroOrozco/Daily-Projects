@@ -2689,3 +2689,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Future Enhancements**: The current implementation serves as a solid foundation for future enhancements, such as adding player statistics, integrating a database for persistent storage, or developing a graphical user interface (GUI) for better user experience.
 
   This project was an excellent opportunity to apply OOP principles while creating a functional system for managing basketball tournaments. I gained valuable experience in designing classes with clear responsibilities and interactions, resulting in clean and maintainable code. Overall, this Basketball Tournament Management System is both practical and scalable for future development.
+* Day 250: Technical Test "subsetsWithDup" and "numDecodings" [LeetCode](https://leetcode.com/problems/)
+
+  - **subsetsWithDup**: Implemented a solution for the "Subsets II" problem, which generates all possible subsets of a given integer array that may contain duplicates. The approach involves sorting the input array to handle duplicates effectively and using backtracking to explore all combinations. The solution ensures that no duplicate subsets are included in the final result by skipping over repeated elements during the generation process. The time complexity is O(2^n), where n is the number of elements in the input array.
+    [Problem Description: subsetsWithDup](https://leetcode.com/problems/subsets-ii/description/)
+
+  - **numDecodings**: Developed a solution for the "Decode Ways" problem, which counts the number of ways to decode a given string of digits based on a specific mapping (1 to A, 2 to B, ..., 26 to Z). The solution employs dynamic programming to efficiently compute the number of valid decodings by considering both one-digit and two-digit possibilities at each step. It initializes a dp array to store the number of ways to decode substrings and iterates through the string while checking for valid digit combinations. The time complexity is O(n), where n is the length of the input string.
+    [Problem Description: numDecodings](https://leetcode.com/problems/decode-ways/description/)
