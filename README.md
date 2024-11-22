@@ -2696,3 +2696,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **numDecodings**: Developed a solution for the "Decode Ways" problem, which counts the number of ways to decode a given string of digits based on a specific mapping (1 to A, 2 to B, ..., 26 to Z). The solution employs dynamic programming to efficiently compute the number of valid decodings by considering both one-digit and two-digit possibilities at each step. It initializes a dp array to store the number of ways to decode substrings and iterates through the string while checking for valid digit combinations. The time complexity is O(n), where n is the length of the input string.
     [Problem Description: numDecodings](https://leetcode.com/problems/decode-ways/description/)
+* Day 251: 🍞 Bakery Management System in Python 🥐
+
+  Today, I developed a Bakery Management System using Python, emphasizing Object-Oriented Programming (OOP) principles. This project allows users to manage bakery items, including adding, removing, updating, and searching for items, as well as calculating the total inventory value. Below are the key highlights:
+
+  - **Encapsulation**: The `BakeryItem` class encapsulates attributes like `name`, `price`, and `quantity`. This ensures that each item has controlled access to its properties, promoting data integrity within the system.
+
+  - **Data Management**: The system allows for comprehensive management of bakery items. Users can add new items with details such as name, price, and quantity. The application supports removing items and updating existing ones, making it flexible for various bakery operations.
+
+  - **Search Functionality**: Users can search for bakery items by name. This feature enhances usability by allowing quick access to specific items without having to sift through the entire inventory.
+
+  - **Total Inventory Value Calculation**: The application calculates and displays the total value of all items in the inventory. This feature is crucial for understanding stock value and making informed business decisions.
+
+  - **User-Friendly Interface**: A menu-driven interface provides an intuitive way for users to interact with the system. Options include viewing all items, adding new items, removing or updating existing items, searching by name, and displaying total inventory value.
+
+  - **Modular Design**: The project follows the Model-View-Controller (MVC) architecture pattern. This separation of concerns ensures that the code is organized and maintainable. The model handles data representation, the view manages user interaction, and the controller processes user inputs and updates the model accordingly.
+
+  This project was a valuable exercise in applying OOP principles to create a functional and maintainable system. It allowed me to deepen my understanding of encapsulation and modular design while building a practical tool tailored for bakery management.
