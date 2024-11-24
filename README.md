@@ -2730,3 +2730,29 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Potential for Expansion**: This project lays the groundwork for future enhancements, such as adding more complex musical rules, incorporating user input for starting notes or melody lengths, or even integrating sound playback capabilities.
 
   This project was an exciting exploration of how programming can intersect with music theory. It allowed me to apply concepts of recursion and object-oriented design while creating something artistic and fun. I look forward to expanding this generator further and experimenting with different musical structures!
+* Day 253: 🧠 Stroke Prediction Dataset [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data)
+
+  Today, I worked on analyzing the Stroke Prediction Dataset from Kaggle using Python. The focus was on data preprocessing, model training, and evaluation using various machine learning algorithms. This project aims to predict the likelihood of strokes based on health-related features. Below are the key highlights:
+
+  - **Data Loading and Inspection**: The dataset was loaded using Pandas, and initial inspection was performed to understand its structure and identify any missing values.
+
+  - **Data Preprocessing**: 
+    - **Handling Missing Values**: Missing values were addressed by filling them with the mean of the respective columns for numerical data.
+    - **Encoding Categorical Variables**: Categorical features such as gender, marital status, work type, residence type, and smoking status were encoded into numerical values using `LabelEncoder`.
+
+  - **Feature Selection**: The features were separated from the target variable (stroke), ensuring that only relevant data was used for training the models.
+
+  - **Model Training**: Various classification models were implemented to predict strokes:
+    - **Logistic Regression**
+    - **Support Vector Classifier**
+    - **Random Forest Classifier**
+    - **Decision Tree Classifier**
+    - **Gradient Boosting Classifier**
+
+  - **Model Evaluation**: Each model's performance was evaluated using accuracy scores and classification reports that included precision, recall, and F1-score. This provided insights into how well each model performed in predicting stroke occurrences.
+
+  - **Results Summary**: The results for each model were compiled, showcasing their accuracy and detailed classification metrics. This analysis helped identify which model performed best for this particular dataset.
+
+  - **User-Friendly Functions**: The project included modular functions that allowed for easy execution of the entire analysis process, enhancing code readability and maintainability.
+
+  This project provided a valuable opportunity to deepen my understanding of machine learning techniques in Python while working with a critical health-related dataset. The experience emphasized the importance of data preprocessing and model evaluation in building effective predictive models.
