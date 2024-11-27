@@ -2797,3 +2797,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Actionable Notifications**: The notifications provide a clear overview of what items need to be purchased, helping users stay organized and efficient during their shopping trips.
 
   This project was an engaging exercise in using Python for practical applications beyond just command-line interfaces. It reinforced my understanding of how libraries can enhance functionality and improve user experience through notifications. I look forward to expanding this project with additional features such as user input for dynamic list management or integration with online grocery services.
+* Day 256: 📚 Study Notification System in Python ⏰
+
+  Today, I developed a Study Notification System using Python, aimed at helping students manage their study schedules by sending timely notifications for various subjects. This project focuses on enhancing study habits and ensuring that important topics are reviewed in a timely manner. Here are the key highlights:
+
+  - **Scheduled Notifications**: The system sends notifications at specified times for different subjects, utilizing the `schedule` library to manage timing effectively. This ensures that students receive reminders when they need them most.
+
+  - **Dynamic Subject List**: Users can easily define and modify a list of subjects along with their corresponding review times and helpful tips directly in the code. This flexibility allows for quick adjustments to the study schedule as needed.
+
+  - **Helpful Tips**: Each notification includes a relevant tip related to the subject being reviewed. This feature provides additional context and guidance, enhancing the overall study experience.
+
+  - **Code Structure**: The code is organized into functions that handle both the scheduling and sending of notifications. This modular approach promotes maintainability and makes it easy to add new features in the future.
+
+  - **Installation Requirements**: To run the script, users need to install both the `plyer` and `schedule` libraries. These can be installed easily via pip, making it accessible for anyone interested in improving their study habits.
+
+  - **User Engagement**: The notifications serve as actionable reminders, helping students focus on specific topics while providing tips that can improve their understanding and retention of material.
+
+  This project was an excellent opportunity to apply Python in an educational context, demonstrating how technology can assist in effective learning strategies. I look forward to expanding this system with features such as user input for dynamic scheduling or integration with calendar applications.
