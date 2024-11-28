@@ -2814,3 +2814,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **User Engagement**: The notifications serve as actionable reminders, helping students focus on specific topics while providing tips that can improve their understanding and retention of material.
 
   This project was an excellent opportunity to apply Python in an educational context, demonstrating how technology can assist in effective learning strategies. I look forward to expanding this system with features such as user input for dynamic scheduling or integration with calendar applications.
+* Day 257: Technical Test "reverseBetween" and "restoreIpAddresses" [LeetCode](https://leetcode.com/problems/)
+
+  - **reverseBetween**: Implemented a solution for the "Reverse Linked List II" problem, where the task is to reverse a portion of a singly linked list between two given positions, `left` and `right`. The approach uses a two-pointer technique to identify the nodes before and after the segment to be reversed, and then performs the reversal in place. The time complexity is O(n), where n is the number of nodes in the list, as we traverse the list at most twice.
+    [Problem Description: reverseBetween](https://leetcode.com/problems/reverse-linked-list-ii/description/)
+
+  - **restoreIpAddresses**: Developed a solution for the "Restore IP Addresses" problem, which generates all possible valid IP addresses from a string of digits. The solution employs backtracking to explore all possible placements of dots in the string while ensuring that each segment formed adheres to the rules for valid IP addresses (0-255 and no leading zeros). The time complexity is O(1) in terms of processing since there are at most 256 valid IP addresses that can be formed from a given string.
+    [Problem Description: restoreIpAddresses](https://leetcode.com/problems/restore-ip-addresses/description/)
