@@ -2821,3 +2821,18 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **restoreIpAddresses**: Developed a solution for the "Restore IP Addresses" problem, which generates all possible valid IP addresses from a string of digits. The solution employs backtracking to explore all possible placements of dots in the string while ensuring that each segment formed adheres to the rules for valid IP addresses (0-255 and no leading zeros). The time complexity is O(1) in terms of processing since there are at most 256 valid IP addresses that can be formed from a given string.
     [Problem Description: restoreIpAddresses](https://leetcode.com/problems/restore-ip-addresses/description/)
+* Day 258: 🏨 Hotel Booking System in Python 🛏️
+
+  Today, I developed a Hotel Booking System using Python, focusing on recursion to manage room bookings. The project simulates a simple hotel environment where users can book rooms until they choose to stop. Below are the key highlights:
+
+  - **Recursion**: The core functionality of the booking system is implemented using a recursive function. This allows users to book multiple rooms in a seamless manner, where each booking prompts for guest details and confirms the reservation.
+
+  - **User Interaction**: The program engages users by asking for their name and the number of nights they wish to stay. After confirming each booking, it inquires whether they would like to make another reservation, demonstrating an interactive experience.
+
+  - **Room Availability Management**: The system tracks the number of available rooms. If no rooms are available, it informs the user and exits gracefully, ensuring that the user experience remains smooth and informative.
+
+  - **Data Handling**: Although this implementation is basic, it lays the groundwork for managing guest information and room availability. Future enhancements could include storing guest details in a database or file for persistent data management.
+
+  - **Simplicity and Clarity**: The code is structured to be straightforward and easy to understand, making it accessible for beginners learning about recursion and user input handling in Python.
+
+  This project was an excellent opportunity to practice recursion and enhance my skills in creating interactive command-line applications. It allowed me to explore how recursive functions can simplify complex tasks, such as managing repeated user interactions in a hotel booking scenario. I look forward to expanding this system with more features, such as payment processing and room types!
