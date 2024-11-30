@@ -2836,3 +2836,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Simplicity and Clarity**: The code is structured to be straightforward and easy to understand, making it accessible for beginners learning about recursion and user input handling in Python.
 
   This project was an excellent opportunity to practice recursion and enhance my skills in creating interactive command-line applications. It allowed me to explore how recursive functions can simplify complex tasks, such as managing repeated user interactions in a hotel booking scenario. I look forward to expanding this system with more features, such as payment processing and room types!
+* Day 259: 📊 Data Processing Pipeline in Python 🐍
+
+  Today, I developed a simple Data Processing Pipeline in Python, focusing on the Extract, Transform, Load (ETL) process. This project demonstrates how to efficiently manage data from extraction to transformation and finally loading it into a new format. Below are the key highlights:
+
+  - **Data Extraction**: The pipeline begins by extracting data from a CSV file using the `pandas` library. The `extract_data` function reads the input file and returns a DataFrame containing the raw data. This step is crucial for ensuring that we have a structured format to work with.
+
+  - **Data Transformation**: In the transformation phase, I implemented filtering and additional calculations. Specifically, I filtered out records where the salary is less than $60,000 and added a new column for tax, calculated as 20% of the salary. This step enhances the dataset by providing relevant insights and preparing it for further analysis.
+
+  - **Data Loading**: The final stage involves loading the transformed data into a new CSV file. The `load_data` function saves the processed DataFrame to a specified output path, making it easy to access and utilize in future analyses or applications.
+
+  - **Handling Warnings**: During development, I encountered a `SettingWithCopyWarning`. To resolve this, I ensured that modifications were made on a copy of the DataFrame slice using `.copy()` and utilized `.loc[]` for assignments. This practice not only avoids warnings but also promotes clarity in data manipulation.
+
+  - **Project Structure**: The project is organized into a clear directory structure, with separate folders for input data and output results. This organization facilitates easy access to files and improves maintainability.
+
+  - **User-Friendly Output**: The pipeline outputs a well-structured CSV file containing only relevant records along with calculated fields. This enhances usability for downstream applications or further data analysis tasks.
+
+  This project was an excellent opportunity to apply my knowledge of data processing techniques in Python. It reinforced my understanding of how to build efficient ETL pipelines while managing data integrity and clarity throughout the process. Overall, this experience has equipped me with practical skills that are essential for handling real-world data workflows effectively.
