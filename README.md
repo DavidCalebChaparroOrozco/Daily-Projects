@@ -2887,3 +2887,24 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Simple Interface**: The program runs in a command-line interface, making it straightforward to use without any complex setup. Users can simply run the script to start their Pomodoro sessions.
 
   This project was an excellent opportunity to apply my programming skills in Python while creating a practical tool for improving productivity. I gained valuable experience in working with time management concepts and desktop notifications, all while enhancing my understanding of how to structure code effectively for usability and maintainability.
+* Day 262: 📈 Video Game Stocks Analysis[Kaggle](https://www.kaggle.com/datasets/datadrivenx/video-game-stocks-financial-market-data/data) 
+
+  Today, I focused on analyzing the financial market data of top video game stocks using Python. The analysis involved data cleaning, visualization, and modeling to understand trends and performance in the gaming industry. Below are the key highlights of the project:
+
+  - **Data Import and Preparation**: I utilized Pandas to load the dataset from Kaggle, which includes stock prices for various video game companies. The dataset was cleaned to handle missing values and ensure proper formatting for analysis.
+
+  - **Exploratory Data Analysis (EDA)**: I conducted a thorough EDA to visualize stock trends over time. This included:
+    - **Time Series Plots**: Line graphs were created to display the stock price movements of different companies over time, allowing for a visual comparison of their performance.
+    - **Statistical Summary**: A summary of key statistics (mean, median, standard deviation) was generated for each company's stock prices, providing insights into their volatility and average performance.
+
+  - **Correlation Analysis**: I examined correlations between the stock prices of different companies. A heatmap was generated to visually represent these relationships, helping identify which companies' stocks move together.
+
+  - **Modeling**: Implemented machine learning models such as Logistic Regression and Random Forest Classifier to predict stock price movements based on historical data. The models were evaluated using metrics like accuracy score and classification report.
+
+  - **Visualization Techniques**: Leveraged Matplotlib and Seaborn for creating various plots:
+    - **Bar Charts**: Used to compare average stock prices among different companies.
+    - **Histograms**: Displayed the distribution of stock prices, aiding in understanding price ranges and frequencies.
+
+  - **User-Friendly Functions**: Developed modular functions for data loading, preprocessing, and visualization. This enhances code reusability and makes it easier to run analyses with different datasets.
+
+  This project provided valuable insights into the financial dynamics of the video game industry, reinforcing the importance of data analysis in making informed investment decisions. The experience highlighted how visualizations can effectively communicate complex financial trends and patterns.
