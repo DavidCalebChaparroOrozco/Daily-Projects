@@ -2908,3 +2908,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **User-Friendly Functions**: Developed modular functions for data loading, preprocessing, and visualization. This enhances code reusability and makes it easier to run analyses with different datasets.
 
   This project provided valuable insights into the financial dynamics of the video game industry, reinforcing the importance of data analysis in making informed investment decisions. The experience highlighted how visualizations can effectively communicate complex financial trends and patterns.
+* Day 263: Technical Test "inorderTraversal" and "generateTrees" [LeetCode](https://leetcode.com/problems/)
+
+  - **inorderTraversal**: Implemented a solution for the "Binary Tree Inorder Traversal" problem, which requires returning the values of nodes in an inorder sequence (left, root, right). The approach uses recursion to traverse the tree and collect node values in the correct order. The time complexity is O(n), where n is the number of nodes in the tree.
+    [Problem Description: inorderTraversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
+
+  - **generateTrees**: Developed a solution for the "Unique Binary Search Trees II" problem, where the goal is to generate all structurally unique BSTs that can be formed using integers from 1 to n. The algorithm utilizes recursion with memoization to efficiently generate trees by considering each number as a potential root and recursively generating all possible left and right subtrees. The time complexity is O(n^n) due to the exponential number of unique trees that can be formed.
+    [Problem Description: generateTrees](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)
