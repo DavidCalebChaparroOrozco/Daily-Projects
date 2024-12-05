@@ -2915,3 +2915,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **generateTrees**: Developed a solution for the "Unique Binary Search Trees II" problem, where the goal is to generate all structurally unique BSTs that can be formed using integers from 1 to n. The algorithm utilizes recursion with memoization to efficiently generate trees by considering each number as a potential root and recursively generating all possible left and right subtrees. The time complexity is O(n^n) due to the exponential number of unique trees that can be formed.
     [Problem Description: generateTrees](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)
+* Day 264: 🛒 E-Commerce Shopping Cart in Python 🛍️
+
+  Today, I developed an E-Commerce Shopping Cart application using Python, focusing on Object-Oriented Programming (OOP) principles. This project enables users to manage their shopping cart effectively by adding, removing, and modifying products, while also calculating totals with applicable taxes and discounts. Here are the key highlights:
+
+  - **Encapsulation**: The `Product` class encapsulates attributes such as `name`, `price`, and `stock`, ensuring that product details are protected and can only be modified through defined methods. This prevents unauthorized changes to the product's state.
+
+  - **Shopping Cart Management**: The `ShoppingCart` class manages a collection of products, allowing users to add items while checking stock availability. It provides methods for removing products and modifying quantities, making it easy to manage the cart's contents.
+
+  - **Total Calculation**: The application includes a method to calculate the total price of items in the cart, incorporating optional tax rates and discounts. This feature ensures that users can see the final amount they need to pay, enhancing the shopping experience.
+
+  - **Testing Functionality**: A dedicated testing function simulates various operations on the shopping cart, such as adding products, modifying quantities, removing items, and calculating totals. This helps verify the correctness of the implementation and ensures robustness.
+
+  - **User-Friendly Interface**: Although the application runs directly in Python without a graphical interface, it is designed to be intuitive. Users can easily understand how to interact with the cart through clear method calls and console output.
+
+  - **Future Enhancements**: Potential improvements include implementing user authentication for personalized shopping experiences, adding support for multiple users managing their own carts concurrently, integrating a database for persistent storage, and creating a user-friendly graphical interface.
+
+  This project was an excellent opportunity to apply OOP principles in a practical scenario. I refined my understanding of encapsulation and how it contributes to creating maintainable code while building a functional shopping cart system that could be expanded in future iterations.
