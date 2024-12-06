@@ -2932,3 +2932,24 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Future Enhancements**: Potential improvements include implementing user authentication for personalized shopping experiences, adding support for multiple users managing their own carts concurrently, integrating a database for persistent storage, and creating a user-friendly graphical interface.
 
   This project was an excellent opportunity to apply OOP principles in a practical scenario. I refined my understanding of encapsulation and how it contributes to creating maintainable code while building a functional shopping cart system that could be expanded in future iterations.
+* Day 265: 🏀 Basketball Injury Tracker in Python 🏥
+
+  Today, I developed a Basketball Injury Tracker using Python, focusing on Object-Oriented Programming (OOP) principles to create a structured and maintainable system. The project allows coaches and medical staff to monitor player injuries, record recovery times, and maintain injury histories. Below are the key highlights:
+
+  - **Encapsulation**: The `Player` class encapsulates player details and their injury records, ensuring that injury data is managed internally while providing methods for adding and retrieving injuries.
+
+  - **Class Structure**: The system consists of multiple classes:
+    - `Player`: Represents a basketball player and maintains their injury history.
+    - `Injury`: Represents individual injuries with details such as type and recovery time.
+    - `MedicalTeam`: Handles notifications to medical staff when a new injury is recorded.
+    - `InjuryTracker`: Manages all players and their injuries, providing a central interface for interaction.
+
+  - **Injury Management**: Coaches can record injuries for players, specifying the type of injury and estimated recovery time. The system automatically notifies the medical team about new injuries, ensuring prompt attention.
+
+  - **Injury History**: Users can view the complete injury history for any player, allowing for better tracking of recurring issues and overall player health management.
+
+  - **Menu-Driven Interface**: A user-friendly command-line interface allows users to interact with the system easily. Users can add players, record injuries, view injury histories, or exit the program through simple menu options.
+
+  - **Future Enhancements**: The project is designed to be easily extendable. Future improvements could include data persistence (e.g., using a database), enhanced notification systems (e.g., email alerts), or a graphical user interface (GUI) for better usability.
+
+  This project was an excellent opportunity to apply OOP principles in a practical context. I refined my understanding of how encapsulation and class design contribute to creating clean and efficient code while building a useful tool for managing basketball player injuries.
