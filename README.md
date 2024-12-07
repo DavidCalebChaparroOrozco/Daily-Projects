@@ -2953,3 +2953,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Future Enhancements**: The project is designed to be easily extendable. Future improvements could include data persistence (e.g., using a database), enhanced notification systems (e.g., email alerts), or a graphical user interface (GUI) for better usability.
 
   This project was an excellent opportunity to apply OOP principles in a practical context. I refined my understanding of how encapsulation and class design contribute to creating clean and efficient code while building a useful tool for managing basketball player injuries.
+* Day 266: 📊 Collatz Conjecture Sequence Visualizer in Python 🌌
+
+  Today, I developed a Collatz Conjecture Sequence Visualizer using Python. This project focuses on generating and plotting the Collatz sequence for a given positive integer, featuring a user-friendly graphical interface. Below are the key highlights:
+
+  - **Collatz Sequence Generation**: The program generates the Collatz sequence for any positive integer input by the user, following the rules of the conjecture: if the number is even, divide it by two; if odd, multiply by three and add one. This process continues until reaching the number one.
+
+  - **Data Visualization**: Utilizing `matplotlib`, the sequence is plotted in a visually appealing manner. The plot includes markers for each step in the sequence, providing a clear representation of how the values change over time.
+
+  - **Dark Background Theme**: The plot features a dark background style, enhancing visibility and aesthetics. This design choice ensures that the plot elements (lines, markers, and grid) stand out clearly against the background.
+
+  - **User Input via GUI**: A simple graphical user interface (GUI) is implemented using `tkinter`. Users can input a positive integer through a dialog box, making the application more interactive and accessible compared to command-line input.
+
+  - **Error Handling**: The program includes error handling for invalid inputs. If a user enters a non-positive integer or cancels the input dialog, appropriate messages are displayed to guide them towards valid input.
+
+  - **Customizable Plot Features**: The plot includes customizable features such as grid lines and tick colors, allowing for an enhanced viewing experience. Users can easily interpret the plotted data thanks to these thoughtful design choices.
+
+  This project was an excellent exercise in data visualization and GUI development in Python. It allowed me to deepen my understanding of how to effectively use libraries like `matplotlib` and `tkinter` to create interactive applications that present mathematical concepts in an engaging way. I enjoyed refining my skills in both coding and design while building this practical tool for exploring the fascinating Collatz conjecture.
