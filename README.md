@@ -2970,3 +2970,22 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Customizable Plot Features**: The plot includes customizable features such as grid lines and tick colors, allowing for an enhanced viewing experience. Users can easily interpret the plotted data thanks to these thoughtful design choices.
 
   This project was an excellent exercise in data visualization and GUI development in Python. It allowed me to deepen my understanding of how to effectively use libraries like `matplotlib` and `tkinter` to create interactive applications that present mathematical concepts in an engaging way. I enjoyed refining my skills in both coding and design while building this practical tool for exploring the fascinating Collatz conjecture.
+* Day 267: 🎯 Subset Sum to Target in Python 🧮
+
+  Today, I worked on a project that focuses on solving the "Subset Sum to Target" problem using Python. The goal of this project is to find all combinations of numbers in a given array that sum up to a specified target value. The implementation leverages recursion to explore all possible subsets. Below are the key highlights:
+
+  - **Recursive Backtracking**: The core of the solution is a recursive backtracking algorithm that explores all potential combinations of numbers. It builds subsets incrementally and checks their sums against the target.
+
+  - **Base Cases**: The algorithm includes essential base cases:
+    - If the current sum equals the target, the current subset is added to the results.
+    - If the current sum exceeds the target, further exploration is halted for that path.
+
+  - **Dynamic Path Management**: As subsets are built, they are stored in a temporary list (`path`). This allows for easy backtracking by removing the last added element when exploring new combinations.
+
+  - **Exploration of Combinations**: The function iterates through the list of numbers, starting from a given index, ensuring that each number is only considered once per subset. This prevents duplicates and maintains unique combinations.
+
+  - **Example Usage**: An example is provided in the code to demonstrate how to call the function with a sample list and target value. This makes it easy for users to test and modify inputs as needed.
+
+  - **Output**: The program outputs all unique subsets that sum up to the specified target, providing a clear and practical solution to the problem.
+
+  This project was an excellent exercise in understanding recursive algorithms and their applications in combinatorial problems. It enhanced my skills in problem-solving and algorithm design while providing insights into how recursion can be effectively utilized to explore complex scenarios.
