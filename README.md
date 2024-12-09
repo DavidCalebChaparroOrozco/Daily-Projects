@@ -2989,3 +2989,26 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Output**: The program outputs all unique subsets that sum up to the specified target, providing a clear and practical solution to the problem.
 
   This project was an excellent exercise in understanding recursive algorithms and their applications in combinatorial problems. It enhanced my skills in problem-solving and algorithm design while providing insights into how recursion can be effectively utilized to explore complex scenarios.
+* Day 268: 🛠️ Team Role Management System in Python 👥
+
+  Today, I developed a Team Role Management System using Python, focusing on the Model-View-Controller (MVC) architecture and Object-Oriented Programming (OOP) principles. This project allows users to manage roles within a development team by adding, removing, viewing, and updating roles. Below are the key highlights:
+
+  - **Model-View-Controller (MVC)**: The application is structured using the MVC pattern, which separates concerns into three components:
+    - **Model**: Manages data and business logic related to roles.
+    - **View**: Handles user interface and displays information.
+    - **Controller**: Acts as an intermediary between the model and view, processing user input and updating the model accordingly.
+
+  - **Role Management**: Users can perform various operations on roles:
+    - **Add New Role**: Users can add new roles with titles and descriptions.
+    - **Remove Role**: Users can remove existing roles by title.
+    - **View All Roles**: The system displays all current roles in the team.
+    - **View Specific Role**: Users can view details of a specific role by its title.
+    - **Update Existing Role**: Users can update the title and description of an existing role.
+
+  - **User-Friendly Interface**: The application features a menu-driven interface that allows users to easily navigate through different options. This enhances usability and provides a clear interaction model.
+
+  - **Data Structure**: The roles are encapsulated in a `Role` class, which includes attributes like `title` and `description`. This promotes encapsulation by keeping role-related data organized and manageable.
+
+  - **Extensibility**: The design allows for future enhancements, such as adding more attributes to roles (e.g., responsibilities or required skills) or integrating with a database for persistent storage.
+
+  This project was an excellent exercise in applying OOP principles and the MVC architecture to create a structured and maintainable system. I refined my understanding of how these concepts work together to build clean, reusable code while developing a practical tool for managing team roles effectively.
