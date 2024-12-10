@@ -3012,3 +3012,37 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Extensibility**: The design allows for future enhancements, such as adding more attributes to roles (e.g., responsibilities or required skills) or integrating with a database for persistent storage.
 
   This project was an excellent exercise in applying OOP principles and the MVC architecture to create a structured and maintainable system. I refined my understanding of how these concepts work together to build clean, reusable code while developing a practical tool for managing team roles effectively.
+* Day 269: 🏥 Medical Cost Personal Datasets Analysis 
+
+  Today, I worked on analyzing the Medical Cost Personal Datasets from Kaggle using Python. The focus was on data exploration, feature engineering, and visualization using various libraries such as Pandas, NumPy, Seaborn, and Matplotlib. Below are the key highlights:
+
+  - **Data Loading and Inspection**: 
+    - The project begins with loading the dataset using Pandas. We perform an initial inspection to understand the structure and columns of the dataset. This involves checking for null values, data types, and basic statistics.
+    - Sample rows from the dataset are displayed to get a quick view of the data.
+
+  - **Statistical Summary**:
+    - A function is created to generate a statistical summary of numerical variables, providing insights such as mean, median, standard deviation, minimum, and maximum values. This helps in understanding the central tendency and spread of the data.
+    - Descriptive statistics for categorical variables (e.g., region, sex, and smoker status) are also included to gain insights into their distribution.
+
+  - **Exploratory Data Analysis (EDA)**:
+    - Visualization of numerical distributions using histograms to detect skewness, outliers, and normality.
+    - Box plots are used to visualize distributions across different categories and to detect outliers in the data.
+    - The dataset is further analyzed with Seaborn to visualize relationships between variables. Pair plots are used to see scatter plots for numerical variables and to quickly grasp the correlation between them.
+    
+  - **Categorical Analysis**:
+    - Distribution of categorical variables is visualized using bar graphs. This approach allows us to see the frequency of different categories (e.g., smoker status, region) and provides insights into patterns such as healthcare costs across different demographics.
+
+  - **Correlation Analysis**:
+    - A correlation matrix is generated to understand relationships between numerical variables. This is visualized using a heatmap to enhance readability and clarity.
+    - Insights from the correlation matrix guide further feature engineering and understanding of factors affecting medical costs.
+
+  - **Feature Engineering**:
+    - Based on the initial insights from EDA, new features are engineered. For example, BMI (Body Mass Index) is calculated and analyzed in relation to medical costs.
+    - The impact of factors such as age, sex, smoking status, and region on healthcare costs is examined.
+
+  - **Modular Analysis Functions**:
+    - The project includes functions that allow for easy execution of the analysis. This includes functions to generate the full report, visualize distributions, and check for correlations.
+    - The use of modular functions enhances code readability and maintainability.
+
+  This project reinforced the importance of data visualization and feature engineering in understanding complex datasets. It also emphasized the value of modular code for easy maintenance and scalability in data science projects.
+
