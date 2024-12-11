@@ -3045,4 +3045,25 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
     - The use of modular functions enhances code readability and maintainability.
 
   This project reinforced the importance of data visualization and feature engineering in understanding complex datasets. It also emphasized the value of modular code for easy maintenance and scalability in data science projects.
+* Day 270: Pose Estimation Project with Python 🤖
 
+  Today, I worked on a Pose Estimation project using Python, leveraging the power of MediaPipe and OpenCV. The project focuses on real-time human pose detection from video files, providing visual feedback in the form of landmarks and connections between key points. Below are the key highlights:
+
+  - **Pose Detection**: The system utilizes MediaPipe's Pose module to detect human body landmarks in real-time. It processes each frame of the video to identify and visualize key points such as shoulders, elbows, wrists, hips, knees, and ankles.
+
+  - **Modular Design**: The project is structured into multiple modules:
+    - `Basics.py`: This module handles the main functionality of reading video input and displaying detected poses.
+    - `PoseModule.py`: Contains the `PoseDetector` class, which encapsulates the logic for pose detection and landmark processing.
+    - `Test.py`: Serves as the entry point for testing the pose detection functionality with a selected video file.
+
+  - **User Interaction**: The application allows users to select video files via a graphical user interface (GUI) using `tkinter`. This enhances usability by providing an intuitive way to load videos for processing.
+
+  - **Real-Time Visualization**: Detected landmarks are visualized on the input video frames with circles drawn around each landmark. Additionally, connections between landmarks can be displayed to illustrate the skeletal structure of the detected pose.
+
+  - **FPS Calculation**: The system calculates and displays frames per second (FPS) in real-time, providing insights into the performance of the pose detection algorithm during video playback.
+
+  - **Landmark Data Export**: Users have the option to save detected landmark positions to a CSV file for further analysis or record-keeping. This feature is useful for applications in sports science, physical therapy, and motion analysis.
+
+  - **Documentation and Code Quality**: The code is well-documented with comments explaining each section and function. This ensures that future developers can easily understand and extend the functionality of the project.
+
+  This project was an excellent opportunity to apply my knowledge of computer vision and machine learning in a practical context. I gained valuable experience working with MediaPipe for pose estimation and learned how to structure a Python application in a modular way. Overall, this project showcases my ability to integrate different technologies to create a functional tool for real-time human pose analysis.
