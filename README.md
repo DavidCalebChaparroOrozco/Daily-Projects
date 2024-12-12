@@ -3067,3 +3067,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Documentation and Code Quality**: The code is well-documented with comments explaining each section and function. This ensures that future developers can easily understand and extend the functionality of the project.
 
   This project was an excellent opportunity to apply my knowledge of computer vision and machine learning in a practical context. I gained valuable experience working with MediaPipe for pose estimation and learned how to structure a Python application in a modular way. Overall, this project showcases my ability to integrate different technologies to create a functional tool for real-time human pose analysis.
+* Day 271: Technical Test "numTrees" and "isInterleave" [LeetCode](https://leetcode.com/problems/)
+
+  - **numTrees**: Implemented a solution for the "Unique Binary Search Trees" problem, which requires calculating the number of structurally unique BSTs that can be formed with `n` nodes, where each node has a unique value from 1 to `n`. The solution utilizes dynamic programming to build a table that counts the unique trees based on previously computed values. The time complexity of this approach is \(O(n^2)\), making it efficient for reasonable values of `n`.
+    [Problem Description: numTrees](https://leetcode.com/problems/unique-binary-search-trees/description/)
+
+  - **isInterleave**: Developed a solution for the "Interleaving String" problem, which checks if a string `s3` can be formed by interleaving two other strings `s1` and `s2`. The approach employs dynamic programming to create a table that tracks whether substrings of `s1` and `s2` can form substrings of `s3`. The time complexity is \(O(n \times m)\), where `n` and `m` are the lengths of `s1` and `s2`, respectively.
+    [Problem Description: isInterleave](https://leetcode.com/problems/interleaving-string/description/)
