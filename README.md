@@ -3074,3 +3074,18 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **isInterleave**: Developed a solution for the "Interleaving String" problem, which checks if a string `s3` can be formed by interleaving two other strings `s1` and `s2`. The approach employs dynamic programming to create a table that tracks whether substrings of `s1` and `s2` can form substrings of `s3`. The time complexity is \(O(n \times m)\), where `n` and `m` are the lengths of `s1` and `s2`, respectively.
     [Problem Description: isInterleave](https://leetcode.com/problems/interleaving-string/description/)
+* Day 272: 🔺 Pascal's Triangle Row Finder in Python 🔺
+
+  Today, I developed a Pascal's Triangle Row Finder using Python, focusing on recursion to calculate specific rows of the triangle. This project not only computes the values of a given row but also visualizes the results using Matplotlib. Here are the key highlights:
+
+  - **Recursion**: The project utilizes a recursive function to compute the binomial coefficients, which are essential for generating each element of Pascal's Triangle. The function `binomial_coefficient(n, k)` implements the mathematical definition of combinations recursively.
+
+  - **Row Generation**: The function `pascal_triangle_row(n)` generates the nth row of Pascal's Triangle by iterating through all possible values of k (from 0 to n) and calculating each coefficient using the recursive function. This approach showcases how recursion can simplify complex calculations.
+
+  - **Data Visualization**: To enhance understanding, I incorporated Matplotlib to plot the generated row of Pascal's Triangle. The `plot_pascal_triangle_row(row)` function creates a bar chart that visually represents the values in the specified row, making it easier to grasp the relationships between them.
+
+  - **User Interaction**: The program allows users to specify which row of Pascal's Triangle they want to compute. By changing the value of `n`, users can explore different rows and see how the triangle expands.
+
+  - **Educational Value**: This project serves as an excellent exercise in understanding combinatorial mathematics and recursion in programming. It reinforces concepts such as base cases and recursive cases, while also demonstrating how to visualize mathematical concepts through programming.
+
+  This project was not only a fun challenge but also an opportunity to deepen my understanding of recursion and its applications in generating mathematical structures like Pascal's Triangle. I enjoyed integrating data visualization to make the results more accessible and engaging!
