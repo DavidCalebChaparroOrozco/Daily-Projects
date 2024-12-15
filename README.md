@@ -3112,3 +3112,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Extensibility**: The design allows for future enhancements, such as adding more attributes to characters (e.g., powers or historical significance) or integrating with a database for persistent storage.
 
   This project was an excellent opportunity to apply OOP concepts and the MVP architecture to create a structured and maintainable system. I refined my understanding of how these concepts work together to build clean, reusable code while developing a practical tool for managing mythical characters effectively.
+* Day 274: 🧪 Synthetic Data Generator in Python 🗃️
+
+  Today, I developed a **Synthetic Data Generator** using Python and Tkinter. This tool allows users to create customizable synthetic datasets with adjustable parameters for various statistical distributions. The project emphasizes user experience, data visualization, and real-time input validation. Below are the key highlights:
+
+  - **User Interface**: The application features a clean and intuitive Tkinter GUI that allows users to select different types of distributions (Normal, Uniform, Binomial, and Poisson) and input necessary parameters. The dark theme enhances usability and aesthetics.
+
+  - **Data Generation**: Users can generate synthetic datasets based on their selected distribution. The application utilizes NumPy to efficiently create datasets with specified parameters like mean, standard deviation, range, etc.
+
+  - **Real-Time Input Validation**: The application includes real-time validation of user inputs. The "Generate Data" button is enabled only when all inputs are valid, preventing errors and enhancing user experience.
+
+  - **Data Visualization**: After generating the dataset, a histogram is displayed using Matplotlib. This visual representation helps users understand the distribution of generated data at a glance.
+
+  - **Export Functionality**: Users can save the generated dataset in CSV format for further analysis or use in other applications. This feature makes the tool practical for data scientists and analysts.
+
+  - **Error Handling**: Comprehensive error handling ensures that users receive informative messages when invalid inputs are provided or when no data has been generated yet.
+
+  This project was an excellent opportunity to apply my knowledge of Python programming, GUI development with Tkinter, and data visualization using Matplotlib. It reinforced my understanding of how to create user-friendly applications that effectively meet user needs while providing valuable functionality. Overall, it was a rewarding experience in building a practical tool for synthetic data generation.
