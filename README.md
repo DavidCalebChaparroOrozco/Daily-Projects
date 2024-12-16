@@ -3129,3 +3129,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Error Handling**: Comprehensive error handling ensures that users receive informative messages when invalid inputs are provided or when no data has been generated yet.
 
   This project was an excellent opportunity to apply my knowledge of Python programming, GUI development with Tkinter, and data visualization using Matplotlib. It reinforced my understanding of how to create user-friendly applications that effectively meet user needs while providing valuable functionality. Overall, it was a rewarding experience in building a practical tool for synthetic data generation.
+* Day 275: Technical Test "isValidBST" and "recoverTree" [LeetCode](https://leetcode.com/problems/)
+
+  - **isValidBST**: Implemented a solution for the "Validate Binary Search Tree" problem, which checks if a given binary tree is a valid binary search tree (BST). A valid BST is defined such that for each node, all values in its left subtree are less than the node's value, and all values in its right subtree are greater. The solution uses an in-order traversal approach to ensure that the values are in sorted order. The time complexity is O(n), where n is the number of nodes in the tree.
+    [Problem Description: isValidBST](https://leetcode.com/problems/validate-binary-search-tree/description/)
+
+  - **recoverTree**: Developed a solution for the "Recover Binary Search Tree" problem, where two nodes of a BST have been swapped by mistake. The task is to recover the tree without changing its structure. The approach involves performing an in-order traversal to identify the two swapped nodes and then swapping their values back. This method also runs in O(n) time complexity, as it requires a single traversal of the tree.
+    [Problem Description: recoverTree](https://leetcode.com/problems/recover-binary-search-tree/description/)
