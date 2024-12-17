@@ -3136,3 +3136,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **recoverTree**: Developed a solution for the "Recover Binary Search Tree" problem, where two nodes of a BST have been swapped by mistake. The task is to recover the tree without changing its structure. The approach involves performing an in-order traversal to identify the two swapped nodes and then swapping their values back. This method also runs in O(n) time complexity, as it requires a single traversal of the tree.
     [Problem Description: recoverTree](https://leetcode.com/problems/recover-binary-search-tree/description/)
+* Day 276: 📊 Custom Dashboard Generator in Python 🖥️
+
+  Today, I developed a Custom Dashboard Generator using Python and Tkinter, allowing users to create personalized dashboards by selecting graphs, metrics, and visualizations from a loaded dataset. This project emphasizes user-friendly design and data visualization principles. Below are the key highlights:
+
+  - **User Interface**: The application features a clean and intuitive interface built with Tkinter. Users can easily upload datasets in CSV or Excel formats, select columns for visualization, and choose the type of graph they want to create.
+
+  - **Data Handling**: The application supports loading datasets from various file formats, including CSV and Excel (`.xls` and `.xlsx`). It uses the `pandas` library to read data efficiently and update the UI dynamically based on the dataset's columns.
+
+  - **Graphical Visualization**: Users can create three types of visualizations: Bar graphs, Line graphs, and Pie charts. The application utilizes Matplotlib for rendering these graphs, providing clear and informative visual representations of the data.
+
+  - **Customizability**: The dashboard allows users to select specific columns from their dataset for visualization, making it adaptable to different data structures. This flexibility is crucial for users who may work with diverse datasets.
+
+  - **Enhanced User Experience**: The UI includes improved button styles for better accessibility and comfort. The background color is set to a light gray for a modern look, enhancing the overall aesthetic of the application.
+
+  - **Label Rotation**: To improve readability, the x-axis labels on the graphs are rotated at 45 degrees. This adjustment ensures that longer labels do not overlap, making the visualizations clearer.
+
+  This project was an excellent opportunity to combine data analysis with user interface design. I learned how to effectively use Tkinter for creating interactive applications and how to integrate data visualization libraries like Matplotlib with `pandas`. Overall, it was a rewarding experience that enhanced my skills in Python programming and application development.
