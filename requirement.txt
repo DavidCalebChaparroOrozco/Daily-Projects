@@ -54,3 +54,5 @@ discord
 yt_dlp
 pycountry
 kivy
+openpyxl
+xlrd
