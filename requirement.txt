@@ -56,3 +56,4 @@ pycountry
 kivy
 openpyxl
 xlrd
+pyodbc
