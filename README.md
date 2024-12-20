@@ -3190,3 +3190,20 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Error Handling**: The application includes basic error handling for scenarios such as attempting to remove a non-existent user story or loading data from a missing file. This improves robustness and user experience.
 
   This project was an excellent opportunity to apply the MVC design pattern in a practical context while enhancing my understanding of data management and user interaction in Python applications. I gained valuable experience in structuring code for maintainability and scalability, making it easier to extend features in future iterations of the project.
+* Day 279: ETL Process with Python for SQL Server to PostgreSQL
+
+  Today, I focused on building an ETL (Extract, Transform, Load) process using Python to transfer data from a SQL Server database to a PostgreSQL database. The project involved creating two scripts: `test.py` for testing the connection to SQL Server and `etl.py` for extracting data, transforming it if necessary, and loading it into PostgreSQL. Here are the key highlights:
+
+  - **Database Connection**: The `test.py` script establishes a connection to the SQL Server using the `pyodbc` library. It verifies the connection by attempting to connect and handling any exceptions that may arise. Successful connections confirm that the database is accessible.
+
+  - **Data Extraction**: The `etl.py` script utilizes `SQLAlchemy` and `pandas` to extract data from specific tables in the SQL Server database. A SQL query is executed to retrieve the names of tables of interest, including 'DimProduct', 'DimProductSubcategory', 'DimProductCategory', 'DimSalesTerritory', and 'FactInternetSales'.
+
+  - **Data Loading**: After extracting the data, the script loads it into PostgreSQL using the `to_sql` method from `pandas`. Each table's data is prefixed with 'stg_' to indicate that it is staging data. The process includes handling potential errors during data loading and providing feedback on the number of rows imported.
+
+  - **Environment Variables**: Although commented out in the code, there is a provision for retrieving sensitive information like passwords and user IDs from environment variables. This practice enhances security by avoiding hardcoded credentials.
+
+  - **Error Handling**: Both scripts include robust error handling mechanisms. Any issues encountered during connection, extraction, or loading are caught and logged, ensuring that users are informed of any problems that occur during execution.
+
+  - **Scalability**: The design allows for easy modifications and extensions. New tables can be added to the extraction process without significant changes to the existing code structure.
+
+  This project served as an excellent introduction to ETL processes in Python, providing hands-on experience with database connections, data extraction techniques, and loading mechanisms. I gained valuable insights into managing data workflows and ensuring data integrity throughout the transfer process between different database systems.
