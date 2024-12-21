@@ -3207,3 +3207,10 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Scalability**: The design allows for easy modifications and extensions. New tables can be added to the extraction process without significant changes to the existing code structure.
 
   This project served as an excellent introduction to ETL processes in Python, providing hands-on experience with database connections, data extraction techniques, and loading mechanisms. I gained valuable insights into managing data workflows and ensuring data integrity throughout the transfer process between different database systems.
+* Day 280: Technical Test "isSameTree" and "isSymmetric" [LeetCode](https://leetcode.com/problems/)
+
+  - **isSameTree**: Implemented a solution for the "Same Tree" problem, where the objective is to determine if two binary trees are structurally identical and have the same node values. The approach uses a recursive method to traverse both trees simultaneously, comparing corresponding nodes. If both nodes are `None`, they are considered equal; if one is `None` and the other is not, they are not equal. If both nodes exist, their values are compared, and the function recursively checks their left and right children. The time complexity of this solution is \(O(n)\), where \(n\) is the number of nodes in the trees.
+    [Problem Description: isSameTree](https://leetcode.com/problems/same-tree/description/)
+
+  - **isSymmetric**: Developed a solution for the "Symmetric Tree" problem, which checks whether a binary tree is a mirror of itself around its center. The solution employs a helper function that compares two nodes at a time, ensuring that the left subtree of one node matches the right subtree of another node and vice versa. If both nodes are `None`, they are symmetric; if one is `None`, they are not. If both exist, their values must be equal for symmetry to hold. This recursive method also has a time complexity of \(O(n)\), where \(n\) is the number of nodes in the tree.
+    [Problem Description: isSymmetric](https://leetcode.com/problems/symmetric-tree/description/)
