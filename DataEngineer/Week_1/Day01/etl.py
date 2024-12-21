@@ -5,8 +5,8 @@ import pandas as pd
 import os
 
 # Get password from environment var
-# pwd = os.environ['PGPASS']
-# uid = os.environ['PGUID']
+pwd = os.environ['PGPASS']
+uid = os.environ['PGUID']
 
 pwd = "demopass"
 uid = "etl"
