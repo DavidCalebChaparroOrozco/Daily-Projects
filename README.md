@@ -3214,3 +3214,23 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **isSymmetric**: Developed a solution for the "Symmetric Tree" problem, which checks whether a binary tree is a mirror of itself around its center. The solution employs a helper function that compares two nodes at a time, ensuring that the left subtree of one node matches the right subtree of another node and vice versa. If both nodes are `None`, they are symmetric; if one is `None`, they are not. If both exist, their values must be equal for symmetry to hold. This recursive method also has a time complexity of \(O(n)\), where \(n\) is the number of nodes in the tree.
     [Problem Description: isSymmetric](https://leetcode.com/problems/symmetric-tree/description/)
+* Day 281: 📝 Note-taking Application in Python 📓
+
+  Today, I developed a simple Note-taking Application using Python and the Flet library. The application allows users to create, view, and delete notes in a user-friendly interface. Below are the key highlights:
+
+  - **User Interface**: The application features an intuitive interface built with Flet, allowing users to easily add and manage their notes. The layout includes an input field for new notes and a list displaying existing notes.
+
+  - **Dynamic Note Management**: Users can add notes by typing in the input field and clicking the "Add Note" button. Each note is displayed with a delete button, enabling users to remove notes effortlessly.
+
+  - **Event Handling**: The application utilizes event handling to respond to user actions. When the "Add Note" button is clicked, the application captures the input, validates it, and updates the display accordingly.
+
+  - **Global State Management**: The application maintains a global state for the list of notes, ensuring that all user interactions update the displayed list in real-time without needing to refresh the page.
+
+  - **Code Structure**: The project is organized into functions that handle specific tasks:
+    - `add_note`: Adds a new note to the list and updates the display.
+    - `remove_note`: Deletes a specified note from the list.
+    - `main`: Initializes the application and sets up the user interface.
+
+  - **Extensibility**: This simple application serves as a foundation for further enhancements. Potential features could include saving notes to a file, editing existing notes, or categorizing notes for better organization.
+
+  This project was an excellent exercise in creating a functional application using Python and Flet. It helped me reinforce my understanding of event-driven programming and dynamic user interfaces while providing a practical tool for managing personal notes.
