@@ -3234,3 +3234,26 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Extensibility**: This simple application serves as a foundation for further enhancements. Potential features could include saving notes to a file, editing existing notes, or categorizing notes for better organization.
 
   This project was an excellent exercise in creating a functional application using Python and Flet. It helped me reinforce my understanding of event-driven programming and dynamic user interfaces while providing a practical tool for managing personal notes.
+* Day 282: 💎 Diamonds [Kaggle](https://www.kaggle.com/datasets/shivam2503/diamonds/data)
+
+  Today, I focused on analyzing the Diamonds dataset from Kaggle using Python. The primary objective was to perform exploratory data analysis (EDA) and model the data to predict diamond prices based on various features. Below are the key highlights of the project:
+
+  - **Data Loading and Overview**: The dataset was loaded using Pandas, and an initial overview was conducted to understand its structure and contents. The dataset includes attributes such as price, carat, cut, color, clarity, dimensions (x, y, z), depth, and table width.
+
+  - **Data Cleaning**: I addressed missing values and removed any records with zero values in critical dimensions (x, y, z). Outliers were also filtered out based on defined thresholds for depth, table, and dimensional features.
+
+  - **Exploratory Data Analysis (EDA)**: 
+    - **Categorical Features**: Count plots were generated for categorical variables like cut, color, and clarity to visualize their distributions.
+    - **Numerical Features**: Histograms and KDE plots were created for numerical features to analyze their distributions. Boxplots illustrated the relationships between numerical variables (e.g., price vs. cut).
+    - **Correlation Analysis**: A heatmap was produced to examine correlations between numerical features, providing insights into potential relationships.
+
+  - **Encoding Categorical Variables**: Categorical variables were encoded using Label Encoding to prepare the dataset for modeling.
+
+  - **Modeling**:
+    - **Train-Test Split**: The dataset was split into training and testing sets.
+    - **Model Selection**: Various regression models were implemented including Linear Regression, Decision Tree Regressor, Random Forest Regressor, and Support Vector Regression.
+    - **Model Evaluation**: Each model's performance was evaluated using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R² score. A comparison of results was compiled in a DataFrame for clarity.
+
+  - **Hyperparameter Tuning**: I utilized GridSearchCV for hyperparameter tuning of the Random Forest model to optimize its performance.
+
+  This project provided a comprehensive understanding of data analysis and modeling techniques in Python while exploring the Diamonds dataset in depth. It underscored the importance of data visualization and model evaluation in deriving meaningful insights from data.
