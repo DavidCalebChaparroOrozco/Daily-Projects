@@ -3293,3 +3293,24 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
   - **Frame Rate Control**: The simulation runs at 30 frames per second, ensuring that the animation is fluid while maintaining performance.
 
   This project was an enjoyable exercise in using Pygame for graphical simulations. It deepened my understanding of game loops, event handling, and graphical rendering in Python. Overall, creating this snowfall effect was not only fun but also reinforced my skills in programming with Pygame.
+* Day 285: 🎄 Christmas Gift Manager in Python 🎁
+
+  Today, I developed a Christmas Gift Manager using Python, emphasizing Object-Oriented Programming (OOP) principles and the Model-View-Controller (MVC) architecture. This project allows users to manage a list of Christmas gifts, including adding, removing, updating, searching, sorting, and categorizing gifts. Below are the key highlights:
+
+  - **Encapsulation**: The `Gift` class encapsulates attributes such as `name`, `description`, and `category`. By controlling access to these attributes through methods, I ensure that the integrity of gift data is maintained.
+
+  - **Inheritance**: While this project does not heavily utilize inheritance, it lays the groundwork for future extensions where subclasses could be created for different types of gifts (e.g., toys, books) that may have additional attributes or methods.
+
+  - **Abstraction**: The project uses abstraction to provide a clear interface for interacting with gifts through the `GiftModel`, which handles all data operations. Users interact with a simplified interface without needing to understand the underlying data management.
+
+  - **Persistent Storage**: The application implements persistent storage using JSON to save and load gift data. This allows users to retain their gift list even after closing the application, enhancing user experience.
+
+  - **Search Functionality**: Users can search for gifts by name or description. This feature improves usability by allowing quick access to specific gifts in a potentially large list.
+
+  - **Gift Categories**: Gifts can be categorized (e.g., toys, books, electronics), helping users organize their gifts better. This added structure makes it easier to manage different types of gifts.
+
+  - **Sorting Options**: The application allows users to sort their gift list by name, category, or date added. This feature enhances the user experience by providing flexibility in how gifts are displayed.
+
+  - **Menu Options**: A user-friendly menu-driven interface enables interaction with the system. Users can view all gifts, add new ones, remove existing gifts, update details, search for specific gifts, and sort their list. This intuitive design makes the program accessible to all users.
+
+  This project was an excellent opportunity to apply OOP principles and MVC architecture in creating a practical application. I refined my understanding of how encapsulation and abstraction contribute to building clean and maintainable code while enhancing user functionality through thoughtful design choices.
