@@ -3323,3 +3323,21 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   - **zigzagLevelOrder**: Developed a solution for the "Binary Tree Zigzag Level Order Traversal" problem, which returns the values of nodes in a binary tree in a zigzag pattern. This means that for each level, the traversal alternates between left-to-right and right-to-left. The implementation also uses BFS with a queue, but it toggles the order of insertion into the result list based on the current level's direction. The time complexity for this solution is also \(O(n)\), where \(n\) is the number of nodes in the tree.
     [Problem Description: zigzagLevelOrder](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
+Here’s a `README.md` for your math visualization project, formatted to match the style of your previous entry:
+* Day 287: 📊 Simple Math Visualizations with Python 📈
+
+  Today, I developed a project focused on visualizing basic mathematical concepts using Python and Matplotlib. The project includes functions to plot linear equations, quadratic functions, and sine waves. Below are the key highlights:
+
+  - **Linear Functions**: The project features a function that plots linear equations of the form $$ y = mx + b $$. Users can specify the slope and intercept to visualize how these parameters affect the line's position and angle.
+
+  - **Quadratic Functions**: A dedicated function allows for plotting quadratic equations of the form $$ y = ax^2 + bx + c $$. This demonstrates how changes in coefficients influence the shape and position of the parabola.
+
+  - **Sine Waves**: The project also includes a function that generates and plots a sine wave, showcasing periodic functions. This helps illustrate concepts like amplitude and frequency in a visually engaging way.
+
+  - **User-Friendly Interface**: The main function orchestrates the plotting of different mathematical functions, providing an easy-to-follow structure. Each plot is clearly labeled with titles and axes descriptions for better understanding.
+
+  - **Matplotlib Integration**: By leveraging Matplotlib, the project provides high-quality visual representations of mathematical concepts. The use of grids, legends, and axis lines enhances readability and comprehension of the graphs.
+
+  - **Extensibility**: The code structure allows for easy modifications and extensions. Users can add new functions to plot other mathematical concepts or customize existing ones to explore different parameters.
+
+  This project served as an excellent exercise in applying Python programming skills while reinforcing fundamental mathematical principles. It was both enjoyable and educational to visualize these concepts through interactive plots, making math more accessible and engaging.
