@@ -3358,3 +3358,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Extensibility**: The structure of the project allows for easy expansion. New days and activities can be added without major changes to the existing codebase, making it adaptable for future enhancements.
 
   This project was a delightful exercise in applying programming concepts like recursion and data structures while creating a festive and interactive experience. It allowed me to explore how to engage users with simple yet effective programming techniques while celebrating the spirit of Christmas.
+* Day 289:🏋️ Fitness Tracker in Python 📊
+
+  Today, I developed a Fitness Tracker application using Python and the Flet library. The application allows users to plan and track their workout routines effectively. It provides functionalities to add exercises, log daily progress, and visualize statistics over time. Below are the key highlights:
+
+  - **Exercise Management**: Users can add exercises along with their corresponding weight and repetitions. Each exercise is represented as an object, allowing for organized data handling.
+
+  - **Data Logging**: The application enables users to log their daily workout progress by recording weight lifted and repetitions performed for each exercise. This helps users track their improvements over time.
+
+  - **Statistics Calculation**: The app provides a feature to calculate total weights lifted and total repetitions for each exercise. This allows users to see their overall performance at a glance.
+
+  - **User Interface**: The app features a user-friendly interface built using Flet, which allows for easy interaction. Users can input their exercises, view added exercises, and access statistics through simple button clicks.
+
+  - **Error Handling**: Input validation is implemented to ensure that users enter valid data (e.g., numeric values for weight and repetitions). This enhances user experience by preventing incorrect entries.
+
+  - **Extensibility**: The design of the application allows for future enhancements, such as adding graphs to visualize progress over time or integrating data persistence to save user data across sessions.
+
+  This project was a valuable exercise in applying object-oriented programming principles while creating a practical tool for fitness enthusiasts. I gained insights into how to structure applications effectively using classes and methods, ensuring that the code remains clean and maintainable. Additionally, working with the Flet library provided me with experience in building interactive user interfaces in Python.
