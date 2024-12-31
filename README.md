@@ -3392,3 +3392,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **CSV Handling**: The use of Python's built-in `csv` module allows for seamless reading from and writing to CSV files, ensuring compatibility with common data formats.
 
   This project was an excellent opportunity to practice Python programming skills while creating a practical tool for managing holiday expenses. It reinforced my understanding of object-oriented principles and provided insights into effective user interface design through command-line interactions. I look forward to expanding this project with additional features in the future!
+* Day 291: 🎉 Countdown Timer to New Year in Python 🎆
+
+  Today, I created a Countdown Timer that counts down to midnight on December 31st using Python and Tkinter. This project features a graphical user interface (GUI) and includes celebratory sounds and festive visuals. Here are the key highlights:
+
+  - **Graphical Interface**: The application uses Tkinter to create an engaging user interface that displays the countdown in a visually appealing way. The background is set to dark, enhancing readability and adding to the festive atmosphere.
+
+  - **Dynamic Countdown**: The timer calculates the remaining time until the New Year and updates every second. It formats the time into hours, minutes, and seconds, allowing users to see exactly how much time is left.
+
+  - **Celebration Sound**: When the countdown reaches zero, a celebratory sound plays, adding excitement to the moment. This feature enhances user experience by providing an auditory cue for the New Year celebration.
+
+  - **Customizable Aesthetics**: The timer's font has been changed to a more festive style (Comic Sans MS), and the text color is set to gold. This makes the countdown visually striking and suitable for a New Year's celebration.
+
+  - **User-Friendly Design**: The application is straightforward to use, making it accessible for anyone wanting to countdown to the New Year. It serves as both a practical tool and a fun way to celebrate.
+
+  This project was a fantastic opportunity to apply my knowledge of Python and GUI programming while creating something fun and interactive. It allowed me to explore how visual design can enhance user experience and how sound can be integrated into applications for added engagement. I look forward to further enhancing this project with more features in the future!
