@@ -3375,3 +3375,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Extensibility**: The design of the application allows for future enhancements, such as adding graphs to visualize progress over time or integrating data persistence to save user data across sessions.
 
   This project was a valuable exercise in applying object-oriented programming principles while creating a practical tool for fitness enthusiasts. I gained insights into how to structure applications effectively using classes and methods, ensuring that the code remains clean and maintainable. Additionally, working with the Flet library provided me with experience in building interactive user interfaces in Python.
+* Day 290: 🎄 Holiday Expense Tracker in Python 💰
+
+  Today, I developed a Holiday Expense Tracker using Python, focusing on user-friendly expense management during the holiday season. The project allows users to input their holiday expenses and provides functionalities to calculate totals, averages, and the highest expense. Below are the key highlights:
+
+  - **Expense Management**: The program allows users to add, edit, and delete expenses. Each expense includes an amount and a description, making it easy to track holiday spending.
+
+  - **Calculations**: Users can calculate the total expenses, average expense per entry, and identify the highest expense recorded. This provides valuable insights into spending habits during the holidays.
+
+  - **Data Persistence**: The tracker can save expenses to a CSV file and load them back into the program. This ensures that users can maintain their expense records across sessions without losing data.
+
+  - **User Interaction**: A simple command-line interface guides users through various options, such as adding or removing expenses and viewing summaries. This makes the application intuitive and easy to navigate.
+
+  - **Modular Design**: The program is structured around a `HolidayExpenseTracker` class that encapsulates all functionalities related to expense tracking. This modular approach enhances maintainability and allows for future feature expansions.
+
+  - **CSV Handling**: The use of Python's built-in `csv` module allows for seamless reading from and writing to CSV files, ensuring compatibility with common data formats.
+
+  This project was an excellent opportunity to practice Python programming skills while creating a practical tool for managing holiday expenses. It reinforced my understanding of object-oriented principles and provided insights into effective user interface design through command-line interactions. I look forward to expanding this project with additional features in the future!
