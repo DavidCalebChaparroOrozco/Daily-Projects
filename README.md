@@ -3407,3 +3407,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Design**: The application is straightforward to use, making it accessible for anyone wanting to countdown to the New Year. It serves as both a practical tool and a fun way to celebrate.
 
   This project was a fantastic opportunity to apply my knowledge of Python and GUI programming while creating something fun and interactive. It allowed me to explore how visual design can enhance user experience and how sound can be integrated into applications for added engagement. I look forward to further enhancing this project with more features in the future!
+* Day 292: 🏦 Family Budget Planner Application in Python 💰
+
+  Today, I developed a **Family Budget Planner** application using Python, focusing on creating a user-friendly interface with **Tkinter** and implementing data management features. This project is designed to help families track their expenses and manage their budget effectively. Below are the key highlights:
+
+  - **User Interface**: The application features a clean and intuitive GUI built with Tkinter, allowing users to input various expense categories such as food, gifts, and entertainment. The layout is designed for ease of use, with clearly labeled input fields and buttons.
+
+  - **Expense Management**: Users can add expenses for different categories, view their total expenses, and check against their monthly budget. The application alerts users if they exceed their budget, promoting better financial awareness.
+
+  - **Data Storage**: Expenses are stored in a list, which allows for easy retrieval and manipulation. Users can view their expense history in a dedicated window, providing insights into their spending habits.
+
+  - **CSV Export/Import**: The application includes functionality to export expenses to a CSV file for record-keeping and analysis. Additionally, it supports importing expenses from an existing CSV or Excel file, making it convenient for users to manage their data.
+
+  - **Data Visualization**: To enhance understanding of spending patterns, the application utilizes Matplotlib to plot a pie chart representing the distribution of expenses across different categories. This visual representation aids users in identifying areas where they can cut back.
+
+  - **Error Handling**: Robust error handling is implemented throughout the application to ensure that users receive appropriate feedback when inputs are invalid or when errors occur during data import/export processes.
+
+  This project not only reinforced my skills in Python programming but also provided practical experience in developing applications that address real-world needs. I gained valuable insights into GUI design, data management, and user interaction, all while creating a tool that can assist families in achieving their financial goals.
