@@ -3424,3 +3424,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Error Handling**: Robust error handling is implemented throughout the application to ensure that users receive appropriate feedback when inputs are invalid or when errors occur during data import/export processes.
 
   This project not only reinforced my skills in Python programming but also provided practical experience in developing applications that address real-world needs. I gained valuable insights into GUI design, data management, and user interaction, all while creating a tool that can assist families in achieving their financial goals.
+* Day 293: Technical Test "maxDepth" and "BuildTree" [LeetCode](https://leetcode.com/problems/)
+
+  - **maxDepth**: Implemented a solution for the "Maximum Depth of Binary Tree" problem, which requires finding the maximum depth of a binary tree. The maximum depth is defined as the number of nodes along the longest path from the root node down to the farthest leaf node. The solution employs a recursive approach, where we calculate the depth of the left and right subtrees and return the greater value plus one for the current node. The time complexity is $O(n)$, where $n$ is the number of nodes in the tree, and the space complexity is $O(h)$, where $h$ is the height of the tree.
+    [Problem Description: maxDepth](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+
+  - **BuildTree**: Developed a solution for the "Construct Binary Tree from Preorder and Inorder Traversal" problem. This problem involves reconstructing a binary tree given two integer arrays representing its preorder and inorder traversals. The algorithm uses recursion to identify the root from the preorder array and partitions the inorder array to build left and right subtrees accordingly. The time complexity is $O(n)$, as each node is processed once, and space complexity is also $O(n)$ due to storage for recursive calls and resulting tree nodes.
+    [Problem Description: BuildTree](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
