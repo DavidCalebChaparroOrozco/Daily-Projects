@@ -3431,3 +3431,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **BuildTree**: Developed a solution for the "Construct Binary Tree from Preorder and Inorder Traversal" problem. This problem involves reconstructing a binary tree given two integer arrays representing its preorder and inorder traversals. The algorithm uses recursion to identify the root from the preorder array and partitions the inorder array to build left and right subtrees accordingly. The time complexity is $O(n)$, as each node is processed once, and space complexity is also $O(n)$ due to storage for recursive calls and resulting tree nodes.
     [Problem Description: BuildTree](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
+* Day 294: 🌌 Zodiac Sign Calculator in Python ♈️🐉
+
+  Today, I developed a Zodiac Sign Calculator using Python, which determines a person's zodiac sign based on their birth date and provides information for multiple zodiac systems, including Western and Chinese astrology. The project emphasizes recursion and modular design, making it both informative and engaging. Here are the key highlights:
+
+  - **Zodiac Sign Calculation**: The program features a recursive function that determines the Western zodiac sign based on the day and month of birth. It uses predefined date ranges to classify signs accurately.
+
+  - **Chinese Zodiac Determination**: A separate function calculates the Chinese zodiac sign based on the birth year. This function utilizes a simple modulo operation to map years to their corresponding zodiac animals in a 12-year cycle.
+
+  - **User-Friendly Input**: The program prompts users to input their birth date in a clear format (DD-MM-YYYY). This ensures that users can easily interact with the application without confusion.
+
+  - **Modular Design**: The code is structured into distinct functions for calculating zodiac signs, enhancing readability and maintainability. Each function has a specific purpose, making it easy to understand and modify if necessary.
+
+  - **Detailed Output**: After processing the input, the program outputs both the Western and Chinese zodiac signs, providing users with a comprehensive understanding of their astrological profiles.
+
+  - **Commented Code**: The entire codebase is well-commented, explaining the purpose of each function and the logic behind key calculations. This makes it an excellent resource for learning Python programming and understanding how to implement similar projects.
+
+  This project was an enjoyable exploration of astrology through programming. It allowed me to practice my skills in Python while creating a tool that can be both fun and informative for users interested in their zodiac signs. I gained valuable experience in handling user input, implementing recursion, and structuring code effectively.
