@@ -1,0 +1,21 @@
+id,description,weight
+1,Pc Gamer,10.0
+2,Laptop,2.5
+3,Smartphone,0.3
+4,Tablet,0.8
+5,Monitor,6.5
+6,Mouse,0.2
+7,Keyboard,1.0
+8,Printer,8.0
+9,Router,0.5
+10,Headphones,0.4
+11,Webcam,0.3
+12,External HDD,0.9
+13,Graphics Card,1.5
+14,Power Supply,2.0
+15,RAM,0.1
+16,Motherboard,3.0
+17,Processor,0.5
+18,SSD,0.2
+19,Cooling Fan,0.8
+20,Case,7.0
