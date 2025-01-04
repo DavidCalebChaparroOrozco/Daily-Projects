@@ -3448,3 +3448,28 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Commented Code**: The entire codebase is well-commented, explaining the purpose of each function and the logic behind key calculations. This makes it an excellent resource for learning Python programming and understanding how to implement similar projects.
 
   This project was an enjoyable exploration of astrology through programming. It allowed me to practice my skills in Python while creating a tool that can be both fun and informative for users interested in their zodiac signs. I gained valuable experience in handling user input, implementing recursion, and structuring code effectively.
+* Day 295: 📦 Mail/Package Service Application in Python 📬
+
+  Today, I developed a Mail/Package Service application using Python, implementing the Model-View-Controller (MVC) architecture. The project allows users to manage packages, including adding, modifying, removing, searching, filtering, sorting, and saving/loading package data in both JSON and CSV formats. Below are the key highlights:
+
+  - **MVC Architecture**: The application is structured using the MVC pattern, separating the logic into three main components:
+    - **Model**: Manages the data and business logic related to packages.
+    - **View**: Handles user interaction and displays information.
+    - **Controller**: Acts as an intermediary between the Model and View, managing user input and updating the Model.
+
+  - **Package Management**: Users can perform various operations on packages:
+    - **Add Package**: Allows users to add new packages with details like ID, description, and weight.
+    - **Remove Package**: Users can remove existing packages by specifying their ID.
+    - **Modify Package**: Users can update details of existing packages.
+
+  - **Search and Filter**: The application allows users to search for packages by ID or description and filter packages based on a specified weight limit.
+
+  - **Sorting Functionality**: Users can sort packages by weight, making it easier to manage and review package information.
+
+  - **Data Persistence**: The application supports saving and loading package data in both JSON and CSV formats:
+    - **Save Packages**: Users can save all current packages to a file in their preferred format.
+    - **Load Packages**: Users can load package data from a previously saved file.
+
+  - **User-Friendly Interface**: A menu-driven interface guides users through various options, ensuring an intuitive experience while interacting with the application.
+
+  This project was an excellent opportunity to apply my knowledge of Python programming and software design principles. It allowed me to explore data management techniques while creating a practical tool for managing mail and package services. I gained valuable insights into how to structure applications effectively using MVC architecture and how to implement file handling for data persistence.
