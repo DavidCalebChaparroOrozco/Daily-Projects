@@ -3473,3 +3473,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Interface**: A menu-driven interface guides users through various options, ensuring an intuitive experience while interacting with the application.
 
   This project was an excellent opportunity to apply my knowledge of Python programming and software design principles. It allowed me to explore data management techniques while creating a practical tool for managing mail and package services. I gained valuable insights into how to structure applications effectively using MVC architecture and how to implement file handling for data persistence.
+* Day 296: 💰 Optimal Coin Change in Python 💵
+
+  Today, I worked on an Optimal Coin Change project using Python, focusing on recursion and dynamic programming techniques. The project aims to find all possible combinations of coins that can make up a given amount, as well as the optimal combination that uses the least number of coins. Below are the key highlights:
+
+  - **Recursion**: The project utilizes a recursive approach to explore all possible combinations of coin denominations that sum up to the target amount. This method allows for a thorough search of potential solutions.
+
+  - **Dynamic Programming**: To find the optimal combination with the minimum number of coins, I implemented a dynamic programming solution. This approach efficiently calculates the least number of coins required for each amount up to the target, storing results in a `dp` array.
+
+  - **Combination Generation**: The `combinations` function generates all valid combinations of coins recursively. When the remaining amount reaches zero, it adds the current combination to the results, ensuring comprehensive coverage of possibilities.
+
+  - **Optimal Combination**: The `best_combination` function determines the combination that uses the fewest coins. It updates a list of coins used for each amount based on previously computed results, ensuring that we only consider optimal paths.
+
+  - **User-Friendly Examples**: The code includes examples for both US and Colombian coin denominations, demonstrating how to use the functions effectively. This makes it easy to adapt the code for different currencies and amounts.
+
+  - **Results Presentation**: The final output displays both all possible combinations and the optimal combination for a given amount. This dual functionality provides valuable insights into how change can be made efficiently.
+
+  This project was an excellent opportunity to deepen my understanding of recursion and dynamic programming while solving a practical problem in finance. I gained valuable experience in structuring code for clarity and efficiency, making it easier to extend or modify in future iterations.
