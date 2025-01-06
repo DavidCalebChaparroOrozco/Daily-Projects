@@ -3490,3 +3490,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Results Presentation**: The final output displays both all possible combinations and the optimal combination for a given amount. This dual functionality provides valuable insights into how change can be made efficiently.
 
   This project was an excellent opportunity to deepen my understanding of recursion and dynamic programming while solving a practical problem in finance. I gained valuable experience in structuring code for clarity and efficiency, making it easier to extend or modify in future iterations.
+* Day 297: 🥭 Named Entity Recognition (NER) Model in Python 🧠
+
+  Today, I focused on developing a Named Entity Recognition (NER) model using Python and the spaCy library. The project is designed to identify and classify entities such as quantities and products from text related to fruit pricing inquiries. Below are the key highlights:
+
+  - **Training Data**: The model is trained on a dataset of questions about fruit prices. Each entry includes the text and annotated entities, such as quantities (e.g., "10 bananas") and products (e.g., "bananas"). This structured training data is crucial for teaching the model to recognize patterns.
+
+  - **spaCy Integration**: I utilized the spaCy library, a powerful tool for natural language processing, to load a pre-trained English model. This allows for efficient training and entity recognition capabilities.
+
+  - **Custom NER Component**: The project involves adding a custom Named Entity Recognition component to the spaCy pipeline. If the NER component does not already exist, it is created; otherwise, the existing one is updated with new entity labels.
+
+  - **Training Process**: The model undergoes multiple epochs of training, where the training data is shuffled and processed in batches. This iterative process helps optimize the model's ability to recognize entities accurately.
+
+  - **Loss Tracking**: During training, I implemented loss tracking to monitor the performance of the model across epochs. This provides insights into how well the model is learning and adjusting its parameters.
+
+  - **Model Evaluation**: After training, I tested the model with sample texts to evaluate its performance in recognizing entities. The results include identified entities along with their respective labels, showcasing the effectiveness of the trained model.
+
+  - **Model Persistence**: Finally, I saved the trained NER model to disk for future use. This allows for easy loading and testing without needing to retrain the model each time.
+
+  This project was an excellent opportunity to deepen my understanding of Named Entity Recognition and how machine learning can be applied to natural language processing tasks. I gained valuable experience in preparing training data, configuring machine learning models with spaCy, and evaluating their performance in real-world scenarios.
