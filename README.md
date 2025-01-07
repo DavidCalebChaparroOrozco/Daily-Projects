@@ -3509,3 +3509,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Model Persistence**: Finally, I saved the trained NER model to disk for future use. This allows for easy loading and testing without needing to retrain the model each time.
 
   This project was an excellent opportunity to deepen my understanding of Named Entity Recognition and how machine learning can be applied to natural language processing tasks. I gained valuable experience in preparing training data, configuring machine learning models with spaCy, and evaluating their performance in real-world scenarios.
+* Day 298: 🪙 Coin Flip Simulation in Python 🎲
+
+  Today, I developed a Coin Flip Simulation project using Python, which focuses on recursion to generate all possible sequences of results when flipping a coin \( n \) times. The project not only simulates the coin flips but also counts the combinations where there are more heads than tails and vice versa. Here are the key highlights:
+
+  - **Recursion**: The core of the simulation relies on a recursive function that generates all possible outcomes of coin flips. By reducing the number of flips with each recursive call, the function builds sequences of 'H' (heads) and 'T' (tails) until all flips are accounted for.
+
+  - **Combination Counting**: After generating all sequences, the program counts how many of those combinations have more heads than tails and how many have more tails than heads. This feature adds an analytical aspect to the simulation, providing insights into the results.
+
+  - **Visualization**: To enhance user experience, the project includes a visualization component that displays the results in a bar chart. Using `matplotlib`, it presents a clear comparison between the counts of heads and tails for each sequence generated.
+
+  - **User Interaction**: The program prompts users to input the number of coin flips they wish to simulate. This interactive element makes it easy to explore different scenarios and understand the distribution of outcomes.
+
+  - **Output Clarity**: After executing the simulation, users receive a summary that includes the total number of sequences generated and counts of combinations with more heads or tails. This summary provides a quick overview of the results.
+
+  This project was an engaging exercise in recursion and data visualization, allowing me to deepen my understanding of how to generate combinations programmatically. It also served as a practical application for using libraries like `matplotlib` for visual representation of data. Overall, it was a fun way to explore probability concepts through coding!
