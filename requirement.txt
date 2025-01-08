@@ -57,3 +57,4 @@ kivy
 openpyxl
 xlrd
 pyodbc
+reportlab

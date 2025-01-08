@@ -3524,3 +3524,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Output Clarity**: After executing the simulation, users receive a summary that includes the total number of sequences generated and counts of combinations with more heads or tails. This summary provides a quick overview of the results.
 
   This project was an engaging exercise in recursion and data visualization, allowing me to deepen my understanding of how to generate combinations programmatically. It also served as a practical application for using libraries like `matplotlib` for visual representation of data. Overall, it was a fun way to explore probability concepts through coding!
+* Day 299: 💰 Expense Splitter in Python 📊
+
+  Today, I developed an **Expense Splitter** application using Python and the Flet framework. This project is ideal for groups of friends or roommates who share expenses, allowing them to manage and track their shared costs effectively. Below are the key highlights:
+
+  - **Expense Registration**: Users can easily register shared expenses by providing a description, amount, and the participants involved. This feature simplifies the process of tracking who owes what.
+
+  - **Owed Calculation**: The application calculates how much each participant owes based on the expenses registered. This ensures transparency and helps avoid misunderstandings among friends or roommates.
+
+  - **Transaction History**: Users can view a history of all transactions entered into the system. This feature allows users to keep track of past expenses and provides a clear overview of shared financial responsibilities.
+
+  - **Report Generation**: The application includes functionality to export expense reports in both PDF and Excel formats. This makes it easy to share financial summaries with others or keep personal records.
+
+  - **User-Friendly Interface**: Built with Flet, the application features a clean and intuitive user interface that allows users to interact with the system effortlessly. Users can add expenses, view summaries, and export reports with just a few clicks.
+
+  - **Modular Design**: The code is organized into separate modules for managing expenses and generating reports. This modularity enhances maintainability and makes it easier to extend the application in the future.
+
+  This project was an excellent opportunity to apply my knowledge of Python programming and UI development using Flet. I gained valuable experience in managing shared data, implementing calculations, and creating user-friendly interfaces. Overall, it was a rewarding exercise in building a practical tool for everyday financial management.
