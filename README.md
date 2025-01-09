@@ -3541,3 +3541,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Modular Design**: The code is organized into separate modules for managing expenses and generating reports. This modularity enhances maintainability and makes it easier to extend the application in the future.
 
   This project was an excellent opportunity to apply my knowledge of Python programming and UI development using Flet. I gained valuable experience in managing shared data, implementing calculations, and creating user-friendly interfaces. Overall, it was a rewarding exercise in building a practical tool for everyday financial management.
+* Day 300: Technical Test "isBalanced" and "minDepth" [LeetCode](https://leetcode.com/problems/)
+
+  - **isBalanced**: Implemented a solution for the "Balanced Binary Tree" problem, which checks whether a given binary tree is height-balanced. A binary tree is height-balanced if the depth of the two subtrees of any node never differs by more than one. The approach uses a recursive function to calculate the height of each subtree while checking for balance at each node. The time complexity is O(n), where n is the number of nodes in the tree.
+    [Problem Description: isBalanced](https://leetcode.com/problems/balanced-binary-tree/description/)
+
+  - **minDepth**: Developed a solution for the "Minimum Depth of Binary Tree" problem, which finds the minimum depth from the root node down to the nearest leaf node. A leaf node is defined as a node with no children. The solution employs a recursive method that calculates the depth by traversing the tree and considering cases where one or both child nodes may be absent. The time complexity is O(n), where n is the number of nodes in the tree.
+    [Problem Description: minDepth](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
