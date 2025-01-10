@@ -1,5 +1,6 @@
+# Import necessary libraries
 import turtle
-import random  # Importing random to place toppings randomly
+import random
 
 def draw_pizza():
     # Set up the screen
