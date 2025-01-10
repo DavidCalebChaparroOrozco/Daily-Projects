@@ -3548,3 +3548,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **minDepth**: Developed a solution for the "Minimum Depth of Binary Tree" problem, which finds the minimum depth from the root node down to the nearest leaf node. A leaf node is defined as a node with no children. The solution employs a recursive method that calculates the depth by traversing the tree and considering cases where one or both child nodes may be absent. The time complexity is O(n), where n is the number of nodes in the tree.
     [Problem Description: minDepth](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+* Day 301: 🍕 Pizza Drawing with Python Turtle 🎨
+
+  Today, I created a fun project using Python's Turtle graphics library to draw a pizza. This project focuses on basic graphics programming concepts and random placement of toppings. Below are the key highlights:
+
+  - **Turtle Graphics**: Utilized the Turtle module to create a visual representation of a pizza. The Turtle library makes it easy to draw shapes and designs using simple commands, providing an engaging way to learn programming.
+
+  - **Drawing Shapes**: The pizza base is represented as a large circle filled with a golden color, simulating the crust. An inner red circle represents the sauce, showcasing how to use basic geometric shapes in graphics.
+
+  - **Random Toppings**: Implemented random placement of toppings like pepperoni and mushrooms. Using the `random` module, I generated random coordinates within the pizza's area to ensure that toppings appear only on the pizza, demonstrating how randomness can enhance graphical projects.
+
+  - **Color Customization**: Different colors were used for various components of the pizza (golden for crust, red for sauce, dark red for pepperoni, and gray for mushrooms). This aspect emphasizes how color can be applied in graphics to create visually appealing designs.
+
+  - **Function Structure**: The drawing logic is encapsulated within a function (`draw_pizza`), promoting code reusability and organization. This structure allows for easy modifications and enhancements in the future.
+
+  - **User Interaction**: Although this project does not include user input, it lays the groundwork for future enhancements where users could customize their pizza by choosing toppings or sizes.
+
+  This project was an enjoyable way to explore graphics programming in Python while applying fundamental concepts in a creative manner. It provided a practical application of coding skills and sparked ideas for future projects involving more complex graphics and interactivity.
