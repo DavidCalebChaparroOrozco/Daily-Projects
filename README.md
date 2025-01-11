@@ -3565,3 +3565,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User Interaction**: Although this project does not include user input, it lays the groundwork for future enhancements where users could customize their pizza by choosing toppings or sizes.
 
   This project was an enjoyable way to explore graphics programming in Python while applying fundamental concepts in a creative manner. It provided a practical application of coding skills and sparked ideas for future projects involving more complex graphics and interactivity.
+* Day 302: 🧑‍💻 Job Notification Script in Python 📬
+
+  Today, I developed a Job Notification Script using Python that monitors job postings on the official Python website. The script checks for new job listings and sends desktop notifications whenever a new job is published. This project highlights my skills in web scraping, data handling, and user notifications. Below are the key highlights:
+
+  - **Web Scraping**: The script utilizes the `requests` library to fetch the HTML content of the Python jobs page and `BeautifulSoup` to parse the HTML. This allows for easy extraction of job details such as title, company, location, posted date, and job types.
+
+  - **CSV File Handling**: Job postings are saved into a CSV file (`python_jobs.csv`), which provides a structured format for storing job data. This allows for easy access and review of past job listings.
+
+  - **Desktop Notifications**: Using the `plyer` library, the script sends desktop notifications for new job postings. This feature ensures that users are promptly informed about opportunities without needing to constantly check the website.
+
+  - **Continuous Monitoring**: The script runs in an infinite loop, checking for new job postings every 60 seconds. This allows for real-time updates, making it a practical tool for job seekers.
+
+  - **Data Management**: The script maintains a set of previously seen job titles to avoid duplicate notifications. This ensures that users receive alerts only for genuinely new postings.
+
+  - **User-Friendly Interface**: While primarily a backend script, its functionality is designed to be straightforward and effective, providing value to users looking to stay updated on Python-related job opportunities.
+
+  This project was an excellent exercise in combining web scraping with real-time notifications. It reinforced my understanding of how to interact with web data programmatically while also enhancing my skills in Python libraries such as `requests`, `BeautifulSoup`, and `plyer`. Overall, this script serves as a practical tool for anyone interested in Python jobs, making it easier to stay informed about new opportunities in the field.
