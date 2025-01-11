@@ -1,3 +1,4 @@
+# Import necessary libraries
 import requests
 from bs4 import BeautifulSoup
 
@@ -44,6 +45,5 @@ for job_element in python_job_elements:
 #     print(company_element.text.strip())
 #     print(location_element.text.strip())
 #     print()
-
 
 print(len(python_jobs))
