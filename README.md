@@ -3582,3 +3582,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Interface**: While primarily a backend script, its functionality is designed to be straightforward and effective, providing value to users looking to stay updated on Python-related job opportunities.
 
   This project was an excellent exercise in combining web scraping with real-time notifications. It reinforced my understanding of how to interact with web data programmatically while also enhancing my skills in Python libraries such as `requests`, `BeautifulSoup`, and `plyer`. Overall, this script serves as a practical tool for anyone interested in Python jobs, making it easier to stay informed about new opportunities in the field.
+* Day 303: 🪙 Coin Game with Minimax Algorithm in Python 🎮
+
+  Today, I developed a Coin Game using Python, implementing the Minimax algorithm to create an AI opponent. The game allows two players to take turns removing coins from a pile, with the goal of taking the last coin to win. Here are the key highlights of the project:
+
+  - **Game Mechanics**: Players can take between 1 to 3 coins per turn from a pile. The player who takes the last coin wins the game. This simple yet strategic gameplay encourages players to think ahead and plan their moves carefully.
+
+  - **Minimax Algorithm**: The AI opponent uses the Minimax algorithm to determine its optimal move. This recursive strategy evaluates possible future game states and chooses the move that maximizes its chances of winning while minimizing the player's chances.
+
+  - **Player Interaction**: The game features a user-friendly interface where players can input their choice of coins to take. Input validation ensures that players can only take a valid number of coins, enhancing the overall user experience.
+
+  - **AI Decision Making**: The AI's decision-making process is transparent and logical, making it a challenging opponent for human players. The Minimax implementation allows the AI to anticipate player moves and respond effectively.
+
+  - **Game Loop**: The main game loop alternates between player and AI turns until all coins are taken. This structure keeps the game engaging and dynamic, providing a clear flow from one turn to the next.
+
+  - **Code Structure**: The project is organized into a single class, `CoinGame`, which encapsulates all game logic and methods. This design promotes clarity and maintainability, making it easy to extend or modify in the future.
+
+  This project was an exciting challenge that allowed me to deepen my understanding of game theory and algorithmic thinking. Implementing the Minimax algorithm not only improved my coding skills but also enhanced my ability to design intelligent systems that can compete against human players. Overall, it was a rewarding experience that combined programming with strategic gameplay.
