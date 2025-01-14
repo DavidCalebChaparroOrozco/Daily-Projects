@@ -3599,3 +3599,25 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Code Structure**: The project is organized into a single class, `CoinGame`, which encapsulates all game logic and methods. This design promotes clarity and maintainability, making it easy to extend or modify in the future.
 
   This project was an exciting challenge that allowed me to deepen my understanding of game theory and algorithmic thinking. Implementing the Minimax algorithm not only improved my coding skills but also enhanced my ability to design intelligent systems that can compete against human players. Overall, it was a rewarding experience that combined programming with strategic gameplay.
+* Day 304: 🐦 Bird Study Service in Python 📚
+
+  Today, I developed a Bird Study Service using Python, implementing the Model-View-Controller (MVC) architecture. This project focuses on managing bird data and provides a user-friendly interface for various operations related to bird studies. Below are the key highlights:
+
+  - **MVC Architecture**: The project is structured using the MVC pattern, separating concerns into three components:
+    - **Model**: Contains the data structure and logic for managing birds, including methods for adding, removing, searching, and updating bird information.
+    - **View**: Handles user interaction and displays information through a simple menu-driven interface.
+    - **Controller**: Manages the flow of data between the model and view, responding to user inputs and updating the display accordingly.
+
+  - **Bird Management**: Users can perform various operations on birds:
+    - **Add New Birds**: Users can add new birds to the study.
+    - **Remove Birds**: The service allows users to remove birds from their records.
+    - **Search for Birds**: Users can search for specific birds by name.
+    - **Update Bird Information**: The application supports updating existing bird names, ensuring accurate records.
+
+  - **Data Handling**: The model maintains a list of birds and provides methods for counting the total number of birds. This allows users to easily track their studies and manage their data effectively.
+
+  - **User-Friendly Interface**: The view presents an intuitive menu that guides users through available options, making it easy to navigate the service. Users can view all birds, add or remove entries, search for specific birds, update names, and count total birds with just a few keystrokes.
+
+  - **Extensibility**: The design allows for future enhancements such as integrating file storage for persistent data management, adding more detailed attributes for each bird (like species or habitat), or even connecting to an external database.
+
+  This project was an excellent opportunity to apply MVC principles in Python while creating a practical tool for bird enthusiasts and researchers. It deepened my understanding of how to structure applications for maintainability and scalability while providing a solid foundation for future development in data management systems.
