@@ -3638,3 +3638,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Interactive Visualizations**: The project utilizes libraries like Matplotlib and Seaborn for static visualizations. Future enhancements could include interactive visualizations using Plotly or Bokeh for an even richer user experience.
 
   This project was a valuable exercise in applying data management and visualization techniques in Python. It allowed me to deepen my understanding of how to create user-friendly applications that provide meaningful insights into performance metrics. Overall, it was an enjoyable experience building a practical tool for basketball enthusiasts to track their shooting efficiency!
+* Day 306: Technical Test "hasPathSum" and "pathSum" [LeetCode](https://leetcode.com/problems/)
+
+  Today, I focused on solving two related problems from LeetCode: `hasPathSum` and `pathSum`. These problems involve traversing a binary tree to find specific paths that meet given criteria. Below are the key highlights of my work:
+
+  - **Problem Overview**:
+    - **hasPathSum**: This function checks if there exists a root-to-leaf path in a binary tree such that the sum of the node values along the path equals a specified `targetSum`.
+    - **pathSum**: This function returns all root-to-leaf paths where the sum of the node values in each path equals `targetSum`. Each path is represented as a list of node values.
+
+  - **Implementation Details**:
+    - I created a `TreeNode` class to represent each node in the binary tree, encapsulating its value and pointers to its left and right children.
+    
+    - The `Solution` class contains both methods:
+      - **hasPathSum** utilizes depth-first search (DFS) to traverse the tree while maintaining the current path and sum. It checks for leaf nodes and compares the accumulated sum with `targetSum`.
+      
+      - **pathSum** also employs DFS but collects all valid paths that match the target sum. It uses backtracking to explore different paths while maintaining the current path state.
+
+  This exercise was an excellent opportunity to deepen my understanding of binary tree traversal techniques and recursion. It reinforced my skills in implementing algorithms that solve complex problems using clear and efficient code structures. The challenges presented by these problems were rewarding to tackle, enhancing my problem-solving capabilities in data structures and algorithms.
