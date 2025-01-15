@@ -3621,3 +3621,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Extensibility**: The design allows for future enhancements such as integrating file storage for persistent data management, adding more detailed attributes for each bird (like species or habitat), or even connecting to an external database.
 
   This project was an excellent opportunity to apply MVC principles in Python while creating a practical tool for bird enthusiasts and researchers. It deepened my understanding of how to structure applications for maintainability and scalability while providing a solid foundation for future development in data management systems.
+* Day 305: 🏀 Shooting Efficiency Tracker in Python 📊
+
+  Today, I developed a Shooting Efficiency Tracker using Python, focusing on data management, visualization, and statistical analysis. The project allows users to track and visualize shooting efficiencies for different types of basketball shots, such as free throws, two-point shots, and three-point shots. Below are the key highlights:
+
+  - **Data Persistence**: The application supports saving and loading shooting data using JSON files. Users can maintain their data across sessions, ensuring that their shooting statistics are always available.
+
+  - **User-Friendly Interface**: A menu-driven interface allows users to view shooting efficiencies, add new data, modify existing entries, visualize statistics, and import data from external files (CSV or JSON). This design makes the application intuitive and accessible.
+
+  - **Advanced Data Visualization**: Users can choose from multiple graph types (bar plots, line charts, pie charts) to visualize shooting efficiencies. This feature enhances data insights and helps users understand their performance trends over time.
+
+  - **Statistical Analysis**: The application calculates important performance metrics such as average shooting efficiency, best/worst performances, and provides a comparative analysis of shooting types. This functionality aids users in identifying areas for improvement.
+
+  - **Customization Options**: Users can customize shot types and their labels according to their preferences. This flexibility allows for a more personalized experience when tracking shooting efficiencies.
+
+  - **Interactive Visualizations**: The project utilizes libraries like Matplotlib and Seaborn for static visualizations. Future enhancements could include interactive visualizations using Plotly or Bokeh for an even richer user experience.
+
+  This project was a valuable exercise in applying data management and visualization techniques in Python. It allowed me to deepen my understanding of how to create user-friendly applications that provide meaningful insights into performance metrics. Overall, it was an enjoyable experience building a practical tool for basketball enthusiasts to track their shooting efficiency!
