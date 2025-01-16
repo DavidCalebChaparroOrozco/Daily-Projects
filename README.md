@@ -3655,3 +3655,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
       - **pathSum** also employs DFS but collects all valid paths that match the target sum. It uses backtracking to explore different paths while maintaining the current path state.
 
   This exercise was an excellent opportunity to deepen my understanding of binary tree traversal techniques and recursion. It reinforced my skills in implementing algorithms that solve complex problems using clear and efficient code structures. The challenges presented by these problems were rewarding to tackle, enhancing my problem-solving capabilities in data structures and algorithms.
+* Day 307: 🎓 Grade Converter in Python 📊
+
+  Today, I developed a Grade Converter program using Python, designed to convert numerical grades into letter grades based on the Colombian grading system. The project emphasizes user customization of grade ranges and includes validation to handle invalid inputs. Here are the key highlights:
+
+  - **Customizable Grade Ranges**: Users can define their own letter grades and corresponding numerical ranges. This feature allows for flexibility in grading systems, accommodating various educational institutions or personal preferences.
+
+  - **Input Validation**: The program includes robust input validation to ensure that only valid numeric grades are accepted. Users are prompted to re-enter values if they provide invalid data, enhancing the overall user experience.
+
+  - **Grade Conversion Logic**: The core functionality of the program involves converting numeric grades (0-100) into letter grades (A, B, C, D, F) based on the specified ranges. This logic is encapsulated in a dedicated function, making it easy to modify or extend in the future.
+
+  - **User-Friendly Interface**: The program features a simple command-line interface that guides users through entering custom ranges and numeric grades. Clear prompts and feedback ensure that users understand what is required at each step.
+
+  - **Error Handling**: The program gracefully handles errors such as out-of-range inputs or non-numeric entries. This ensures that users can interact with the application without encountering crashes or unexpected behavior.
+
+  - **Extensibility**: The design of the program allows for easy enhancements, such as adding more features or integrating it into larger educational software systems. The modular structure promotes maintainability and scalability.
+
+  This project was an excellent opportunity to apply programming concepts in a practical context while focusing on user interaction and data validation. I enjoyed creating a tool that can help students and educators easily convert grades, making it both functional and beneficial for academic settings.
