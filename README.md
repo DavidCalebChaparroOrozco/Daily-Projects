@@ -3672,3 +3672,23 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Extensibility**: The design of the program allows for easy enhancements, such as adding more features or integrating it into larger educational software systems. The modular structure promotes maintainability and scalability.
 
   This project was an excellent opportunity to apply programming concepts in a practical context while focusing on user interaction and data validation. I enjoyed creating a tool that can help students and educators easily convert grades, making it both functional and beneficial for academic settings.
+* Day 308: [Data Colombia: Traffic Accidents](https://www.datos.gov.co/dataset/MUERTES-ACCIDENTES-DE-TRANSITO-2012-2022-MARZO/wwir-6riq/about_data)
+
+  Today, I focused on analyzing the Traffic Accidents dataset from Colombia using Python. The primary objective was to perform exploratory data analysis (EDA) and model the data to classify types of accidents based on various features. Below are the key highlights of the project:
+
+  - **Data Loading and Overview**: The dataset was loaded using Pandas from an Excel file, and an initial overview was conducted to understand its structure and contents. The dataset includes attributes such as date of incident, day of the week, time of incident, location, type of road, type of accident, gender, age of victims, and vehicle details.
+
+  - **Data Cleaning**: I addressed missing values by standardizing text values to lowercase and replacing non-standard missing values with NaN. Columns with more than 50% missing values were dropped, and rows with critical missing values were also removed. Categorical columns were filled with the mode to handle remaining missing values.
+
+  - **Exploratory Data Analysis (EDA)**:
+    - **Categorical Features**: Count plots were generated for categorical variables like day, location, road type, accident type, gender, victim role, and victim vehicle to visualize their distributions.
+    - **Numerical Features**: Kernel Density Estimation (KDE) plots were created for numerical features such as age and time to analyze their distributions. A heatmap illustrated correlations between numerical variables.
+
+  - **Encoding Categorical Variables**: Categorical variables were encoded using Label Encoding to prepare the dataset for modeling.
+
+  - **Modeling**:
+    - **Train-Test Split**: The dataset was split into training and testing sets.
+    - **Model Selection**: A Random Forest Classifier was implemented to classify the type of accident based on various features.
+    - **Model Evaluation**: The model's performance was evaluated using a confusion matrix and classification report to assess metrics such as precision, recall, and F1-score.
+
+  This project provided a comprehensive understanding of data analysis and modeling techniques in Python while exploring the Traffic Accidents dataset in depth. It highlighted the importance of data visualization and model evaluation in deriving meaningful insights from data.
