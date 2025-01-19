@@ -3709,3 +3709,23 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Exploration of Possibilities**: By generating all possible combinations, users can discover unique pairings they might not have considered otherwise. This aspect adds an element of surprise and delight to the ice cream selection process.
 
   This project was a delightful exercise in applying recursion and modular programming principles while creating an engaging tool for ice cream enthusiasts. It allowed me to explore how to generate combinations dynamically and present them in an appealing way, enhancing both my coding skills and my appreciation for creative programming solutions. Enjoy exploring all the delicious possibilities!
+* Day 310: 🍳 NER for Recipe Extraction in Python 📜
+
+  Today, I developed a Named Entity Recognition (NER) model using Python to extract ingredients, quantities, and methods of preparation from cooking recipes. This project leverages the powerful spaCy library for natural language processing and focuses on training a custom NER model tailored specifically for culinary texts. Here are the key highlights:
+
+  - **NER Model**: The core of this project is a custom NER model built using spaCy. It identifies three main entity types:
+    - **Ingredient**: Recognizes food items such as "flour" and "sugar".
+    - **Quantity**: Captures measurements like "200g" and "1 cup".
+    - **Method**: Identifies cooking methods such as "bake" and "fry".
+
+  - **Training Data**: The model was trained on a small dataset of recipe instructions, where each instruction is paired with its corresponding entities. This data format allows the model to learn the context in which each entity type appears.
+
+  - **Pipeline Configuration**: The spaCy pipeline was configured to include the NER component. Labels were added dynamically based on the training data, ensuring that all relevant entities are recognized during training.
+
+  - **Training Process**: The model underwent training for 50 epochs, with data shuffled at each epoch to improve generalization. Losses were monitored throughout the training process to ensure effective learning.
+
+  - **Model Evaluation**: After training, the model was tested with various recipe instructions to evaluate its performance. The output includes recognized entities along with their labels, demonstrating the model's ability to accurately identify components of recipes.
+
+  - **User-Friendly Interface**: A simple testing loop was implemented to process sample recipe texts and display recognized entities. This makes it easy for users to interact with the model and see its outputs in real-time.
+
+  This project was a fantastic opportunity to apply machine learning techniques in the context of natural language processing. It deepened my understanding of how NER works and provided hands-on experience with spaCy's capabilities. I am excited about the potential applications of this model in recipe management systems or culinary applications, where extracting structured information from unstructured text can enhance user experience and accessibility.
