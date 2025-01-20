@@ -3729,3 +3729,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Interface**: A simple testing loop was implemented to process sample recipe texts and display recognized entities. This makes it easy for users to interact with the model and see its outputs in real-time.
 
   This project was a fantastic opportunity to apply machine learning techniques in the context of natural language processing. It deepened my understanding of how NER works and provided hands-on experience with spaCy's capabilities. I am excited about the potential applications of this model in recipe management systems or culinary applications, where extracting structured information from unstructured text can enhance user experience and accessibility.
+* Day 311: Technical Test "flatten" and "numDistinct" [LeetCode](https://leetcode.com/problems/)
+
+  - **flatten**: Implemented a solution for the "Flatten Binary Tree to Linked List" problem, which transforms a binary tree into a linked list in-place. The linked list should follow the same order as a pre-order traversal of the binary tree. The approach utilizes a recursive method to rearrange the pointers of the tree nodes, ensuring that the left child pointers are set to null and the right child pointers point to the next node in the list. The time complexity is O(n), where n is the number of nodes in the tree.
+    [Problem Description: flatten](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)
+
+  - **numDistinct**: Developed a solution for the "Distinct Subsequences" problem, which counts the number of distinct subsequences of string `s` that equal string `t`. The solution employs dynamic programming to build a table that tracks the number of ways to form subsequences by iterating through both strings. The final result is found at the bottom-right cell of the table, representing all possible distinct subsequences. The time complexity is O(m * n), where m is the length of string `s` and n is the length of string `t`.
+    [Problem Description: numDistinct](https://leetcode.com/problems/distinct-subsequences/description/)
