@@ -3736,3 +3736,35 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **numDistinct**: Developed a solution for the "Distinct Subsequences" problem, which counts the number of distinct subsequences of string `s` that equal string `t`. The solution employs dynamic programming to build a table that tracks the number of ways to form subsequences by iterating through both strings. The final result is found at the bottom-right cell of the table, representing all possible distinct subsequences. The time complexity is O(m * n), where m is the length of string `s` and n is the length of string `t`.
     [Problem Description: numDistinct](https://leetcode.com/problems/distinct-subsequences/description/)
+* Day 312: 📊 Advanced Sales Dashboard with Flask and Plotly
+
+  Today, I developed an **Advanced Sales Dashboard** using **Flask**, **Plotly**, and **Pandas**. The project focuses on building an interactive web application to analyze and visualize sales data. Below are the key highlights:
+
+  - **Dynamic Dashboard**:  
+    The dashboard provides interactive visualizations, including:  
+    - A **bar chart** for sales by category, offering a clear breakdown of revenue by product types.  
+    - A **line chart** for monthly sales trends, helping to identify seasonal patterns and growth trends.  
+
+  - **Data Preprocessing**:  
+    Implemented a robust data preprocessing pipeline that:  
+    - Removes duplicates to ensure data integrity.  
+    - Handles missing values by replacing them with appropriate defaults (e.g., mean for numerical values, "Unknown" for categories).  
+    - Converts date columns to datetime format and extracts additional features like month and year for detailed time-based analysis.  
+
+  - **Advanced Insights**:  
+    The dashboard calculates and displays key metrics such as:  
+    - **Total Sales**: Aggregated revenue over the dataset.  
+    - **Average Sale**: Mean revenue per transaction.  
+    - **Top Categories**: The top three categories generating the highest revenue.  
+    - **Sales Growth**: Month-over-month growth percentage, providing a high-level performance indicator.  
+
+  - **Dummy Data Generator**:  
+    Created a script to generate **realistic dummy sales data**, ensuring the dashboard has a functional dataset for testing and demonstration purposes. Key features include:  
+    - Randomized transactions across five categories (`Electronics`, `Clothing`, `Furniture`, `Groceries`, `Toys`) and corresponding products.  
+    - Transaction amounts ranging between $10 and $2,000.  
+    - Date ranges spanning from January 2024 to January 2025.  
+
+  - **API for Insights**:  
+    Added an API endpoint (`/insights`) to deliver sales insights in JSON format, facilitating easy integration with other systems or frontends.
+
+  This project was a rewarding experience in combining **data analysis** and **web development**. I enhanced my skills in creating clean, maintainable Flask applications, integrating Plotly for interactive visualizations, and implementing advanced data preprocessing techniques. The modular structure ensures scalability, making it adaptable for future enhancements like predictive analytics or more granular visualizations.
