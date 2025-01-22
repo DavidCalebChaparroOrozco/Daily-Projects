@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sales Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Sales Analysis Dashboard by David Caleb</h1>
+    
+    <div>
+        <h2>Sales Insights</h2>
+        <ul>
+            <li>Total Sales: ${{ "%.2f"|format(insights.total_sales) }}</li>
+            <li>Average Sale: ${{ "%.2f"|format(insights.average_sale) }}</li>
+            <li>Sales Growth: {{ "%.2f"|format(insights.sales_growth) }}%</li>
+        </ul>
+        
+        <h3>Top Categories</h3>
+        <ul>
+            {% for category, amount in insights.top_categories.items() %}
+            <li>{{ category }}: ${{ "%.2f"|format(amount) }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    
+    <div>
+        <h2>Sales by Category</h2>
+        <div id="category-chart"></div>
+    </div>
+    
+    <div>
+        <h2>Monthly Sales</h2>
+        <div id="monthly-chart"></div>
+    </div>
+
+    <script>
+        var categoryChart = {{ category_chart | safe }};
+        var monthlyChart = {{ monthly_chart | safe }};
+        
+        Plotly.newPlot('category-chart', categoryChart.data, categoryChart.layout);
+        Plotly.newPlot('monthly-chart', monthlyChart.data, monthlyChart.layout);
+    </script>
+</body>
+</html>
