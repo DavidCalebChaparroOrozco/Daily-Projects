@@ -3768,3 +3768,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     Added an API endpoint (`/insights`) to deliver sales insights in JSON format, facilitating easy integration with other systems or frontends.
 
   This project was a rewarding experience in combining **data analysis** and **web development**. I enhanced my skills in creating clean, maintainable Flask applications, integrating Plotly for interactive visualizations, and implementing advanced data preprocessing techniques. The modular structure ensures scalability, making it adaptable for future enhancements like predictive analytics or more granular visualizations.
+* Day 313:🌍 Tourist Location NER (Named Entity Recognition) Project 🏛️
+
+  Today, I worked on a Named Entity Recognition (NER) system for tourist locations using Python, with a focus on Object-Oriented Programming (OOP) principles such as inheritance, encapsulation, and abstraction. The project allows automatic identification of cities, monuments, and tourist activities from travel-related text. Below are the key highlights:
+
+  - **Encapsulation**: The `NERModel` class encapsulates attributes like `train_data` and `nlp_model`, ensuring that machine learning model details are protected by making them private. Controlled access is provided through specialized methods.
+
+  - **Inheritance**: The system uses inheritance for different NER components, derived from a base `BaseNERModel` abstract class. This allows reusability of common attributes while providing specialized functionality for each entity recognition subclass.
+
+  - **Abstraction**: The `BaseNERModel` class contains an abstract method `train_model`, which is implemented by different NER model classes. This ensures that each type of entity recognition has a tailored training approach, maintaining a consistent interface.
+
+  - **Entity Management**: The system can identify and classify entities such as cities, monuments, and tourist activities. The `NERTrainer` class captures details like entity labels, training epochs, and model configuration, making the system easy to extend with new features in the future.
+
+  - **Machine Learning Training**: The system uses SpaCy's advanced NLP capabilities to train a custom NER model, with configurable parameters like training epochs, dropout rates, and entity labels. The final model's performance is clearly demonstrated through test cases.
+
+  - **Interaction Interface**: A modular approach allows for easy testing and evaluation of the NER model, where users can input text and receive automatically detected entities. This makes the program user-friendly and practical for real-world natural language processing scenarios.
+
+  This project was an excellent exercise in applying OOP principles to create a well-structured and maintainable machine learning system. I had the opportunity to refine my understanding of how abstraction, encapsulation, and inheritance work together to create clean and reusable code, all while building a practical Named Entity Recognition tool for tourist locations.
