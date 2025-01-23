@@ -3785,3 +3785,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Interaction Interface**: A modular approach allows for easy testing and evaluation of the NER model, where users can input text and receive automatically detected entities. This makes the program user-friendly and practical for real-world natural language processing scenarios.
 
   This project was an excellent exercise in applying OOP principles to create a well-structured and maintainable machine learning system. I had the opportunity to refine my understanding of how abstraction, encapsulation, and inheritance work together to create clean and reusable code, all while building a practical Named Entity Recognition tool for tourist locations.
+* Day 314: 📦 Box Management System in Python 🗃️
+
+  Today, I worked on a Box Management System using Python, with a focus on Object-Oriented Programming (OOP) principles such as inheritance, encapsulation, and abstraction. The project allows users to manage box inventories, track box details, perform complex operations, and maintain a comprehensive inventory system. Below are the key highlights:
+
+  - **Encapsulation**: The `Box` class encapsulates attributes like `id`, `name`, and `price`, ensuring that box information is protected by making them private. Controlled access is provided through specific methods in the `BoxInventory` class.
+
+  - **Inheritance**: The system uses a flexible class design for different box types, allowing easy extension and specialization of box characteristics while maintaining a consistent base structure.
+
+  - **Abstraction**: The `BoxInventory` class provides an abstract layer for managing box collections, offering methods like `add_box()`, `remove_box()`, and `find_box_by_id()` that simplify complex inventory operations.
+
+  - **Inventory Management**: Users can add, remove, update, and search for boxes with comprehensive details including material, dimensions, weight, and price. This makes the system flexible and adaptable to various inventory tracking scenarios.
+
+  - **Advanced Operations**: The system includes sophisticated features like calculating total inventory value, filtering boxes by material, sorting boxes by price, and generating detailed inventory reports.
+
+  - **Menu Options**: A menu-driven interface allows for interaction with the system, where users can perform various inventory management tasks. This makes the program user-friendly and practical for real-world box tracking.
+
+  This project was an excellent exercise in applying OOP principles to create a well-structured and maintainable system. I had the opportunity to refine my understanding of how abstraction, encapsulation, and inheritance work together to create clean and reusable code, all while building a practical box management tool.

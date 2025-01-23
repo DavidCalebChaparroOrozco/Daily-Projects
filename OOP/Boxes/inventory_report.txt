@@ -1,0 +1,16 @@
+Box Inventory Report
+==================================================
+ID: 2
+Name: toys
+Material: toys
+Dimensions: 5x5x5
+Weight: 30.0 kg
+Price: $250.00
+--------------------------------------------------
+ID: 3
+Name: Pc
+Material: Components
+Dimensions: 5x5x5
+Weight: 25.0 kg
+Price: $800.00
+--------------------------------------------------
