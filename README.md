@@ -3802,3 +3802,29 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Menu Options**: A menu-driven interface allows for interaction with the system, where users can perform various inventory management tasks. This makes the program user-friendly and practical for real-world box tracking.
 
   This project was an excellent exercise in applying OOP principles to create a well-structured and maintainable system. I had the opportunity to refine my understanding of how abstraction, encapsulation, and inheritance work together to create clean and reusable code, all while building a practical box management tool.
+* Day 315: 🎲 Coin Toss Sequences with Recursion
+
+  Today, I worked on a Python project focused on generating and analyzing all possible coin toss sequences for a given number of tosses using recursion. The project explores the mathematical and combinatorial aspects of coin tosses, with an emphasis on understanding balanced and unbalanced sequences. Below are the key highlights:
+
+  - **Recursive Sequence Generation**: 
+    - A recursive function was implemented to generate all possible sequences of coin tosses (`H` for Heads and `T` for Tails).
+    - This approach efficiently handles the combinatorial explosion of sequences as the number of tosses increases.
+
+  - **Analysis of Unbalanced Sequences**:
+    - A function was developed to count sequences with more `H` (Heads) or `T` (Tails), categorizing them as unbalanced.
+    - This analysis provides insights into the distribution of sequences that deviate from perfect balance.
+
+  - **Detailed Sequence Output**:
+    - The project includes functionality to display all generated sequences in a user-friendly format, enabling easy inspection of individual outcomes.
+    - The total number of sequences for a given number of tosses is calculated and printed.
+
+  - **Key Functions**:
+    - `generate_coin_toss_sequences(n)`: Generates all possible sequences for `n` coin tosses using recursion.
+    - `count_unbalanced_sequences(sequences)`: Analyzes sequences to count cases with more Heads or Tails.
+
+  - **Insights and Results**:
+    - The recursive approach highlights the elegance of solving combinatorial problems programmatically.
+    - Results demonstrate the balance and unbalance distribution trends, offering a deeper understanding of probabilistic outcomes.
+
+  This project was an excellent opportunity to deepen my understanding of recursion and combinatorics in Python. It reinforced the importance of leveraging recursion for generating complex patterns while showcasing how analytical functions can extract meaningful insights from data.
+
