@@ -3827,4 +3827,28 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - Results demonstrate the balance and unbalance distribution trends, offering a deeper understanding of probabilistic outcomes.
 
   This project was an excellent opportunity to deepen my understanding of recursion and combinatorics in Python. It reinforced the importance of leveraging recursion for generating complex patterns while showcasing how analytical functions can extract meaningful insights from data.
+* Day 316: 🩺 Diabetes Analysis and Prediction in Python 📊   [Diabetes Dataset on Kaggle](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset/data)  
 
+  Today, I worked on analyzing the Diabetes dataset from Kaggle using Python. The main objective was to perform exploratory data analysis (EDA) and build predictive models to classify whether a person has diabetes based on various health metrics. Below are the key highlights of the project:
+
+  - **Data Loading and Overview**: The dataset was loaded using Pandas to explore its structure and contents. It includes features such as pregnancies, glucose levels, blood pressure, skin thickness, insulin levels, BMI, diabetes pedigree function, and age, with the target variable being `Outcome` (1 = diabetic, 0 = non-diabetic).  
+
+  - **Data Cleaning**:  
+    - Addressed missing or zero values in critical features like glucose, blood pressure, and BMI.  
+    - Outliers were identified and treated to improve data quality.  
+
+  - **Exploratory Data Analysis (EDA)**:  
+    - **Feature Distributions**: Histograms and KDE plots were used to visualize the distributions of numerical features.  
+    - **Outcome Analysis**: Boxplots and violin plots helped examine how features like glucose and BMI vary between diabetic and non-diabetic groups.  
+    - **Correlation Analysis**: A heatmap was generated to identify relationships between features, highlighting significant correlations with diabetes outcome.  
+
+  - **Modeling**:  
+    - **Train-Test Split**: The data was divided into training and testing sets for model evaluation.  
+    - **Model Selection**: Various classification models were implemented, including Logistic Regression, Decision Tree Classifier, Random Forest Classifier, and Support Vector Machine (SVM).  
+    - **Model Evaluation**: Each model's performance was assessed using accuracy, precision, recall, F1-score, and ROC-AUC metrics.  
+
+  - **Hyperparameter Tuning**: GridSearchCV was used to optimize the Random Forest and SVM models, leading to improved performance.  
+
+  - **Visualization**: Confusion matrices and ROC curves were plotted to better understand model performance and compare results.  
+
+  This project provided valuable insights into the role of data preprocessing, feature engineering, and model evaluation in building robust classification systems. It also underscored the importance of leveraging domain-specific datasets for impactful data science solutions.  
