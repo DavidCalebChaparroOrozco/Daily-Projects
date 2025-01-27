@@ -3852,3 +3852,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Visualization**: Confusion matrices and ROC curves were plotted to better understand model performance and compare results.  
 
   This project provided valuable insights into the role of data preprocessing, feature engineering, and model evaluation in building robust classification systems. It also underscored the importance of leveraging domain-specific datasets for impactful data science solutions.  
+* Day 317: Technical Test "generate" and "getRow" [LeetCode](https://leetcode.com/problems/)
+
+  - **generate**: Implemented a solution for the "Pascal's Triangle" problem, where the task is to generate the first `numRows` of Pascal's triangle. The approach uses a dynamic programming method to construct each row by calculating elements based on the previous row. The solution efficiently builds the triangle by starting with the first row and iteratively adding subsequent rows, with each element computed by summing the two numbers directly above it. The time complexity is O(numRows²), and the space complexity matches the number of elements in the generated triangle.
+    [Problem Description: generate](https://leetcode.com/problems/pascals-triangle/description/)
+
+  - **getRow**: Solved the "Pascal's Triangle II" problem, which requires returning the specific row of Pascal's triangle for a given row index. The solution uses an optimized dynamic programming approach that generates the row in-place with a single pass. By leveraging the mathematical relationship between combinations, the algorithm calculates each element using the previous element and the row index. This method is more space-efficient than generating the entire triangle, with a time complexity of O(rowIndex) and space complexity of O(rowIndex).
+    [Problem Description: getRow](https://leetcode.com/problems/pascals-triangle-ii/description/)
