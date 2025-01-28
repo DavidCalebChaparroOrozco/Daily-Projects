@@ -3859,3 +3859,15 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **getRow**: Solved the "Pascal's Triangle II" problem, which requires returning the specific row of Pascal's triangle for a given row index. The solution uses an optimized dynamic programming approach that generates the row in-place with a single pass. By leveraging the mathematical relationship between combinations, the algorithm calculates each element using the previous element and the row index. This method is more space-efficient than generating the entire triangle, with a time complexity of O(rowIndex) and space complexity of O(rowIndex).
     [Problem Description: getRow](https://leetcode.com/problems/pascals-triangle-ii/description/)
+  
+* Day 318: Basketball Warm-Up Routine Generator in Python
+
+  Today, I worked on a Basketball Warm-Up Routine Generator using Python, with a focus on creating a flexible and customizable system for generating personalized warm-up routines for basketball players. The project leverages Object-Oriented Programming (OOP) principles to create a modular and extensible solution for sports training preparation.
+
+  - **Position-Based Routines**: The system generates customized warm-up routines based on specific basketball player positions, ensuring targeted and effective preparation.
+
+  - **Exercise Variety**: Implements a comprehensive database of exercises with varying intensity levels and durations, allowing for dynamic routine generation.
+
+  - **Randomization**: Utilizes random selection of exercises to provide unique warm-up experiences while maintaining core training principles.
+
+  - **Modular Design**: The project is structured with separate modules for routine generation, position-specific exercises, and utility functions, promoting code reusability and maintainability.
