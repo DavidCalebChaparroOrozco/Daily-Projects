@@ -3871,3 +3871,37 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Randomization**: Utilizes random selection of exercises to provide unique warm-up experiences while maintaining core training principles.
 
   - **Modular Design**: The project is structured with separate modules for routine generation, position-specific exercises, and utility functions, promoting code reusability and maintainability.
+* Day 319: Car Price [Car Price Dataset on Kaggle](https://www.kaggle.com/datasets/asinow/car-price-dataset)
+
+  Today, I worked on analyzing the Car Price Dataset from Kaggle using Python. The focus was on data preprocessing, exploratory data analysis (EDA), and implementing multiple machine learning models to predict car prices. Below are the key highlights of the project:
+
+  - **Data Exploration and Cleaning**: 
+    - Inspected the dataset for missing values, outliers, and unique values in each column.
+    - Replaced infinite values and handled missing data using imputation techniques.
+    - Explored categorical variables such as `Fuel_Type`, `Transmission`, and numerical features like `Price`, `Mileage`, and `Engine_Size`.
+
+  - **Exploratory Data Analysis (EDA)**:
+    - Created detailed visualizations, including count plots, box plots, and distribution histograms for both categorical and numerical features.
+    - Generated a heatmap for analyzing correlations between numerical variables like `Mileage` and `Price`.
+    - Highlighted key relationships, such as the impact of `Fuel_Type` and `Transmission` on car prices.
+
+  - **Feature Encoding**:
+    - Encoded categorical variables using `LabelEncoder` to ensure compatibility with machine learning models.
+
+  - **Machine Learning Models**:
+    - Implemented and evaluated multiple models, including:
+      - **Gradient Boosting**: GradientBoostingClassifier.
+      - **LightGBM**: A gradient-boosting framework optimized for speed and performance.
+      - **CatBoost**: A gradient-boosting algorithm that handles categorical features efficiently.
+      - **Neural Networks**: Multi-layer perceptron (MLPClassifier) for non-linear relationships.
+
+  - **Model Evaluation**:
+    - Compared models using metrics such as accuracy, confusion matrices, and ROC curves.
+    - Employed cross-validation to assess the stability and generalizability of each model.
+    - Plotted detailed ROC curves to evaluate the classification performance across different thresholds.
+
+  - **Results and Insights**:
+    - Identified key features influencing car prices, including `Year`, `Mileage`, and `Engine_Size`.
+    - Demonstrated the importance of selecting appropriate models for different datasets and problems.
+
+  This project provided hands-on experience in applying machine learning techniques to real-world datasets, as well as the importance of preprocessing and feature engineering. It reinforced my skills in model evaluation and selecting the right tools for effective predictions.
