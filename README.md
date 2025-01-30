@@ -3905,3 +3905,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - Demonstrated the importance of selecting appropriate models for different datasets and problems.
 
   This project provided hands-on experience in applying machine learning techniques to real-world datasets, as well as the importance of preprocessing and feature engineering. It reinforced my skills in model evaluation and selecting the right tools for effective predictions.
+* Day 320: 🤖 Generative AI with DeepSeek and GPT-2 in Python 🧠
+
+  * Today, I worked on a Generative AI project using Python, leveraging the power of DeepSeek and the GPT-2 model from Hugging Face's Transformers library. The project focuses on generating human-like text based on a given prompt, showcasing the capabilities of modern language models. Below are the key highlights:
+
+      * Model and Tokenizer: The project uses the GPT-2 model, a state-of-the-art generative language model, along with its tokenizer to convert text into token IDs and vice versa. This ensures seamless interaction with the model for text generation.
+
+      * Device Optimization: The code automatically detects and utilizes a GPU if available, significantly speeding up the text generation process. If a GPU is not available, it falls back to the CPU, ensuring compatibility across different systems.
+
+      * Text Generation Function: The generate_text function allows for customizable text generation. Parameters like max_length, temperature, and top_k provide control over the length, creativity, and diversity of the generated text.
+
+      * Temperature and Top-K Sampling: By adjusting the temperature and top_k parameters, the system can generate more deterministic or creative outputs. This flexibility makes the model suitable for various applications, from creative writing to technical content generation.
+
+      * Prompt-Based Generation: The system takes a user-defined prompt as input and generates a continuation of the text. This makes it highly adaptable for different use cases, such as storytelling, content creation, or even code generation.
+
+      * User-Friendly Output: The generated text is decoded and cleaned to remove special tokens, ensuring a clean and readable output. This makes the system practical for real-world applications where readability is crucial.
+
+    This project was an excellent opportunity to explore the capabilities of Generative AI and understand how models like GPT-2 can be integrated into Python applications. I gained valuable insights into text generation techniques, model optimization, and the importance of parameter tuning for achieving desired results.
