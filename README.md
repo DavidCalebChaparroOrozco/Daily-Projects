@@ -3922,3 +3922,24 @@ Here’s a `README.md` for your math visualization project, formatted to match t
       * User-Friendly Output: The generated text is decoded and cleaned to remove special tokens, ensuring a clean and readable output. This makes the system practical for real-world applications where readability is crucial.
 
     This project was an excellent opportunity to explore the capabilities of Generative AI and understand how models like GPT-2 can be integrated into Python applications. I gained valuable insights into text generation techniques, model optimization, and the importance of parameter tuning for achieving desired results.
+* Day 321: 🏀 Basketball Win-Loss Tracker in Python 🏆
+
+  Today, I worked on a **Basketball Win-Loss Tracker** using Python, with a focus on data analysis and visualization. The project allows users to track the performance of NBA teams during the 2024-25 season, including wins, losses, winning percentages, and other key statistics. Below are the key highlights:
+
+  - **Data Scraping**: The project uses `pandas` to scrape NBA standings data directly from Wikipedia. This ensures that the data is always up-to-date and reflects the latest season statistics.
+
+  - **Data Cleaning**: The scraped data is cleaned to remove unnecessary prefixes (like "x –" or "y –") from team names and to handle missing or inconsistent values. This ensures that the data is ready for analysis and visualization.
+
+  - **Team Selection**: Users can select a team by its corresponding number from a list of all NBA teams. The system then displays detailed statistics for the selected team, including wins, losses, winning percentage, home and road records, and more.
+
+  - **Data Visualization**: The project uses `matplotlib` and `seaborn` to create insightful visualizations, including:
+    - A **bar chart** showing wins and losses for the selected team.
+    - A **stacked bar chart** comparing wins and losses across all teams, with the selected team highlighted.
+    - A **histogram** displaying the distribution of winning percentages across the league.
+    - A **box plot** showing the distribution of wins among all teams.
+
+  - **Interactive Analysis**: The system provides an interactive experience, allowing users to explore team statistics and compare performance across the league. This makes it a valuable tool for basketball enthusiasts and data analysts alike.
+
+  - **Extensibility**: The project is designed to be easily extended with additional features, such as comparing multiple teams, analyzing trends over multiple seasons, or integrating data from other sources like APIs.
+
+  This project was an excellent exercise in working with real-world data, cleaning and preparing it for analysis, and creating meaningful visualizations. It reinforced my understanding of data manipulation with `pandas` and data visualization with `matplotlib` and `seaborn`, while also providing a practical tool for tracking NBA team performance.
