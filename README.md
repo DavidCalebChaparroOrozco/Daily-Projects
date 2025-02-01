@@ -3958,3 +3958,32 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Scalability**: New intents can be easily added to the list without modifying the model, making the system highly adaptable for different use cases.  
 
   This project was an excellent exercise in applying NLP techniques to build a dynamic and scalable intent recognition system. I had the opportunity to work with Hugging Face’s Transformers library, reinforcing my understanding of zero-shot learning and BERT-based classification. 🚀  
+* Day 322: 🎬 Emotion Classifier in Text using Python 🧠
+
+  Today, I worked on an **Emotion Classifier** using Python, leveraging Natural Language Processing (NLP) techniques and Machine Learning (ML) to classify the sentiment of text as either Positive or Negative. The project uses the Rotten Tomatoes movie reviews dataset and focuses on preprocessing text data, feature extraction, and training a Logistic Regression model. Below are the key highlights:
+
+  - **Dataset**: The Rotten Tomatoes dataset was used, which contains movie reviews and their corresponding sentiment labels (`Positive` or `Negative`). The dataset was balanced by undersampling the majority class to ensure fair model training.
+
+  - **Text Preprocessing**: The text data was cleaned and preprocessed using techniques like:
+    - **Lowercasing**: Converting all text to lowercase to ensure uniformity.
+    - **Stopword Removal**: Removing common stopwords (e.g., "the", "and") while retaining important sentiment-bearing words like "not", "great", and "amazing".
+    - **Lemmatization**: Reducing words to their base forms using SpaCy to improve feature consistency.
+
+  - **Feature Extraction**: The preprocessed text was converted into numerical features using **TF-IDF (Term Frequency-Inverse Document Frequency)**. The vectorizer was configured to capture unigrams, bigrams, and trigrams, ensuring that the model could understand context and phrases.
+
+  - **Model Training**: A **Logistic Regression** classifier was trained on the TF-IDF features. The model was chosen for its simplicity and effectiveness in text classification tasks. Class weights were used to handle the balanced dataset and ensure fair treatment of both Positive and Negative samples.
+
+  - **Evaluation**: The model achieved an accuracy of **87%** on the test set, with balanced precision and recall for both Positive and Negative classes. The classification report provided detailed insights into the model's performance.
+
+  - **Prediction**: The trained model can classify new text inputs into Positive or Negative sentiment. For example:
+    - `"This movie is great! I loved every moment of it."` → **Positive**
+    - `"The film was terrible and boring. I hated it."` → **Negative**
+
+  - **Sample Testing**: The model was tested with a variety of sample texts, including strong positive, strong negative, and mixed sentiment sentences. The results demonstrated the model's ability to generalize well to unseen data.
+
+  - **Scalability**: The project is designed to be easily extendable. Future improvements could include:
+    - Adding a **Neutral** sentiment class for more nuanced classification.
+    - Using more advanced models like **BERT** or **Transformers** for better accuracy.
+    - Deploying the model as a web application using **Flask** or **Streamlit**.
+
+  This project was a great opportunity to dive deeper into NLP and ML techniques, particularly in the context of sentiment analysis. I gained hands-on experience with text preprocessing, feature extraction, and model evaluation, all while building a practical tool for classifying emotions in text.
