@@ -3958,7 +3958,7 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Scalability**: New intents can be easily added to the list without modifying the model, making the system highly adaptable for different use cases.  
 
   This project was an excellent exercise in applying NLP techniques to build a dynamic and scalable intent recognition system. I had the opportunity to work with Hugging Face’s Transformers library, reinforcing my understanding of zero-shot learning and BERT-based classification. 🚀  
-* Day 322: 🎬 Emotion Classifier in Text using Python 🧠
+* Day 323: 🎬 Emotion Classifier in Text using Python 🧠
 
   Today, I worked on an **Emotion Classifier** using Python, leveraging Natural Language Processing (NLP) techniques and Machine Learning (ML) to classify the sentiment of text as either Positive or Negative. The project uses the Rotten Tomatoes movie reviews dataset and focuses on preprocessing text data, feature extraction, and training a Logistic Regression model. Below are the key highlights:
 
