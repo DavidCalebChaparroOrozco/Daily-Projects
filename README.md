@@ -3943,3 +3943,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Extensibility**: The project is designed to be easily extended with additional features, such as comparing multiple teams, analyzing trends over multiple seasons, or integrating data from other sources like APIs.
 
   This project was an excellent exercise in working with real-world data, cleaning and preparing it for analysis, and creating meaningful visualizations. It reinforced my understanding of data manipulation with `pandas` and data visualization with `matplotlib` and `seaborn`, while also providing a practical tool for tracking NBA team performance.
+* Day 322: 🎯 Intent Recognition System with BERT 🤖  
+
+  Today, I worked on an Intent Recognition System using Python and a pre-trained BERT model for zero-shot classification. This project allows the system to determine the intent of user input dynamically without requiring a pre-trained classifier for each specific category. Below are the key highlights:  
+
+  - **Zero-Shot Classification**: The system uses the `facebook/bart-large-mnli` model from Hugging Face’s Transformers library, enabling intent classification without labeled training data.  
+
+  - **Predefined Intents**: A set of possible intents is provided, including `book_flight`, `check_weather`, `play_music`, `set_alarm`, and many others, making the system versatile for various applications.  
+
+  - **Real-Time Interaction**: The program runs an interactive loop where users can input phrases, and the system predicts the most relevant intent in real time. This makes it user-friendly and practical.  
+
+  - **Transformer Model**: By leveraging a powerful transformer-based model, the system can understand natural language queries effectively, providing accurate intent predictions.  
+
+  - **Scalability**: New intents can be easily added to the list without modifying the model, making the system highly adaptable for different use cases.  
+
+  This project was an excellent exercise in applying NLP techniques to build a dynamic and scalable intent recognition system. I had the opportunity to work with Hugging Face’s Transformers library, reinforcing my understanding of zero-shot learning and BERT-based classification. 🚀  
