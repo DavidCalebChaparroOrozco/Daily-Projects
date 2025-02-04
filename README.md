@@ -4012,3 +4012,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - **Learning Tool**: The project serves as a great introduction to machine learning, data preprocessing, and API integration.
 
   This project was an exciting opportunity to combine my passion for football with my interest in machine learning. I gained hands-on experience in data preprocessing, model training, and user interaction design, all while building a practical tool for football enthusiasts.
+* Day 325: ✨ Simple Spell Checker with Dark Theme in Python 🖤
+
+  Today, I built a **Simple Spell Checker** using Python, with a focus on creating a user-friendly interface and implementing a dark theme for a modern look. The project leverages the `pyspellchecker` library for spell-checking functionality and `tkinter` for the graphical user interface. Below are the key highlights:
+
+  - **Dark Theme**: The application features a sleek dark theme with carefully chosen colors for the background, text, and buttons. This makes it visually appealing and easy on the eyes, especially for extended use.
+
+  - **Spell Checking**: The program uses the `pyspellchecker` library to check the spelling of words entered by the user. It provides instant feedback on whether a word is spelled correctly or suggests corrections if it’s misspelled.
+
+  - **Suggestions**: If a word is misspelled, the application suggests the most likely correct spelling and provides a list of possible corrections. This helps users quickly identify and fix errors.
+
+  - **History Feature**: A history section keeps track of all the words checked during the session. This feature is displayed in a scrollable text area, making it easy to review past inputs and corrections.
+
+  - **Clear Functionality**: A "Clear" button allows users to reset the input field, result label, and history section with a single click. This improves usability and ensures a clean interface for new inputs.
+
+  - **Error Handling**: The application includes robust error handling to ensure a smooth user experience. For example, it displays a warning if the user tries to check an empty input.
+
+  - **User-Friendly Interface**: The interface is designed to be intuitive and easy to use. Labels, buttons, and input fields are well-organized, and the application provides clear feedback at every step.
+
+  This project was a great opportunity to explore GUI development with `tkinter` and enhance my understanding of integrating external libraries like `pyspellchecker`. The dark theme and additional features make this spell checker a polished and practical tool, perfect for a portfolio piece.

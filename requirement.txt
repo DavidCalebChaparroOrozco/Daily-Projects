@@ -58,3 +58,4 @@ openpyxl
 xlrd
 pyodbc
 reportlab
+pyspellchecker
