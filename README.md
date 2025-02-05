@@ -4031,3 +4031,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Interface**: The interface is designed to be intuitive and easy to use. Labels, buttons, and input fields are well-organized, and the application provides clear feedback at every step.
 
   This project was a great opportunity to explore GUI development with `tkinter` and enhance my understanding of integrating external libraries like `pyspellchecker`. The dark theme and additional features make this spell checker a polished and practical tool, perfect for a portfolio piece.
+* Day 326: 🧩 Maze Solver with Deep Learning in Python 🧠
+
+  Today, I worked on a Maze Solver using Python that integrates Deep Learning principles to navigate through a randomly generated maze. The project employs a neural network to predict the best moves based on the current state of the maze. Below are the key highlights:
+
+  - **Maze Generation**: The maze is generated randomly, with walls and paths created using a simple probabilistic method. The start and destination points are clearly defined, allowing for dynamic exploration.
+
+  - **Data Representation**: The maze is converted into a numerical format suitable for input into the neural network. Each cell in the maze is represented by specific numerical values: `0` for the start, `1` for the destination, `2` for walls, and `3` for paths.
+
+  - **Neural Network Architecture**: A Sequential model from Keras is used to build a neural network with two hidden layers. The model is designed to predict four possible moves (up, down, left, right) based on the current state of the maze.
+
+  - **Training Process**: The model is trained using randomly generated mazes and dummy labels representing potential moves. Although the labels are not optimal paths in this demonstration, they serve as placeholders for future enhancements where actual pathfinding data can be integrated.
+
+  - **Recursive Pathfinding Algorithm**: A recursive function is implemented to explore the maze using predictions from the trained neural network. It marks visited cells and attempts to find a path to the destination by considering the most probable moves suggested by the model.
+
+  - **Visualization of Results**: Upon successfully finding a path, the maze is updated to reflect the visited cells, providing a clear visual representation of the route taken from start to destination. If no path is found, an appropriate message is displayed.
+
+  This project was an engaging exercise in combining traditional algorithmic approaches with modern machine learning techniques. It allowed me to explore how deep learning can enhance decision-making processes in dynamic environments like mazes. I gained valuable insights into neural network training and pathfinding algorithms while creating an interactive tool that showcases these concepts effectively.
