@@ -4048,3 +4048,26 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Visualization of Results**: Upon successfully finding a path, the maze is updated to reflect the visited cells, providing a clear visual representation of the route taken from start to destination. If no path is found, an appropriate message is displayed.
 
   This project was an engaging exercise in combining traditional algorithmic approaches with modern machine learning techniques. It allowed me to explore how deep learning can enhance decision-making processes in dynamic environments like mazes. I gained valuable insights into neural network training and pathfinding algorithms while creating an interactive tool that showcases these concepts effectively.
+* Day 327: 👗 Fashion Image Classifier with TensorFlow 🖼️
+
+  Today, I worked on building a **Fashion Image Classifier** using TensorFlow and Keras. The goal of this project was to create a machine learning model capable of classifying images of clothing items from the **Fashion MNIST dataset**. Below are the key highlights:
+
+  - **Dataset**: The Fashion MNIST dataset consists of 70,000 grayscale images (28x28 pixels) across 10 categories, such as T-shirts, trousers, dresses, and sneakers. It’s a popular dataset for benchmarking image classification models.
+
+  - **Model Architecture**: I built a simple yet effective neural network using Keras' `Sequential` API. The model includes:
+    - A `Flatten` layer to convert the 28x28 image into a 1D array.
+    - A `Dense` layer with 128 units and ReLU activation for feature extraction.
+    - A `Dropout` layer to prevent overfitting.
+    - An output `Dense` layer with 10 units (one for each class) and softmax activation for classification.
+
+  - **Training**: The model was trained for 10 epochs using the Adam optimizer and sparse categorical cross-entropy loss. The training process achieved high accuracy on both the training and validation sets.
+
+  - **Evaluation**: After training, the model was evaluated on the test dataset, achieving an accuracy of over **88%**. This demonstrates the model's ability to generalize well to unseen data.
+
+  - **Visualization**: To better understand the model's performance, I created visualizations of:
+    - Training and validation accuracy over epochs.
+    - Predictions for the first few test images, showing the predicted class, confidence score, and true label.
+
+  - **Practical Use**: This classifier can be used in real-world applications such as e-commerce platforms to automatically categorize clothing items, improving user experience and search functionality.
+
+  This project was a great opportunity to dive deeper into **deep learning** and **image classification**. I gained hands-on experience with TensorFlow and Keras, and I learned how to build, train, and evaluate a neural network from scratch. I also explored techniques like dropout to improve model performance and prevent overfitting.
