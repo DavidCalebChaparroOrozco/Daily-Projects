@@ -4079,3 +4079,23 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **maxProfit**: Solved the "Best Time to Buy and Sell Stock" problem, aiming to maximize profit by choosing optimal days for buying and selling a stock. The solution iterates through daily prices, maintaining a running minimum price seen so far and calculating potential profits based on this minimum. It updates maximum profit whenever it finds a better opportunity.
     [Problem Description: maxProfit](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
+* Day 329: 🏀 Basketball Play Generator with TensorFlow 🧠
+
+  Today, I worked on a **Basketball Play Generator** using **TensorFlow**, a deep learning framework, to create a model that generates basketball plays based on player positions and common actions. The project focuses on simulating realistic basketball plays by combining positions (e.g., Point Guard, Center) with actions (e.g., Pick and Roll, Pass, Shoot a Three-pointer). Below are the key highlights:
+
+  - **Dataset Simulation**: I created a simulated dataset of 30,000 basketball plays, where each play is a sequence of 3-5 actions linked to specific player positions. The dataset ensures a balanced distribution of actions to avoid overfitting to common plays like "Pick and Roll" or "Pass."
+
+  - **Neural Network Model**: The project uses a **LSTM-based neural network** with **Embedding layers** to process both player positions and actions. The model is trained to predict the next action in a sequence, making it capable of generating new plays dynamically.
+
+  - **Temperature-Based Sampling**: To increase the diversity of generated plays, I implemented **temperature-based sampling** during play generation. Higher temperature values introduce more randomness, ensuring that the model doesn't always repeat the same actions.
+
+  - **Visualizations**: I added several visualizations to analyze the dataset and model performance:
+    - **Action Distribution**: A bar chart showing the frequency of each action in the dataset.
+    - **Training History**: Line plots displaying the model's accuracy and loss over training epochs.
+    - **Confusion Matrix**: A heatmap to evaluate the model's performance in predicting actions.
+
+  - **Play Generation**: The model generates basketball plays step by step, starting from a seed play (e.g., `[("Point Guard (PG)", "Pick and Roll"), ("Shooting Guard (SG)", "Pass")]`). Each generated play includes a sequence of actions assigned to specific positions, ensuring realistic and diverse plays.
+
+  - **Practical Application**: This project can be used by basketball coaches and players to simulate offensive strategies, explore new play combinations, and improve team coordination. It also serves as a great example of how deep learning can be applied to sports analytics.
+
+  This project was an excellent opportunity to explore **sequence generation** with **LSTM networks** and apply **TensorFlow** to a real-world problem. I gained valuable experience in data preprocessing, model training, and visualization, all while building a tool that could have practical applications in basketball strategy.
