@@ -4071,3 +4071,11 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Practical Use**: This classifier can be used in real-world applications such as e-commerce platforms to automatically categorize clothing items, improving user experience and search functionality.
 
   This project was a great opportunity to dive deeper into **deep learning** and **image classification**. I gained hands-on experience with TensorFlow and Keras, and I learned how to build, train, and evaluate a neural network from scratch. I also explored techniques like dropout to improve model performance and prevent overfitting.
+* Day 328: Technical Test "minimumTotal" and "maxProfit" [LeetCode](https://leetcode.com/problems/)
+
+  - **minimumTotal**: Implemented a solution for the "Triangle" problem, where the goal is to find the minimum path sum from top to bottom in a triangle array. The approach uses dynamic programming by iteratively updating each element with the minimum sum it can achieve by moving down or diagonally. This method ensures that we consider all possible paths efficiently.
+    [Problem Description: minimumTotal](https://leetcode.com/problems/triangle/description/)
+
+
+  - **maxProfit**: Solved the "Best Time to Buy and Sell Stock" problem, aiming to maximize profit by choosing optimal days for buying and selling a stock. The solution iterates through daily prices, maintaining a running minimum price seen so far and calculating potential profits based on this minimum. It updates maximum profit whenever it finds a better opportunity.
+    [Problem Description: maxProfit](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
