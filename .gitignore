@@ -5,3 +5,5 @@ DogsVsCats/test
 DogsVsCats/train
 PySpark/MovieRatings/ratings.csv
 DashboardSteamlit/MoviesRecommendationApp/data/movies.csv
+plugin.drawio
+.gitignore

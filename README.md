@@ -4099,3 +4099,37 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Practical Application**: This project can be used by basketball coaches and players to simulate offensive strategies, explore new play combinations, and improve team coordination. It also serves as a great example of how deep learning can be applied to sports analytics.
 
   This project was an excellent opportunity to explore **sequence generation** with **LSTM networks** and apply **TensorFlow** to a real-world problem. I gained valuable experience in data preprocessing, model training, and visualization, all while building a tool that could have practical applications in basketball strategy.
+* Day 330: 📰 Topic Classifier with Scikit-learn and NLP 📊
+
+  Today, I worked on a **Topic Classifier** using Python, focusing on Natural Language Processing (NLP) and Machine Learning. The project classifies news articles into predefined categories (e.g., sports, technology, politics) using the `scikit-learn` library. Below are the key highlights:
+
+  - **Dataset**: I used the **20 Newsgroups dataset**, a collection of newsgroup documents labeled into 20 categories. For simplicity, I focused on 5 categories: `sci.space`, `comp.graphics`, `talk.politics.guns`, `rec.sport.baseball`, and `sci.med`.
+
+  - **Text Preprocessing**: The raw text data was cleaned and preprocessed using techniques like:
+    - **Tokenization**: Splitting text into individual words.
+    - **Lemmatization**: Reducing words to their base or root form.
+    - **Stopword Removal**: Eliminating common words (e.g., "the", "and") that add little meaning.
+    - **TF-IDF Vectorization**: Converting text into numerical features to make it suitable for machine learning models.
+
+  - **Model Training**: I trained and compared multiple machine learning models, including:
+    - **Multinomial Naive Bayes**: A probabilistic classifier commonly used for text classification.
+    - **Support Vector Machine (SVM)**: A powerful model for high-dimensional data like text.
+    - **Random Forest**: An ensemble method that combines multiple decision trees.
+    - **Logistic Regression**: A linear model for binary and multiclass classification.
+
+  - **Model Evaluation**: The models were evaluated using:
+    - **Accuracy**: The percentage of correctly classified documents.
+    - **Confusion Matrix**: A detailed breakdown of true vs. predicted labels.
+    - **Classification Report**: Precision, recall, and F1-score for each category.
+
+  - **Visualizations**: I created several visualizations to better understand the dataset and model performance:
+    - **Topic Distribution**: A bar plot showing the number of documents in each category.
+    - **Document Length Distribution**: A histogram displaying the distribution of document lengths (in words).
+    - **Most Common Words**: A bar plot highlighting the most frequent words in the dataset.
+    - **Confusion Matrix**: A heatmap showing how well the model classified documents into the correct categories.
+
+  - **Hyperparameter Tuning**: I used **Grid Search** to optimize the hyperparameters of the SVM model, ensuring the best possible performance.
+
+  - **Cross-Validation**: To ensure the model's robustness, I performed **5-fold cross-validation**, which provided a more reliable estimate of the model's accuracy.
+
+  - **Practical Application**: This project demonstrates how machine learning can be used to automatically categorize large volumes of text data, a task that is highly relevant in fields like news aggregation, content moderation, and customer feedback analysis.
