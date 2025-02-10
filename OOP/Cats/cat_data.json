@@ -1,0 +1,22 @@
+[
+    {"name": "Sora", "breed": "Siamese", "age": 5},
+    {"name": "Emma", "breed": "Unknown", "age": 5},
+    {"name": "Luna", "breed": "Maine Coon", "age": 3},
+    {"name": "Simba", "breed": "Bengal", "age": 4},
+    {"name": "Milo", "breed": "Persian", "age": 2},
+    {"name": "Chloe", "breed": "British Shorthair", "age": 6},
+    {"name": "Oliver", "breed": "Sphynx", "age": 1},
+    {"name": "Bella", "breed": "Ragdoll", "age": 7},
+    {"name": "Leo", "breed": "Abyssinian", "age": 3},
+    {"name": "Daisy", "breed": "Scottish Fold", "age": 4},
+    {"name": "Charlie", "breed": "Siberian", "age": 5},
+    {"name": "Nala", "breed": "Devon Rex", "age": 2},
+    {"name": "Coco", "breed": "Norwegian Forest", "age": 6},
+    {"name": "Shadow", "breed": "American Shorthair", "age": 3},
+    {"name": "Whiskers", "breed": "Turkish Angora", "age": 4},
+    {"name": "Tiger", "breed": "Burmese", "age": 5},
+    {"name": "Gizmo", "breed": "Japanese Bobtail", "age": 7},
+    {"name": "Lily", "breed": "Tonkinese", "age": 2},
+    {"name": "Oscar", "breed": "Manx", "age": 4},
+    {"name": "Zoe", "breed": "Unknown", "age": 3}
+]
