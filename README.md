@@ -4165,3 +4165,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Efficient Training**: The model is designed to train efficiently with reduced epochs and optimized hyperparameters, making it faster while still producing high-quality results.
 
   This project was an exciting dive into natural language processing and deep learning. It provided a hands-on opportunity to explore how LSTMs can capture the nuances of human language and generate creative, stylistically consistent text. The generator can be used for creative writing, educational purposes, or simply for fun!
+* Day 333: 🏋️ Muscle Fatigue Simulation in Python 💪
+
+  Today, I worked on a Muscle Fatigue Simulation System using Python, with a focus on Object-Oriented Programming (OOP) principles such as inheritance, encapsulation, and abstraction. The project simulates muscle fatigue based on user inputs and records data for analysis. Below are the key highlights:
+
+  - **Encapsulation**: The `Muscle` class encapsulates attributes like `name`, `max_force`, and `fatigue_rate`, ensuring that these values are controlled and accessed through defined methods.
+
+  - **Inheritance**: The system uses inheritance to model different muscle groups. The `Muscle` base class is extended by specific muscle types, allowing for reusability and specialization in fatigue behavior.
+
+  - **Abstraction**: The `Muscle` class contains an abstract method `apply_fatigue`, which is implemented by its subclasses. This ensures that each muscle type has a tailored fatigue simulation, maintaining a structured and scalable design.
+
+  - **Fatigue Simulation**: Users can input muscle exertion levels, and the system calculates fatigue dynamically. The simulation models real-world muscle endurance and recovery principles.
+
+  - **Data Recording**: The system stores fatigue progression in an SQLite database, enabling users to track and analyze muscle fatigue over time.
+
+  - **Graphical Analysis**: Using Matplotlib, the project visualizes fatigue levels over time, helping users understand the impact of exertion on different muscle groups.
+
+  - **Interactive Interface**: A Tkinter-based GUI allows users to select muscles, enter exertion data, and visualize results, making the system practical and user-friendly.
+
+  This project was an excellent exercise in applying OOP principles to create a structured and maintainable simulation tool. I refined my understanding of abstraction, encapsulation, and inheritance while building a system that effectively models and tracks muscle fatigue dynamics.
