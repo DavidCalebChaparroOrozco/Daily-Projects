@@ -4184,3 +4184,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Interactive Interface**: A Tkinter-based GUI allows users to select muscles, enter exertion data, and visualize results, making the system practical and user-friendly.
 
   This project was an excellent exercise in applying OOP principles to create a structured and maintainable simulation tool. I refined my understanding of abstraction, encapsulation, and inheritance while building a system that effectively models and tracks muscle fatigue dynamics.
+* Day 334: 🤖 Intent Classifier for Messages using Python 🧠
+
+  Today, I worked on an **Intent Classifier for Messages** using Python, with a focus on Natural Language Processing (NLP) techniques and machine learning. The project aims to classify the intent behind a message, such as "purchase," "help," or "question," which can be integrated into chatbots or customer support systems. Below are the key highlights:
+
+  - **Text Preprocessing**: The system uses NLTK to preprocess text by converting it to lowercase, removing punctuation, and eliminating stopwords. This ensures that the input data is clean and ready for analysis.
+
+  - **TF-IDF Vectorization**: The `TfidfVectorizer` from Scikit-learn is used to convert text into numerical features, capturing the importance of words in the context of the dataset.
+
+  - **Naive Bayes Classifier**: A `MultinomialNB` model is trained to classify messages into intents. The model is simple yet effective for text classification tasks.
+
+  - **Hyperparameter Tuning**: Using `GridSearchCV`, the system automatically finds the best hyperparameters for the TF-IDF vectorizer and the Naive Bayes classifier, optimizing the model's performance.
+
+  - **Model Evaluation**: The classifier is evaluated using accuracy, a classification report, and a confusion matrix. Visualizations like the confusion matrix provide insights into the model's performance.
+
+  - **Model Persistence**: The trained model is saved to a file using `joblib`, allowing it to be reused without retraining. This makes the system efficient and ready for deployment.
+
+  - **Testing with New Messages**: The system is tested with new, unseen messages to demonstrate its ability to generalize and classify intents accurately.
+
+  This project was an excellent exercise in applying NLP and machine learning techniques to build a practical and scalable intent classification system. I had the opportunity to refine my understanding of text preprocessing, model training, and deployment, all while creating a tool that can be used in real-world scenarios.
