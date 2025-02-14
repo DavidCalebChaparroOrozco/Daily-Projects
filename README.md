@@ -4203,3 +4203,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Testing with New Messages**: The system is tested with new, unseen messages to demonstrate its ability to generalize and classify intents accurately.
 
   This project was an excellent exercise in applying NLP and machine learning techniques to build a practical and scalable intent classification system. I had the opportunity to refine my understanding of text preprocessing, model training, and deployment, all while creating a tool that can be used in real-world scenarios.
+* Day 335: 🐦 Twitter US Airline Sentiment Analysis [Twitter US Airline Sentiment Dataset on Kaggle](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment/)
+
+  Today, I worked on an **Unsupervised Sentiment Analysis** project using the **Twitter US Airline Sentiment Dataset**. The goal was to analyze tweets related to US airlines and group them into positive, negative, and neutral sentiments without relying on labeled data. Below are the key highlights:
+
+  - **Exploratory Data Analysis (EDA)**: I performed a comprehensive EDA to understand the dataset, including sentiment distribution, word cloud visualization, and correlation analysis. This helped me identify patterns and trends in the data, such as the most common words and the distribution of tweets across different airlines.
+
+  - **Text Preprocessing**: I cleaned and preprocessed the text data by removing stopwords, punctuation, and lemmatizing the words using **SpaCy**. This step was crucial to prepare the data for clustering and topic modeling.
+
+  - **Clustering with K-Means**: I used **K-Means clustering** to group the tweets into three clusters (positive, negative, and neutral). The clustering was performed on TF-IDF vectorized text, and the results were evaluated using the **silhouette score**.
+
+  - **Topic Modeling with LDA**: To uncover the main themes within the tweets, I applied **Latent Dirichlet Allocation (LDA)**. This helped identify the top words associated with each topic, providing insights into the common issues or praises mentioned in the tweets.
+
+  - **Visualizations**: I created several visualizations, including sentiment distribution, word clouds, and correlation heatmaps, to make the analysis more intuitive and accessible.
+
+  - **Unsupervised Approach**: Unlike traditional sentiment analysis, this project did not rely on labeled data. Instead, it used unsupervised techniques to group tweets based on their content, making it a flexible and scalable solution for analyzing large volumes of text data.
+
+  This project was a great opportunity to explore unsupervised learning techniques and apply them to real-world text data. I gained valuable experience in text preprocessing, clustering, and topic modeling, all while building a practical tool for sentiment analysis.
