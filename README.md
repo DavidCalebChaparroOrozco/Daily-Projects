@@ -4220,4 +4220,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Unsupervised Approach**: Unlike traditional sentiment analysis, this project did not rely on labeled data. Instead, it used unsupervised techniques to group tweets based on their content, making it a flexible and scalable solution for analyzing large volumes of text data.
 
   This project was a great opportunity to explore unsupervised learning techniques and apply them to real-world text data. I gained valuable experience in text preprocessing, clustering, and topic modeling, all while building a practical tool for sentiment analysis.
-* Day 336: 
+* Day 336: 🎯 Josephus Problem Solver in Python 🧮
+
+  Today, I worked on solving the **Josephus Problem** using Python, with a focus on **recursion**, **user interface design**, and **input validation**. The project provides a graphical interface for users to input the number of people and the step size, and it displays the elimination steps along with the final survivor. Below are the key highlights:
+
+  - **Recursion**: The Josephus problem is solved using a recursive approach. The function `josephus(n, k)` calculates the position of the last remaining person in a circle of `n` people, where every `k-th` person is eliminated. This demonstrates the power of recursion in solving mathematical problems.
+
+  - **User Interface**: The project features a **Tkinter-based GUI** with a modern dark theme. Users can input values for `n` (number of people) and `k` (step size) and click the "Solve" button to see the results. The interface is intuitive and visually appealing, with dark backgrounds and light text for better readability.
+
+  - **Input Validation**: The program ensures that users enter valid positive integers for `n` and `k`. If invalid inputs are provided, an error message is displayed, guiding the user to correct their input.
+
+  - **Process Visualization**: The `josephus_with_steps(n, k)` function not only calculates the final survivor but also displays the elimination steps in real-time. This helps users understand how the problem is solved step by step.
+
+  - **Unit Testing**: The project includes unit tests to verify the correctness of the Josephus problem solver. The `TestJosephus` class tests both the recursive solution and the step-by-step elimination process, ensuring the program works as expected.
+
+  - **Modern Design**: The GUI uses a dark theme with custom fonts and colors. Buttons are designed to be visually appealing and responsive, providing a comfortable user experience. The text box displays the elimination steps in a clear and organized manner.
+
+  This project was a great opportunity to combine mathematical problem-solving with practical software development skills. I gained experience in creating user-friendly interfaces, validating user inputs, and writing unit tests, all while solving an interesting historical problem.
