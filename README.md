@@ -4252,3 +4252,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Extensibility**: The code is modular and easy to extend. For example, additional features like saving score history or simulating multiple games could be added in the future.
 
   This project was a great exercise in applying logic and problem-solving skills to implement the rules of bowling in code. It also reinforced my understanding of data validation, string manipulation, and user interface design in Python. The result is a practical tool that can be used to calculate and visualize bowling scores with ease.
+* Day 338: Technical Test "maxProfitll" and "maxProfitlll" [LeetCode](https://leetcode.com/problems/)
+
+  - **maxProfitll**: Solved the "Best Time to Buy and Sell Stock II" problem, where the goal is to maximize profit by buying and selling stocks multiple times. The solution iterates through the prices array, capturing all possible profits from upward price movements. This approach ensures that we accumulate the maximum profit by buying low and selling high whenever possible.
+    [Problem Description: maxProfitll](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+
+  - **maxProfitlll**: Solved the "Best Time to Buy and Sell Stock III" problem, aiming to maximize profit with at most two transactions. The solution uses dynamic programming to track the maximum profit after the first buy, first sell, second buy, and second sell. By iterating through the prices array, it ensures that all possible combinations of two transactions are considered to achieve the highest profit.
+    [Problem Description: maxProfitlll](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)
