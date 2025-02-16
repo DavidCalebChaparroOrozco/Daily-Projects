@@ -4237,3 +4237,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Modern Design**: The GUI uses a dark theme with custom fonts and colors. Buttons are designed to be visually appealing and responsive, providing a comfortable user experience. The text box displays the elimination steps in a clear and organized manner.
 
   This project was a great opportunity to combine mathematical problem-solving with practical software development skills. I gained experience in creating user-friendly interfaces, validating user inputs, and writing unit tests, all while solving an interesting historical problem.
+* Day 337: 🎳 Bowling Score Calculator in Python 🏆
+
+  Today, I worked on a **Bowling Score Calculator** using Python, with a focus on implementing the rules of bowling and creating a user-friendly interface to calculate and display scores. The project allows users to input rolls (strikes, spares, or pin counts) and calculates the total score based on the official rules of bowling. Below are the key highlights:
+
+  - **Input Validation**: The program validates user input to ensure that rolls follow bowling rules. For example, strikes are represented by `'X'`, spares by `'/'`, and pin counts by numbers. Invalid inputs are rejected to maintain data integrity.
+
+  - **Score Calculation**: The calculator accurately computes the total score, taking into account strikes and spares. Strikes add 10 points plus the next two rolls, while spares add 10 points plus the next roll. Regular rolls add their face value.
+
+  - **Scorecard Visualization**: The program generates a scorecard in ASCII format, displaying the rolls for each frame and the cumulative score. This makes it easy for users to track their progress throughout the game.
+
+  - **User Interaction**: A simple and intuitive interface allows users to input rolls one by one. They can type `'done'` to finish entering rolls and view the final scorecard.
+
+  - **Extensibility**: The code is modular and easy to extend. For example, additional features like saving score history or simulating multiple games could be added in the future.
+
+  This project was a great exercise in applying logic and problem-solving skills to implement the rules of bowling in code. It also reinforced my understanding of data validation, string manipulation, and user interface design in Python. The result is a practical tool that can be used to calculate and visualize bowling scores with ease.
