@@ -1,0 +1,20 @@
+1,Caleb,Data Developer,1200.0,TI
+2,Ana,Software Engineer,1500.0,TI
+3,Pedro,System Administrator,1100.0,TI
+4,Lucía,Data Analyst,1300.0,TI
+5,Carlos,Project Manager,1800.0,Management
+6,Elena,HR Specialist,1400.0,Human Resources
+7,David,DevOps Engineer,1600.0,TI
+8,Sofía,UX Designer,1250.0,Design
+9,Marcos,QA Engineer,1350.0,TI
+10,Laura,Marketing Coordinator,1200.0,Marketing
+11,Andrés,Cloud Architect,2000.0,TI
+12,Patricia,Sales Manager,1750.0,Sales
+13,Fernando,Network Engineer,1450.0,TI
+14,Raquel,Content Writer,1100.0,Marketing
+15,Javier,Financial Analyst,1550.0,Finance
+16,Mónica,Product Manager,1900.0,Management
+17,Roberto,Legal Advisor,1850.0,Legal
+18,Valeria,Social Media Manager,1250.0,Marketing
+19,Esteban,Cybersecurity Specialist,1700.0,TI
+20,Natalia,Customer Support,1050.0,Support
