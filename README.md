@@ -4259,3 +4259,28 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **maxProfitlll**: Solved the "Best Time to Buy and Sell Stock III" problem, aiming to maximize profit with at most two transactions. The solution uses dynamic programming to track the maximum profit after the first buy, first sell, second buy, and second sell. By iterating through the prices array, it ensures that all possible combinations of two transactions are considered to achieve the highest profit.
     [Problem Description: maxProfitlll](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/)
+* Day 339: 👨‍💼 Employee Management System in Python 🏢
+
+  Today, I worked on an **Employee Management System** using Python, following the **Model-View-Controller (MVC)** architecture. The project focuses on managing employee data efficiently, with features to add, remove, update, and search employees, as well as display statistics and save/load data. Below are the key highlights:
+
+  - **MVC Architecture**: The system is structured using the MVC pattern, separating concerns into **Model**, **View**, and **Controller** components. This ensures clean, maintainable, and scalable code.
+
+  - **Model**: The `Employee` class represents an employee with attributes like `id`, `name`, `position`, `salary`, and `department`. The `EmployeeModel` class handles data management, including adding, removing, and updating employees, as well as searching and calculating statistics.
+
+  - **View**: The `EmployeeView` class manages the user interface, displaying a menu and employee data. It also collects user input for adding, updating, and searching employees, making the system intuitive and user-friendly.
+
+  - **Controller**: The `EmployeeController` class acts as the intermediary between the Model and View. It processes user input, calls the appropriate methods in the Model, and updates the View accordingly.
+
+  - **Employee Management**: The system allows users to:
+    - View all employees.
+    - Add new employees.
+    - Remove employees by ID.
+    - Search employees by department.
+    - Update employee salaries.
+    - Display statistics (total employees, total salary, average salary).
+
+  - **Data Persistence**: Employees can be saved to and loaded from a file (`employees.txt`), ensuring data is retained between sessions.
+
+  - **Menu-Driven Interface**: A simple and intuitive menu guides users through the system, making it easy to perform operations like adding, removing, and updating employee data.
+
+  This project was a great opportunity to practice **MVC architecture** and **file handling** in Python. It reinforced my understanding of how to structure applications for clarity and scalability, while also providing a practical tool for managing employee data.
