@@ -4284,3 +4284,28 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Menu-Driven Interface**: A simple and intuitive menu guides users through the system, making it easy to perform operations like adding, removing, and updating employee data.
 
   This project was a great opportunity to practice **MVC architecture** and **file handling** in Python. It reinforced my understanding of how to structure applications for clarity and scalability, while also providing a practical tool for managing employee data.
+* Day 340: [Mall Customer Segmentation Data on Kaggle](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python/data)
+
+    Today, I worked on analyzing the Mall Customer Segmentation Dataset from Kaggle using Python. The focus was on customer segmentation using clustering techniques, specifically K-Means, and exploring the dataset through data visualization and statistical analysis. Below are the key highlights:
+
+    - **Statistical Summary**: The project includes generating a statistical summary of numerical variables such as Age, Annual Income, and Spending Score. This provides insights into the central tendency, spread, and distribution of the data.
+
+    - **Categorical Distribution**: I created visualizations to display the distribution of categorical variables, such as Gender. This helps in understanding the demographic composition of the customers.
+
+    - **Numerical Distributions**: The code generates histograms for numerical variables, allowing for a visual inspection of their distributions. This helps identify patterns, skewness, or outliers in the data.
+
+    - **Correlation Analysis**: A correlation matrix is generated to analyze relationships between numerical variables. This provides insights into potential relationships, such as whether higher income correlates with higher spending scores.
+
+    - **Clustering with K-Means**: The project includes implementing the K-Means clustering algorithm to segment customers into distinct groups based on their Age, Annual Income, and Spending Score. The optimal number of clusters is determined using the Elbow Method.
+
+    - **Cluster Visualization**: The clusters are visualized using scatter plots, showing how customers are grouped based on their Annual Income and Spending Score. This helps in understanding the characteristics of each cluster.
+
+    - **Silhouette Analysis**: The quality of the clustering is evaluated using the Silhouette Score, which measures how well each customer fits into their assigned cluster.
+
+    - **Gender Distribution by Cluster**: I analyzed how gender is distributed across the clusters, providing insights into whether certain clusters are dominated by a specific gender.
+
+    - **Age vs Spending Score by Cluster**: Visualizations are created to explore the relationship between Age and Spending Score within each cluster, helping to identify trends or patterns.
+
+    - **Annual Income vs Spending Score by Cluster**: Scatter plots are used to analyze the relationship between Annual Income and Spending Score for each cluster, providing insights into customer behavior.
+
+    This project was an excellent opportunity to apply clustering techniques to real-world data and gain insights into customer behavior. The experience reinforced the importance of data visualization and statistical analysis in understanding and interpreting complex datasets.
