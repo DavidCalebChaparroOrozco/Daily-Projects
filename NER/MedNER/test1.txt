@@ -1,0 +1,27 @@
+Patient Name: John Doe
+Age: 55
+Medical History:
+- The patient has been diagnosed with hypertension and diabetes for the past 10 years.
+- He has experienced frequent dizziness and fatigue over the last few months.
+- Recently, he underwent a biopsy to check for any malignancies.
+
+Prescribed Medications:
+- Metformin for diabetes management
+- Aspirin as a blood thinner
+- Ibuprofen for occasional headaches
+
+Symptoms Reported:
+- Chronic headache
+- Persistent nausea
+- Episodes of coughing, especially at night
+
+Procedures Underwent:
+- Surgery for gallbladder removal two years ago
+- Regular radiotherapy sessions for early-stage prostate cancer
+
+Doctor's Notes:
+- The patient should maintain a balanced diet and monitor blood sugar levels daily.
+- A follow-up appointment is scheduled in two weeks.
+
+End of Report.
+
