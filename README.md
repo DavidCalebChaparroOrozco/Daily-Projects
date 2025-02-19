@@ -4309,3 +4309,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - **Annual Income vs Spending Score by Cluster**: Scatter plots are used to analyze the relationship between Annual Income and Spending Score for each cluster, providing insights into customer behavior.
 
     This project was an excellent opportunity to apply clustering techniques to real-world data and gain insights into customer behavior. The experience reinforced the importance of data visualization and statistical analysis in understanding and interpreting complex datasets.
+* Day 341:🏥 MedNER: Medical Named Entity Recognition (NER) Project 💊
+
+  Today, I worked on a Named Entity Recognition (NER) system for medical-related entities using Python, with a focus on Object-Oriented Programming (OOP) principles such as encapsulation, modularity, and user interaction. The project is designed to extract medical entities such as diseases, medications, symptoms, and medical procedures from clinical reports or scientific articles. Below are the key highlights:
+
+  - **Encapsulation**: The `MedNER` class encapsulates attributes like `patterns` and `database connection`, ensuring that the entity extraction logic and data storage details are protected. Controlled access is provided through specialized methods like `extract_entities` and `store_entities`.
+
+  - **Modularity**: The system is divided into modular components, such as entity extraction, database storage, and visualization. This makes the codebase easy to maintain and extend with new features in the future.
+
+  - **Entity Management**: The system can identify and classify medical entities such as diseases, medications, symptoms, and procedures. The `extract_entities` method uses regular expressions to match predefined patterns, ensuring accurate extraction of relevant entities.
+
+  - **Database Integration**: Extracted entities are stored in a SQLite database for persistent storage and further analysis. The `store_entities` method handles the insertion of entities into the database, making the system scalable for large datasets.
+
+  - **Visualization**: The system includes a visualization feature using `matplotlib` to display the frequency of extracted entities. This provides a clear and intuitive way to analyze the results.
+
+  - **User Interaction**: A user-friendly graphical interface (GUI) built with `tkinter` allows users to input text or upload files for analysis. The interface is designed with a dark theme and intuitive buttons, ensuring a comfortable and modern user experience.
+
+  - **Practical Use Cases**: The system is designed for real-world applications, such as analyzing medical histories, classifying symptoms, and extracting relevant information from clinical reports. It can be easily integrated into larger healthcare systems or used as a standalone tool.
+
+  This project was an excellent exercise in applying OOP principles to create a well-structured and maintainable system for medical entity recognition. I had the opportunity to refine my understanding of how encapsulation and modularity work together to create clean and reusable code, all while building a practical tool for medical text analysis.
