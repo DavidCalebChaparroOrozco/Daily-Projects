@@ -4328,3 +4328,24 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Practical Use Cases**: The system is designed for real-world applications, such as analyzing medical histories, classifying symptoms, and extracting relevant information from clinical reports. It can be easily integrated into larger healthcare systems or used as a standalone tool.
 
   This project was an excellent exercise in applying OOP principles to create a well-structured and maintainable system for medical entity recognition. I had the opportunity to refine my understanding of how encapsulation and modularity work together to create clean and reusable code, all while building a practical tool for medical text analysis.
+* Day 342: 🌍 Travel Planner App in Python 🗺️
+
+  Today, I worked on a **Travel Planner App** using Python and Streamlit, with a focus on creating an interactive and user-friendly tool for planning trips. The app allows users to create itineraries, track budgets, and get recommendations for places to visit. Below are the key highlights:
+
+  - **Itinerary Management**: Users can add activities to their itinerary, including details like activity name, date, cost, category (e.g., transport, accommodation, food), and priority (low, medium, high). The app stores this information in a session state, ensuring persistence across interactions.
+
+  - **Budget Tracking**: The app calculates the total cost of all activities and compares it to the user's estimated budget. It provides real-time feedback on whether the user is within budget or overspending, along with a visual representation of budget vs. expenses.
+
+  - **Expense Analysis**: The app categorizes expenses (e.g., transport, accommodation, food) and provides a pie chart to visualize the distribution of costs. This helps users understand where their money is being spent.
+
+  - **Cumulative Expenses**: A line chart shows how expenses accumulate over time, giving users insight into their spending patterns throughout the trip.
+
+  - **Priority Filtering**: Users can filter activities by priority (low, medium, high), making it easier to focus on the most important tasks.
+
+  - **Travel Recommendations**: Based on the destination entered by the user, the app provides a list of popular places to visit. While the current version uses a static dictionary for recommendations, this feature can be extended with dynamic data sources in the future.
+
+  - **Export Functionality**: The app allows users to export their itinerary as a CSV file, making it easy to share or print their travel plans.
+
+  - **Interactive Visualizations**: The app uses **Plotly** to create interactive charts, including bar charts for budget vs. expenses, pie charts for expense distribution, and line charts for cumulative expenses.
+
+  This project was an excellent exercise in building a practical and interactive web application using Streamlit. I gained experience in managing session states, creating dynamic visualizations, and designing a user-friendly interface. The app is well-suited for travelers who want to organize their trips efficiently and stay on top of their budgets.
