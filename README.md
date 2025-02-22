@@ -4349,3 +4349,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Interactive Visualizations**: The app uses **Plotly** to create interactive charts, including bar charts for budget vs. expenses, pie charts for expense distribution, and line charts for cumulative expenses.
 
   This project was an excellent exercise in building a practical and interactive web application using Streamlit. I gained experience in managing session states, creating dynamic visualizations, and designing a user-friendly interface. The app is well-suited for travelers who want to organize their trips efficiently and stay on top of their budgets.
+* Day 343: 🔒 Metadata Analysis Tool in Python 📂
+
+  Today, I worked on a **Metadata Analysis Tool** using Python, with a focus on file processing, metadata extraction, and user-friendly interface design. The tool allows users to analyze and manage metadata from various file types, including images, PDFs, and Word documents. Below are the key highlights:
+
+  - **Metadata Extraction**: The tool extracts metadata from images (JPEG, PNG), PDFs, and Word documents (DOCX). For images, it uses the `Pillow` library to read EXIF data. For PDFs, it uses `pdfplumber`, and for Word documents, it uses `python-docx`.
+
+  - **User-Friendly Interface**: The tool features a modern and intuitive graphical user interface (GUI) built with `Tkinter`. The dark theme and well-designed buttons make it comfortable for users to interact with the application.
+
+  - **Batch Processing**: Users can select multiple files at once for analysis or metadata removal. This feature is particularly useful for handling large numbers of files efficiently.
+
+  - **Metadata Removal**: For image files, the tool provides an option to remove metadata, ensuring privacy and security. This is done by saving the image without EXIF data using the `Pillow` library.
+
+  - **Export Functionality**: Users can export the metadata analysis results to a `.csv` or `.txt` file. This makes it easy to save and share the results for further analysis or reporting.
+
+  - **Logging**: All actions, such as file analysis and metadata removal, are logged to a file (`metadata_tool_log.txt`). This provides an audit trail for tracking user activities.
+
+  - **Error Handling**: The tool includes robust error handling to manage unsupported file types or corrupted files gracefully. Users are notified of any issues through clear error messages.
+
+  This project was an excellent exercise in combining file processing, metadata management, and GUI development. I gained valuable experience in working with different file formats, designing user-friendly interfaces, and implementing practical features like batch processing and logging. The tool is not only functional but also visually appealing, making it a great addition to my portfolio.

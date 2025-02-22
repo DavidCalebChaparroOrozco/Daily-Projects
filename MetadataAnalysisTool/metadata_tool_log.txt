@@ -1,0 +1,11 @@
+2025-02-21 19:18:53 - Extract Metadata - C:/Users/Usuario/Desktop/1.png - Success
+2025-02-21 19:18:53 - Extract Metadata - C:/Users/Usuario/Desktop/EXAMEN_INGLES_DAVID.pdf - Success
+2025-02-21 19:18:53 - Extract Metadata - C:/Users/Usuario/Desktop/Irregular verbs- PAST.pdf - Success
+2025-02-21 19:18:53 - Extract Metadata - D:/Hoja de vida 2022/HVDavidCalebChaparroOrozco.pdf - Success
+2025-02-21 19:19:13 - Remove Metadata - C:/Users/Usuario/Desktop/1.png - Success
+2025-02-21 19:19:21 - Extract Metadata - C:/Users/Usuario/Desktop/1.png - Success
+2025-02-21 19:19:21 - Extract Metadata - C:/Users/Usuario/Desktop/EXAMEN_INGLES_DAVID.pdf - Success
+2025-02-21 19:19:21 - Extract Metadata - C:/Users/Usuario/Desktop/Irregular verbs- PAST.pdf - Success
+2025-02-21 19:19:21 - Extract Metadata - D:/Hoja de vida 2022/HVDavidCalebChaparroOrozco.pdf - Success
+2025-02-21 19:19:46 - Extract Metadata - D:/Hoja de vida 2022/HVDavidCalebChaparroOrozco.pdf - Success
+2025-02-21 19:19:52 - Extract Metadata - D:/Hoja de vida 2022/HVDavidCalebChaparroOrozco.pdf - Success
