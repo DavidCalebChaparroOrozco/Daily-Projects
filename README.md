@@ -4368,3 +4368,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Error Handling**: The tool includes robust error handling to manage unsupported file types or corrupted files gracefully. Users are notified of any issues through clear error messages.
 
   This project was an excellent exercise in combining file processing, metadata management, and GUI development. I gained valuable experience in working with different file formats, designing user-friendly interfaces, and implementing practical features like batch processing and logging. The tool is not only functional but also visually appealing, making it a great addition to my portfolio.
+* Day 344: 🎮 Nim Game Solver in Python 🧠
+
+  Today, I worked on a **Nim Game Solver** using Python, with a focus on recursion, game theory, and optimal strategy. The project allows users to play the classic Nim game against a computer opponent that always makes optimal moves. Below are the key highlights:
+
+  - **Recursion**: The core of the project is a recursive function `nim_game_solver` that determines the optimal move for any given state of the game. This function explores all possible moves and uses backtracking to find the best strategy.
+
+  - **Memoization**: To optimize performance, I implemented memoization using a dictionary to store previously computed results. This significantly reduces the computation time for larger piles by avoiding redundant calculations.
+
+  - **Game Theory**: The project leverages the mathematical principles of the Nim game, particularly the XOR operation, to determine winning and losing positions. This ensures that the computer always makes the best possible move to force a win.
+
+  - **Player vs. Computer**: The game supports two modes: the player can make moves manually, while the computer uses the `nim_game_solver` to make optimal moves. This creates a challenging and interactive experience.
+
+  - **Input Validation**: The program includes robust input validation to ensure that the user enters valid pile sizes and move choices. This makes the game more user-friendly and prevents errors during gameplay.
+
+  - **Game State Visualization**: After each move, the current state of the piles is displayed, allowing the player to track the progress of the game. This enhances the user experience and makes the game more engaging.
+
+  - **Winning Strategy**: The computer is programmed to always force a win if it starts in a winning position. If the player starts in a winning position and plays optimally, they can also force a win, demonstrating the power of strategic thinking.
+
+  This project was an excellent exercise in applying recursion, game theory, and optimization techniques to create a functional and interactive game. I had the opportunity to deepen my understanding of how algorithms can be used to solve strategic problems, all while building a fun and challenging game.
