@@ -4387,3 +4387,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Winning Strategy**: The computer is programmed to always force a win if it starts in a winning position. If the player starts in a winning position and plays optimally, they can also force a win, demonstrating the power of strategic thinking.
 
   This project was an excellent exercise in applying recursion, game theory, and optimization techniques to create a functional and interactive game. I had the opportunity to deepen my understanding of how algorithms can be used to solve strategic problems, all while building a fun and challenging game.
+* Day 345: Technical Test "maxPathSum" and "isPalindrome" [LeetCode](https://leetcode.com/problems/)
+
+  - **maxPathSum**: Implemented a solution for the "Maximum Path Sum" problem, where the task is to find the maximum path sum in a binary tree. A path is defined as a sequence of nodes where each pair of adjacent nodes has an edge connecting them, and no node appears more than once in the sequence. The path does not need to pass through the root. The approach uses a recursive helper function to compute the maximum gain from each node while updating the global maximum sum. The time complexity is O(n), where n is the number of nodes in the tree.
+    [Problem Description: maxPathSum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
+
+  - **isPalindrome**: Solved the "Valid Palindrome" problem, which determines if a given string is a palindrome after converting all uppercase letters to lowercase and removing all non-alphanumeric characters. The solution uses a two-pointer approach to compare characters from the start and end of the string, skipping non-alphanumeric characters. The time complexity is O(n), where n is the length of the string.
+    [Problem Description: isPalindrome](https://leetcode.com/problems/valid-palindrome/description/)
