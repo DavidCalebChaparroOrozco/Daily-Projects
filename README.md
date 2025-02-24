@@ -4394,3 +4394,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **isPalindrome**: Solved the "Valid Palindrome" problem, which determines if a given string is a palindrome after converting all uppercase letters to lowercase and removing all non-alphanumeric characters. The solution uses a two-pointer approach to compare characters from the start and end of the string, skipping non-alphanumeric characters. The time complexity is O(n), where n is the length of the string.
     [Problem Description: isPalindrome](https://leetcode.com/problems/valid-palindrome/description/)
+* Day 346: 🌳 Tree Mirror in Python 🪞
+
+  Today, I worked on a **Tree Mirror** project using Python, focusing on recursion and tree manipulation. The project involves creating a mirror image of a binary tree and visualizing both the original and mirrored trees using `matplotlib` and `networkx`. Below are the key highlights:
+
+  - **Recursion**: The `mirror_tree` function uses recursion to swap the left and right children of each node in the binary tree, effectively creating a mirror image of the tree. This demonstrates the power of recursion in solving tree-based problems efficiently.
+
+  - **Tree Visualization**: The `visualize_tree` function uses `networkx` to create a graph representation of the binary tree, and `matplotlib` is used to plot the tree. This allows for a clear visual comparison between the original and mirrored trees.
+
+  - **TreeNode Class**: The `TreeNode` class represents a node in the binary tree, with attributes for `value`, `left`, and `right` children. This simple structure is the foundation for building and manipulating the tree.
+
+  - **Example Usage**: The program includes an example binary tree with nodes `1` through `7`. The original tree is visualized first, followed by the mirrored tree, showcasing the transformation.
+
+  - **User-Friendly Output**: The program generates two plots: one for the original binary tree and one for the mirrored tree. This makes it easy to understand the effect of the mirroring operation.
+
+  This project was a great exercise in understanding tree structures, recursion, and visualization techniques. It reinforced my knowledge of how to manipulate binary trees and provided a practical way to visualize the results using Python libraries.
