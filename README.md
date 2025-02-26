@@ -4431,3 +4431,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Practical Application**: This project is highly practical for a Data Scientist's portfolio, showcasing skills in data analysis, visualization, and report generation. It can be adapted to various datasets and use cases, making it a versatile tool.
 
   This project was an excellent opportunity to refine my skills in data visualization, document automation, and software design patterns. By applying the MVC architecture, I was able to create a well-structured and maintainable system that can be easily extended with new features in the future.
+* Day 348: Sales Data Analysis [Kaggle](https://www.kaggle.com/datasets/beekiran/sales-data-analysis/data)
+
+    Today, I worked on analyzing the Sales Data Analysis dataset from Kaggle using Python. The focus was on data exploration, visualization, and predictive modeling using libraries such as Pandas, Seaborn, Matplotlib, and Scikit-learn. The project includes generating statistical summaries, visualizing distributions of numerical and categorical variables, and building regression models to predict sales. Below are the key highlights:
+
+    - **Statistical Summary**: The project includes a function that generates a statistical summary of numerical variables, such as `quantity_ordered`, `price_each`, and `sales`. This helps in understanding the central tendency, spread, and overall distribution of the data.
+
+    - **Categorical Distribution**: I created visualizations to display the distribution of categorical variables, such as `product` and `city`. This provides insights into the most popular products and cities with the highest sales.
+
+    - **Numerical Distributions**: The code generates histograms and boxplots for numerical variables, allowing for visual inspection of their distributions. This helps identify trends, outliers, and patterns in the data.
+
+    - **Correlation Analysis**: A correlation matrix is generated to analyze relationships between numerical variables. This provides insights into potential relationships that can be explored further, and is visualized with a heatmap for clarity.
+
+    - **Predictive Modeling**: I built and evaluated multiple regression models, including Gradient Boosting, LightGBM, and Neural Networks, to predict sales based on features such as `quantity_ordered`, `price_each`, `city`, and `month`. The models were evaluated using metrics such as Mean Squared Error (MSE) and R-squared (R2).
+
+    - **Model Comparison**: The project includes a comparison of different models using cross-validation, providing insights into their performance and robustness. This helps in selecting the best model for the task.
+
+    - **User-Friendly Functions**: The project includes functions for generating the full report, making it easy to run all analyses in one go. This modular approach enhances code readability and maintainability.
+
+    This project was an excellent opportunity to deepen my understanding of data analysis and predictive modeling techniques in Python, as well as to explore the Sales Data Analysis dataset thoroughly. The experience reinforced the importance of visualizing data and building robust models to extract meaningful insights and make data-driven decisions.
