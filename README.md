@@ -4409,3 +4409,25 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Output**: The program generates two plots: one for the original binary tree and one for the mirrored tree. This makes it easy to understand the effect of the mirroring operation.
 
   This project was a great exercise in understanding tree structures, recursion, and visualization techniques. It reinforced my knowledge of how to manipulate binary trees and provided a practical way to visualize the results using Python libraries.
+* Day 347: 📊 Data Visualization and Report Generation in Python 📈
+
+  Today, I worked on a Data Visualization and Report Generation project using Python, focusing on creating a comprehensive report with tables and visualizations for a Data Scientist's portfolio. The project leverages the Model-View-Controller (MVC) architecture to ensure clean, maintainable, and scalable code. Below are the key highlights:
+
+  - **MVC Architecture**: The project is structured using the MVC pattern, separating data handling (`Model`), visualization and document generation (`View`), and logic (`Controller`). This ensures a clear separation of concerns and makes the codebase easy to extend.
+
+  - **Data Visualization**: The project includes multiple visualizations to provide insights into the data:
+    - **Line Chart**: Shows hours worked over time.
+    - **Bar Chart**: Displays total hours worked by each employee.
+    - **Pie Chart**: Illustrates the distribution of hours worked across clients.
+    - **Histogram**: Visualizes the distribution of hours worked.
+    - **Scatter Plot**: Highlights the relationship between dates and hours worked.
+
+  - **Document Automation**: The `DocumentView` class automates the creation of a Word document, incorporating tables and visualizations seamlessly. This makes it easy to generate professional reports with minimal effort.
+
+  - **Data Handling**: The `DataModel` class handles data loading from an Excel file, ensuring that the data is easily accessible for analysis and visualization.
+
+  - **Customizable Visualizations**: The `GraphView` class provides static methods for generating various visualizations, making it easy to add or modify charts as needed.
+
+  - **Practical Application**: This project is highly practical for a Data Scientist's portfolio, showcasing skills in data analysis, visualization, and report generation. It can be adapted to various datasets and use cases, making it a versatile tool.
+
+  This project was an excellent opportunity to refine my skills in data visualization, document automation, and software design patterns. By applying the MVC architecture, I was able to create a well-structured and maintainable system that can be easily extended with new features in the future.
