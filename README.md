@@ -4450,3 +4450,21 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - **User-Friendly Functions**: The project includes functions for generating the full report, making it easy to run all analyses in one go. This modular approach enhances code readability and maintainability.
 
     This project was an excellent opportunity to deepen my understanding of data analysis and predictive modeling techniques in Python, as well as to explore the Sales Data Analysis dataset thoroughly. The experience reinforced the importance of visualizing data and building robust models to extract meaningful insights and make data-driven decisions.
+* Day 349: 🎳 Bowling League Manager in Python 🏆
+
+  Today, I worked on a **Bowling League Manager** using Python, with a focus on the **Model-View-Controller (MVC)** architecture. This project allows users to manage a bowling league by registering players and teams, entering match results, and displaying league rankings. Below are the key highlights:
+
+  - **MVC Architecture**: The project is structured using the **Model-View-Controller** pattern, which separates the application into three interconnected components. This ensures a clean and maintainable codebase.
+    - **Model**: Handles the data logic, including players, teams, and league rankings.
+    - **View**: Manages the user interface, displaying menus and receiving input.
+    - **Controller**: Acts as the intermediary between the model and the view, handling the application logic.
+
+  - **Player and Team Management**: The system allows users to register players and assign them to teams. Each player's scores are tracked, and teams are ranked based on their average scores.
+
+  - **Match Results**: Users can enter match results for individual players, updating their scores and contributing to their team's overall performance.
+
+  - **League Rankings**: The system calculates and displays the league rankings based on the average scores of each team. This provides a clear overview of team performance throughout the league.
+
+  - **User-Friendly Interface**: A menu-driven interface makes it easy for users to navigate the system, register players and teams, enter results, and view rankings. This ensures a smooth and intuitive user experience.
+
+  This project was a great opportunity to practice implementing the **MVC architecture** in Python, as well as reinforcing concepts like data management, user interaction, and modular design. It also provided a practical application for managing sports leagues, making it both a learning experience and a useful tool.
