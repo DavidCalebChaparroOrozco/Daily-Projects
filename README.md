@@ -4468,3 +4468,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Interface**: A menu-driven interface makes it easy for users to navigate the system, register players and teams, enter results, and view rankings. This ensures a smooth and intuitive user experience.
 
   This project was a great opportunity to practice implementing the **MVC architecture** in Python, as well as reinforcing concepts like data management, user interaction, and modular design. It also provided a practical application for managing sports leagues, making it both a learning experience and a useful tool.
+* Day 350: 🔢 Recursive Number to Words Converter in Python 🧮
+
+  Today, I worked on a **Recursive Number to Words Converter** in Python. This project focuses on converting a given number (e.g., `123`) into its word representation (e.g., "one hundred twenty-three") using recursion. The implementation is designed to handle numbers up to the billions range, making it a versatile tool for number-to-text conversion. Below are the key highlights:
+
+  - **Recursive Logic**: The core of the project is a recursive function that breaks down the number into smaller parts (units, tens, hundreds, thousands, etc.) and combines their word representations. This approach ensures clean and modular code.
+
+  - **Base Cases**: The function handles base cases for numbers less than 20, numbers between 20 and 99, and numbers in the hundreds, thousands, millions, and billions ranges. Each case is processed recursively to build the final word representation.
+
+  - **Word Representations**: The project uses predefined lists (`units` and `tens`) to store word representations for numbers 0-19 and multiples of 10 (20, 30, ..., 90). These lists are used to construct the final output efficiently.
+
+  - **Scalability**: The function is designed to handle large numbers (up to billions) by recursively processing higher ranges (thousands, millions, billions) and appending the appropriate scale words.
+
+  - **Example Usage**: The project includes an example that converts the number `123456789` into its word representation: "one hundred twenty-three million four hundred fifty-six thousand seven hundred eighty-nine."
+
+  This project was a great exercise in understanding recursion and how it can be applied to solve real-world problems like number-to-text conversion. It also reinforced my understanding of string manipulation and modular programming in Python.
