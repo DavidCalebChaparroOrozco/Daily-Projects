@@ -4490,3 +4490,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **findLaddersI**: Solved the "Word Ladder" problem, which involves finding the length of the shortest transformation sequence from `beginWord` to `endWord` using a dictionary `wordList`. Each transformation must change exactly one letter at a time, and every intermediate word must exist in the `wordList`. The solution uses Breadth-First Search (BFS) to efficiently find the shortest path. The time complexity is O(M^2 * N), where M is the length of each word and N is the number of words in the `wordList`.
     [Problem Description: findLaddersI](https://leetcode.com/problems/word-ladder/description/)
+* Day 352: 🔒 SSL Certificate Checker in Python 🌐
+
+  Today, I worked on an SSL Certificate Checker tool using Python, which allows users to verify the validity and expiration dates of SSL certificates for any given website. The project combines Python's `ssl` and `socket` libraries with a modern graphical user interface (GUI) built using `tkinter`. Below are the key highlights:
+
+  - **SSL Certificate Retrieval**: The tool retrieves SSL certificate information, including the issuer, subject, and expiration date, by establishing a secure connection to the specified domain. This is done using Python's `ssl` and `socket` libraries, ensuring accurate and reliable results.
+
+  - **Error Handling**: Robust error handling ensures that the tool gracefully handles invalid domains, connection issues, or missing certificates, providing clear and user-friendly error messages.
+
+  - **Expiration Check**: The tool calculates the remaining days until the certificate's expiration and displays whether the certificate is still valid or has already expired. This feature is particularly useful for system administrators and developers who need to monitor SSL certificates.
+
+  - **Modern Dark Theme UI**: The graphical interface is designed with a dark theme (`#2E3440` background) for better readability and a sleek appearance. Buttons and text fields are styled with contrasting colors (`#5E81AC` for buttons and `#D8DEE9` for text) to enhance user experience.
+
+  - **User-Friendly Interaction**: The interface includes an input field for the domain, a "Check SSL Certificate" button, and a text area to display the results. This makes the tool intuitive and easy to use, even for non-technical users.
+
+  - **Practical Application**: This tool is ideal for monitoring SSL certificates, ensuring websites are secure, and avoiding potential security risks caused by expired certificates. It demonstrates the practical use of Python for network security tasks.
+
+  This project was a great opportunity to explore Python's capabilities in network programming and GUI development. It also reinforced my understanding of SSL/TLS protocols and how certificates work in securing web communications. The combination of functionality and a polished user interface makes this tool a valuable addition to my portfolio.
