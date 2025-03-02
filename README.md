@@ -4483,3 +4483,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Example Usage**: The project includes an example that converts the number `123456789` into its word representation: "one hundred twenty-three million four hundred fifty-six thousand seven hundred eighty-nine."
 
   This project was a great exercise in understanding recursion and how it can be applied to solve real-world problems like number-to-text conversion. It also reinforced my understanding of string manipulation and modular programming in Python.
+* Day 351: Technical Test "findLadders" and "findLaddersI" [LeetCode](https://leetcode.com/problems/)
+
+  - **findLadders**: Implemented a solution for the "Word Ladder II" problem, where the task is to find all the shortest transformation sequences from a `beginWord` to an `endWord` using a dictionary `wordList`. Each transformation must change exactly one letter at a time, and every intermediate word must exist in the `wordList`. The solution uses Breadth-First Search (BFS) to explore all possible paths and returns the shortest ones. The time complexity is O(M^2 * N), where M is the length of each word and N is the number of words in the `wordList`.
+    [Problem Description: findLadders](https://leetcode.com/problems/word-ladder-ii/description/)
+
+  - **findLaddersI**: Solved the "Word Ladder" problem, which involves finding the length of the shortest transformation sequence from `beginWord` to `endWord` using a dictionary `wordList`. Each transformation must change exactly one letter at a time, and every intermediate word must exist in the `wordList`. The solution uses Breadth-First Search (BFS) to efficiently find the shortest path. The time complexity is O(M^2 * N), where M is the length of each word and N is the number of words in the `wordList`.
+    [Problem Description: findLaddersI](https://leetcode.com/problems/word-ladder/description/)
