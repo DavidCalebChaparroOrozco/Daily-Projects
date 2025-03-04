@@ -4507,3 +4507,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Practical Application**: This tool is ideal for monitoring SSL certificates, ensuring websites are secure, and avoiding potential security risks caused by expired certificates. It demonstrates the practical use of Python for network security tasks.
 
   This project was a great opportunity to explore Python's capabilities in network programming and GUI development. It also reinforced my understanding of SSL/TLS protocols and how certificates work in securing web communications. The combination of functionality and a polished user interface makes this tool a valuable addition to my portfolio.
+* Day 353: 🌐 WHOIS Lookup Tool in Python 🔍
+
+    Today, I worked on a WHOIS Lookup Tool using Python, which retrieves domain registration information and checks the legitimacy of websites. The project focuses on integrating APIs, validating user input, and creating a user-friendly graphical interface. Below are the key highlights:
+
+    - **WHOIS Lookup**: The tool uses the `python-whois` library to retrieve domain registration details such as the registrar, creation date, expiration date, and name servers. This provides valuable insights into the ownership and history of a domain.
+
+    - **Website Legitimacy Check**: The tool sends an HTTP request to the website to verify if it is live and accessible. This helps users determine if the website is operational or potentially fraudulent.
+
+    - **Input Validation**: A domain validation function ensures that the user-provided domain follows the correct format using regular expressions. This prevents errors and ensures accurate results.
+
+    - **Graphical User Interface (GUI)**: The tool features a modern and user-friendly interface built with `tkinter`. The dark-themed design (`#2E3440` background) and colorful buttons (`#81A1C1` for lookup, `#A3BE8C` for export) enhance the user experience.
+
+    - **Export Functionality**: Users can export the WHOIS information to a text file for offline reference. This feature is implemented using `filedialog`, making it easy to save and share results.
+
+    - **Error Handling**: The tool gracefully handles errors, such as invalid domains or failed WHOIS lookups, and displays user-friendly error messages using `messagebox`.
+
+    - **Practical Use Cases**: This tool is ideal for verifying domain ownership, checking expiration dates, and ensuring the legitimacy of websites. It’s a valuable addition to any developer’s toolkit for cybersecurity and domain management tasks.
+
+    This project was a great opportunity to explore domain-related APIs, improve my skills in GUI development, and create a practical tool that can be used in real-world scenarios. I also gained a deeper understanding of input validation and error handling, ensuring the tool is robust and reliable.
