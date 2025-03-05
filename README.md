@@ -4526,3 +4526,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - **Practical Use Cases**: This tool is ideal for verifying domain ownership, checking expiration dates, and ensuring the legitimacy of websites. It’s a valuable addition to any developer’s toolkit for cybersecurity and domain management tasks.
 
     This project was a great opportunity to explore domain-related APIs, improve my skills in GUI development, and create a practical tool that can be used in real-world scenarios. I also gained a deeper understanding of input validation and error handling, ensuring the tool is robust and reliable.
+* Day 354: 🔥 Simple Firewall Application in Python 🛡️
+
+  Today, I worked on a **Simple Firewall Application** using Python, designed to filter incoming and outgoing network traffic based on predefined rules. This project focuses on creating a basic yet functional firewall that can be extended for more advanced use cases. Below are the key highlights:
+
+  - **Rule-Based Filtering**: The firewall filters traffic based on predefined rules, which include direction (`incoming` or `outgoing`), protocol (`TCP` or `UDP`), and port number. Each rule specifies whether to `allow` or `block` the traffic.
+
+  - **Dynamic Rule Management**: The system allows for dynamic addition and removal of rules during runtime. Rules can also be saved to and loaded from a JSON file, making it easy to persist configurations across sessions.
+
+  - **Logging**: All firewall actions (e.g., allowed or blocked traffic) are logged to a file (`firewall.log`) for auditing and monitoring purposes. This ensures transparency and helps in troubleshooting.
+
+  - **IP-Based Filtering**: The firewall supports filtering traffic based on IP addresses, allowing for more granular control over network traffic.
+
+  - **Simulated Traffic**: A traffic simulation function demonstrates how the firewall processes different types of network traffic, including HTTP, HTTPS, SSH, and custom ports like 8080.
+
+  - **Extensibility**: The project is designed to be easily extended. For example, support for additional protocols (e.g., UDP) or integration with real network interfaces can be added in the future.
+
+  This project was a great opportunity to explore network traffic filtering and rule-based systems. It reinforced my understanding of how firewalls operate and how to implement basic security mechanisms in Python. The modular design ensures that the system is maintainable and scalable for future enhancements.
