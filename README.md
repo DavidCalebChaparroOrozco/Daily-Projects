@@ -4543,3 +4543,24 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Extensibility**: The project is designed to be easily extended. For example, support for additional protocols (e.g., UDP) or integration with real network interfaces can be added in the future.
 
   This project was a great opportunity to explore network traffic filtering and rule-based systems. It reinforced my understanding of how firewalls operate and how to implement basic security mechanisms in Python. The modular design ensures that the system is maintainable and scalable for future enhancements.
+* Day 355: 🏀 Basketball Player Stats Analyzer in Python 🏀
+
+  Today, I worked on a **Basketball Player Stats Analyzer** using Python, with a focus on leveraging less commonly used but powerful Python functions like `enumerate()`, `itertools.groupby`, `collections.Counter`, and `functools.reduce`. The project analyzes player statistics such as points, rebounds, and assists, providing insights into player performance. Below are the key highlights:
+
+  - **`enumerate()`**: Used to display player stats with their rank, making it easy to see how players compare to one another. This function adds a ranking system to the output, enhancing readability.
+
+  - **`itertools.groupby`**: Groups players by their points range (e.g., 25-30, 30-35), allowing for a quick overview of how players are distributed across different performance levels.
+
+  - **`collections.Counter`**: Counts the frequency of rebounds among players, providing a clear picture of how often specific rebound numbers occur in the dataset.
+
+  - **`functools.reduce`**: Calculates the total points scored by all players, demonstrating how to aggregate data efficiently using functional programming techniques.
+
+  - **`collections.defaultdict`**: Creates a dictionary of player stats for easy lookup, showcasing how to organize and access data in a structured way.
+
+  - **Data Visualization**: The project includes a function to plot player stats using `matplotlib`, providing a visual comparison of points, rebounds, and assists for each player.
+
+  - **Persistent Data**: The program can save and load player stats from a JSON file, ensuring data persistence and making it easy to update and reuse the dataset.
+
+  - **Advanced Filtering**: Players are filtered based on their performance (e.g., high scorers with more than 25 points per game), allowing for targeted analysis of top performers.
+
+  This project was an excellent exercise in exploring Python’s less commonly used functions and libraries. I gained a deeper understanding of how tools like `itertools`, `collections`, and `functools` can simplify complex tasks and make code more efficient. Additionally, the integration of data visualization and persistent storage makes this a practical tool for analyzing basketball player stats.
