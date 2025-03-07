@@ -4586,3 +4586,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Menu-Driven Interface**: A user-friendly menu allows for easy interaction with the system. Users can add vehicles, add maintenance records, view records, and visualize data with just a few simple steps.
 
   This project was an excellent exercise in applying OOP principles and the MVC design pattern to create a well-structured and maintainable system. I had the opportunity to refine my understanding of how encapsulation, abstraction, and separation of concerns work together to create clean and reusable code, all while building a practical car maintenance tracking tool.
+* Day 357: 🏗️ Pyramid Block Counter and Visualizer in Python 🧱
+
+  Today, I worked on a **Pyramid Block Counter and Visualizer** in Python. This project calculates how many complete levels of a pyramid can be built with a given number of blocks and also visualizes the pyramid structure using ASCII art. Below are the key highlights:
+
+  - **Block Calculation**: The program calculates the number of complete levels that can be formed in a pyramid given a specific number of blocks. Each level of the pyramid is a square, and the number of blocks required for a level is the square of its level number (e.g., Level 1: 1 block, Level 2: 4 blocks, Level 3: 9 blocks, etc.).
+
+  - **Efficient Logic**: The program uses a `while` loop to iteratively determine the maximum number of levels. It subtracts the blocks used for each level from the total until there are no longer enough blocks to form the next level.
+
+  - **Visualization**: The program includes a function to draw the pyramid using ASCII art. Each level is represented by `[]` symbols, and the pyramid is centered by adding spaces before the blocks. This provides a clear and intuitive representation of the pyramid structure.
+
+  - **User Interaction**: The program prompts the user to input the number of blocks and then displays both the number of complete levels and the pyramid visualization. If there are not enough blocks to build even a single level, it informs the user accordingly.
+
+  - **Practical Application**: This project is a fun and practical way to explore mathematical concepts (like squares and iterative calculations) while also practicing Python programming skills, such as loops, conditionals, and string manipulation.
+
+  This project was a great exercise in combining mathematical logic with creative visualization. It reinforced my understanding of iterative problem-solving and provided an opportunity to create a visually appealing output using simple ASCII art.
