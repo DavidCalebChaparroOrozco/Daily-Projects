@@ -4564,3 +4564,25 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Advanced Filtering**: Players are filtered based on their performance (e.g., high scorers with more than 25 points per game), allowing for targeted analysis of top performers.
 
   This project was an excellent exercise in exploring Python’s less commonly used functions and libraries. I gained a deeper understanding of how tools like `itertools`, `collections`, and `functools` can simplify complex tasks and make code more efficient. Additionally, the integration of data visualization and persistent storage makes this a practical tool for analyzing basketball player stats.
+* Day 356: 🚗 Car Maintenance Tracker in Python 🛠️
+
+  Today, I worked on a **Car Maintenance Tracker** using Python, with a focus on Object-Oriented Programming (OOP) principles such as encapsulation, abstraction, and the Model-View-Controller (MVC) design pattern. The project allows users to track vehicle maintenance records, add new vehicles, and visualize maintenance data using **Matplotlib**. Below are the key highlights:
+
+  - **Encapsulation**: The `CarMaintenanceModel` class encapsulates attributes like `vehicles` and `maintenance_records`, ensuring that data is protected and accessed only through controlled methods. This ensures data integrity and security.
+
+  - **Abstraction**: The `CarMaintenanceView` class abstracts the user interface, providing a clear separation between the user interaction and the underlying logic. This makes the system easy to extend and maintain.
+
+  - **MVC Design Pattern**: The project follows the **Model-View-Controller** pattern, where:
+    - **Model**: Manages the data and business logic (`CarMaintenanceModel`).
+    - **View**: Handles the user interface and data visualization (`CarMaintenanceView`).
+    - **Controller**: Acts as the intermediary between the Model and View (`CarMaintenanceController`).
+
+  - **Vehicle Management**: Users can add new vehicles to the system, including details like `make`, `model`, and `year`. This ensures that all vehicles are properly registered and tracked.
+
+  - **Maintenance Records**: The system allows users to add maintenance records for each vehicle, including details like `service_type`, `date`, and `description`. This makes it easy to keep track of all maintenance activities.
+
+  - **Data Visualization**: Using **Matplotlib**, the system provides a visual representation of maintenance data, showing the distribution of service types across all vehicles. This feature enhances the usability of the system by providing insights at a glance.
+
+  - **Menu-Driven Interface**: A user-friendly menu allows for easy interaction with the system. Users can add vehicles, add maintenance records, view records, and visualize data with just a few simple steps.
+
+  This project was an excellent exercise in applying OOP principles and the MVC design pattern to create a well-structured and maintainable system. I had the opportunity to refine my understanding of how encapsulation, abstraction, and separation of concerns work together to create clean and reusable code, all while building a practical car maintenance tracking tool.
