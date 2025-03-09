@@ -4616,3 +4616,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly**: The program runs smoothly, displaying the rose, stem, leaves, and message in a single window with a light pink background. It’s a simple yet powerful way to celebrate women and their contributions.
 
   This project was a wonderful opportunity to combine creativity with programming. Using Python's `turtle` module, I was able to create a visual tribute that not only looks beautiful but also carries a meaningful message. It’s a reminder of the importance of celebrating and appreciating women every day.
+* Day 359: Technical Test "longestConsecutive" and "sumNumbers" [LeetCode](https://leetcode.com/problems/)
+
+  - **longestConsecutive**: Implemented a solution for the "Longest Consecutive Sequence" problem, where the task is to find the length of the longest sequence of consecutive elements in an unsorted array of integers. The solution uses a hash set to achieve O(n) time complexity by checking for the start of sequences and then calculating their lengths. The approach ensures efficient traversal and avoids unnecessary computations.
+    [Problem Description: longestConsecutive](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+
+  - **sumNumbers**: Solved the "Sum Root to Leaf Numbers" problem, which involves calculating the total sum of all root-to-leaf numbers in a binary tree. Each root-to-leaf path represents a number, and the solution uses a depth-first search (DFS) approach to traverse the tree, construct the numbers, and sum them up. The time complexity is O(N), where N is the number of nodes in the tree.
+    [Problem Description: sumNumbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
