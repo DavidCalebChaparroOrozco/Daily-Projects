@@ -4601,3 +4601,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Practical Application**: This project is a fun and practical way to explore mathematical concepts (like squares and iterative calculations) while also practicing Python programming skills, such as loops, conditionals, and string manipulation.
 
   This project was a great exercise in combining mathematical logic with creative visualization. It reinforced my understanding of iterative problem-solving and provided an opportunity to create a visually appealing output using simple ASCII art.
+* Day 358: 🌹 International Women's Day Tribute with Python Turtle 🐢
+
+  Today, I created a beautiful tribute for International Women's Day using Python's `turtle` module. The project features a rose, a stem with leaves, and an inspirational message: "The best curve of a woman is her smile." Below are the key highlights:
+
+  - **Rose Drawing**: Using the `turtle` module, I drew a six-petaled rose with vibrant red petals. The `draw_petal` function creates each petal, and the `draw_rose` function assembles them into a complete flower.
+
+  - **Stem and Leaves**: The `draw_stem` function adds a green stem and two leaves to the rose, making it more realistic and visually appealing. The leaves are filled with green color using `begin_fill` and `end_fill`.
+
+  - **Inspirational Message**: The `draw_message` function displays the message "The best curve of a woman is her smile" at the top of the screen in bold black text. This adds a meaningful touch to the project.
+
+  - **Modular Design**: The code is organized into separate functions (`draw_petal`, `draw_rose`, `draw_stem`, and `draw_message`), making it easy to understand, maintain, and extend in the future.
+
+  - **User-Friendly**: The program runs smoothly, displaying the rose, stem, leaves, and message in a single window with a light pink background. It’s a simple yet powerful way to celebrate women and their contributions.
+
+  This project was a wonderful opportunity to combine creativity with programming. Using Python's `turtle` module, I was able to create a visual tribute that not only looks beautiful but also carries a meaningful message. It’s a reminder of the importance of celebrating and appreciating women every day.
