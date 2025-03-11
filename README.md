@@ -4623,3 +4623,24 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **sumNumbers**: Solved the "Sum Root to Leaf Numbers" problem, which involves calculating the total sum of all root-to-leaf numbers in a binary tree. Each root-to-leaf path represents a number, and the solution uses a depth-first search (DFS) approach to traverse the tree, construct the numbers, and sum them up. The time complexity is O(N), where N is the number of nodes in the tree.
     [Problem Description: sumNumbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
+* Day 360: 🔒 Web Application Security Scanner in Python 🛡️
+
+  Today, I worked on a **Web Application Security Scanner** using Python, designed to identify common vulnerabilities in web applications, such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), SQL Injection (SQLi), and exposed files or directories. The project combines web scraping, vulnerability testing, and a user-friendly graphical interface to provide a comprehensive security assessment tool. Below are the key highlights:
+
+  - **XSS Scanning**: The scanner injects a simple JavaScript payload (`<script>alert('XSS')</script>`) into all text input fields of forms on the target page. If the payload is reflected in the response, it indicates a potential XSS vulnerability.
+
+  - **CSRF Scanning**: The scanner checks if forms on the target page contain a CSRF token. If no CSRF token is found, it indicates a potential CSRF vulnerability.
+
+  - **SQL Injection Scanning**: The scanner tests for SQL Injection vulnerabilities by injecting a common SQL payload (`' OR '1'='1`) into input fields. If the response contains SQL-related errors, it indicates a potential SQLi vulnerability.
+
+  - **Exposed Files and Directories**: The scanner checks for common exposed files and directories, such as `robots.txt`, `sitemap.xml`, `.env`, and `config.php`. If these files are accessible, they may reveal sensitive information about the application.
+
+  - **Graphical User Interface (GUI)**: The project includes a modern and user-friendly GUI built with `tkinter`. The interface features a dark theme, colorful buttons, and a scrollable text area to display scan results in real-time.
+
+  - **Error Handling**: The scanner includes robust error handling to ensure that unexpected issues (e.g., network errors or invalid URLs) do not crash the program. Errors are logged and displayed to the user.
+
+  - **Report Generation**: After the scan, the tool generates a detailed report of all vulnerabilities found and saves it to a file (`vulnerability_report.txt`). This makes it easy to share and review the results.
+
+  - **Practical Use Case**: This tool is designed to be a practical and educational resource for identifying vulnerabilities in web applications. It demonstrates how to combine web scraping, vulnerability testing, and GUI development into a single project.
+
+  This project was an excellent exercise in web security, GUI development, and Python programming. It allowed me to explore the importance of securing web applications and provided hands-on experience with vulnerability testing techniques. The integration of a graphical interface makes the tool accessible and user-friendly, while the underlying functionality ensures it remains a powerful security assessment tool.
