@@ -4644,3 +4644,24 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Practical Use Case**: This tool is designed to be a practical and educational resource for identifying vulnerabilities in web applications. It demonstrates how to combine web scraping, vulnerability testing, and GUI development into a single project.
 
   This project was an excellent exercise in web security, GUI development, and Python programming. It allowed me to explore the importance of securing web applications and provided hands-on experience with vulnerability testing techniques. The integration of a graphical interface makes the tool accessible and user-friendly, while the underlying functionality ensures it remains a powerful security assessment tool.
+* Day 361: 🛒 Price Notifier System in Python 💰
+
+  Today, I worked on a **Price Notifier System** using Python, designed to monitor product prices from various online stores. The system allows users to track products, set desired prices, and receive notifications when prices drop below a specified threshold. Below are the key highlights:
+
+  - **Web Scraping**: The system uses the `requests` and `BeautifulSoup` libraries to scrape product prices from URLs provided by the user. It supports custom CSS selectors for extracting prices from different websites, ensuring flexibility across various e-commerce platforms.
+
+  - **Price Tracking**: Users can add products to a monitored list, specifying the product name, URL, desired price, and optional CSS selectors. The system periodically checks the current price of each product and updates its history.
+
+  - **Price History**: Each product maintains a history of price changes, allowing users to track price trends over time. The history is limited to the last 30 entries to keep the data manageable.
+
+  - **User-Friendly CLI**: The system features a command-line interface (CLI) that allows users to:
+    - Add new products to monitor.
+    - View the list of monitored products and their current prices.
+    - Update product prices in real-time.
+    - Remove products from the monitoring list.
+
+  - **Customizable Decimal Separator**: The system supports both `.` and `,` as decimal separators, making it adaptable to different regional price formats.
+
+  - **JSON Storage**: All monitored products and their data are stored in a JSON file (`monitored_products.json`), ensuring persistence between program runs. This makes it easy to manage and extend the system.
+
+  This project was a great opportunity to practice web scraping, file handling, and building a user-friendly CLI. I also deepened my understanding of how to structure Python projects for maintainability and scalability. The Price Notifier System is a practical tool for anyone looking to save money by tracking online product prices effectively.
