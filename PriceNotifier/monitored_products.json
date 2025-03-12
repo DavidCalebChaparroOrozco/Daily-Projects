@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Python Data Analysis",
+        "url": "https://www.amazon.com/Python-Data-Analysis-Wrangling-Jupyter/dp/109810403X?crid=18ZU6WVHOA33J&dib=eyJ2IjoiMSJ9.M5MuRmlMyHK5EKqCgL8LhkSIFB6pkodTETYns2D0-kRQN2JGYappgap6yyhvKbOlbzDsAu-pZT9Lp_CfMyN8zDitUMN-yneyAY1Gq93lD7T-9XIjINOq-A-t8QMmuPh_3HzsB7E2n6ZLckmjv2NvjCT_0vmiBF8jVokE-B1IGw_cJAKnKl8F6XVzypIwlfXn0Ush4eU_vCaucdYBRusJVQ0s5ClVIgOcvAHU7sjc1GtdhXOufag3GJ-BnbtE_jEXZzK3SDBspJbqPTlaGnFJq2EXgFVkW-cf_WS8qs571r6NAO5-MUp1KSr2_5qYx_9zIb6dOlGU3WEAJzpXw0dbyXve49oB3l6lbQAFXc5FN_4.Xk5WyiBAF167XH_e6CtyCfcZgxV7LfmhayMSAZjr1s8&dib_tag=se&keywords=Python&qid=1741743032&refinements=p_72%3A1250221011%2Cp_n_feature_twenty-five_browse-bin%3A3291437011&rnid=3291435011&s=books&sprefix=python+%2Caps%2C214&sr=1-8",
+        "wanted_price": 35.9,
+        "current_price": 43.99,
+        "selector_css": null,
+        "decimal_separator": ".",
+        "last_check": "2025-03-11 20:39:26",
+        "history": [
+            {
+                "date": "2025-03-11 20:39:26",
+                "price": 43.99
+            },
+            {
+                "date": "2025-03-11 20:41:59",
+                "price": 43.99
+            }
+        ]
+    },
+    {
+        "name": "Lotion",
+        "url": "https://www.amazon.com/Bentley-Azure-Toilette-Spray-Ounce/dp/B00K1D5OH0?crid=2VYKEF8CVUXY9&dib=eyJ2IjoiMSJ9.D8pDJkaXTl9Ilz1jDq8TUZR0K2Vf47i0ou3mKH4jzg6BCvIPQgYJUzNIX2RHbkSEJmZl7jFEvtYTPCueVulz8FdfTvDXJdly_d2Gyyc-eLkh_0ov4EHoYC2dr6E6Q3by.Nt6ICEcFJAA2aPvraNj-hCL9MY6gPasx9XCAdyZPVOc&dib_tag=se&keywords=bvlgari+perfume+for+men+soir&qid=1741743595&sprefix=%2Caps%2C719&sr=8-1-fkmr0",
+        "wanted_price": 30.0,
+        "current_price": 32.4932,
+        "selector_css": null,
+        "decimal_separator": ".",
+        "last_check": "2025-03-11 20:40:26",
+        "history": [
+            {
+                "date": "2025-03-11 20:40:26",
+                "price": 32.4932
+            },
+            {
+                "date": "2025-03-11 20:42:02",
+                "price": 32.4932
+            }
+        ]
+    },
+    {
+        "name": "Boromir",
+        "url": "https://www.amazon.com/Funko-Pop-Movies-Collectible-Multicolor/dp/B07DFGTGBG?crid=1KFI0S24YA2QZ&dib=eyJ2IjoiMSJ9.xX-d1iI3OqqPPmY3Ne-4lWhKpShOrVda37zjEB4Mj1LkN45b6k8AH4KVmXb5hI8lHzdHXVZA6xQyJWzXIRtL9JThh4wwvv2dWRzPhivLXQt9Ut5UT4q_xkfTsjKubpYos2bOR8GwX4vmSmkBEcf5ZOHBl89STGZEykVk_2ZNAKIBuR5KlKZnEnrmxeV6vpckJsMnqPZcs_J1WPhrqojqY2bfuQ3StyB96zv5wV7nsaDG-5i26fNIMObJQFtiR6crWFdPV7gec0yMri4UflPCubh0_j9Cq2jekRdnTngYjbOKWsu2vhg5kIzYDv8P7Oz8FFei36YTT_drk4hU3wuiWChh_OlHG6oN8Lv-sO1zBEoJoDHCb9ULxOm-s1c76FTDSRCw8Z7ehtqRtoL27nb1zBQlL0aniSYrjTg_VwSc31PnTpxWdINRYT-X_8ozIMUj.ek51pw-KB2OlsUeUSpr24V2ku0RRC7mr8TXRRFB6Q_o&dib_tag=se&keywords=boromir+funko+pop&qid=1741743669&sprefix=Boromir+%2Caps%2C186&sr=8-2",
+        "wanted_price": 95.0,
+        "current_price": 107.91107,
+        "selector_css": null,
+        "decimal_separator": ".",
+        "last_check": "2025-03-11 20:41:45",
+        "history": [
+            {
+                "date": "2025-03-11 20:41:45",
+                "price": 107.91107
+            },
+            {
+                "date": "2025-03-11 20:42:05",
+                "price": 107.91107
+            }
+        ]
+    }
+]
