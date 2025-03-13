@@ -4665,3 +4665,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **JSON Storage**: All monitored products and their data are stored in a JSON file (`monitored_products.json`), ensuring persistence between program runs. This makes it easy to manage and extend the system.
 
   This project was a great opportunity to practice web scraping, file handling, and building a user-friendly CLI. I also deepened my understanding of how to structure Python projects for maintainability and scalability. The Price Notifier System is a practical tool for anyone looking to save money by tracking online product prices effectively.
+* Day 362: 📅 Recursive Calendar Generator in Python 🗓️
+
+  Today, I worked on a **Recursive Calendar Generator** using Python, with a focus on handling leap years, recursive functions, and user-friendly interactions. The project allows users to generate calendars for specific months or entire years, and it supports recursive prompts for continuous use. Below are the key highlights:
+
+  - **Leap Year Handling**: The program includes a function to check if a given year is a leap year, ensuring accurate calendar generation for both leap and non-leap years.
+
+  - **Recursive Functionality**: The `display_calendar` function is implemented recursively, allowing users to generate multiple calendars without restarting the program. This makes the system interactive and user-friendly.
+
+  - **Monthly and Yearly Calendars**: Users can choose to generate a calendar for a specific month or an entire year. The program uses Python's built-in `calendar` module to format and display the calendars neatly.
+
+  - **Input Validation**: The program validates user inputs, such as ensuring the month is within the valid range (1-12). If invalid input is provided, the program prompts the user again, ensuring robustness.
+
+  - **Flexible Formatting**: The calendar is displayed in a clean and readable format, making it easy for users to view and understand.
+
+  - **User Interaction**: The program prompts users to decide whether they want to generate another calendar or exit, providing a seamless and intuitive experience.
+
+  This project was a great opportunity to explore recursive programming and calendar manipulation in Python. I deepened my understanding of how to handle edge cases (like leap years) and create interactive, reusable code. The Recursive Calendar Generator is a practical tool that can be extended with additional features, such as custom formatting or integration with other applications.
