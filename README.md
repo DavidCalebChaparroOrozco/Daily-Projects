@@ -4682,3 +4682,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User Interaction**: The program prompts users to decide whether they want to generate another calendar or exit, providing a seamless and intuitive experience.
 
   This project was a great opportunity to explore recursive programming and calendar manipulation in Python. I deepened my understanding of how to handle edge cases (like leap years) and create interactive, reusable code. The Recursive Calendar Generator is a practical tool that can be extended with additional features, such as custom formatting or integration with other applications.
+* Day 363: 🔐 Caesar Cipher GUI in Python 🖥️
+
+  Today, I worked on a **Caesar Cipher GUI** application using Python and the `tkinter` library. This project allows users to encrypt and decrypt text using the Caesar Cipher algorithm, providing an intuitive and visually appealing interface. Below are the key highlights:
+
+  - **Graphical User Interface (GUI)**: The application features a clean and modern dark-themed interface, built with `tkinter`. It includes input fields for plaintext, ciphertext, and the encryption key, as well as buttons for encryption, decryption, and clearing fields.
+
+  - **Caesar Cipher Algorithm**: The core functionality of the application is the implementation of the Caesar Cipher algorithm. It supports both uppercase and lowercase letters while preserving special characters and spaces. The algorithm shifts each letter by a specified key value, making it a classic example of substitution-based encryption.
+
+  - **Input Validation**: The application includes robust input validation to ensure the key is a valid integer between 1 and 25. If the user enters an invalid key or leaves a required field empty, the program displays user-friendly error messages.
+
+  - **File Handling**: Users can open text files to load plaintext or ciphertext directly into the application. They can also save the encrypted or decrypted results to a file, making it easy to work with external data.
+
+  - **Brute Force Decryption**: For cases where the key is unknown, the application includes a **Brute Force** feature. It attempts to decrypt the ciphertext using all possible keys (1–25) and displays the results in a new window. This is particularly useful for cracking simple Caesar Cipher codes.
+
+  - **Menu Bar**: The application includes a menu bar with **File** and **Help** options. Users can open and save files, as well as access an **About** dialog for information about the program.
+
+  - **User-Friendly Design**: The interface is designed with user experience in mind. Buttons are color-coded for clarity, and the dark theme reduces eye strain during prolonged use. Tooltips and clear labels guide users through the process.
+
+  This project was a great opportunity to combine my knowledge of encryption algorithms with GUI development. I gained experience in creating interactive applications with `tkinter`, handling file I/O, and implementing input validation. The Caesar Cipher GUI is a practical tool for learning about encryption and can be easily extended with additional features in the future.
