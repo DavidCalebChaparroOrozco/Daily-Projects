@@ -4701,3 +4701,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Design**: The interface is designed with user experience in mind. Buttons are color-coded for clarity, and the dark theme reduces eye strain during prolonged use. Tooltips and clear labels guide users through the process.
 
   This project was a great opportunity to combine my knowledge of encryption algorithms with GUI development. I gained experience in creating interactive applications with `tkinter`, handling file I/O, and implementing input validation. The Caesar Cipher GUI is a practical tool for learning about encryption and can be easily extended with additional features in the future.
+* Day 364: 🏀 Basketball Shot Clock in Python ⏱️
+
+  Today, I worked on a **Basketball Shot Clock** application using Python, with a focus on creating an interactive and user-friendly interface for basketball training sessions. The project allows users to simulate a shot clock, track player scores, and manage a multiplayer competition. Below are the key highlights:
+
+  - **Interactive Shot Clock**: The application features a countdown timer that starts at 24 seconds, simulating a real basketball shot clock. Users can start, pause, and reset the timer with ease.
+
+  - **Multiplayer Mode**: Players can be added dynamically, and their scores are tracked in real-time. The system allows users to increment scores for each player, making it ideal for competitive training sessions.
+
+  - **Winner Announcement**: When the shot clock reaches zero, the application announces the winner based on the highest score. If a player reaches 10 points, they are declared the champion.
+
+  - **Score Management**: The system provides a clear and intuitive interface for tracking player scores. Each player has a dedicated button to increment their score, ensuring smooth and efficient scorekeeping.
+
+  - **Save Statistics**: The application allows users to save player statistics to a CSV file, making it easy to review and analyze performance over time.
+
+  - **User-Friendly Interface**: The interface is designed with a dark theme for a modern look, featuring green buttons with black text for clear visibility and ease of use. The shot clock animation provides a visual representation of the remaining time.
+
+  This project was an excellent exercise in creating a practical and interactive tool for basketball training. I had the opportunity to refine my skills in GUI development using `tkinter`, as well as implementing features like threading for the countdown timer and file handling for saving statistics. The result is a versatile and user-friendly application that can be used in real-world training scenarios.
