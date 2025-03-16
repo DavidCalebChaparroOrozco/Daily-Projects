@@ -1,0 +1,367 @@
+Day,Activity,Category,Date,Month,Weekday,Start,End
+1,Polar Plots in Python with Matplotlib by Neural Nine,Data Visualization,2024-03-15,March,Friday,2024-03-15,2024-03-16
+2,Spotify Oldies Dataset 🎶,Data Scientist (Kaggle),2024-03-16,March,Saturday,2024-03-16,2024-03-17
+3,Pomodoro Timer GUI,GUI,2024-03-17,March,Sunday,2024-03-17,2024-03-18
+4,To Do App,Others,2024-03-18,March,Monday,2024-03-18,2024-03-19
+5,ContactManager,Others,2024-03-19,March,Tuesday,2024-03-19,2024-03-20
+6,Income Prediction Adult Income [Kaggle](https,Data Scientist (Kaggle),2024-03-20,March,Wednesday,2024-03-20,2024-03-21
+7,Pokedex GUI Application,GUI,2024-03-21,March,Thursday,2024-03-21,2024-03-22
+8,Flet Chat Application,Others,2024-03-22,March,Friday,2024-03-22,2024-03-23
+9,Video Game Sales [Kaggle](https,Data Scientist (Kaggle),2024-03-23,March,Saturday,2024-03-23,2024-03-24
+10,Summarize News Articles,Others,2024-03-24,March,Sunday,2024-03-24,2024-03-25
+11,Sudoku Solver,Others,2024-03-25,March,Monday,2024-03-25,2024-03-26
+12,Snake Pygame,GUI,2024-03-26,March,Tuesday,2024-03-26,2024-03-27
+13,Titanic Dataset 🚢 [Kaggle](https,Data Scientist (Kaggle),2024-03-27,March,Wednesday,2024-03-27,2024-03-28
+14,Email Python,Others,2024-03-28,March,Thursday,2024-03-28,2024-03-29
+15,Guess the Number,Others,2024-03-29,March,Friday,2024-03-29,2024-03-30
+16,Virtual Bookshelves,Others,2024-03-30,March,Saturday,2024-03-30,2024-03-31
+17,RSS Feed Reader,Others,2024-03-31,March,Sunday,2024-03-31,2024-04-01
+18,Customer Manager JSON,Others,2024-04-01,April,Monday,2024-04-01,2024-04-02
+19,Expense Tracking App,Others,2024-04-02,April,Tuesday,2024-04-02,2024-04-03
+20,Hangman,Others,2024-04-03,April,Wednesday,2024-04-03,2024-04-04
+21,Image Editor,Others,2024-04-04,April,Thursday,2024-04-04,2024-04-05
+22,Faker User,Others,2024-04-05,April,Friday,2024-04-05,2024-04-06
+23,Simple Stock Price (Steamlit),Data Scientist (Kaggle),2024-04-06,April,Saturday,2024-04-06,2024-04-07
+24,Quality Of Wine [Kaggle](https,Data Scientist (Kaggle),2024-04-07,April,Sunday,2024-04-07,2024-04-08
+25,Extract Dominant Colors,Others,2024-04-08,April,Monday,2024-04-08,2024-04-09
+26,Tree Node,Others,2024-04-09,April,Tuesday,2024-04-09,2024-04-10
+27,ML with FastAPI,Data Scientist (Kaggle),2024-04-10,April,Wednesday,2024-04-10,2024-04-11
+28,Tutorial Guide (Python Types Intro) [FastAPI](https,GUI,2024-04-11,April,Thursday,2024-04-11,2024-04-12
+29,Parking Space Counter,Others,2024-04-12,April,Friday,2024-04-12,2024-04-13
+30,[TensorFlow](https,Data Scientist (Kaggle),2024-04-13,April,Saturday,2024-04-13,2024-04-14
+31,Spam Emails Dataset [Kaggle](https,Data Scientist (Kaggle),2024-04-14,April,Sunday,2024-04-14,2024-04-15
+32,Dijkstra's Algorithm Implementation,Others,2024-04-15,April,Monday,2024-04-15,2024-04-16
+33,"Technical Test ""Add Two Numbers"" and ""FizzBuzz"" [LeetCode](https",LeetCode,2024-04-16,April,Tuesday,2024-04-16,2024-04-17
+34,Quicksort,Others,2024-04-17,April,Wednesday,2024-04-17,2024-04-18
+35,Live Weather Forecast Flask App,GUI,2024-04-18,April,Thursday,2024-04-18,2024-04-19
+36,Random Passwords Generator,Others,2024-04-19,April,Friday,2024-04-19,2024-04-20
+37,Site Connectivity Checker,Others,2024-04-20,April,Saturday,2024-04-20,2024-04-21
+38,Heart Attack Analysis & Prediction Dataset [Kaggle](https,Data Scientist (Kaggle),2024-04-21,April,Sunday,2024-04-21,2024-04-22
+39,[TensorFlow](https,Data Scientist (Kaggle),2024-04-22,April,Monday,2024-04-22,2024-04-23
+40,"Technical Test ""Minimum Height Trees"" and ""Zigzag Conversion"" [LeetCode](https",LeetCode,2024-04-23,April,Tuesday,2024-04-23,2024-04-24
+41,Tkinter - Map View,GUI,2024-04-24,April,Wednesday,2024-04-24,2024-04-25
+42,Tkinter - Digital Clock,GUI,2024-04-25,April,Thursday,2024-04-25,2024-04-26
+43,PySpark (Quickstart,Others,2024-04-26,April,Friday,2024-04-26,2024-04-27
+44,Daily Routine with Desktop Notifications,Others,2024-04-27,April,Saturday,2024-04-27,2024-04-28
+45,Language Detection,Others,2024-04-28,April,Sunday,2024-04-28,2024-04-29
+46,"Technical Test ""MedianSortedArrays"" and ""lengthOfLongestSubstring"" [LeetCode](https",LeetCode,2024-04-29,April,Monday,2024-04-29,2024-04-30
+47,Currency Converter,Others,2024-04-30,April,Tuesday,2024-04-30,2024-05-01
+48,Perceptron,Others,2024-05-01,May,Wednesday,2024-05-01,2024-05-02
+49,"Technical Test ""Reverse Integer"" and ""Longest Palindromic Substring"" [LeetCode](https",LeetCode,2024-05-02,May,Thursday,2024-05-02,2024-05-03
+50,Students Performance in Exams [Kaggle](https,Data Scientist (Kaggle),2024-05-03,May,Friday,2024-05-03,2024-05-04
+51,Interactive Menu for YouTube and Web Searches,Web Development,2024-05-04,May,Saturday,2024-05-04,2024-05-05
+52,Task Manager Performance,Others,2024-05-05,May,Sunday,2024-05-05,2024-05-06
+53,"Technical Test ""Integer to Roman"" and ""Container With Most Water"" [LeetCode](https",LeetCode,2024-05-06,May,Monday,2024-05-06,2024-05-07
+54,Background Remove Flask,GUI,2024-05-07,May,Tuesday,2024-05-07,2024-05-08
+55,Multiple Files Renamer,Others,2024-05-08,May,Wednesday,2024-05-08,2024-05-09
+56,"Technical Test ""threeSum"" and ""threeSumClosest"" [LeetCode](https",LeetCode,2024-05-09,May,Thursday,2024-05-09,2024-05-10
+57,KeyLogger,Others,2024-05-10,May,Friday,2024-05-10,2024-05-11
+58,Matrix Effect,Others,2024-05-11,May,Saturday,2024-05-11,2024-05-12
+59,Dice-Rolling [realpython.com](https,Others,2024-05-12,May,Sunday,2024-05-12,2024-05-13
+60,"Technical Test ""letterCombinations"" and ""4Sum"" [LeetCode](https",LeetCode,2024-05-13,May,Monday,2024-05-13,2024-05-14
+61,Anemia Types Classification [Kaggle](https,Data Scientist (Kaggle),2024-05-14,May,Tuesday,2024-05-14,2024-05-15
+62,Cinema Management System using OOP,OOP,2024-05-15,May,Wednesday,2024-05-15,2024-05-16
+63,"Technical Test ""removeNthFromEnd"" and ""isMatch"" [LeetCode](https",LeetCode,2024-05-16,May,Thursday,2024-05-16,2024-05-17
+64,Contour Plots in Matplotlib - Visualize 3D Functions in 2D [NeuralNine](https,Data Visualization,2024-05-17,May,Friday,2024-05-17,2024-05-18
+65,"Technical Test ""isValidParentheses"" and ""MergeTwoSortedLists"" [LeetCode](https",LeetCode,2024-05-18,May,Saturday,2024-05-18,2024-05-19
+66,Web Scraping Job Listings with Python,Web Development,2024-05-19,May,Sunday,2024-05-19,2024-05-20
+67,[TensorFlow](https,Data Scientist (Kaggle),2024-05-20,May,Monday,2024-05-20,2024-05-21
+68,"Recursion ""SierpinskiTriangle"" and ""FractalTree"".",Recursion,2024-05-21,May,Tuesday,2024-05-21,2024-05-22
+69,Ticket management GUI,GUI,2024-05-22,May,Wednesday,2024-05-22,2024-05-23
+70,Scientific GUI Calculator,GUI,2024-05-23,May,Thursday,2024-05-23,2024-05-24
+71,"Technical Test ""generateParenthesis"" and ""mergeKLists"" [LeetCode](https",LeetCode,2024-05-24,May,Friday,2024-05-24,2024-05-25
+72,Knight's Tour Problem Solver,Others,2024-05-25,May,Saturday,2024-05-25,2024-05-26
+73,Tic-Tac-Toe Multiplayer [NeuralNine](https,Games,2024-05-26,May,Sunday,2024-05-26,2024-05-27
+74,"Technical Test ""twoSum"" and ""myAtoi"" [LeetCode](https",LeetCode,2024-05-27,May,Monday,2024-05-27,2024-05-28
+75,Spotify Songs Album [Kaggle](https,Data Scientist (Kaggle),2024-05-28,May,Tuesday,2024-05-28,2024-05-29
+76,Bank Queue Management System,Others,2024-05-29,May,Wednesday,2024-05-29,2024-05-30
+77,Inventory Management GUI,GUI,2024-05-30,May,Thursday,2024-05-30,2024-05-31
+78,"Technical Test ""swapPairs"" and ""reverseKGroup"" [LeetCode](https",LeetCode,2024-05-31,May,Friday,2024-05-31,2024-06-01
+79,Minesweeper GUI Pygame,GUI,2024-06-01,June,Saturday,2024-06-01,2024-06-02
+80,Student Practice Management System,Others,2024-06-02,June,Sunday,2024-06-02,2024-06-03
+81,Random Roulette,Others,2024-06-03,June,Monday,2024-06-03,2024-06-04
+82,"Test Projects ""celsius_to_fahrenheit""",Others,2024-06-04,June,Tuesday,2024-06-04,2024-06-05
+83,"Technical Test ""removeDuplicates"" and ""removeElement"" [LeetCode](https",LeetCode,2024-06-05,June,Wednesday,2024-06-05,2024-06-06
+84,Complaint Management System,Others,2024-06-06,June,Thursday,2024-06-06,2024-06-07
+85,Convert Word Files To PDF [NeuralNine](https,Others,2024-06-07,June,Friday,2024-06-07,2024-06-08
+86,Goldner-Harary Graph in 3D,Others,2024-06-08,June,Saturday,2024-06-08,2024-06-09
+87,Building Management System,Others,2024-06-09,June,Sunday,2024-06-09,2024-06-10
+88,"Technical Test ""strStr"" and ""divide"" [LeetCode](https",LeetCode,2024-06-10,June,Monday,2024-06-10,2024-06-11
+89,Dragon Ball Radar Animation with DBSCAN Clustering,Others,2024-06-11,June,Tuesday,2024-06-11,2024-06-12
+90,Pong Game Development in Python,Games,2024-06-12,June,Wednesday,2024-06-12,2024-06-13
+91,Flask-based Online Survey Application,GUI,2024-06-13,June,Thursday,2024-06-13,2024-06-14
+92,Tower of Hanoi and N Queens Problem Solutions,Others,2024-06-14,June,Friday,2024-06-14,2024-06-15
+93,Word Search Puzzle GUI,GUI,2024-06-15,June,Saturday,2024-06-15,2024-06-16
+94,"Technical Test ""findSubstring"" and ""nextPermutation"" [LeetCode](https",LeetCode,2024-06-16,June,Sunday,2024-06-16,2024-06-17
+95,PhishGuard - Anti-Phishing Email and Website Filter,Web Development,2024-06-17,June,Monday,2024-06-17,2024-06-18
+96,World Clock GUI,GUI,2024-06-18,June,Tuesday,2024-06-18,2024-06-19
+97,Pipelines for inference [🤗 Transformers](https,Others,2024-06-19,June,Wednesday,2024-06-19,2024-06-20
+98,Vehicle Management System,Others,2024-06-20,June,Thursday,2024-06-20,2024-06-21
+99,🌬️ Asthma Disease Dataset 🌬️ [Kaggle](https,Data Scientist (Kaggle),2024-06-21,June,Friday,2024-06-21,2024-06-22
+100,🎮 2048 Game with Flask 🎮,GUI,2024-06-22,June,Saturday,2024-06-22,2024-06-23
+101,"Technical Test ""longestValidParentheses"" and ""search"" [LeetCode](https",LeetCode,2024-06-23,June,Sunday,2024-06-23,2024-06-24
+102,🍦 Object-Oriented Programming in Python with Ice Cream Example 🍦,OOP,2024-06-24,June,Monday,2024-06-24,2024-06-25
+103,[TensorFlow](https,Data Scientist (Kaggle),2024-06-25,June,Tuesday,2024-06-25,2024-06-26
+104,Battleship Game with Flask,GUI,2024-06-26,June,Wednesday,2024-06-26,2024-06-27
+105,"Technical Test ""searchRange"" and ""searchInsert"" [LeetCode](https",LeetCode,2024-06-27,June,Thursday,2024-06-27,2024-06-28
+106,Create a Multipage App with Streamlit [Streamlit Tutorial](https,Data Scientist (Kaggle),2024-06-28,June,Friday,2024-06-28,2024-06-29
+107,Twenty One Card Game GUI,GUI,2024-06-29,June,Saturday,2024-06-29,2024-06-30
+108,Character-Level Language Model with RNN,Others,2024-06-30,June,Sunday,2024-06-30,2024-07-01
+109,PolarsVSPandas (Polars Is The Faster Pandas) [NeuralNine](https,Others,2024-07-01,July,Monday,2024-07-01,2024-07-02
+110,"Technical Test ""isValidSudoku"" and ""solveSudoku"" [LeetCode](https",LeetCode,2024-07-02,July,Tuesday,2024-07-02,2024-07-03
+111,Library Management System,Others,2024-07-03,July,Wednesday,2024-07-03,2024-07-04
+112,Maze Generator and Solver,Others,2024-07-04,July,Thursday,2024-07-04,2024-07-05
+113,Basketball Scoreboard in Flask,GUI,2024-07-05,July,Friday,2024-07-05,2024-07-06
+114,Internet Speed Test Application,Others,2024-07-06,July,Saturday,2024-07-06,2024-07-07
+115,Steganography Application using Flask,GUI,2024-07-07,July,Sunday,2024-07-07,2024-07-08
+116,"Technical Test ""countAndSay"" and ""combinationSum"" [LeetCode](https",LeetCode,2024-07-08,July,Monday,2024-07-08,2024-07-09
+117,"Recursion ""BinaryTreeExpressionEvaluator""",Recursion,2024-07-09,July,Tuesday,2024-07-09,2024-07-10
+118,Shirt Store,Others,2024-07-10,July,Wednesday,2024-07-10,2024-07-11
+119,Household Basket,Others,2024-07-11,July,Thursday,2024-07-11,2024-07-12
+120,Copa America 2024 Groups [Dataset](https,Data Scientist (Kaggle),2024-07-12,July,Friday,2024-07-12,2024-07-13
+121,"Technical Test ""combinationSum2"" and ""firstMissingPositive"" [LeetCode](https",LeetCode,2024-07-13,July,Saturday,2024-07-13,2024-07-14
+122,"Recursion ""Knapsack""",Recursion,2024-07-14,July,Sunday,2024-07-14,2024-07-15
+123,[TLC Trip Record Data](https,Others,2024-07-15,July,Monday,2024-07-15,2024-07-16
+124,🏫 Object-Oriented Programming in Python with University Enrollment System 🏫,OOP,2024-07-16,July,Tuesday,2024-07-16,2024-07-17
+125,"Technical Test ""trap"" and ""multiply"" [LeetCode](https",LeetCode,2024-07-17,July,Wednesday,2024-07-17,2024-07-18
+126,Basketball Ground Using Turtle,Others,2024-07-18,July,Thursday,2024-07-18,2024-07-19
+127,Employee Hours,Others,2024-07-19,July,Friday,2024-07-19,2024-07-20
+128,"Recursion ""Letter Combinations""",Recursion,2024-07-20,July,Saturday,2024-07-20,2024-07-21
+129,Pneumonia Detection Using Deep Learning,Others,2024-07-21,July,Sunday,2024-07-21,2024-07-22
+130,"Technical Test ""WildcardisMatch"" and ""jump"" [LeetCode](https",LeetCode,2024-07-22,July,Monday,2024-07-22,2024-07-23
+131,🐕 Dogs vs Cats 🐈 [Kaggle](https,Data Scientist (Kaggle),2024-07-23,July,Tuesday,2024-07-23,2024-07-24
+132,🎬 Object-Oriented Programming in Python with Movie Subscription System 🎬,OOP,2024-07-24,July,Wednesday,2024-07-24,2024-07-25
+133,🤖 Implementing a Simple Neural Network in Python with Backpropagation 🤖,Data Scientist (Kaggle),2024-07-25,July,Thursday,2024-07-25,2024-07-26
+134,♟️ Building a Chess Game in Python with Object-Oriented Programming ♟️,OOP,2024-07-26,July,Friday,2024-07-26,2024-07-27
+135,☕ Analyzing Worldwide Coffee Consumption Trends with Python ☕,Others,2024-07-27,July,Saturday,2024-07-27,2024-07-28
+136,"Technical Test ""permute"" and ""permuteUnique"" [LeetCode](https",LeetCode,2024-07-28,July,Sunday,2024-07-28,2024-07-29
+137,"Test Projects ""NotesManager""",Others,2024-07-29,July,Monday,2024-07-29,2024-07-30
+138,🐾 Developing a Pet Store Management System in Python with Unit Testing 🐾,Others,2024-07-30,July,Tuesday,2024-07-30,2024-07-31
+139,Top 20 Play Store App Reviews [Kaggle](https,Data Scientist (Kaggle),2024-07-31,July,Wednesday,2024-07-31,2024-08-01
+140,🎮 Memory Game 🎮,Games,2024-08-01,August,Thursday,2024-08-01,2024-08-02
+141,🧮 EMI Calculator with Tkinter and Matplotlib 📊,GUI,2024-08-02,August,Friday,2024-08-02,2024-08-03
+142,"Technical Test ""rotate"" and ""groupAnagrams"" [LeetCode](https",LeetCode,2024-08-03,August,Saturday,2024-08-03,2024-08-04
+143,🎵 Object-Oriented Programming in Python with Music Subscription System 🎵,OOP,2024-08-04,August,Sunday,2024-08-04,2024-08-05
+144,🌀 Mandelbrot Set Visualization 🌀,Data Visualization,2024-08-05,August,Monday,2024-08-05,2024-08-06
+145,🌳 Recursive Tree Animation 🌳,Recursion,2024-08-06,August,Tuesday,2024-08-06,2024-08-07
+146,🏦 ATM Machine Simulation 🏦,Others,2024-08-07,August,Wednesday,2024-08-07,2024-08-08
+147,"Technical Test ""myPow"" and ""NQueens"" [LeetCode](https",LeetCode,2024-08-08,August,Thursday,2024-08-08,2024-08-09
+148,🎮 Video Game Subscription System in Python 🎮,Games,2024-08-09,August,Friday,2024-08-09,2024-08-10
+149,🧩 Wordle Game with Flask and CSS 🖥️,GUI,2024-08-10,August,Saturday,2024-08-10,2024-08-11
+150,🧠 Brain Tumor Dataset 🧠 Analysis [Kaggle](https,Data Scientist (Kaggle),2024-08-11,August,Sunday,2024-08-11,2024-08-12
+151,🏗️ Tower of Babel - Recursive Algorithm 🏗️,Recursion,2024-08-12,August,Monday,2024-08-12,2024-08-13
+152,"Technical Test ""totalNQueens"" and ""maxSubArray"" [LeetCode](https",LeetCode,2024-08-13,August,Tuesday,2024-08-13,2024-08-14
+153,🎮 Rock Paper Scissor Game with Tkinter 🎮,GUI,2024-08-14,August,Wednesday,2024-08-14,2024-08-15
+154,🏥 Medical Appointment System in Python 🩺,Others,2024-08-15,August,Thursday,2024-08-15,2024-08-16
+155,🎬 Movie Ratings Analysis with PySpark and Seaborn 🎥 [Dataset](https,Data Scientist (Kaggle),2024-08-16,August,Friday,2024-08-16,2024-08-17
+156,🗒️ To-Do List Application with Flet 📝,Others,2024-08-17,August,Saturday,2024-08-17,2024-08-18
+157,"Technical Test ""spiralOrder"" and ""canJump"" [LeetCode](https",LeetCode,2024-08-18,August,Sunday,2024-08-18,2024-08-19
+158,🖌️ Floodfill Image Color Changer with Tkinter 🖌️,GUI,2024-08-19,August,Monday,2024-08-19,2024-08-20
+159,🏠 Real Estate Data Visualization with Folium 🗺️,Data Visualization,2024-08-20,August,Tuesday,2024-08-20,2024-08-21
+160,Top 1000 Global Tech Companies Dataset (2024) [Kaggle](https,Data Scientist (Kaggle),2024-08-21,August,Wednesday,2024-08-21,2024-08-22
+161,🏨 Hotel Reservation System in Python 🏢,Others,2024-08-22,August,Thursday,2024-08-22,2024-08-23
+162,🌀 Gray Code Generator - Recursive Algorithm 🌀,Recursion,2024-08-23,August,Friday,2024-08-23,2024-08-24
+163,"Technical Test ""merge_intervals"" and ""insert_intervals"" [LeetCode](https",LeetCode,2024-08-24,August,Saturday,2024-08-24,2024-08-25
+164,🧮 BMI Calculator with Tkinter and Matplotlib 📊,GUI,2024-08-25,August,Sunday,2024-08-25,2024-08-26
+165,🗂️ File Manager Pro with Python 🖥️,Others,2024-08-26,August,Monday,2024-08-26,2024-08-27
+166,🥤 Soda Combinations Generator - Recursive Algorithm 🥤,Recursion,2024-08-27,August,Tuesday,2024-08-27,2024-08-28
+167,"Technical Test ""lengthOfLastWord"" and ""generateMatrix"" [LeetCode](https",LeetCode,2024-08-28,August,Wednesday,2024-08-28,2024-08-29
+168,Compound Interest Calculator in Python by [NeuralNine](https,Others,2024-08-29,August,Thursday,2024-08-29,2024-08-30
+169,"🌱 Plant Management System for ""La Planta Feliz"" Nursery 🌿",Others,2024-08-30,August,Friday,2024-08-30,2024-08-31
+170,🍕🍽️ Pizza Restaurant Sales [Kaggle](https,Data Scientist (Kaggle),2024-08-31,August,Saturday,2024-08-31,2024-09-01
+171,🔍 Partitioning a List into Two Equal Subsets - Recursive Algorithm 🔍,Recursion,2024-09-01,September,Sunday,2024-09-01,2024-09-02
+172,🏀 Basketball Player Statistics Generator with Python 📊,Others,2024-09-02,September,Monday,2024-09-02,2024-09-03
+173,🎵 Discord Music Bot with Python and discord.py 🎶,Others,2024-09-03,September,Tuesday,2024-09-03,2024-09-04
+174,"Technical Test ""getPermutation"" and ""rotateRight"" [LeetCode](https",LeetCode,2024-09-04,September,Wednesday,2024-09-04,2024-09-05
+175,Build Your Own News Hub in Python - RSS Feed Aggregator by [NeuralNine](https,Others,2024-09-05,September,Thursday,2024-09-05,2024-09-06
+176,🔺 Maximum Sum Path in a Triangle - Recursive Algorithm 🔺,Recursion,2024-09-06,September,Friday,2024-09-06,2024-09-07
+177,📂 File System Management in Python 🖥️,Others,2024-09-07,September,Saturday,2024-09-07,2024-09-08
+178,🛒📊 Customer Purchasing Behaviors [Kaggle](https,Data Scientist (Kaggle),2024-09-08,September,Sunday,2024-09-08,2024-09-09
+179,Movie Recommendation App with Streamlit,Data Scientist (Kaggle),2024-09-09,September,Monday,2024-09-09,2024-09-10
+180,"Technical Test ""uniquePaths"" and ""uniquePathsWithObstacles"" [LeetCode](https",LeetCode,2024-09-10,September,Tuesday,2024-09-10,2024-09-11
+181,🏀 Basketball Team Generator and Visualizer with Python 📊,Others,2024-09-11,September,Wednesday,2024-09-11,2024-09-12
+182,🍽️ Restaurant Management System in Python 🍴,Others,2024-09-12,September,Thursday,2024-09-12,2024-09-13
+183,🌊 Crossing the River Problem - Recursive Solution 🌊,Recursion,2024-09-13,September,Friday,2024-09-13,2024-09-14
+184,"Technical Test ""minPathSum"" and ""isNumber"" [LeetCode](https",LeetCode,2024-09-14,September,Saturday,2024-09-14,2024-09-15
+185,Estimating Pi with Monte Carlo Method,Others,2024-09-15,September,Sunday,2024-09-15,2024-09-16
+186,BMI Calculator in Python - Flask Application,GUI,2024-09-16,September,Monday,2024-09-16,2024-09-17
+187,🎲 Lottery Simulator in Python 🎯,Others,2024-09-17,September,Tuesday,2024-09-17,2024-09-18
+188,"Technical Test ""addBinary"" and ""plusOne"" [LeetCode](https",LeetCode,2024-09-18,September,Wednesday,2024-09-18,2024-09-19
+189,🔍 Longest Common Subsequence (LCS),Others,2024-09-19,September,Thursday,2024-09-19,2024-09-20
+190,🧠 MNIST Neural Network with Hyperparameter Tuning in Python 🤖,Data Scientist (Kaggle),2024-09-20,September,Friday,2024-09-20,2024-09-21
+191,🚗 Vehicle Management System in Python 🚙,Others,2024-09-21,September,Saturday,2024-09-21,2024-09-22
+192,💤💪 Health and Sleep Statistics [Kaggle](https,Data Scientist (Kaggle),2024-09-22,September,Sunday,2024-09-22,2024-09-23
+193,🔍 Anagram Finder in Python 🧩,Others,2024-09-23,September,Monday,2024-09-23,2024-09-24
+194,"Technical Test ""fullJustify"" and ""mySqrt"" [LeetCode](https",LeetCode,2024-09-24,September,Tuesday,2024-09-24,2024-09-25
+195,📊 Final Exam Score Calculator in Python 🎓,Others,2024-09-25,September,Wednesday,2024-09-25,2024-09-26
+196,🧩 Sudoku Solver in Python 🔢,Others,2024-09-26,September,Thursday,2024-09-26,2024-09-27
+197,🏀 Three-Point Shot Success Calculator in Flask 🎯,GUI,2024-09-27,September,Friday,2024-09-27,2024-09-28
+198,🐾 Cats Dataset [Kaggle](https,Data Scientist (Kaggle),2024-09-28,September,Saturday,2024-09-28,2024-09-29
+199,📚 Book Subscription System in Python 📖,Others,2024-09-29,September,Sunday,2024-09-29,2024-09-30
+200,"Technical Test ""climbStairs"" and ""simplifyPath"" [LeetCode](https",LeetCode,2024-09-30,September,Monday,2024-09-30,2024-10-01
+201,🌊 Count Islands in a Grid Using Recursion 🏝️,Recursion,2024-10-01,October,Tuesday,2024-10-01,2024-10-02
+202,🃏 Flashcard Creator with Tkinter 🎓,GUI,2024-10-02,October,Wednesday,2024-10-02,2024-10-03
+203,♟️ FEN Notation Converter for Chess in Python ♟️,Others,2024-10-03,October,Thursday,2024-10-03,2024-10-04
+204,🚗🔋 Electric Vehicle Charging Patterns Dataset [Kaggle](https,Data Scientist (Kaggle),2024-10-04,October,Friday,2024-10-04,2024-10-05
+205,📚 Lesson Subscription and Management System in Python 🎓,Others,2024-10-05,October,Saturday,2024-10-05,2024-10-06
+206,"Technical Test ""minDistance"" and ""setZeroes"" [LeetCode](https",LeetCode,2024-10-06,October,Sunday,2024-10-06,2024-10-07
+207,🎨 Painting Problem in Python 🌈,Others,2024-10-07,October,Monday,2024-10-07,2024-10-08
+208,♟️ Chess Move Validator in Python ♟️,Others,2024-10-08,October,Tuesday,2024-10-08,2024-10-09
+209,📱 Cellphone Inventory Management System in Python 📊,Others,2024-10-09,October,Wednesday,2024-10-09,2024-10-10
+210,"Technical Test ""searchMatrix"" and ""sortColors"" [LeetCode](https",LeetCode,2024-10-10,October,Thursday,2024-10-10,2024-10-11
+211,🧩 Tiling Problem Solver in Python 🎲,Others,2024-10-11,October,Friday,2024-10-11,2024-10-12
+212,🎳 Bowling Scoreboard App in Python 🎯,Others,2024-10-12,October,Saturday,2024-10-12,2024-10-13
+213,🛤️ Self-Avoiding Walk in Python 🚶‍♂️,Others,2024-10-13,October,Sunday,2024-10-13,2024-10-14
+214,"Technical Test ""minWindow"" and ""combine"" [LeetCode](https",LeetCode,2024-10-14,October,Monday,2024-10-14,2024-10-15
+215,🎳 Console-Based Bowling Game in Python 🕹️,Games,2024-10-15,October,Tuesday,2024-10-15,2024-10-16
+216,📊 Leetcode Questions Dataset Analysis [Kaggle](https,LeetCode,2024-10-16,October,Wednesday,2024-10-16,2024-10-17
+217,🖼️ Art Store Management System in Python 🎨,Others,2024-10-17,October,Thursday,2024-10-17,2024-10-18
+218,"Technical Test ""Subsets"" and ""WordSearch"" [LeetCode](https",LeetCode,2024-10-18,October,Friday,2024-10-18,2024-10-19
+219,🎨 Tkinter Color Picker,GUI,2024-10-19,October,Saturday,2024-10-19,2024-10-20
+220,💰 Tip Calculator with Tkinter,GUI,2024-10-20,October,Sunday,2024-10-20,2024-10-21
+221,🌍 Choropleth Map Generator with Flask 🗺️,GUI,2024-10-21,October,Monday,2024-10-21,2024-10-22
+222,💼 LevelUp Jobs - MVC Python Application 🖥️,Others,2024-10-22,October,Tuesday,2024-10-22,2024-10-23
+223,"Technical Test ""removeDuplicatesII"" and ""searchII"" [LeetCode](https",LeetCode,2024-10-23,October,Wednesday,2024-10-23,2024-10-24
+224,💵 Recursive Investment Growth Calculator in Python 📈,Recursion,2024-10-24,October,Thursday,2024-10-24,2024-10-25
+225,🌳 Company Organizational Structure Tree in Python 📊,Others,2024-10-25,October,Friday,2024-10-25,2024-10-26
+226,📱 Mobile Device Usage and User Behavior Dataset 📱 [Kaggle](https,Data Scientist (Kaggle),2024-10-26,October,Saturday,2024-10-26,2024-10-27
+227,🍏 Food Inventory Management System in Python 🥦,Others,2024-10-27,October,Sunday,2024-10-27,2024-10-28
+228,"Technical Test ""deleteDuplicates"" and ""deleteDuplicatesll"" [LeetCode](https",LeetCode,2024-10-28,October,Monday,2024-10-28,2024-10-29
+229,⏳ Recursive Countdown Timer in Python ⏲️,Recursion,2024-10-29,October,Tuesday,2024-10-29,2024-10-30
+230,🎃 Jack-o'-Lantern in Python with Turtle Graphics 🎨,Others,2024-10-30,October,Wednesday,2024-10-30,2024-10-31
+231,🔐 Password Manager in Python 🛡️,Others,2024-10-31,October,Thursday,2024-10-31,2024-11-01
+232,🎮 Pong Game in Python with Kivy 🕹️,Games,2024-11-01,November,Friday,2024-11-01,2024-11-02
+233,🍬 Candy Inventory Management System in Python 🍭,Others,2024-11-02,November,Saturday,2024-11-02,2024-11-03
+234,"Technical Test ""largestRectangleArea"" and ""maximalRectangle"" [LeetCode](https",LeetCode,2024-11-03,November,Sunday,2024-11-03,2024-11-04
+235,🏠 Rent Houses Management System in Python 🏡,Others,2024-11-04,November,Monday,2024-11-04,2024-11-05
+236,🥗 Total Daily Energy Expenditure (TDEE) Calculator in Python ⚖️,Others,2024-11-05,November,Tuesday,2024-11-05,2024-11-06
+237,📝 Word Counter Application in Python 🖥️,Others,2024-11-06,November,Wednesday,2024-11-06,2024-11-07
+238,📚 Data Structure Management System in Python 📊,Others,2024-11-07,November,Thursday,2024-11-07,2024-11-08
+239,🏀 Basketball Team Manager in Python 🏆,Others,2024-11-08,November,Friday,2024-11-08,2024-11-09
+240,"Technical Test ""partitionList"" and ""isScramble"" [LeetCode](https",LeetCode,2024-11-09,November,Saturday,2024-11-09,2024-11-10
+241,📈 Fibonacci Sequence Calculator in Python 🔢,Others,2024-11-10,November,Sunday,2024-11-10,2024-11-11
+242,♟️ Simple Chess Game in Python ♟️,Games,2024-11-11,November,Monday,2024-11-11,2024-11-12
+243,🧴 Lotion Management System in Python 🌿,Others,2024-11-12,November,Tuesday,2024-11-12,2024-11-13
+244,Guava Fruit Disease Dataset [Kaggle](https,Data Scientist (Kaggle),2024-11-13,November,Wednesday,2024-11-13,2024-11-14
+245,"Technical Test ""merge"" and ""grayCode"" [LeetCode](https",LeetCode,2024-11-14,November,Thursday,2024-11-14,2024-11-15
+246,🗂️ Task Prioritization Matrix in Python 📊,Others,2024-11-15,November,Friday,2024-11-15,2024-11-16
+247,🏥 Medication Reminder System in Flask 💊,GUI,2024-11-16,November,Saturday,2024-11-16,2024-11-17
+248,⏱️ Chess Clock Simulation in Python ♟️,Others,2024-11-17,November,Sunday,2024-11-17,2024-11-18
+249,🏀 Basketball Tournament Management System in Python 🏆,Others,2024-11-18,November,Monday,2024-11-18,2024-11-19
+250,"Technical Test ""subsetsWithDup"" and ""numDecodings"" [LeetCode](https",LeetCode,2024-11-19,November,Tuesday,2024-11-19,2024-11-20
+251,🍞 Bakery Management System in Python 🥐,Others,2024-11-20,November,Wednesday,2024-11-20,2024-11-21
+252,🎶 Music Melody Generator in Python 🎵,Others,2024-11-21,November,Thursday,2024-11-21,2024-11-22
+253,🧠 Stroke Prediction Dataset [Kaggle](https,Data Scientist (Kaggle),2024-11-22,November,Friday,2024-11-22,2024-11-23
+254,📝 Note Taking Application in Python 🗒️,Others,2024-11-23,November,Saturday,2024-11-23,2024-11-24
+255,🛒 Shopping List Notification System in Python 📬,Others,2024-11-24,November,Sunday,2024-11-24,2024-11-25
+256,📚 Study Notification System in Python ⏰,Others,2024-11-25,November,Monday,2024-11-25,2024-11-26
+257,"Technical Test ""reverseBetween"" and ""restoreIpAddresses"" [LeetCode](https",LeetCode,2024-11-26,November,Tuesday,2024-11-26,2024-11-27
+258,🏨 Hotel Booking System in Python 🛏️,Others,2024-11-27,November,Wednesday,2024-11-27,2024-11-28
+259,📊 Data Processing Pipeline in Python 🐍,Others,2024-11-28,November,Thursday,2024-11-28,2024-11-29
+260,🌌 Koch Curve Fractal in Python 🌊,Others,2024-11-29,November,Friday,2024-11-29,2024-11-30
+261,⏳ Pomodoro Timer System in Python 🍅,Others,2024-11-30,November,Saturday,2024-11-30,2024-12-01
+262,📈 Video Game Stocks Analysis[Kaggle](https,Data Scientist (Kaggle),2024-12-01,December,Sunday,2024-12-01,2024-12-02
+263,"Technical Test ""inorderTraversal"" and ""generateTrees"" [LeetCode](https",LeetCode,2024-12-02,December,Monday,2024-12-02,2024-12-03
+264,🛒 E-Commerce Shopping Cart in Python 🛍️,Others,2024-12-03,December,Tuesday,2024-12-03,2024-12-04
+265,🏀 Basketball Injury Tracker in Python 🏥,Others,2024-12-04,December,Wednesday,2024-12-04,2024-12-05
+266,📊 Collatz Conjecture Sequence Visualizer in Python 🌌,Others,2024-12-05,December,Thursday,2024-12-05,2024-12-06
+267,🎯 Subset Sum to Target in Python 🧮,Others,2024-12-06,December,Friday,2024-12-06,2024-12-07
+268,🛠️ Team Role Management System in Python 👥,Others,2024-12-07,December,Saturday,2024-12-07,2024-12-08
+269,🏥 Medical Cost Personal Datasets Analysis,Data Scientist (Kaggle),2024-12-08,December,Sunday,2024-12-08,2024-12-09
+270,Pose Estimation Project with Python 🤖,Others,2024-12-09,December,Monday,2024-12-09,2024-12-10
+271,"Technical Test ""numTrees"" and ""isInterleave"" [LeetCode](https",LeetCode,2024-12-10,December,Tuesday,2024-12-10,2024-12-11
+272,🔺 Pascal's Triangle Row Finder in Python 🔺,Others,2024-12-11,December,Wednesday,2024-12-11,2024-12-12
+273,🏺 Mythical Characters Management System in Python 🐉,Others,2024-12-12,December,Thursday,2024-12-12,2024-12-13
+274,🧪 Synthetic Data Generator in Python 🗃️,Others,2024-12-13,December,Friday,2024-12-13,2024-12-14
+275,"Technical Test ""isValidBST"" and ""recoverTree"" [LeetCode](https",LeetCode,2024-12-14,December,Saturday,2024-12-14,2024-12-15
+276,📊 Custom Dashboard Generator in Python 🖥️,Others,2024-12-15,December,Sunday,2024-12-15,2024-12-16
+277,🌊 Koch Curve Visualization in Python 📈,Data Visualization,2024-12-16,December,Monday,2024-12-16,2024-12-17
+278,User Story Management System in Python 📖,Others,2024-12-17,December,Tuesday,2024-12-17,2024-12-18
+279,ETL Process with Python for SQL Server to PostgreSQL,Others,2024-12-18,December,Wednesday,2024-12-18,2024-12-19
+280,"Technical Test ""isSameTree"" and ""isSymmetric"" [LeetCode](https",LeetCode,2024-12-19,December,Thursday,2024-12-19,2024-12-20
+281,📝 Note-taking Application in Python 📓,Others,2024-12-20,December,Friday,2024-12-20,2024-12-21
+282,💎 Diamonds [Kaggle](https,Data Scientist (Kaggle),2024-12-21,December,Saturday,2024-12-21,2024-12-22
+283,🎄 Christmas Tree Generator in Python 🎅,Others,2024-12-22,December,Sunday,2024-12-22,2024-12-23
+284,❄️ Snowfall Simulation in Python with Pygame ☃️,GUI,2024-12-23,December,Monday,2024-12-23,2024-12-24
+285,🎄 Christmas Gift Manager in Python 🎁,Others,2024-12-24,December,Tuesday,2024-12-24,2024-12-25
+286,"Technical Test ""levelOrder"" and ""zigzagLevelOrder"" [LeetCode](https",LeetCode,2024-12-25,December,Wednesday,2024-12-25,2024-12-26
+287,"Technical Test ""levelOrder"" and ""zigzagLevelOrder"" [LeetCode](https",LeetCode,2024-12-26,December,Thursday,2024-12-26,2024-12-27
+288,📊 Simple Math Visualizations with Python 📈,Data Visualization,2024-12-27,December,Friday,2024-12-27,2024-12-28
+289,🎄 Recursive Advent Calendar in Python 🎁,Recursion,2024-12-28,December,Saturday,2024-12-28,2024-12-29
+290,🏋️ Fitness Tracker in Python 📊,Others,2024-12-29,December,Sunday,2024-12-29,2024-12-30
+291,🎄 Holiday Expense Tracker in Python 💰,Others,2024-12-30,December,Monday,2024-12-30,2024-12-31
+292,🎉 Countdown Timer to New Year in Python 🎆,Others,2024-12-31,December,Tuesday,2024-12-31,2025-01-01
+293,🏦 Family Budget Planner Application in Python 💰,Others,2025-01-01,January,Wednesday,2025-01-01,2025-01-02
+294,"Technical Test ""maxDepth"" and ""BuildTree"" [LeetCode](https",LeetCode,2025-01-02,January,Thursday,2025-01-02,2025-01-03
+295,🌌 Zodiac Sign Calculator in Python ♈️🐉,Others,2025-01-03,January,Friday,2025-01-03,2025-01-04
+296,📦 Mail/Package Service Application in Python 📬,Others,2025-01-04,January,Saturday,2025-01-04,2025-01-05
+297,💰 Optimal Coin Change in Python 💵,Others,2025-01-05,January,Sunday,2025-01-05,2025-01-06
+298,🥭 Named Entity Recognition (NER) Model in Python 🧠,Others,2025-01-06,January,Monday,2025-01-06,2025-01-07
+299,🪙 Coin Flip Simulation in Python 🎲,Others,2025-01-07,January,Tuesday,2025-01-07,2025-01-08
+300,💰 Expense Splitter in Python 📊,Others,2025-01-08,January,Wednesday,2025-01-08,2025-01-09
+301,"Technical Test ""isBalanced"" and ""minDepth"" [LeetCode](https",LeetCode,2025-01-09,January,Thursday,2025-01-09,2025-01-10
+302,🍕 Pizza Drawing with Python Turtle 🎨,Others,2025-01-10,January,Friday,2025-01-10,2025-01-11
+303,🧑‍💻 Job Notification Script in Python 📬,Others,2025-01-11,January,Saturday,2025-01-11,2025-01-12
+304,🪙 Coin Game with Minimax Algorithm in Python 🎮,Games,2025-01-12,January,Sunday,2025-01-12,2025-01-13
+305,🐦 Bird Study Service in Python 📚,Others,2025-01-13,January,Monday,2025-01-13,2025-01-14
+306,🏀 Shooting Efficiency Tracker in Python 📊,Others,2025-01-14,January,Tuesday,2025-01-14,2025-01-15
+307,"Technical Test ""hasPathSum"" and ""pathSum"" [LeetCode](https",LeetCode,2025-01-15,January,Wednesday,2025-01-15,2025-01-16
+308,🎓 Grade Converter in Python 📊,Others,2025-01-16,January,Thursday,2025-01-16,2025-01-17
+309,[Data Colombia,Others,2025-01-17,January,Friday,2025-01-17,2025-01-18
+310,🍦 Ice Cream Combination Generator in Python 🍨,Others,2025-01-18,January,Saturday,2025-01-18,2025-01-19
+311,🍳 NER for Recipe Extraction in Python 📜,Others,2025-01-19,January,Sunday,2025-01-19,2025-01-20
+312,"Technical Test ""flatten"" and ""numDistinct"" [LeetCode](https",LeetCode,2025-01-20,January,Monday,2025-01-20,2025-01-21
+313,📊 Advanced Sales Dashboard with Flask and Plotly,GUI,2025-01-21,January,Tuesday,2025-01-21,2025-01-22
+314,🌍 Tourist Location NER (Named Entity Recognition) Project 🏛️,Others,2025-01-22,January,Wednesday,2025-01-22,2025-01-23
+315,📦 Box Management System in Python 🗃️,Others,2025-01-23,January,Thursday,2025-01-23,2025-01-24
+316,🎲 Coin Toss Sequences with Recursion,Recursion,2025-01-24,January,Friday,2025-01-24,2025-01-25
+317,🩺 Diabetes Analysis and Prediction in Python 📊   [Diabetes Dataset on Kaggle](https,Data Scientist (Kaggle),2025-01-25,January,Saturday,2025-01-25,2025-01-26
+318,"Technical Test ""generate"" and ""getRow"" [LeetCode](https",LeetCode,2025-01-26,January,Sunday,2025-01-26,2025-01-27
+319,Basketball Warm-Up Routine Generator in Python,Others,2025-01-27,January,Monday,2025-01-27,2025-01-28
+320,Car Price [Car Price Dataset on Kaggle](https,Data Scientist (Kaggle),2025-01-28,January,Tuesday,2025-01-28,2025-01-29
+321,🤖 Generative AI with DeepSeek and GPT-2 in Python 🧠,Others,2025-01-29,January,Wednesday,2025-01-29,2025-01-30
+322,🏀 Basketball Win-Loss Tracker in Python 🏆,Others,2025-01-30,January,Thursday,2025-01-30,2025-01-31
+323,🎯 Intent Recognition System with BERT 🤖,Others,2025-01-31,January,Friday,2025-01-31,2025-02-01
+324,🎬 Emotion Classifier in Text using Python 🧠,OOP,2025-02-01,February,Saturday,2025-02-01,2025-02-02
+325,⚽ Football Match Outcome Predictor using Machine Learning 🤖,Data Scientist (Kaggle),2025-02-02,February,Sunday,2025-02-02,2025-02-03
+326,✨ Simple Spell Checker with Dark Theme in Python 🖤,Others,2025-02-03,February,Monday,2025-02-03,2025-02-04
+327,🧩 Maze Solver with Deep Learning in Python 🧠,Others,2025-02-04,February,Tuesday,2025-02-04,2025-02-05
+328,👗 Fashion Image Classifier with TensorFlow 🖼️,Data Scientist (Kaggle),2025-02-05,February,Wednesday,2025-02-05,2025-02-06
+329,"Technical Test ""minimumTotal"" and ""maxProfit"" [LeetCode](https",LeetCode,2025-02-06,February,Thursday,2025-02-06,2025-02-07
+330,🏀 Basketball Play Generator with TensorFlow 🧠,Data Scientist (Kaggle),2025-02-07,February,Friday,2025-02-07,2025-02-08
+331,📰 Topic Classifier with Scikit-learn and NLP 📊,OOP,2025-02-08,February,Saturday,2025-02-08,2025-02-09
+332,🐱 Pet Database Management in Python 🐾,Others,2025-02-09,February,Sunday,2025-02-09,2025-02-10
+333,🎭 Shakespeare Text Generator in Python 🖋️,Others,2025-02-10,February,Monday,2025-02-10,2025-02-11
+334,🏋️ Muscle Fatigue Simulation in Python 💪,Others,2025-02-11,February,Tuesday,2025-02-11,2025-02-12
+335,🤖 Intent Classifier for Messages using Python 🧠,OOP,2025-02-12,February,Wednesday,2025-02-12,2025-02-13
+336,🐦 Twitter US Airline Sentiment Analysis [Twitter US Airline Sentiment Dataset on Kaggle](https,Data Scientist (Kaggle),2025-02-13,February,Thursday,2025-02-13,2025-02-14
+337,🎯 Josephus Problem Solver in Python 🧮,Others,2025-02-14,February,Friday,2025-02-14,2025-02-15
+338,🎳 Bowling Score Calculator in Python 🏆,Others,2025-02-15,February,Saturday,2025-02-15,2025-02-16
+339,"Technical Test ""maxProfitll"" and ""maxProfitlll"" [LeetCode](https",LeetCode,2025-02-16,February,Sunday,2025-02-16,2025-02-17
+340,👨‍💼 Employee Management System in Python 🏢,Others,2025-02-17,February,Monday,2025-02-17,2025-02-18
+341,[Mall Customer Segmentation Data on Kaggle](https,Data Scientist (Kaggle),2025-02-18,February,Tuesday,2025-02-18,2025-02-19
+342,🏥 MedNER,Others,2025-02-19,February,Wednesday,2025-02-19,2025-02-20
+343,🌍 Travel Planner App in Python 🗺️,Others,2025-02-20,February,Thursday,2025-02-20,2025-02-21
+344,🔒 Metadata Analysis Tool in Python 📂,Data Scientist (Kaggle),2025-02-21,February,Friday,2025-02-21,2025-02-22
+345,🎮 Nim Game Solver in Python 🧠,Games,2025-02-22,February,Saturday,2025-02-22,2025-02-23
+346,"Technical Test ""maxPathSum"" and ""isPalindrome"" [LeetCode](https",LeetCode,2025-02-23,February,Sunday,2025-02-23,2025-02-24
+347,🌳 Tree Mirror in Python 🪞,Others,2025-02-24,February,Monday,2025-02-24,2025-02-25
+348,📊 Data Visualization and Report Generation in Python 📈,Data Visualization,2025-02-25,February,Tuesday,2025-02-25,2025-02-26
+349,Sales Data Analysis [Kaggle](https,Data Scientist (Kaggle),2025-02-26,February,Wednesday,2025-02-26,2025-02-27
+350,🎳 Bowling League Manager in Python 🏆,Others,2025-02-27,February,Thursday,2025-02-27,2025-02-28
+351,🔢 Recursive Number to Words Converter in Python 🧮,Recursion,2025-02-28,February,Friday,2025-02-28,2025-03-01
+352,"Technical Test ""findLadders"" and ""findLaddersI"" [LeetCode](https",LeetCode,2025-03-01,March,Saturday,2025-03-01,2025-03-02
+353,🔒 SSL Certificate Checker in Python 🌐,Others,2025-03-02,March,Sunday,2025-03-02,2025-03-03
+354,🌐 WHOIS Lookup Tool in Python 🔍,Others,2025-03-03,March,Monday,2025-03-03,2025-03-04
+355,🔥 Simple Firewall Application in Python 🛡️,Others,2025-03-04,March,Tuesday,2025-03-04,2025-03-05
+356,🏀 Basketball Player Stats Analyzer in Python 🏀,Others,2025-03-05,March,Wednesday,2025-03-05,2025-03-06
+357,🚗 Car Maintenance Tracker in Python 🛠️,Others,2025-03-06,March,Thursday,2025-03-06,2025-03-07
+358,🏗️ Pyramid Block Counter and Visualizer in Python 🧱,Others,2025-03-07,March,Friday,2025-03-07,2025-03-08
+359,🌹 International Women's Day Tribute with Python Turtle 🐢,Others,2025-03-08,March,Saturday,2025-03-08,2025-03-09
+360,"Technical Test ""longestConsecutive"" and ""sumNumbers"" [LeetCode](https",LeetCode,2025-03-09,March,Sunday,2025-03-09,2025-03-10
+361,🔒 Web Application Security Scanner in Python 🛡️,Web Development,2025-03-10,March,Monday,2025-03-10,2025-03-11
+362,🛒 Price Notifier System in Python 💰,Others,2025-03-11,March,Tuesday,2025-03-11,2025-03-12
+363,📅 Recursive Calendar Generator in Python 🗓️,Recursion,2025-03-12,March,Wednesday,2025-03-12,2025-03-13
+364,🔐 Caesar Cipher GUI in Python 🖥️,GUI,2025-03-13,March,Thursday,2025-03-13,2025-03-14
+365,🏀 Basketball Shot Clock in Python ⏱️,Others,2025-03-14,March,Friday,2025-03-14,2025-03-15
+366,,Others,2025-03-15,March,Saturday,2025-03-15,2025-03-16

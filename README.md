@@ -4718,3 +4718,31 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Interface**: The interface is designed with a dark theme for a modern look, featuring green buttons with black text for clear visibility and ease of use. The shot clock animation provides a visual representation of the remaining time.
 
   This project was an excellent exercise in creating a practical and interactive tool for basketball training. I had the opportunity to refine my skills in GUI development using `tkinter`, as well as implementing features like threading for the countdown timer and file handling for saving statistics. The result is a versatile and user-friendly application that can be used in real-world training scenarios.
+* Day 365: Comprehensive Data Analysis Portfolio 📊
+
+  Today, I completed my final project for the year: a **Comprehensive Data Analysis Portfolio** built using Python, Streamlit, and various data visualization libraries. This project serves as a culmination of everything I've learned over the past 365 days, showcasing my skills in data analysis, visualization, and interactive dashboard development. Below are the key highlights:
+
+  - **Interactive Dashboard**: The portfolio is powered by Streamlit, providing an interactive web-based dashboard. Users can filter activities by date range and categories, view detailed statistics, and explore visualizations such as bar charts, word clouds, and Gantt charts.
+
+  - **Data Visualization**: I used Plotly and Seaborn to create dynamic and insightful visualizations, including:
+    - **Activity Distribution by Category**: A bar chart showing the frequency of activities in each category.
+    - **Monthly Productivity Trends**: A line chart with a regression line to analyze productivity trends over the year.
+    - **Activity Timeline (Gantt Chart)**: A Gantt chart visualizing the distribution of activities over time.
+
+  - **Advanced Analytics**:
+    - **Trend Analysis**: I applied linear regression to analyze monthly productivity trends, identifying patterns and forecasting future activity levels.
+    - **Weekday Distribution**: A bar chart showing the distribution of activities by day of the week, helping to identify the most productive days.
+
+  - **Export Functionality**:
+    - **PDF Reports**: Users can generate a PDF report summarizing key statistics and visualizations, making it easy to share insights.
+    - **Data Export**: The portfolio allows downloading filtered data as a CSV file and visualizations as PNG images for further analysis.
+
+  - **Object-Oriented Design**:
+    - **Encapsulation**: The `Activity` class encapsulates attributes like `date`, `category`, and `description`, ensuring data integrity and controlled access.
+    - **Modular Code**: The project is structured into reusable functions and classes, making it easy to extend and maintain.
+
+  - **User-Friendly Interface**:
+    - The dashboard features a clean and intuitive design, with filters for date range and categories, making it easy for users to explore the data.
+    - A word cloud provides a quick overview of the most frequent keywords in activity descriptions.
+
+  This project represents a significant milestone in my journey, combining technical skills, creativity, and practical application. It not only demonstrates my ability to analyze and visualize data but also highlights my proficiency in building interactive and user-friendly tools. I'm proud of how far I've come and excited to continue growing as a data professional.
