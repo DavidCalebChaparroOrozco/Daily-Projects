@@ -4746,3 +4746,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - A word cloud provides a quick overview of the most frequent keywords in activity descriptions.
 
   This project represents a significant milestone in my journey, combining technical skills, creativity, and practical application. It not only demonstrates my ability to analyze and visualize data but also highlights my proficiency in building interactive and user-friendly tools. I'm proud of how far I've come and excited to continue growing as a data professional.
+* Day 366: 🌌 Wave Function Collapse Simulator in Python 🌀
+
+  Today, I worked on a **Wave Function Collapse Simulator** inspired by quantum mechanics, using Python and recursion. This project models the collapse of a wave function into one of its possible states, demonstrating how quantum systems transition from superposition to a definite state. Below are the key highlights:
+
+  - **Quantum System Representation**: The `QuantumSystem` class represents a quantum system with a set of possible states and their probabilities. Each state is defined as a tuple containing the state name and its probability.
+
+  - **Probability Normalization**: The system ensures that the probabilities of all states sum to 1 using the `normalize_probabilities` method. This is crucial for accurately simulating the collapse process.
+
+  - **Wave Function Collapse**: The `collapse_wave_function` method simulates the collapse of the wave function into one of the possible states. It uses recursion to explore the probability distribution and determine the final state based on a random value.
+
+  - **Recursive State Selection**: The `_recursive_collapse` method recursively checks the cumulative probabilities of the states to determine which state is selected. This approach elegantly handles the probability-based selection process.
+
+  - **User-Friendly Output**: The system provides a clear string representation of the quantum system, showing both the uncollapsed states with their probabilities and the final collapsed state.
+
+  - **Example Usage**: The program includes an example of a quantum system with three states ("State A", "State B", "State C") and their respective probabilities. It demonstrates the collapse process and outputs the result.
+
+  This project was a fascinating exploration of quantum mechanics concepts and recursion in Python. It allowed me to deepen my understanding of probability-based simulations and recursive algorithms while creating a simple yet powerful quantum system simulator.
