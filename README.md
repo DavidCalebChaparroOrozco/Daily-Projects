@@ -4763,3 +4763,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Example Usage**: The program includes an example of a quantum system with three states ("State A", "State B", "State C") and their respective probabilities. It demonstrates the collapse process and outputs the result.
 
   This project was a fascinating exploration of quantum mechanics concepts and recursion in Python. It allowed me to deepen my understanding of probability-based simulations and recursive algorithms while creating a simple yet powerful quantum system simulator.
+* Day 367: 🏦 Banking System in Python 💰
+
+  Today, I worked on a **Banking System** using Python, with a focus on Object-Oriented Programming (OOP) principles such as inheritance, encapsulation, and abstraction. The project allows users to create accounts, perform transactions, manage balances, and visualize financial data. Below are the key highlights:
+
+  - **Encapsulation**: The `Account` class encapsulates attributes like `account_number`, `balance`, and `customer_name`, ensuring that sensitive information is protected. Controlled access is provided through methods like `deposit`, `withdraw`, and `get_balance`.
+
+  - **Inheritance**: The system uses inheritance to differentiate between `SavingsAccount` and `CheckingAccount`, both derived from the `Account` class. This allows reusability of common attributes (like `account_number` and `balance`) while providing specialized functionality for each account type, such as interest calculation for savings accounts.
+
+  - **Abstraction**: The `Account` class provides a consistent interface for operations like deposits and withdrawals, while the `Bank` class abstracts the management of multiple accounts, making the system easy to extend with new features in the future.
+
+  - **Transaction Management**: The system tracks all transactions (deposits and withdrawals) for each account, allowing users to view their transaction history. This ensures transparency and helps users keep track of their financial activities.
+
+  - **Visualization**: Using `matplotlib`, the system provides visual representations of account balances and transaction histories. Users can view pie charts for balance distribution, bar charts for transaction types, and line charts for balance trends over time.
+
+  - **User-Friendly Interface**: A menu-driven interface allows users to interact with the system easily. Features include creating accounts, depositing funds, withdrawing funds, transferring money between accounts, applying interest, and deleting accounts.
+
+  - **Error Handling**: The system includes robust error handling to ensure smooth operation. Clear error messages are displayed for invalid inputs or failed operations, improving the user experience.
+
+  This project was an excellent exercise in applying OOP principles to create a well-structured and maintainable system. I had the opportunity to refine my understanding of how abstraction, encapsulation, and inheritance work together to create clean and reusable code, all while building a practical banking tool.
