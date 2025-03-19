@@ -4782,3 +4782,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Error Handling**: The system includes robust error handling to ensure smooth operation. Clear error messages are displayed for invalid inputs or failed operations, improving the user experience.
 
   This project was an excellent exercise in applying OOP principles to create a well-structured and maintainable system. I had the opportunity to refine my understanding of how abstraction, encapsulation, and inheritance work together to create clean and reusable code, all while building a practical banking tool.
+* Day 368: 📈 Time Series Forecasting with LSTM in Python 🕒
+
+  Today, I worked on a Time Series Forecasting project using Python, focusing on building an LSTM (Long Short-Term Memory) model to predict future values based on historical data. The project involves loading, preprocessing, and modeling time series data to forecast a full week of values in 2-hour intervals. Below are the key highlights:
+
+  - **Data Loading and Preprocessing**: The dataset was loaded from a CSV file, and the `date` column was converted to a datetime format for proper time series handling. The data was normalized using `MinMaxScaler` to ensure all features are on the same scale, which is crucial for LSTM models.
+
+  - **Sequence Creation**: Historical data for a full day (24 hours) was used as input, and the model was trained to predict a full week of data in 2-hour intervals (84 data points). This was achieved by creating sequences of input-output pairs using a sliding window approach.
+
+  - **Model Architecture**: An LSTM-based model was built using TensorFlow/Keras. The model consists of an LSTM layer with 50 units, followed by a Dense layer to produce the output. A `Reshape` layer was added to ensure the output matches the required shape for the forecast horizon.
+
+  - **Training and Evaluation**: The model was trained for 20 epochs using the Adam optimizer and Mean Squared Error (MSE) as the loss function. The training process included validation on a test set to monitor performance. After training, the model was evaluated using metrics such as MAE (Mean Absolute Error), MSE, and RMSE (Root Mean Squared Error).
+
+  - **Results Visualization**: The actual vs. predicted values were plotted to visually assess the model's performance. This step is crucial for understanding how well the model captures the underlying patterns in the data.
+
+  - **Modular Code Structure**: The project was implemented using a modular approach, with each step (data loading, preprocessing, model building, training, evaluation, and visualization) encapsulated in separate functions. This makes the code reusable, maintainable, and easy to extend for future improvements.
+
+  This project was an excellent opportunity to dive deep into time series forecasting and understand the power of LSTM models for sequential data. I gained hands-on experience in data preprocessing, model building, and evaluation, all while creating a practical tool for forecasting future values in a time series dataset.
