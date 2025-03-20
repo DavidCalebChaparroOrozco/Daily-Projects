@@ -4799,3 +4799,21 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Modular Code Structure**: The project was implemented using a modular approach, with each step (data loading, preprocessing, model building, training, evaluation, and visualization) encapsulated in separate functions. This makes the code reusable, maintainable, and easy to extend for future improvements.
 
   This project was an excellent opportunity to dive deep into time series forecasting and understand the power of LSTM models for sequential data. I gained hands-on experience in data preprocessing, model building, and evaluation, all while creating a practical tool for forecasting future values in a time series dataset.
+* Day 369: 📊 Time Series Forecasting and Analysis 📈
+
+  Today, I worked on a Time Series Forecasting project using Python, focusing on predicting future values based on historical data. The project involved data preprocessing, model training, and evaluation using metrics such as MAE, MSE, and RMSE. Below are the key highlights:
+
+  - **Data Preprocessing**: The dataset was preprocessed to handle missing values and normalize the data using `MinMaxScaler`. This ensured that the model could effectively learn from the data without being affected by varying scales.
+
+  - **Model Training**: An LSTM (Long Short-Term Memory) model was built and trained to predict future values. The model was designed to take a full day of historical data as input and forecast a week's worth of data in 2-hour intervals.
+
+  - **Evaluation Metrics**: The model's performance was evaluated using the following metrics:
+    - **MAE (Mean Absolute Error)**: 1.8586, indicating that, on average, the predictions deviate by approximately 1.86 units from the actual values.
+    - **MSE (Mean Squared Error)**: 12.5651, suggesting that there are some larger errors that significantly impact the model's accuracy.
+    - **RMSE (Root Mean Squared Error)**: 3.5447, confirming the presence of considerable errors in the predictions.
+
+  - **Visualization**: The actual vs. predicted values were visualized using Plotly, providing a clear comparison of the model's performance. This helped in identifying areas where the model could be improved.
+
+  - **Interpretation of Results**: The model shows a good overall performance but has room for improvement, particularly in capturing peaks and valleys in the data. The errors suggest that the model may benefit from further optimization and feature engineering.
+
+  This project was a great opportunity to deepen my understanding of time series forecasting and the application of LSTM models. It also highlighted the importance of thorough data preprocessing and the use of appropriate evaluation metrics to assess model performance.
