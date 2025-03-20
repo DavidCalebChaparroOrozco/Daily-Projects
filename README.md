@@ -4799,21 +4799,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Modular Code Structure**: The project was implemented using a modular approach, with each step (data loading, preprocessing, model building, training, evaluation, and visualization) encapsulated in separate functions. This makes the code reusable, maintainable, and easy to extend for future improvements.
 
   This project was an excellent opportunity to dive deep into time series forecasting and understand the power of LSTM models for sequential data. I gained hands-on experience in data preprocessing, model building, and evaluation, all while creating a practical tool for forecasting future values in a time series dataset.
-* Day 369: 📊 Time Series Forecasting and Analysis 📈
+* Day 369: 🎤 Speech-to-Text Transcription with Wav2Vec2 🎧
 
-  Today, I worked on a Time Series Forecasting project using Python, focusing on predicting future values based on historical data. The project involved data preprocessing, model training, and evaluation using metrics such as MAE, MSE, and RMSE. Below are the key highlights:
+  Today, I worked on a Speech-to-Text Transcription system using the Wav2Vec2 model from Hugging Face's Transformers library. The project focuses on loading audio data, transcribing it into text, and saving the transcriptions to a file. Below are the key highlights:
 
-  - **Data Preprocessing**: The dataset was preprocessed to handle missing values and normalize the data using `MinMaxScaler`. This ensured that the model could effectively learn from the data without being affected by varying scales.
+  - **Dataset Loading**: The project starts by loading an audio dataset from Hugging Face's dataset hub. Specifically, the dataset used is `charris/hubert_process_filter_spotify`, which contains audio files that are processed and filtered for transcription tasks.
 
-  - **Model Training**: An LSTM (Long Short-Term Memory) model was built and trained to predict future values. The model was designed to take a full day of historical data as input and forecast a week's worth of data in 2-hour intervals.
+  - **Audio Selection**: A function is provided to select a specified number of audio files from the dataset. This allows for flexibility in choosing how many files to transcribe, making the system adaptable to different use cases.
 
-  - **Evaluation Metrics**: The model's performance was evaluated using the following metrics:
-    - **MAE (Mean Absolute Error)**: 1.8586, indicating that, on average, the predictions deviate by approximately 1.86 units from the actual values.
-    - **MSE (Mean Squared Error)**: 12.5651, suggesting that there are some larger errors that significantly impact the model's accuracy.
-    - **RMSE (Root Mean Squared Error)**: 3.5447, confirming the presence of considerable errors in the predictions.
+  - **Model and Processor Loading**: The Wav2Vec2 model and its corresponding processor are loaded using the `transformers` library. The model used is `facebook/wav2vec2-large-960h`, which is pre-trained on a large corpus of speech data and is well-suited for speech-to-text tasks.
 
-  - **Visualization**: The actual vs. predicted values were visualized using Plotly, providing a clear comparison of the model's performance. This helped in identifying areas where the model could be improved.
+  - **Audio Transcription**: The core functionality of the project is the transcription of audio files into text. The `transcribe_audio` function preprocesses the audio, passes it through the Wav2Vec2 model to obtain logits, and then decodes these logits into human-readable text.
 
-  - **Interpretation of Results**: The model shows a good overall performance but has room for improvement, particularly in capturing peaks and valleys in the data. The errors suggest that the model may benefit from further optimization and feature engineering.
+  - **Transcription Saving**: Once the audio files are transcribed, the results are saved to a text file named `transcriptions.txt`. This file contains the transcriptions of each audio file, making it easy to review and analyze the results.
 
-  This project was a great opportunity to deepen my understanding of time series forecasting and the application of LSTM models. It also highlighted the importance of thorough data preprocessing and the use of appropriate evaluation metrics to assess model performance.
+  - **Automated Workflow**: The entire process is automated in the `if __name__ == "__main__":` block, which sequentially loads the dataset, selects audio files, loads the model and processor, transcribes the audio, and saves the transcriptions. This makes the system easy to run with minimal user intervention.
+
+  This project was a great opportunity to explore the capabilities of the Wav2Vec2 model for speech-to-text tasks. It also reinforced my understanding of working with Hugging Face's datasets and transformers libraries, as well as handling audio data in Python. The system is practical and can be extended to handle larger datasets or different models in the future.
