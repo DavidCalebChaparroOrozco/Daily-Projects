@@ -4823,3 +4823,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **Palindrome Partitioning**: Solved the "Palindrome Partitioning" problem, which involves partitioning a string such that every substring in the partition is a palindrome. The solution uses a backtracking approach with Depth-First Search (DFS) to explore all possible partitions. For each substring, it checks if it is a palindrome and recursively partitions the remaining string. The time complexity is O(N * 2^N), where `N` is the length of the string, as there are 2^N possible partitions in the worst case, and each partition requires O(N) time to check for palindromes.
     [Problem Description: Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/)
+* Day 371: 🌐 Recursive Voronoi Diagram Generator in Python 🖼️
+
+  Today, I worked on a **Recursive Voronoi Diagram Generator** using Python. This project focuses on generating Voronoi diagrams recursively by dividing the space into regions based on randomly generated points. The implementation leverages libraries like `numpy`, `matplotlib`, and `scipy.spatial` to create visually appealing diagrams. Below are the key highlights:
+
+  - **Random Point Generation**: The `generate_random_points` function creates a set of random points within specified x and y limits. These points serve as the generators for the Voronoi regions.
+
+  - **Recursive Voronoi Generation**: The `recursive_voronoi` function recursively generates Voronoi diagrams. It starts with an initial set of points, computes the Voronoi diagram, and then generates new points within each region to continue the recursion. This process continues until the specified recursion depth is reached.
+
+  - **Region Handling**: The algorithm ensures that only valid regions are processed. It skips empty or degenerate regions (those with zero width or height) to avoid errors and maintain smooth execution.
+
+  - **Visualization**: Each step of the recursion is visualized using `matplotlib`. The Voronoi diagram is plotted with clear boundaries, and the title indicates the current recursion depth, making it easy to follow the recursive process.
+
+  - **Flexibility**: The program allows customization of parameters such as the number of initial points, recursion depth, and the x and y limits of the space. This makes it adaptable to different scenarios and use cases.
+
+  - **Practical Applications**: Voronoi diagrams have applications in various fields, including computer graphics, geographic information systems (GIS), and even biology. This project serves as a foundation for exploring these applications further.
+
+  This project was a great opportunity to deepen my understanding of computational geometry and recursive algorithms. It also allowed me to practice working with visualization libraries like `matplotlib` and `scipy.spatial` to create dynamic and interactive outputs.
