@@ -4877,3 +4877,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Fractal-Like Structures**: The example rule provided (`F -> FF+[+F-F-F]-[-F+F+F]`) generates a fractal-like 3D structure, showcasing the power of L-Systems in creating complex and organic patterns.
 
   This project was a fascinating exploration of how mathematical rules can be used to simulate natural growth processes and generate beautiful 3D graphics. It reinforced my understanding of recursion, string manipulation, and the use of stacks for managing state in graphical rendering.
+* Day 374: 🌳 Lowest Common Ancestor in BST with Visualization 📊
+
+  Today, I enhanced my Binary Search Tree (BST) project with a professional visualization system and improved architecture. The project now efficiently finds the Lowest Common Ancestor (LCA) between any two nodes in a BST while providing clear visual feedback. Here are the key highlights:
+
+  - **BST Visualization**: Implemented a dynamic tree visualization using NetworkX and Matplotlib that automatically adjusts node positions based on tree depth. The visualization highlights searched nodes and their LCA in red for immediate understanding.
+
+  - **Interactive Demo**: Created an interactive command-line interface where users can input any two node values to find their LCA. The system provides both textual results and visual confirmation with highlighted nodes.
+
+  - **Modular Architecture**: Organized the code into specialized classes (BSTVisualizer, BSTOperations, LCADemo) following the Single Responsibility Principle. This makes the system more maintainable and easier to extend.
+
+  - **Error Handling**: Added robust input validation to handle non-existent nodes and invalid inputs gracefully, improving user experience.
+
+  - **Sample BST**: Pre-built a comprehensive BST structure with nodes [6, 2, 8, 0, 4, 7, 9, 3, 5] for demonstration purposes, showing all possible LCA scenarios.
+
+  - **Clear Documentation**: Enhanced all classes and methods with detailed docstrings explaining their purpose and usage, making the codebase more accessible.
+
+  This project significantly improved my understanding of tree algorithms and data visualization in Python. The interactive visualization component particularly helped solidify my comprehension of how LCAs work in BST structures by providing immediate visual feedback. The modular architecture also served as excellent practice in designing clean, maintainable systems.
