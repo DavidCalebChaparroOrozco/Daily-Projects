@@ -4894,3 +4894,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Clear Documentation**: Enhanced all classes and methods with detailed docstrings explaining their purpose and usage, making the codebase more accessible.
 
   This project significantly improved my understanding of tree algorithms and data visualization in Python. The interactive visualization component particularly helped solidify my comprehension of how LCAs work in BST structures by providing immediate visual feedback. The modular architecture also served as excellent practice in designing clean, maintainable systems.
+* Day 375: 🌳 Mirror Binary Tree in Python 🔄  
+
+  Today, I worked on a Mirror Binary Tree project in Python, focusing on recursive algorithms and tree visualization. The project takes a binary tree and inverts its structure to create a mirror image. Below are the key highlights:  
+
+  - **Recursive Algorithm**: The `mirror_tree` function uses recursion to swap the left and right children of each node, effectively inverting the entire tree structure. This demonstrates the power of recursion in tree manipulation.  
+
+  - **Tree Construction**: The `build_tree_from_list` function allows for easy tree creation from a level-order (BFS) list representation, making it simple to test different tree structures.  
+
+  - **Visualization**: Using `networkx` and `matplotlib`, the project includes a visualization feature that clearly displays the original and mirrored trees, helping to verify the correctness of the algorithm.  
+
+  - **Interactive Demo**: The script includes an interactive mode where users can input their own trees and see the mirroring effect in real-time, along with traversal outputs (inorder, preorder, postorder).  
+
+  - **Clear Documentation**: Each function is well-documented with docstrings, and example usage is provided for better understanding.  
+
+  This project was a great exercise in understanding tree structures, recursion, and visualization techniques. It reinforced my knowledge of binary tree operations and provided a practical way to see the mirroring effect visually.  
