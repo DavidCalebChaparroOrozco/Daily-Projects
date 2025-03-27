@@ -4909,3 +4909,35 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Clear Documentation**: Each function is well-documented with docstrings, and example usage is provided for better understanding.  
 
   This project was a great exercise in understanding tree structures, recursion, and visualization techniques. It reinforced my knowledge of binary tree operations and provided a practical way to see the mirroring effect visually.  
+* Day 376: 🌳 Prefix Tree (Trie) for Name Search System 🔍
+
+  Today, I developed an advanced Prefix Tree (Trie) implementation in Python for efficient name storage and retrieval, with special visualization capabilities. This system excels at finding partial matches in large name datasets while demonstrating core computer science concepts. Here are the key highlights:
+
+  - **Trie Data Structure**: Implemented a classic trie structure with nodes containing character mappings and end-of-word markers, providing O(m) search time complexity (where m is prefix length).
+
+  - **Visualization**: Added innovative graph visualization using `networkx` and `matplotlib` that:
+    - Color-codes nodes (root in green, end nodes in red, others in blue)
+    - Shows character labels on each node
+    - Allows depth and children limits for large datasets
+
+  - **Case-Insensitive Search**: Designed the system to store and search names in lowercase automatically, ensuring case-insensitive matching.
+
+  - **Interactive Interface**: Created a comprehensive menu-driven demo with options to:
+    - Load sample names or import from files
+    - Search by prefix with sorted results
+    - View all stored names
+    - Visualize the trie structure
+    - Display trie statistics
+
+  - **Performance Metrics**: Implemented statistics tracking including:
+    - Total names and nodes count
+    - Average name length
+    - Compression ratio showing space efficiency
+
+  - **Practical Applications**: Demonstrated how tries excel at:
+    - Autocomplete systems
+    - Spell checkers
+    - Contact name searches
+    - Any scenario requiring prefix-based search
+
+  This project deepened my understanding of tree data structures and graph visualization techniques. The interactive visualization particularly helped in comprehending how the trie grows and shares common prefixes among names, making it an excellent educational tool.
