@@ -4966,3 +4966,23 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - Range sum queries in mutable arrays
 
   By implementing this structure with visualization capabilities, I've gained deeper insights into its efficient operation and potential use cases in algorithm optimization.
+* Day 378: 🎮 Word Raider - A Word Guessing Game in Python 🔠  
+
+  Today, I built **Word Raider**, a fun and interactive word-guessing game in Python. The game challenges players to guess a hidden word within a limited number of attempts, providing feedback on correct, misplaced, and incorrect letters. Below are the key highlights:  
+
+  - **Word Bank**: The game reads words from an external file (`words.txt`), making it easy to customize and expand the vocabulary. Each word is randomly selected for replayability.  
+
+  - **User Feedback**: The game provides real-time feedback by displaying:  
+    - Correct letters in their exact positions.  
+    - Misplaced letters (correct letter, wrong position).  
+    - Incorrect letters not present in the target word.  
+
+  - **Turn Management**: Players have a limited number of turns (default: 5) to guess the word, adding strategic depth to each attempt. The game tracks used turns and displays progress.  
+
+  - **Input Validation**: The game ensures guesses are valid—checking for correct length and alphabetic characters—to prevent errors and guide the player.  
+
+  - **Win/Lose Conditions**: Clear messages indicate whether the player guessed the word correctly or ran out of turns, revealing the target word if lost.  
+
+  - **Early Exit**: Players can type `exit` at any time to quit the game gracefully.  
+
+  This project was a great way to practice file handling, string manipulation, and loop control in Python. It also reinforced the importance of user feedback in game design, making the experience intuitive and engaging.  
