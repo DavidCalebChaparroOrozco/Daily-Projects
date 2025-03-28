@@ -4941,3 +4941,28 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - Any scenario requiring prefix-based search
 
   This project deepened my understanding of tree data structures and graph visualization techniques. The interactive visualization particularly helped in comprehending how the trie grows and shares common prefixes among names, making it an excellent educational tool.
+* Day 377: 🌳 Fenwick Tree (Binary Indexed Tree) Implementation in Python 
+
+  Today I implemented a Fenwick Tree (also known as Binary Indexed Tree) in Python, a specialized data structure that efficiently maintains prefix sums and supports point updates in logarithmic time. The implementation includes visualization capabilities using matplotlib to better understand the tree structure. Here are the key highlights:
+
+  - **Efficient Operations**: The Fenwick Tree supports O(log n) time complexity for both point updates and prefix sum queries, making it ideal for dynamic array problems where values change frequently.
+
+  - **Visualization**: Added matplotlib visualization showing both the original data values and the tree structure with clear annotations indicating which indices each tree node covers. This makes the internal workings of the data structure much more intuitive.
+
+  - **Range Queries**: Implemented efficient range sum queries that can calculate the sum between any two indices in O(log n) time by combining two prefix sum queries.
+
+  - **Initialization Options**: The tree can be initialized either with a size (all zeros) or with initial values, with an optimized O(n) construction time when values are provided.
+
+  - **Type Hints**: Used Python type hints throughout the implementation for better code clarity and maintainability.
+
+  - **Error Handling**: Added bounds checking for all operations to prevent index out of range errors.
+
+  This project was an excellent exercise in understanding advanced data structures and their practical implementation. The visualization component was particularly valuable for grasping how the tree structure differs from the original array and how each node covers specific ranges of indices.
+
+  The Fenwick Tree has important applications in problems involving frequent updates and prefix sum calculations, such as:
+  - Maintaining changing frequency tables
+  - Dynamic ranking systems
+  - Computational geometry problems
+  - Range sum queries in mutable arrays
+
+  By implementing this structure with visualization capabilities, I've gained deeper insights into its efficient operation and potential use cases in algorithm optimization.
