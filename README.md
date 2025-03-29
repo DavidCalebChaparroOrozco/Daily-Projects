@@ -4986,3 +4986,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Early Exit**: Players can type `exit` at any time to quit the game gracefully.  
 
   This project was a great way to practice file handling, string manipulation, and loop control in Python. It also reinforced the importance of user feedback in game design, making the experience intuitive and engaging.  
+* Day 379: Technical Test "minCut" and "cloneGraph" [LeetCode](https://leetcode.com/problems/)
+
+  - **minCut**: Implemented a solution for the "Palindrome Partitioning II" problem, where the task is to find the minimum number of cuts needed to partition a string such that every substring is a palindrome. The solution uses dynamic programming to first check for palindrome substrings and then calculates the minimum cuts required. This approach ensures efficient computation with a time complexity of O(n²), where n is the length of the string.
+    [Problem Description: minCut](https://leetcode.com/problems/palindrome-partitioning-ii/description/)
+
+  - **cloneGraph**: Solved the "Clone Graph" problem, which involves creating a deep copy of a connected undirected graph. Each node in the graph contains a value and a list of its neighbors. The solution uses a depth-first search (DFS) approach along with a hash map to keep track of visited nodes, ensuring that each node is cloned exactly once and all connections are properly replicated. The time complexity is O(N + E), where N is the number of nodes and E is the number of edges in the graph.
+    [Problem Description: cloneGraph](https://leetcode.com/problems/clone-graph/description/)
