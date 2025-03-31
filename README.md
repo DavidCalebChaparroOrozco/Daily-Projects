@@ -4993,3 +4993,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **cloneGraph**: Solved the "Clone Graph" problem, which involves creating a deep copy of a connected undirected graph. Each node in the graph contains a value and a list of its neighbors. The solution uses a depth-first search (DFS) approach along with a hash map to keep track of visited nodes, ensuring that each node is cloned exactly once and all connections are properly replicated. The time complexity is O(N + E), where N is the number of nodes and E is the number of edges in the graph.
     [Problem Description: cloneGraph](https://leetcode.com/problems/clone-graph/description/)
+* Day 380: 🏀 Basketball Position Recommender in Python 
+
+  Today, I developed a Basketball Position Recommender system using Python that analyzes a player's physical attributes and skills to suggest the most suitable position (Point Guard, Shooting Guard, Small Forward, Power Forward, or Center). The project focuses on data processing and weighted scoring algorithms. Below are the key highlights:
+
+  - **Input Validation**: The system collects and validates player height (in cm) and weight (in kg), ensuring realistic ranges (150-250cm for height, 40-150kg for weight) through robust error handling.
+
+  - **Skill Assessment**: Players rate their abilities (1-10 scale) across 7 key basketball skills: ball handling, shooting, passing, rebounding, defense, post play, and athleticism. This comprehensive evaluation captures all aspects needed for position analysis.
+
+  - **Weighted Scoring Algorithm**: The program uses position-specific weightings to calculate suitability scores. Each position (PG, SG, SF, PF, C) has different emphasis on physical attributes and skills, reflecting real basketball requirements.
+
+  - **Normalization**: Height and weight values are normalized to a 1-10 scale for fair comparison with skill ratings, ensuring balanced consideration of physical and technical attributes.
+
+  - **Detailed Output**: The system provides both a clear recommendation and detailed scores for all positions, allowing players to understand their strengths across different roles on the court.
+
+  - **User-Friendly Interface**: With clear prompts and formatted results, the program offers an intuitive experience from data entry to final recommendation.
+
+  This project was an excellent exercise in data processing and decision algorithms. I gained valuable experience in designing weighted scoring systems and creating practical tools that combine quantitative analysis with sports knowledge. The recommender demonstrates how data-driven approaches can provide meaningful insights in athletic contexts.
