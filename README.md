@@ -5010,3 +5010,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Interface**: With clear prompts and formatted results, the program offers an intuitive experience from data entry to final recommendation.
 
   This project was an excellent exercise in data processing and decision algorithms. I gained valuable experience in designing weighted scoring systems and creating practical tools that combine quantitative analysis with sports knowledge. The recommender demonstrates how data-driven approaches can provide meaningful insights in athletic contexts.
+* Day 381: 📈 Catalan Numbers Visualization in Python 🔢
+
+  Today I worked on visualizing and comparing different methods to calculate Catalan numbers in Python. Catalan numbers are a sequence of natural numbers that have applications in various combinatorial problems, such as counting valid parentheses expressions, binary trees, and lattice paths.
+
+  Below are the key highlights of this project:
+
+  - **Recursive Calculation**: Implemented a recursive approach with memoization using Python's `lru_cache` decorator to efficiently compute Catalan numbers while avoiding redundant calculations.
+
+  - **Binomial Coefficient Method**: Created a more efficient calculation using binomial coefficients (`comb(2n, n)/(n+1)`), which provides a direct mathematical formula for Catalan numbers.
+
+  - **Growth Visualization**: Generated a log-scale plot showing the exponential growth of Catalan numbers, including a polynomial trend line to demonstrate their asymptotic behavior.
+
+  - **Method Comparison**: Built a comparative visualization (bar chart) showing the results from both calculation methods side by side, confirming they produce identical results.
+
+  - **Mathematical Libraries**: Utilized `math.factorial`, `math.comb`, and NumPy for numerical operations, along with Matplotlib and Seaborn for professional-quality visualizations.
+
+  This project was an excellent opportunity to explore both the mathematical properties of Catalan numbers and different computational approaches to calculate them. The visualizations help intuitively understand their rapid growth rate, while the method comparison demonstrates how algorithmic choices can impact performance.
+
+  The implementation showcases Python's capabilities for mathematical computing and data visualization, combining pure mathematics with practical programming techniques.
