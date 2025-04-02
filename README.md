@@ -5029,3 +5029,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   This project was an excellent opportunity to explore both the mathematical properties of Catalan numbers and different computational approaches to calculate them. The visualizations help intuitively understand their rapid growth rate, while the method comparison demonstrates how algorithmic choices can impact performance.
 
   The implementation showcases Python's capabilities for mathematical computing and data visualization, combining pure mathematics with practical programming techniques.
+* Day 382: 💤 SleepAnalyzer - Python Sleep Tracking System 📊
+
+  Today, I developed a comprehensive Sleep Tracking System using Python with MVC (Model-View-Controller) architecture. This application helps users track and analyze their sleep patterns with detailed statistics and insights. Below are the key highlights:
+
+  - **MVC Architecture**: Implemented a clean separation of concerns with Model handling data operations, View managing user interface, and Controller coordinating between them. This makes the code maintainable and scalable.
+
+  - **Data Persistence**: The system stores sleep records in JSON format with automatic file creation, ensuring data persists between sessions without manual setup.
+
+  - **Sleep Metrics**: Tracks multiple sleep metrics including duration (automatically calculated), quality (1-5 scale), dream recall, and custom notes for each night.
+
+  - **Advanced Analytics**: Provides detailed statistics like average sleep duration, quality trends, dream frequency, and even calculates a sleep consistency score and recommended bedtime.
+
+  - **Data Management**: Full CRUD functionality (Create, Read, Update, Delete) with intuitive search capabilities by date range, sleep duration, quality, and dream recall.
+
+  - **Export Options**: Supports exporting data to multiple formats (CSV, JSON, and human-readable text) for further analysis or sharing with healthcare professionals.
+
+  - **User-Friendly Interface**: Features a clean menu-driven interface with clear data visualization, including star ratings for sleep quality and comprehensive error handling.
+
+  This project was an excellent opportunity to build a complete application from scratch while following software architecture best practices. I particularly focused on creating robust data validation, meaningful statistics, and an intuitive user experience. The MVC pattern implementation helped me better understand how to structure medium-sized applications for maintainability and future expansion.
