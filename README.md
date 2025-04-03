@@ -5048,3 +5048,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Interface**: Features a clean menu-driven interface with clear data visualization, including star ratings for sleep quality and comprehensive error handling.
 
   This project was an excellent opportunity to build a complete application from scratch while following software architecture best practices. I particularly focused on creating robust data validation, meaningful statistics, and an intuitive user experience. The MVC pattern implementation helped me better understand how to structure medium-sized applications for maintainability and future expansion.
+* Day 383: 🗃️ LRU Cache Implementation in Python 🏗️
+
+  Today, I implemented a Least Recently Used (LRU) Cache in Python, focusing on efficient data structure design and algorithm optimization. The project demonstrates how to manage limited cache space by automatically evicting the least recently used items when capacity is reached. Below are the key highlights:
+
+  - **Doubly Linked List**: The cache uses a doubly linked list to maintain the order of item usage, with the most recently used items at the head and least recently used at the tail. This allows O(1) time complexity for both insertions and deletions.
+
+  - **Hash Map**: A dictionary (hash map) provides O(1) access to cache items by key, while the linked list maintains the usage order. This combination of data structures ensures optimal performance for both get and put operations.
+
+  - **Cache Operations**: The implementation supports two main operations: `get(key)` to retrieve a value while updating its usage status, and `put(key, value)` to add or update an item in the cache.
+
+  - **Automatic Eviction**: When the cache reaches capacity, the system automatically removes the least recently used item before adding new entries, maintaining efficient memory usage.
+
+  - **Visualization**: The implementation includes a visualization component using matplotlib that shows the evolution of the cache state after each operation, making it easy to understand the LRU eviction policy in action.
+
+  - **Practical Application**: This LRU Cache implementation mirrors how real-world systems (like databases and web servers) manage memory, providing hands-on experience with a fundamental computer science concept used in system design.
+
+  This project was an excellent exercise in combining different data structures to solve a common system design problem. I gained deeper understanding of how to achieve O(1) time complexity for cache operations and how visualization can help debug and demonstrate algorithm behavior. The implementation serves as a practical foundation that could be extended for more complex caching scenarios.
