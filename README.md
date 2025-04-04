@@ -5065,3 +5065,24 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Practical Application**: This LRU Cache implementation mirrors how real-world systems (like databases and web servers) manage memory, providing hands-on experience with a fundamental computer science concept used in system design.
 
   This project was an excellent exercise in combining different data structures to solve a common system design problem. I gained deeper understanding of how to achieve O(1) time complexity for cache operations and how visualization can help debug and demonstrate algorithm behavior. The implementation serves as a practical foundation that could be extended for more complex caching scenarios.
+
+
+* 💻 Day 384: Chess Piece Classification [Kaggle](https://www.kaggle.com/datasets/anshulmehtakaggl/chess-pieces-detection-images-dataset) 
+
+  Today, I worked on building a Chess Piece Classification project using a dataset from Kaggle. The goal was to classify images of chess pieces using image processing and machine learning techniques with libraries such as OpenCV, NumPy, Scikit-learn, and Matplotlib. The project covers the full pipeline from data download and preprocessing to model training and evaluation. Below are the key highlights:
+
+  - **Image Preprocessing**: The project includes a function that reads grayscale images of chess pieces, resizes them to a fixed dimension (64x64), and flattens them for classification. This step standardizes the input for the model and ensures consistency in training and testing.
+
+  - **Data Normalization**: The image pixel values are normalized to a [0, 1] range to enhance model performance and reduce training time. This is a crucial preprocessing step when working with image data in machine learning.
+
+  - **Train-Test Split**: The data is split into training and testing sets using a standard 80-20 ratio. This ensures that the model is evaluated on unseen data and provides a reliable measure of generalization.
+
+  - **KNN Classification**: A K-Nearest Neighbors (KNN) classifier is trained to distinguish between different types of chess pieces. The classifier is simple, effective, and well-suited for small-scale image classification problems.
+
+  - **Model Evaluation**: The model’s performance is evaluated using classification metrics such as precision, recall, F1-score, and the confusion matrix. These metrics help understand the strengths and weaknesses of the classifier across different classes.
+
+  - **Visualization of Predictions**: The project includes a utility to visualize a few sample predictions alongside the true labels. This offers an intuitive sense of how well the model is performing and helps in spotting misclassifications.
+
+  - **User-Friendly Functions**: The project includes reusable and modular functions for loading images, training models, and plotting results. This makes the code clean, maintainable, and easy to extend.
+
+  This project was an excellent opportunity to apply machine learning techniques to visual data and explore image classification using Python. It also reinforced the importance of preprocessing and evaluation when working with image-based datasets.
