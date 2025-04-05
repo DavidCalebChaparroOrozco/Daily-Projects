@@ -5065,8 +5065,6 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Practical Application**: This LRU Cache implementation mirrors how real-world systems (like databases and web servers) manage memory, providing hands-on experience with a fundamental computer science concept used in system design.
 
   This project was an excellent exercise in combining different data structures to solve a common system design problem. I gained deeper understanding of how to achieve O(1) time complexity for cache operations and how visualization can help debug and demonstrate algorithm behavior. The implementation serves as a practical foundation that could be extended for more complex caching scenarios.
-
-
 * 💻 Day 384: Chess Piece Classification [Kaggle](https://www.kaggle.com/datasets/anshulmehtakaggl/chess-pieces-detection-images-dataset) 
 
   Today, I worked on building a Chess Piece Classification project using a dataset from Kaggle. The goal was to classify images of chess pieces using image processing and machine learning techniques with libraries such as OpenCV, NumPy, Scikit-learn, and Matplotlib. The project covers the full pipeline from data download and preprocessing to model training and evaluation. Below are the key highlights:
@@ -5086,3 +5084,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Functions**: The project includes reusable and modular functions for loading images, training models, and plotting results. This makes the code clean, maintainable, and easy to extend.
 
   This project was an excellent opportunity to apply machine learning techniques to visual data and explore image classification using Python. It also reinforced the importance of preprocessing and evaluation when working with image-based datasets.
+* 🗓️ Day 385: Lambda Function Plotter [Python + Tkinter + Matplotlib] 
+
+  Today, I worked on developing a Lambda Function Plotter using Python. The project consists of a GUI that allows users to input lambda expressions and visualize them interactively. The interface was built using Tkinter with a dark theme for better user experience, and the graphs are rendered using Matplotlib. Below are the key highlights:
+
+  - **Lambda Function Input**: The project allows users to enter a lambda function (e.g., `lambda x: x**2 - 4*x + 3`) as a string. This input is evaluated dynamically and validated to ensure it's a callable function before plotting.
+
+  - **User Interface**: I designed a user-friendly GUI using Tkinter with a dark theme, including custom fonts, color schemes, and button styles. This makes the application visually appealing and easy to navigate.
+
+  - **Function Evaluation**: The input function is evaluated over a range of x values using NumPy. The result is a set of y values corresponding to each x, which is then plotted in real time.
+
+  - **Matplotlib Integration**: The graph of the lambda function is rendered directly inside the Tkinter window using the `FigureCanvasTkAgg` class from `matplotlib.backends.backend_tkagg`. The plot includes a styled background, grid lines, axis markers, and a legend.
+
+  - **Error Handling**: The application includes message boxes that handle invalid lambda expressions and evaluation errors gracefully, ensuring a smooth user experience even when incorrect input is provided.
+
+  - **Dynamic Plotting**: Users can instantly see the graph of any valid lambda expression by entering the function and clicking the “Plot Function” button. Previous plots are cleared automatically to avoid clutter.
+
+  - **Custom Theme**: The entire GUI follows a modern dark theme, with consistent styling for all widgets, including buttons, labels, and text fields. This enhances readability and user comfort during prolonged use.
+
+  This project was an excellent opportunity to practice dynamic function evaluation, graphical rendering in GUIs, and interactive design with Python. It reinforced the value of combining functionality with visual appeal for building intuitive and efficient user tools.
