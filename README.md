@@ -5103,3 +5103,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Custom Theme**: The entire GUI follows a modern dark theme, with consistent styling for all widgets, including buttons, labels, and text fields. This enhances readability and user comfort during prolonged use.
 
   This project was an excellent opportunity to practice dynamic function evaluation, graphical rendering in GUIs, and interactive design with Python. It reinforced the value of combining functionality with visual appeal for building intuitive and efficient user tools.
+*🧩 Day 386: Recursive Regex Matcher 
+
+  Today, I worked on building a Recursive Regex Matcher in Python. The focus was on designing a custom function that matches strings against simplified regular expressions using recursion. The project avoids using Python’s built-in `re` module and instead implements core regex logic manually. The supported operators include `*`, `+`, `?`, `.`, and character groups like `[abc]`. Below are the key highlights:
+
+  - **Wildcard Matching**: The matcher supports the `.` operator, which matches any single character. This is useful for handling patterns where any character can appear in a given position.
+
+  - **Character Groups**: I implemented parsing logic to recognize character groups such as `[abc]`. This allows for flexible pattern matching against multiple potential characters.
+
+  - **Quantifier Logic**: The matcher handles the `*`, `+`, and `?` quantifiers, enabling recursive matching of zero or more, one or more, and zero or one occurrences of a character or group, respectively.
+
+  - **Recursive Design**: The entire matcher is built using recursive functions to break down the pattern and the string step by step. This emphasizes the power of recursion in parsing and decision-making.
+
+  - **Edge Case Handling**: The code gracefully handles edge cases like unclosed brackets and empty strings, providing error messages or correct base case behavior as needed.
+
+  - **Test Cases**: A variety of test cases were created to verify correct behavior across different combinations of patterns and input strings. These help ensure that the matcher behaves as expected.
+
+  - **Readable Structure**: The code is modular and well-commented, with separate functions for matching characters and patterns. This enhances readability and makes it easy to extend functionality in the future.
+
+  This project was an excellent opportunity to deepen my understanding of recursion and string pattern matching in Python. It reinforced how powerful recursive thinking can be when designing algorithms that involve parsing and dynamic control flow.
