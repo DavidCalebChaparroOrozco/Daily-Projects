@@ -5103,7 +5103,8 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Custom Theme**: The entire GUI follows a modern dark theme, with consistent styling for all widgets, including buttons, labels, and text fields. This enhances readability and user comfort during prolonged use.
 
   This project was an excellent opportunity to practice dynamic function evaluation, graphical rendering in GUIs, and interactive design with Python. It reinforced the value of combining functionality with visual appeal for building intuitive and efficient user tools.
-*🧩 Day 386: Recursive Regex Matcher 
+
+* Day 386: Recursive Regex Matcher 
 
   Today, I worked on building a Recursive Regex Matcher in Python. The focus was on designing a custom function that matches strings against simplified regular expressions using recursion. The project avoids using Python’s built-in `re` module and instead implements core regex logic manually. The supported operators include `*`, `+`, `?`, `.`, and character groups like `[abc]`. Below are the key highlights:
 
@@ -5122,3 +5123,23 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Readable Structure**: The code is modular and well-commented, with separate functions for matching characters and patterns. This enhances readability and makes it easy to extend functionality in the future.
 
   This project was an excellent opportunity to deepen my understanding of recursion and string pattern matching in Python. It reinforced how powerful recursive thinking can be when designing algorithms that involve parsing and dynamic control flow.
+
+* 🗓️ Day 387: AVL Tree Balancer 
+  Today, I worked on implementing an AVL Tree Balancer using Python. The focus was on recursive insertion of nodes and maintaining balance through rotations to ensure logarithmic height. The project also includes a visual representation of the AVL Tree using Matplotlib and NetworkX. Below are the key highlights:
+
+  - **Recursive Insertion**: The project includes a function that performs recursive insertion of nodes into the AVL tree. During each insertion, the height of nodes is updated, and balance factors are calculated to determine if rotations are needed.
+
+  - **Balance Factor Check**: After each insertion, the code checks the balance factor of the affected nodes to identify imbalances (Left-Left, Right-Right, Left-Right, Right-Left). This is essential to maintain the self-balancing nature of the AVL tree.
+
+  - **Rotations**: The implementation includes left and right rotation functions to fix imbalances. These rotations are automatically applied during insertion based on the balance factor, ensuring the tree remains balanced.
+
+  - **Pre-order Traversal**: A traversal function is provided to print the keys of the tree in pre-order, which helps verify the structure and correctness of the AVL tree after insertions.
+
+  - **Tree Visualization**: The project includes a visualization module using Matplotlib and NetworkX. This allows for a graphical representation of the AVL tree, displaying node relationships and hierarchy.
+
+  - **Graph Positioning**: The visualizer places nodes dynamically to reflect the hierarchical structure of the AVL tree. This helps in understanding how the tree evolves with each insertion.
+
+  - **User-Friendly Structure**: The project is modular, separating the AVL logic from the visualization code. This improves code clarity and allows for easier maintenance and future expansion.
+
+  This project was an excellent opportunity to deepen my understanding of balanced binary search trees and recursive algorithms in Python. The experience reinforced the importance of maintaining tree balance for optimal performance and visualizing complex data structures to aid in learning and debugging.
+
