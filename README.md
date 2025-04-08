@@ -5142,4 +5142,45 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Structure**: The project is modular, separating the AVL logic from the visualization code. This improves code clarity and allows for easier maintenance and future expansion.
 
   This project was an excellent opportunity to deepen my understanding of balanced binary search trees and recursive algorithms in Python. The experience reinforced the importance of maintaining tree balance for optimal performance and visualizing complex data structures to aid in learning and debugging.
+* Day 388: 🌍 Global Spice Consumption Analysis [Kaggle](https://www.kaggle.com/datasets/harishthakur995/global-spice-consumption/code)
 
+  Today, I worked on analyzing the Global Spice Consumption dataset from Kaggle using Python. The project focused on exploring global spice trade patterns and consumption trends using Pandas, Seaborn, Matplotlib, and machine learning techniques. Below are the key highlights:
+
+  🔍 Key Analysis Highlights
+
+  - **Dataset Exploration**: Performed initial data exploration including shape, column information, and descriptive statistics. Cleaned column names for better consistency.
+
+  - **Data Visualization**:
+    - Created count plots to visualize the distribution of different spice items
+    - Generated word clouds to highlight most common spices in the dataset
+    - Plotted production and consumption trends over time
+    - Visualized top producing areas and most consumed spices
+    - Compared import vs export patterns across countries
+
+  - **Feature Analysis**: Examined unique values in each column and checked for missing values to ensure data quality.
+
+  - **Machine Learning Models**:
+    - Implemented and evaluated three regression models (Gradient Boosting, LightGBM, and Neural Network) to predict spice production
+    - Used cross-validation to compare model performance
+    - Generated visualizations of actual vs predicted values
+
+  🌶️ Dataset Overview
+  The dataset contains comprehensive information about global spice consumption, including:
+  - Production, import, export, and consumption quantities (in tons)
+  - Data across multiple countries and years
+  - Nine major spice categories including:
+    - Chillies & Peppers
+    - Cinnamon
+    - Cloves
+    - Ginger
+    - Nutmeg
+    - Pepper
+    - Vanilla
+
+  📊 Key Insights
+  - Visualized global trade patterns and consumption trends for spices
+  - Identified top producing countries and most consumed spices
+  - Developed predictive models for spice production
+  - Analyzed correlations between different trade metrics
+
+  This project provided valuable experience in analyzing global trade data and building predictive models for agricultural commodities. The visualizations helped uncover interesting patterns in spice consumption worldwide.
