@@ -5184,3 +5184,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - Analyzed correlations between different trade metrics
 
   This project provided valuable experience in analyzing global trade data and building predictive models for agricultural commodities. The visualizations helped uncover interesting patterns in spice consumption worldwide.
+* Day 389: Recursive Circle Packing Animation
+
+  Today, I worked on creating an animated Recursive Circle Packing visualization using Python and Matplotlib. The focus was on recursion, geometry, and real-time visualization using `matplotlib.animation.FuncAnimation`. The project includes generating non-overlapping circles recursively and visualizing the circle packing process step-by-step. Below are the key highlights:
+
+  - **Recursive Geometry**: The project uses a recursive function to generate circles within circles without overlapping. Each new circle is placed based on polar coordinates and validated against previously drawn circles to maintain spatial integrity.
+
+  - **Overlap Detection**: A custom class was used to represent each circle, with methods to detect overlap using Euclidean distance. This ensures that all new circles are placed without intersecting existing ones.
+
+  - **Dynamic Circle Placement**: The code introduces randomness in direction and size when placing child circles, creating a natural and organic packing layout. This adds variety to each run and simulates biological or physical growth patterns.
+
+  - **Matplotlib Animation**: The use of `FuncAnimation` allows each circle to appear one-by-one in real time, offering a smooth and visually engaging way to observe the recursive structure being built incrementally.
+
+  - **Aspect Ratio and Scaling**: The aspect ratio is fixed to maintain circular shape accuracy, and the axes are hidden to emphasize the visual structure. The initial circle and drawing canvas are centered to allow maximum recursive depth.
+
+  - **Recursive Generator**: A generator function (`yield from`) is used to manage the recursive logic and produce circles lazily, optimizing memory usage and maintaining control over the animation flow.
+
+  - **User-Friendly Design**: The code is modular and well-commented, allowing easy understanding and further experimentation with radius scaling, recursion depth, and animation speed.
+
+  This project was an excellent opportunity to deepen my understanding of recursive algorithms and animation techniques in Python, as well as to explore the visual aesthetics of geometric recursion. The experience reinforced the power of combining mathematical logic with visual feedback to enhance learning and creativity.
