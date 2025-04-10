@@ -5203,3 +5203,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Design**: The code is modular and well-commented, allowing easy understanding and further experimentation with radius scaling, recursion depth, and animation speed.
 
   This project was an excellent opportunity to deepen my understanding of recursive algorithms and animation techniques in Python, as well as to explore the visual aesthetics of geometric recursion. The experience reinforced the power of combining mathematical logic with visual feedback to enhance learning and creativity.
+* Day 390: Technical Test "canCompleteCircuit" and "candy" [LeetCode](https://leetcode.com/problems/)
+
+  - **canCompleteCircuit**: Implemented a solution for the "Gas Station" problem, where the task is to find the starting gas station index that allows traveling around a circular route once. The approach checks if the total gas is sufficient to cover the total cost first. If possible, it uses a greedy algorithm to determine the starting point by tracking the current tank balance and resetting when negative. The time complexity is O(n), where n is the number of gas stations.
+    [Problem Description: canCompleteCircuit](https://leetcode.com/problems/gas-station/description/)
+
+  - **candy**: Solved the "Candy" distribution problem, which requires distributing candies to children based on their ratings while satisfying two rules: each child must get at least one candy, and children with higher ratings than neighbors must receive more candies. The solution uses two passes (left-to-right and right-to-left) to ensure both rules are met with the minimum number of candies. The time complexity is O(n), where n is the number of children.
+    [Problem Description: candy](https://leetcode.com/problems/candy/description/)
