@@ -5210,3 +5210,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **candy**: Solved the "Candy" distribution problem, which requires distributing candies to children based on their ratings while satisfying two rules: each child must get at least one candy, and children with higher ratings than neighbors must receive more candies. The solution uses two passes (left-to-right and right-to-left) to ensure both rules are met with the minimum number of candies. The time complexity is O(n), where n is the number of children.
     [Problem Description: candy](https://leetcode.com/problems/candy/description/)
+* Day 391: 🎯 Random Fortune Roulette in Python 🎡
+
+  Today, I built a Random Fortune Roulette wheel using Python and Tkinter for the GUI. This interactive application allows users to spin a virtual wheel to randomly select from customizable options, perfect for contests, prize distributions, or fun decision-making. Here are the key highlights:
+
+  - **Customizable Options**: Users can input their own options in the text box (one per line) with a minimum of 2 options required. Default options are provided for immediate use.
+
+  - **Visual Roulette Wheel**: Features a colorful segmented wheel with clear labeling for each option. The design includes a prominent pointer to indicate the selection.
+
+  - **Realistic Spinning Animation**: The wheel spins with smooth animation and gradually slows down for a realistic roulette experience. The spinning speed decreases naturally until it stops on a random selection.
+
+  - **Result Detection**: Automatically calculates and displays the selected option when the wheel stops spinning. The system accounts for the wheel's final angle to determine the winning segment.
+
+  - **User-Friendly Interface**: Includes clear buttons for updating options and spinning the wheel, with an intuitive layout that makes the application easy to use.
+
+  - **Tkinter GUI**: Utilizes Python's built-in Tkinter library for the graphical interface, making the application lightweight and compatible with most systems without additional dependencies.
+
+  This project was a great opportunity to practice GUI development and animation techniques in Python. I particularly enjoyed implementing the physics-like deceleration of the wheel and the precise angle calculations needed to determine the selected option. The result is a fun, interactive tool that can be adapted for various purposes while demonstrating core Python programming concepts.
