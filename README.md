@@ -5227,3 +5227,24 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Tkinter GUI**: Utilizes Python's built-in Tkinter library for the graphical interface, making the application lightweight and compatible with most systems without additional dependencies.
 
   This project was a great opportunity to practice GUI development and animation techniques in Python. I particularly enjoyed implementing the physics-like deceleration of the wheel and the precise angle calculations needed to determine the selected option. The result is a fun, interactive tool that can be adapted for various purposes while demonstrating core Python programming concepts.
+* Day 392:🎮 Guess the Word Game in Python 🔠
+
+  Today, I developed a Guess the Word Game in Python, featuring both console and GUI (Tkinter) versions. The project focuses on interactive gameplay where the AI reveals letters gradually and players guess the complete word. Below are the key highlights:
+
+  - **Dual Interface**: The game offers both console and graphical (Tkinter) interfaces, providing flexibility in how users interact with the application. Players can choose their preferred version at startup.
+
+  - **Progressive Hint System**: The AI reveals letters gradually through a hint mechanism that shows 30% of remaining letters randomly, creating a balanced challenge that adapts to the player's progress.
+
+  - **Game State Management**: The `WordGuessingGame` class encapsulates all game logic including word selection, hint generation, and guess validation, demonstrating clean separation of concerns.
+
+  - **Attempt Limit**: Players have 6 attempts to guess the word correctly, adding strategic tension to the gameplay. The system tracks remaining attempts and provides clear feedback.
+
+  - **Word Database**: The game uses a curated list of programming-related words, making it both entertaining and educational for developers. The selection is random for each game session.
+
+  - **Input Validation**: Both versions validate user input, ensuring guesses contain only letters and match the word length. The GUI version additionally provides real-time feedback.
+
+  - **Tkinter Implementation**: The GUI version features responsive design with labels, entry fields, and buttons. It maintains game state while providing visual feedback through color-coded messages.
+
+  This project was an excellent exercise in creating interactive applications with multiple interface options. I particularly enjoyed implementing the progressive hint system that makes the game challenging yet fair. The dual-interface approach allowed me to practice both console programming and GUI development with Tkinter, while maintaining consistent game logic across both versions.
+
+  The game demonstrates how Python can be used to create engaging educational tools, combining programming concepts with vocabulary building in a fun package.
