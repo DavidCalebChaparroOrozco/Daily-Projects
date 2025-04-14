@@ -5263,3 +5263,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Customizable Output**: Users can easily modify the landscape dimensions (width and height), roughness factor, and number of iterations to create different types of terrain from rolling hills to sharp mountains.
 
   This project was an excellent exercise in understanding procedural generation techniques and recursive algorithms. I gained practical experience in implementing mathematical concepts to create natural-looking patterns, while also exploring visualization techniques to present the generated data effectively. The recursive approach proved particularly valuable for creating fractal-like terrain with self-similar details at different scales.
+* Day 394: Technical Test "singleNumber" and "singleNumberII" [LeetCode](https://leetcode.com/problems/)  
+
+  - **singleNumber**: Implemented a solution for the "Single Number" problem, where the task is to find the element that appears exactly once in an array where every other element appears twice. The approach uses XOR bitwise operation to efficiently cancel out duplicate elements, leaving only the single number. The solution runs in O(n) time with O(1) space complexity.  
+    [Problem Description: singleNumber](https://leetcode.com/problems/single-number/description/)  
+
+  - **singleNumberII**: Solved the "Single Number II" problem, which extends the previous challenge by having every element appear three times except for one. The solution uses bitwise counting to track the number of set bits at each position, reconstructing the single number by checking which bits appear a non-multiple-of-three times. The approach maintains O(n) time complexity and O(1) space usage.  
+    [Problem Description: singleNumberII](https://leetcode.com/problems/single-number-ii/description/)  
