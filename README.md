@@ -5270,3 +5270,24 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **singleNumberII**: Solved the "Single Number II" problem, which extends the previous challenge by having every element appear three times except for one. The solution uses bitwise counting to track the number of set bits at each position, reconstructing the single number by checking which bits appear a non-multiple-of-three times. The approach maintains O(n) time complexity and O(1) space usage.  
     [Problem Description: singleNumberII](https://leetcode.com/problems/single-number-ii/description/)  
+* Day 395: 🏛️ Interactive Museum Guide System in Python 🖼️
+
+  Today, I developed an Interactive Museum Guide System using Python with a Model-View-Controller (MVC) architecture. This comprehensive system allows visitors to explore artifacts, view exhibitions, take virtual tours, and provides administrators with tools to manage museum content. Below are the key highlights:
+
+  - **MVC Architecture**: Implemented a clean separation of concerns with distinct Model, View, and Controller components. The Model handles data persistence in JSON format, the View manages all user interface aspects, and the Controller orchestrates the application flow.
+
+  - **Complete CRUD Operations**: The system supports full Create, Read, Update, and Delete functionality for all museum entities (artifacts, exhibitions, and virtual tours) with proper data validation and error handling.
+
+  - **Interactive User Interface**: Developed a colorful terminal interface with ANSI escape codes for better user experience. The menu system features intuitive navigation and detailed displays for all museum content.
+
+  - **Virtual Tour System**: Implemented a sophisticated virtual tour feature with multiple stops, descriptions, and optional video links, providing an immersive experience for museum visitors.
+
+  - **Admin Authentication**: Created a secure admin section with login functionality to protect sensitive operations. Admins can manage all aspects of the museum's digital presence.
+
+  - **Data Persistence**: Designed a JSON-based storage system that automatically saves all changes and loads data when the application starts, ensuring no data loss between sessions.
+
+  - **Sample Data Initialization**: The system includes automatic population of sample data (like the Rosetta Stone artifact and Ancient Civilizations exhibition) when first launched, demonstrating its capabilities.
+
+  This project was an excellent opportunity to build a complete application using MVC architecture in Python. I deepened my understanding of software design patterns, data persistence, and user interface development while creating a practical tool that could be deployed in real museum environments.
+
+  The system demonstrates professional Python development practices with proper documentation, modular code organization, and attention to user experience - making it a valuable addition to my portfolio of Python applications.
