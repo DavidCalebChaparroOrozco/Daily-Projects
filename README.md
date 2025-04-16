@@ -5291,3 +5291,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   This project was an excellent opportunity to build a complete application using MVC architecture in Python. I deepened my understanding of software design patterns, data persistence, and user interface development while creating a practical tool that could be deployed in real museum environments.
 
   The system demonstrates professional Python development practices with proper documentation, modular code organization, and attention to user experience - making it a valuable addition to my portfolio of Python applications.
+* 🧠 Day 396: Arithmetic Puzzle Solver with Recursion and Visualization 📊 
+
+  Today, I developed an Arithmetic Puzzle Solver in Python that uses recursion and backtracking to find digit permutations that satisfy a given arithmetic expression represented by letters. This project combines recursive algorithms with expression evaluation and visual feedback through matplotlib. Below are the key highlights:
+
+  - **Recursive Backtracking**: Implemented a function to recursively generate all permutations of digits from 1 to 9 without repetition. This forms the core of solving the cryptarithm-like puzzles by trying different digit combinations for each letter.
+
+  - **Expression Evaluation**: Designed a parser that maps each unique character in the pattern to a digit and evaluates whether the resulting numeric expression holds true. This includes support for operators like `+`, `-`, `*`, `/`, and `//`.
+
+  - **Pattern Matching**: The solver handles arithmetic patterns such as `ABC+DEF=GHI`, ensuring that each letter maps to a unique digit and the operation evaluates correctly.
+
+  - **User Interface**: Created a command-line interface that prompts the user to input a pattern and an operator. The system then processes the input, attempts to find a valid digit mapping, and returns the solution if one exists.
+
+  - **Visualization**: Added a bar chart to visually represent the number of solutions found per operator type using dummy data, offering insights into how different operations may yield more or fewer valid results.
+
+  This project was a fantastic exercise in combining recursion with mathematical reasoning and user interaction. It deepened my understanding of problem-solving with permutations, conditional logic, and basic data visualization.
