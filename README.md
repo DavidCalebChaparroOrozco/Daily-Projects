@@ -5320,4 +5320,21 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **Mathematical Patterns**: Combined circular arcs (`circle()`) with alternating left (`lt()`) and right (`rt()`) turns to create interwoven spiral segments, each shrinking in radius for a layered depth effect.  
 
-  This project was a fun exploration of algorithmic art, blending mathematical precision with creative coding. The simplicity of the turtle module paired with the richness of color manipulation proves how a few lines of code can generate captivating visual results.  
+  This project was a fun exploration of algorithmic art, blending mathematical precision with creative coding. The simplicity of the turtle module paired with the richness of color manipeulation proves how a few lines of code can generate captivating visual results.  
+* 🧠 Day 398: 🌲 Recursive Trie (Prefix Tree) Implementation in Python 🔍 
+
+  Today, I worked on a Recursive Trie (Prefix Tree) using Python, with a focus on Object-Oriented Programming (OOP) principles such as encapsulation and recursion. The project supports word insertion, complete word search, and prefix checking. Below are the key highlights:
+
+  - **Encapsulation**: The `TrieNode` class encapsulates attributes like `children` and `is_end_of_word`, managing access to each node’s data structure and state. This ensures that each node maintains integrity within the Trie.
+
+  - **Recursion**: The core operations (`insert`, `search`, and `starts_with`) are implemented recursively. Each method breaks down the problem into smaller subproblems, enabling elegant traversal and modification of the Trie’s hierarchical structure.
+
+  - **Word Insertion**: The `insert` method uses recursion to create child nodes for each character in a word. Once all characters are processed, the final node is marked as the end of a word.
+
+  - **Search Functionality**: The `search` method checks if a complete word exists in the Trie by recursively verifying each character. If all characters match and the end-of-word flag is set, the word is found.
+
+  - **Prefix Checking**: The `starts_with` method confirms if any word in the Trie begins with a given prefix. This feature is useful for applications like autocomplete or dictionary-based lookups.
+
+  - **Example Usage**: The code includes examples of inserting multiple words, searching for full words, and checking for valid prefixes, offering a comprehensive test of the Trie’s capabilities.
+
+  This project was an excellent exercise in applying recursion and data structure design to build an efficient word lookup system. It helped reinforce my understanding of how recursive methods can be used to traverse and manipulate hierarchical structures like Tries, while maintaining clean and modular code through encapsulation.
