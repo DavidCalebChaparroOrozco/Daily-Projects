@@ -5338,3 +5338,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Example Usage**: The code includes examples of inserting multiple words, searching for full words, and checking for valid prefixes, offering a comprehensive test of the Trie’s capabilities.
 
   This project was an excellent exercise in applying recursion and data structure design to build an efficient word lookup system. It helped reinforce my understanding of how recursive methods can be used to traverse and manipulate hierarchical structures like Tries, while maintaining clean and modular code through encapsulation.
+* Day 399: 🔐 Egyptian Code Book in Python 𓁹
+
+  Today, I developed an Egyptian Code Book system using Python, implementing a substitution cipher with Unicode hieroglyphs. The project focuses on text encoding/decoding functionality while demonstrating practical Unicode handling and dictionary-based transformations. Below are the key highlights:
+
+  - **Unicode Handling**: The system utilizes the Egyptian Hieroglyphs Unicode block (U+13000 to U+1302A) to represent characters, demonstrating advanced Unicode support in Python. Each character is carefully mapped to its corresponding hieroglyph.
+
+  - **Dictionary-Based Cipher**: The core functionality relies on dictionary mappings (`HIEROGLYPH_DICT` and `REVERSE_HIEROGLYPH_DICT`) for efficient encoding and decoding operations, showcasing Python's powerful dictionary data structure.
+
+  - **Extended Character Support**: Beyond basic letters, the system includes numbers (0-9) and common punctuation marks, making it more versatile than basic alphabet substitution ciphers.
+
+  - **User-Friendly Interface**: The menu-driven interface provides clear options for encoding, decoding, and viewing the hieroglyph reference chart. Error handling ensures graceful operation even with unsupported characters.
+
+  - **Encoding/Decoding Functions**: The `encode_message()` and `decode_message()` functions demonstrate clean string manipulation techniques, including fallback handling for unknown characters.
+
+  - **Visual Presentation**: The system includes decorative elements using actual hieroglyphs and checks for terminal Unicode support, making it both functional and visually engaging.
+
+  - **Practical Applications**: While primarily educational, the system demonstrates real-world concepts like character encoding systems, substitution ciphers, and user interface design for cryptographic tools.
+
+  This project provided valuable experience in working with Unicode characters, dictionary manipulations, and building interactive console applications. I particularly enjoyed researching the Egyptian Hieroglyphs Unicode block and implementing a system that brings ancient writing into modern cryptography.
