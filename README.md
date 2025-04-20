@@ -5357,3 +5357,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Practical Applications**: While primarily educational, the system demonstrates real-world concepts like character encoding systems, substitution ciphers, and user interface design for cryptographic tools.
 
   This project provided valuable experience in working with Unicode characters, dictionary manipulations, and building interactive console applications. I particularly enjoyed researching the Egyptian Hieroglyphs Unicode block and implementing a system that brings ancient writing into modern cryptography.
+* Day 400: 🏛️ Babylonian Sexagesimal Calculator in Python 🔢
+
+  Today, I built a Babylonian Calculator that performs arithmetic operations using the ancient sexagesimal (base 60) number system, implemented with Python and Tkinter for the graphical interface. This project combines historical mathematics with modern programming, featuring:
+
+  - **Sexagesimal Arithmetic**: The calculator performs all basic operations (addition, subtraction, multiplication, division) using the base 60 system that was used in ancient Mesopotamia.
+
+  - **Number System Conversion**: Includes conversion functions between our modern decimal system and the Babylonian sexagesimal notation, with "Sex→Dec" and "Dec→Sex" buttons for easy switching.
+
+  - **Historical Accuracy**: Implements the authentic Babylonian notation using commas (,) to separate place values and semicolons (;) for fractional parts, just as ancient scribes would have recorded numbers on clay tablets.
+
+  - **Dark Theme GUI**: Features a sleek, dark-themed interface built with Tkinter, making it visually appealing while reducing eye strain during extended calculations.
+
+  - **Error Handling**: Robust error management for division by zero and invalid inputs, ensuring the calculator remains stable even with incorrect operations.
+
+  - **User-Friendly Design**: Includes standard calculator functions like clear (C), backspace (←), and full reset (⌫), making it practical for both educational and historical research purposes.
+
+  This project provided fascinating insights into how ancient civilizations performed complex mathematical operations without our modern number system. Implementing the base 60 arithmetic challenged my understanding of positional number systems and deepened my appreciation for the sophistication of ancient Babylonian mathematics. The Tkinter implementation allowed me to create an accessible tool that makes this ancient calculation method available to modern users with a clean, intuitive interface.
+
+  The calculator not only serves as a functional mathematical tool but also as an educational resource for understanding one of humanity's earliest and most enduring numerical systems - a system that still influences our measurement of time (60 seconds in a minute, 60 minutes in an hour) and angles (360 degrees in a circle) today.
