@@ -5376,3 +5376,27 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   This project provided fascinating insights into how ancient civilizations performed complex mathematical operations without our modern number system. Implementing the base 60 arithmetic challenged my understanding of positional number systems and deepened my appreciation for the sophistication of ancient Babylonian mathematics. The Tkinter implementation allowed me to create an accessible tool that makes this ancient calculation method available to modern users with a clean, intuitive interface.
 
   The calculator not only serves as a functional mathematical tool but also as an educational resource for understanding one of humanity's earliest and most enduring numerical systems - a system that still influences our measurement of time (60 seconds in a minute, 60 minutes in an hour) and angles (360 degrees in a circle) today.
+* Day 401: 🏰 Roman Catapult Game in Python 🪨
+
+  Today, I built a Roman Catapult physics game using Pygame, focusing on realistic projectile motion and intuitive controls. The game challenges players to adjust angle and power to hit randomly generated targets. Below are the key highlights:
+
+  - **Physics Simulation**: The game implements realistic projectile physics with gravity (9.8 m/s²) and parabolic trajectories, providing an authentic catapult experience. Velocity vectors are calculated using trigonometric functions for accurate angle-based launches.
+
+  - **Game Mechanics**: Players control both the launch angle (10°-80°) and power (10-100) to hit targets. The scoring system rewards precision - smaller targets give more points (inverse to target size), adding strategic depth.
+
+  - **Dynamic Targets**: The system generates targets at random positions and sizes after each successful hit, ensuring continuous challenge. Target collision detection uses pygame.Rect for accurate hitbox calculations.
+
+  - **Visual Feedback**: The catapult arm dynamically rotates to reflect the current angle setting, and projectiles leave visible trails. The dark-themed interface with gold accents maintains visibility while being easy on the eyes.
+
+  - **Intuitive Controls**: Simple keyboard controls (arrows for adjustments, F to fire) make the game accessible. The UI clearly displays current angle, power, and score during gameplay.
+
+  - **Game States**: The system manages different game states (menu vs active play) with appropriate visual cues, including start instructions that disappear when gameplay begins.
+
+  This project was an excellent exercise in game physics implementation and user-friendly design. I gained valuable experience in:
+  - Vector mathematics for game development
+  - Pygame's rendering system
+  - Collision detection techniques
+  - Game state management
+  - User interface design for games
+
+  The result is a satisfying physics-based challenge that captures the mechanical fun of ancient siege weapons while providing clean, maintainable code structure.
