@@ -5400,3 +5400,27 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - User interface design for games
 
   The result is a satisfying physics-based challenge that captures the mechanical fun of ancient siege weapons while providing clean, maintainable code structure.
+* Day 402: ❄️ FrozenLake AI Agent with Q-Learning 🏆
+
+  Today, I developed an AI agent to solve the FrozenLake environment using Q-Learning, a fundamental reinforcement learning algorithm. The project demonstrates key RL concepts like exploration vs exploitation, value iteration, and policy optimization. Here are the main highlights:
+
+  - **Q-Learning Implementation**: Built from scratch the core Q-learning algorithm that enables the agent to learn optimal actions through trial and error, using a reward-based system to navigate the frozen lake.
+
+  - **Exploration Strategies**: Implemented an epsilon-greedy policy with custom decay scheduling, balancing exploration of new actions with exploitation of known good paths as training progresses.
+
+  - **Hyperparameter Optimization**: Created a grid search system to automatically find the optimal learning rate, discount factor, and exploration rate for maximum performance.
+
+  - **Training Visualization**: Developed professional training progress visualizations using Seaborn, showing the agent's improvement over episodes with a 100-episode moving average success rate.
+
+  - **Model Evaluation**: Built a robust evaluation system to test the trained agent's performance across multiple episodes, with options for real-time rendering to observe the agent's behavior.
+
+  - **Interactive Demo**: Designed a user-friendly menu system allowing interactive testing of the trained model, with options to change map sizes (4x4 or 8x8) and watch the agent navigate in real-time.
+
+  Key technical aspects:
+  - **Custom Epsilon Decay**: Implemented an exponential decay schedule for the exploration rate that automatically adjusts based on total training episodes.
+  - **Early Stopping**: The training process automatically stops when the agent achieves >80% success rate over 100 consecutive episodes.
+  - **Best Model Saving**: The system continuously saves the best-performing model during training to ensure optimal results are preserved.
+
+  This project provided valuable hands-on experience with reinforcement learning fundamentals, particularly in understanding how agents learn from environmental feedback. I gained deeper insights into the practical challenges of RL training, including the importance of proper hyperparameter tuning and the exploration-exploitation tradeoff.
+
+  The end result is a robust FrozenLake solver that demonstrates clear learning progress and achieves high success rates, serving as a strong foundation for more complex reinforcement learning applications.
