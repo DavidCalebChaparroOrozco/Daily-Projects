@@ -5457,3 +5457,31 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - Responsive design handles heavy computations gracefully
 
   This project deepened my understanding of how simple mathematical rules can generate complex natural patterns. The challenge of creating an interactive visualization while maintaining performance taught me valuable lessons about algorithmic optimization and GUI design principles. The end result is both a beautiful mathematical artifact and a practical demonstration of Python's scientific visualization capabilities.
+* Day 404: 🎲 Lost Link - Network Dice Game 🌐
+
+  Today, I built a graphical dice game called **Lost Link** using Pygame, where players navigate through a network path while avoiding 404 traps that send them backward. The game features a clean, dark-themed interface with programmatically generated graphics (no external assets needed). Below are the key highlights:
+
+  - **Game Board System**: Implemented a dynamic board with different tile types (normal, traps, powerups) that affect player movement. The board scrolls to keep the current player visible at all times.
+
+  - **Player Management**: Supports 2-4 players with color-coded tokens. Each player's position and status are clearly displayed in the UI.
+
+  - **Dice Mechanics**: Features an animated dice roll with visual feedback. Players take turns rolling the dice to move along the network path.
+
+  - **Tile Effects**:
+    - **404 Traps**: Send players backward 3 spaces when landed on
+    - **Powerups**: Provide special abilities (extra rolls, etc.)
+    - **Finish Tile**: The goal that ends the game when reached
+
+  - **State Management**: Clean separation of game states (menu, playing, game over) with appropriate UI for each state.
+
+  - **Visual Feedback**: 
+    - Highlighting of current player's position
+    - Message system for game events (traps, powerups)
+    - Animated dice rolling effect
+
+  - **User Interface**:
+    - Dark theme with clean, readable text
+    - All graphics generated programmatically
+    - Intuitive controls (space to roll, Q to quit)
+
+  This project was a great exercise in game development fundamentals using Pygame. I focused on creating a polished, self-contained experience without relying on external assets, which challenged me to make the most of Pygame's drawing primitives. The game demonstrates solid state management, clean UI implementation, and engaging gameplay mechanics.
