@@ -5485,3 +5485,24 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - Intuitive controls (space to roll, Q to quit)
 
   This project was a great exercise in game development fundamentals using Pygame. I focused on creating a polished, self-contained experience without relying on external assets, which challenged me to make the most of Pygame's drawing primitives. The game demonstrates solid state management, clean UI implementation, and engaging gameplay mechanics.
+* Day 405: 🧺 Laundry Service Management System in Python 🚿
+
+  Today, I built a comprehensive Laundry Service Management System using Python with Model-View-Controller (MVC) architecture. The system handles order management, garment types, special wash options, and delivery tracking. Here are the key highlights:
+
+  - **MVC Architecture**: The project follows strict separation of concerns with Model, View, and Controller components. The Model handles data and business logic, the View manages user interface, and the Controller mediates between them.
+
+  - **Order Management**: The system allows creating new orders with multiple garment items, each with optional special wash treatments. Orders track customer details, pickup/delivery addresses, and status through the entire workflow.
+
+  - **Garment Types**: Different garment types (T-Shirts, Jeans, Dresses, etc.) are managed with their base prices and standard wash times, making pricing consistent and predictable.
+
+  - **Special Wash Options**: Customers can select from various special treatments like Eco Wash, Quick Wash, or Stain Removal, each affecting both price and processing time.
+
+  - **Data Persistence**: All orders are automatically saved to a JSON file and reloaded when the system starts, ensuring no data loss between sessions.
+
+  - **Comprehensive Reporting**: The system provides various reports including orders by status, orders by customer, and revenue analytics, giving valuable business insights.
+
+  - **Intuitive Interface**: A clear menu-driven interface makes the system easy to use with proper error handling and confirmation for critical actions.
+
+  This project was an excellent opportunity to implement MVC architecture in Python, demonstrating how to properly separate data, presentation, and control logic. I gained valuable experience in designing a complete business management system with persistent storage and professional user interaction flows.
+
+  The system is built to be easily extendable - potential future enhancements could include user authentication, more detailed analytics, or integration with payment systems and delivery tracking APIs.
