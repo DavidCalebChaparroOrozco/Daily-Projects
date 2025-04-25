@@ -1,0 +1,55 @@
+{
+    "1": {
+        "customer_name": "Caleb",
+        "contact_phone": "123456789",
+        "pickup_address": "Cra 123#45",
+        "delivery_address": "Cra 123#45",
+        "items": [
+            {
+                "garment_id": 1,
+                "quantity": 2,
+                "special_washes": [
+                    3
+                ]
+            },
+            {
+                "garment_id": 2,
+                "quantity": 5,
+                "special_washes": [
+                    1
+                ]
+            },
+            {
+                "garment_id": 4,
+                "quantity": 1,
+                "special_washes": []
+            }
+        ],
+        "status": "In Progress",
+        "order_date": "2025-04-24 21:49:41",
+        "estimated_completion": "2025-04-25 05:25:41"
+    },
+    "2": {
+        "customer_name": "Test Caleb",
+        "contact_phone": "1234567890",
+        "pickup_address": "Cra1234",
+        "delivery_address": "Miami",
+        "items": [
+            {
+                "garment_id": 1,
+                "quantity": 3,
+                "special_washes": []
+            },
+            {
+                "garment_id": 3,
+                "quantity": 2,
+                "special_washes": [
+                    3
+                ]
+            }
+        ],
+        "status": "Pending",
+        "order_date": "2025-04-24 21:50:31",
+        "estimated_completion": "2025-04-25 02:26:31"
+    }
+}
