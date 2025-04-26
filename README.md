@@ -5506,3 +5506,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   This project was an excellent opportunity to implement MVC architecture in Python, demonstrating how to properly separate data, presentation, and control logic. I gained valuable experience in designing a complete business management system with persistent storage and professional user interaction flows.
 
   The system is built to be easily extendable - potential future enhancements could include user authentication, more detailed analytics, or integration with payment systems and delivery tracking APIs.
+* Day 406: Technical Test "copyRandomList" and "wordBreak" [LeetCode](https://leetcode.com/problems/)  
+
+  - **copyRandomList**: Implemented a solution for the "Copy List with Random Pointer" problem, which involves creating a deep copy of a linked list where each node contains an additional random pointer that could point to any node in the list or `null`. The solution uses an interweaving approach to create copies of nodes and set their random pointers efficiently, achieving O(n) time complexity with O(1) space complexity (excluding the space for the new list).  
+    [Problem Description: copyRandomList](https://leetcode.com/problems/copy-list-with-random-pointer/description/)  
+
+  - **wordBreak**: Solved the "Word Break" problem, where the task is to determine if a given string can be segmented into a sequence of one or more words from a provided dictionary. The solution uses dynamic programming to efficiently check all possible segmentations, ensuring optimal performance with a time complexity of O(n^2), where `n` is the length of the string.  
+    [Problem Description: wordBreak](https://leetcode.com/problems/word-break/description/)  
