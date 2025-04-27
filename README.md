@@ -5513,3 +5513,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **wordBreak**: Solved the "Word Break" problem, where the task is to determine if a given string can be segmented into a sequence of one or more words from a provided dictionary. The solution uses dynamic programming to efficiently check all possible segmentations, ensuring optimal performance with a time complexity of O(n^2), where `n` is the length of the string.  
     [Problem Description: wordBreak](https://leetcode.com/problems/word-break/description/)  
+* Day 407: 🕵️ Alan Turing's Enigma Machine Simulator in Python  
+
+  Today, I built a simulator of Alan Turing's famous Enigma machine used during WWII, focusing on historical accuracy and cryptographic principles. This Python implementation demonstrates how the German encryption device worked and how Turing's team at Bletchley Park broke its codes. Below are the key highlights:  
+
+  - **Rotor Mechanism**: The `Rotor` class accurately models the wiring and notch behavior of historical Enigma rotors (I, II, III), including their stepping mechanism and character substitution patterns.  
+
+  - **Plugboard Simulation**: The `Plugboard` class implements the letter-swapping functionality that provided an extra layer of encryption before and after rotor processing.  
+
+  - **Reflector System**: The `Reflector` class mimics the fixed reflector that sent signals back through the rotors, a critical component of the encryption process.  
+
+  - **Full Encryption Cycle**: The `EnigmaMachine` class combines all components to perform the complete encryption/decryption process exactly as the original machine did, including proper rotor stepping and double-stepping anomalies.  
+
+  - **Interactive Menu System**: A user-friendly interface allows configuration of rotor positions, plugboard settings, and message processing - mirroring how operators would have used the actual machine.  
+
+  - **Message History**: All encrypted/decrypted messages are stored with their settings, enabling analysis of cryptographic patterns just like Turing's team would have done.  
+
+  - **Historical Accuracy**: Uses actual WWII wiring configurations (ROTOR_I, ROTOR_II, ROTOR_III) and reflector mappings (REFLECTOR_B) to demonstrate the exact encryption behavior Allied cryptanalysts faced.  
+
+  This project deepened my understanding of both cryptography and Python's object-oriented capabilities. By reconstructing the Enigma's mechanical operations in code, I gained new appreciation for Turing's groundbreaking work in computer science and cryptography. The simulator serves as an educational tool to demonstrate one of history's most important encryption systems and the conceptual foundations of modern computing.  
