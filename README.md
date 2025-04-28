@@ -5531,4 +5531,37 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **Historical Accuracy**: Uses actual WWII wiring configurations (ROTOR_I, ROTOR_II, ROTOR_III) and reflector mappings (REFLECTOR_B) to demonstrate the exact encryption behavior Allied cryptanalysts faced.  
 
-  This project deepened my understanding of both cryptography and Python's object-oriented capabilities. By reconstructing the Enigma's mechanical operations in code, I gained new appreciation for Turing's groundbreaking work in computer science and cryptography. The simulator serves as an educational tool to demonstrate one of history's most important encryption systems and the conceptual foundations of modern computing.  
+  This project deepened my understanding of both cryptography and Python's object-oriented capabilities. By reconstructing the Enigma's mechanical operations in code, I gained new appreciation for Turing's groundbreaking work in computer science and cryptography. The simulator serves as an educational tool to demonstrate one of history's most important encryption systems and the conceptual foundations of modern computing.
+* Day 408: 📊 Precious Metals Analysis [Kaggle](https://www.kaggle.com/datasets/romanfonel/precious-metals-history-since-2000-with-news/code)
+
+  Today, I conducted an in-depth analysis of historical precious metals data (Gold, Silver, Platinum, and Palladium) from Kaggle. The project focuses on time series analysis, sentiment analysis of related news headlines, and comparative market performance using Python's data science stack including Pandas, Plotly, Seaborn, and NLTK. Below are the key highlights:
+
+  - **Comprehensive Data Overview**: Created a detailed exploration function that provides shape, data types, descriptive statistics, and unique value counts for each metal dataset (Gold, Silver, Platinum, Palladium).
+
+  - **Interactive Time Series Visualization**: Implemented Plotly visualizations to analyze price trends over time, including:
+    - Closing price evolution
+    - Volume vs. price relationships
+    - Comparative performance across all four metals
+
+  - **Sentiment Analysis**: Applied VADER sentiment analysis to news headlines to:
+    - Calculate daily sentiment scores
+    - Visualize sentiment trends over time
+    - Correlate sentiment with price movements
+
+  - **Advanced Financial Analysis**:
+    - Daily return calculations
+    - Volatility analysis with rolling standard deviations
+    - Price distribution comparisons (open, high, low, close)
+    - Correlation matrices between different metals
+
+  - **Technical Analysis Tools**:
+    - Time series decomposition (trend, seasonality, residuals)
+    - Annualized volatility calculations with different time windows
+    - Comparative cumulative return analysis
+
+  - **Natural Language Processing**:
+    - TF-IDF analysis to identify key topics in news headlines
+    - Word cloud generation from aggregated headlines
+    - Sentiment distribution and proportion analysis
+
+  This project provided valuable insights into precious metals market dynamics and demonstrated how news sentiment can be quantitatively analyzed alongside financial metrics. The interactive visualizations offer an intuitive way to explore complex financial time series data.
