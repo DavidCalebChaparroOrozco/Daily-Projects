@@ -5565,3 +5565,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - Sentiment distribution and proportion analysis
 
   This project provided valuable insights into precious metals market dynamics and demonstrated how news sentiment can be quantitatively analyzed alongside financial metrics. The interactive visualizations offer an intuitive way to explore complex financial time series data.
+* Day 409: ✨ Magic Squares Generator in Python 🔢
+
+  Today, I worked on a Magic Squares Generator using Python, implementing a recursive backtracking algorithm to create NxN magic squares. The project focuses on constraint satisfaction problems and recursive problem-solving techniques. Below are the key highlights:
+
+  - **Recursive Backtracking Algorithm**: The core of the project uses recursive backtracking to systematically try number placements while maintaining the magic square properties. The algorithm backtracks when it hits dead-ends, ensuring all constraints are satisfied.
+
+  - **Magic Square Properties**: The generator enforces the fundamental magic square rule where the sums of numbers in each row, each column, and both main diagonals must be equal to the magic constant (N(N²+1)/2).
+
+  - **Validation System**: The implementation includes a comprehensive validation system that checks partial solutions at each step, ensuring the placed numbers don't violate any magic square constraints.
+
+  - **Numpy Implementation**: The grid is implemented using NumPy arrays for efficient numerical operations and easy manipulation of rows, columns, and diagonals during the validation process.
+
+  - **Customizable Size**: The generator can create magic squares of any size N ≥ 3, though solution time increases significantly with larger sizes due to the NP-hard nature of the problem.
+
+  This project was an excellent exercise in understanding constraint satisfaction problems and recursive algorithms. I gained practical experience in implementing systematic search techniques while maintaining multiple constraints. The recursive approach proved particularly valuable for exploring the solution space methodically, and the validation checks helped optimize the search process by pruning invalid paths early.
