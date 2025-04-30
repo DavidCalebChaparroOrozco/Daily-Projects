@@ -5580,3 +5580,32 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Customizable Size**: The generator can create magic squares of any size N ≥ 3, though solution time increases significantly with larger sizes due to the NP-hard nature of the problem.
 
   This project was an excellent exercise in understanding constraint satisfaction problems and recursive algorithms. I gained practical experience in implementing systematic search techniques while maintaining multiple constraints. The recursive approach proved particularly valuable for exploring the solution space methodically, and the validation checks helped optimize the search process by pruning invalid paths early.
+* Day 410: 🧩 Cross Sums Puzzle Game in Python 🎲
+
+  Today I developed a Cross Sums puzzle game using Python and Pygame, implementing logical deduction mechanics with a dark mode interface. The project focuses on creating a challenging number puzzle where players must eliminate incorrect numbers to match row and column sums. Key features include:
+
+  - **Puzzle Mechanics**: Players eliminate numbers by clicking cells, leaving only those that correctly sum to the target values shown on the right (rows) and bottom (columns) of the grid.
+
+  - **Difficulty Levels**: Three distinct challenge modes:
+    - Easy (3×3 grid)
+    - Normal (5×5 grid)
+    - Hard (6×6 grid)
+
+  - **Life System**: Players have 3 lives - incorrect eliminations (removing numbers that should stay) cost one life each.
+
+  - **Dark Mode UI**: Custom dark-themed interface with:
+    - Gray-scale color scheme
+    - Red accent for sum numbers
+    - Clean cell borders and button design
+
+  - **Game Logic**: The generator creates puzzles with guaranteed solutions by:
+    - Randomly selecting cells to keep (40% probability)
+    - Ensuring at least one cell remains per row/column
+    - Calculating valid row/column sums from kept cells
+
+  - **Interactive Elements**:
+    - Click to eliminate/restore cells
+    - New game and difficulty selection buttons
+    - Win/lose screens with retry options
+
+  This project strengthened my understanding of puzzle generation algorithms and Pygame's event handling system. The challenge of ensuring unique solutions while maintaining randomness provided valuable insights into procedural puzzle design. The life system adds strategic tension, requiring careful deduction rather than random guessing.
