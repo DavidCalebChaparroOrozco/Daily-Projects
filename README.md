@@ -5609,3 +5609,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - Win/lose screens with retry options
 
   This project strengthened my understanding of puzzle generation algorithms and Pygame's event handling system. The challenge of ensuring unique solutions while maintaining randomness provided valuable insights into procedural puzzle design. The life system adds strategic tension, requiring careful deduction rather than random guessing.
+* Day 411: ♟️ Chess Notation Trainer in Python 📝
+
+  Today, I worked on a Chess Notation Trainer using Python, implementing a tool to practice converting between descriptive and algebraic chess notation. The project focuses on chess move validation and notation conversion. Below are the key highlights:
+
+  - **Notation Conversion**: The program handles basic conversion between descriptive notation ("e2 to e4") and algebraic notation ("e4"), helping users practice this essential chess skill.
+
+  - **Move Validation**: Implemented validation for algebraic notation, checking pawn moves (e4), captures (dxe4), promotions (e8=Q), and basic piece moves (Nf3, Bxe5).
+
+  - **Interactive Training**: The trainer randomly alternates between showing descriptive notation (asking for algebraic) and showing algebraic notation (asking for descriptive), providing balanced practice.
+
+  - **Random Move Generation**: The system generates random chess moves for training purposes, covering all files (a-h) and ranks (1-8) to ensure varied practice.
+
+  - **User Feedback**: Provides immediate feedback on user answers, showing correct solutions when mistakes are made, reinforcing learning.
+
+  This project was a great exercise in string manipulation, input validation, and interactive programming. I gained practical experience in implementing chess-specific logic while creating an educational tool. The random generation aspect proved particularly valuable for creating varied training scenarios, and the validation system helped solidify my understanding of chess notation rules.
