@@ -5624,3 +5624,30 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User Feedback**: Provides immediate feedback on user answers, showing correct solutions when mistakes are made, reinforcing learning.
 
   This project was a great exercise in string manipulation, input validation, and interactive programming. I gained practical experience in implementing chess-specific logic while creating an educational tool. The random generation aspect proved particularly valuable for creating varied training scenarios, and the validation system helped solidify my understanding of chess notation rules.
+* Day 412: 📂 SmartFolder - Automated File Organizer 🤖
+
+  Today I developed **SmartFolder**, an automated file organization tool that intelligently categorizes files into subfolders based on their extensions. The project focuses on practical file management with a user-friendly interface. Key features include:
+
+  - **Custom Folder Selection**: Unlike basic organizers, SmartFolder lets you choose ANY target directory through a graphical interface (using tkinter), not just the Downloads folder.
+
+  - **Comprehensive Categorization**: Automatically sorts files into 8 intuitive categories:
+    - 📄 Documents (PDF, Word, Excel)
+    - 🖼️ Images (JPG, PNG, GIF)
+    - 🎬 Videos (MP4, MOV, AVI)
+    - 🎵 Music (MP3, WAV, FLAC)
+    - 🗄️ Archives (ZIP, RAR, 7z)
+    - ⚙️ Installers (EXE, DMG, PKG)
+    - 💻 Code (Python, JS, HTML)
+    - ❓ Others (unclassified extensions)
+
+  - **Extension Tracking**: Identifies and reports unclassified file extensions for future configuration.
+
+  - **Non-Destructive Operation**: Uses Python's shutil.move() to safely relocate files while maintaining folder structure.
+
+  The project was built with:
+  - `os` for path operations
+  - `shutil` for file moving
+  - `tkinter` for folder selection GUI
+  - `time` for performance tracking
+
+  This organizer solves real-world clutter problems with clean, maintainable code. The graphical folder picker makes it accessible to non-technical users, while the detailed console output provides transparency during operation.
