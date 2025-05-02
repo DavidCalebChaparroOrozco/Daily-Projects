@@ -16,7 +16,8 @@ def select_target_folder():
         title="Select Folder to Organize"
     )
     
-    if not folder_path:  # User cancelled
+    if not folder_path:  
+        # User cancelled
         print("\nNo folder selected. Exiting...")
         return None
     
@@ -33,7 +34,8 @@ def create_folders(target_path):
         'Archives': ['.zip', '.rar', '.7z', '.tar', '.gz', '.bz2'],
         'Installers': ['.exe', '.msi', '.dmg', '.pkg', '.deb', '.rpm'],
         'Code': ['.py', '.js', '.html', '.css', '.json', '.cpp', '.java', '.php'],
-        'Others': []  # For files with unclassified extensions
+        # For files with unclassified extensions
+        'Others': []  
     }
     
     print("\nCreating folders...")
@@ -62,7 +64,8 @@ def organize_files(target_path, folders):
         
         # Get file extension
         _, file_ext = os.path.splitext(filename)
-        file_ext = file_ext.lower()  # Make case-insensitive
+        # Make case-insensitive
+        file_ext = file_ext.lower()  
         
         # Find the appropriate folder
         destination_folder = 'Others'
@@ -71,7 +74,8 @@ def organize_files(target_path, folders):
                 destination_folder = folder
                 break
         else:
-            if file_ext:  # Only track non-empty extensions
+            # Only track non-empty extensions
+            if file_ext:  
                 unclassified_exts.add(file_ext)
         
         # Move the file
