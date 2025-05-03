@@ -5651,3 +5651,19 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - `time` for performance tracking
 
   This organizer solves real-world clutter problems with clean, maintainable code. The graphical folder picker makes it accessible to non-technical users, while the detailed console output provides transparency during operation.
+* Day 413: 📂 Recent File Finder with Tkinter 🔍  
+
+  Today, I developed a **Recent File Finder** application using Python and Tkinter, which helps users quickly locate and analyze recently modified files in any directory. The project focuses on file system operations and GUI development with a clean, functional interface.  
+
+  - **Directory Selection**: Users can browse and select any directory using a native file dialog  
+  - **Customizable Search**: Adjustable number of recent files to display (1-100)  
+  - **Comprehensive File Info**: Displays file path, modification timestamp, and size in KB  
+  - **Sortable Results**: Clickable column headers to sort by file attributes  
+  - **Error Handling**: Validates directory existence and handles file system errors gracefully  
+
+  - **Tkinter GUI**: Uses `ttk` widgets for a native-looking, responsive interface  
+  - **File System Operations**: Leverages `os` module to retrieve file metadata  
+  - **Tabular Display**: Organizes results in a scrollable Treeview widget  
+  - **Human-Readable Formatting**: Converts timestamps and file sizes for better readability  
+
+  This project provided valuable experience in building practical desktop utilities with Python. I gained deeper understanding of file system operations, GUI layout management, and user-friendly data presentation. The application solves a real-world need for quickly accessing recent files while demonstrating clean Python implementation.
