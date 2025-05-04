@@ -60,3 +60,4 @@ pyodbc
 reportlab
 pyspellchecker
 python-whois
+ucimlrepo
