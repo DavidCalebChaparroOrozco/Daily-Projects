@@ -5667,3 +5667,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Human-Readable Formatting**: Converts timestamps and file sizes for better readability  
 
   This project provided valuable experience in building practical desktop utilities with Python. I gained deeper understanding of file system operations, GUI layout management, and user-friendly data presentation. The application solves a real-world need for quickly accessing recent files while demonstrating clean Python implementation.
+* Day 414: 🛒 Customer Retention Analysis with UCI Online Retail Dataset 📊
+
+  Today, I worked on a Customer Retention Analysis project using the UCI Online Retail dataset, implementing RFM (Recency, Frequency, Monetary) analysis to segment customers and calculate retention metrics. The project focuses on retail analytics and customer behavior insights. Below are the key highlights:
+
+  - **RFM Segmentation**: The core of the project uses RFM analysis to categorize customers based on their purchase recency, frequency, and monetary value. This helps identify valuable customer segments like Champions, Loyal Customers, and At-Risk customers.
+
+  - **Retention Rate Calculation**: Implemented cohort analysis to track how many customers return over time, with visualizations showing monthly retention patterns across different customer cohorts.
+
+  - **Data Preparation**: Cleaned and transformed raw transaction data, handling missing values and creating essential features like customer tenure and purchase frequency.
+
+  - **Visualization**: Created heatmaps to visualize retention rates across different cohorts and time periods, along with interactive dashboards showing customer segment distributions.
+
+  - **Practical Applications**: The analysis provides actionable insights for customer retention strategies, helping identify which customer segments need attention and which are performing well.
+
+  This project was an excellent exercise in understanding customer behavior patterns in retail data. I gained practical experience in implementing RFM analysis, cohort analysis techniques, and creating meaningful visualizations to present customer retention metrics. The segmentation approach proved particularly valuable for identifying different customer lifecycle stages and tailoring retention strategies accordingly.
