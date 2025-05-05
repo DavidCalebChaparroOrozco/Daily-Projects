@@ -5682,3 +5682,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Practical Applications**: The analysis provides actionable insights for customer retention strategies, helping identify which customer segments need attention and which are performing well.
 
   This project was an excellent exercise in understanding customer behavior patterns in retail data. I gained practical experience in implementing RFM analysis, cohort analysis techniques, and creating meaningful visualizations to present customer retention metrics. The segmentation approach proved particularly valuable for identifying different customer lifecycle stages and tailoring retention strategies accordingly.
+* Day 415: 🖥️ Comprehensive Windows Inspector in Python 🔍
+
+  Today, I developed a Comprehensive Windows Inspector using Python, implementing real-time window tracking and management capabilities. The project focuses on system monitoring and window management techniques using Windows API. Below are the key highlights:
+
+  - **Active Window Tracking**: The inspector continuously monitors and displays information about the currently active window, including title, process ID, position, and size. It detects window changes in real-time.
+
+  - **Process Information**: For each window, the tool retrieves detailed process information including process name, executable path, CPU usage, and memory consumption using psutil.
+
+  - **Window Statistics**: The inspector tracks window usage statistics, recording activation counts and time spent in each window. Statistics are displayed with percentages of total tracked time.
+
+  - **Activity History**: Maintains a log of the last 100 window switches, allowing users to review recent window activity patterns.
+
+  - **Window Management**: Provides control functions to minimize, close, or bring windows to the foreground programmatically using Windows API calls.
+
+  - **Complete System View**: Shows all visible windows in the system with their current state (active, minimized, etc.), position, and size.
+
+  This project was an excellent exercise in understanding Windows system programming and process management. I gained practical experience with win32gui and psutil libraries, while implementing a useful system utility that combines monitoring and control capabilities. The statistics tracking feature provides valuable insights into window usage patterns, and the real-time monitoring demonstrates efficient event handling in Python.
