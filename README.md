@@ -5699,3 +5699,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Complete System View**: Shows all visible windows in the system with their current state (active, minimized, etc.), position, and size.
 
   This project was an excellent exercise in understanding Windows system programming and process management. I gained practical experience with win32gui and psutil libraries, while implementing a useful system utility that combines monitoring and control capabilities. The statistics tracking feature provides valuable insights into window usage patterns, and the real-time monitoring demonstrates efficient event handling in Python.
+* Day 416: 🔐 Shamir's Secret Sharing System in Python 
+
+  Today, I implemented Shamir's Secret Sharing scheme in Python, a cryptographic method for secure secret distribution. The project focuses on splitting secrets into multiple shares and reconstructing them from a subset. Below are the key highlights:
+
+  - **Secret Splitting Algorithm**: The core of the project uses polynomial interpolation to divide secrets into multiple shares. A secret number is encoded as the constant term in a random polynomial, with shares generated as points on this curve.
+
+  - **Threshold Scheme**: The system implements a (k,n) threshold scheme where only k out of n shares are required to reconstruct the original secret, providing both security and redundancy.
+
+  - **Mathematical Foundations**: The implementation uses finite field arithmetic with a large prime modulus (Mersenne prime 2¹²⁷-1) to ensure cryptographic security and proper polynomial reconstruction.
+
+  - **Interactive Menu System**: The project features a user-friendly menu interface with options to split secrets, reconstruct from shares, view current shares, and run demo examples.
+
+  - **Verification Mechanism**: During reconstruction, the system can verify if the recovered secret matches the original (when available), providing immediate feedback on successful recovery.
+
+  This project was an excellent exercise in understanding cryptographic principles and finite field mathematics. I gained practical experience implementing advanced mathematical concepts like polynomial interpolation and modular arithmetic, while creating a functional security tool. The threshold scheme implementation demonstrated how cryptographic systems can balance security with practical usability requirements.
