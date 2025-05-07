@@ -5714,3 +5714,25 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Verification Mechanism**: During reconstruction, the system can verify if the recovered secret matches the original (when available), providing immediate feedback on successful recovery.
 
   This project was an excellent exercise in understanding cryptographic principles and finite field mathematics. I gained practical experience implementing advanced mathematical concepts like polynomial interpolation and modular arithmetic, while creating a functional security tool. The threshold scheme implementation demonstrated how cryptographic systems can balance security with practical usability requirements.
+* Day 417: ⛓️ Minimalist Blockchain in Python 🔗
+
+  Today, I built a Minimalist Blockchain implementation in Python, focusing on core blockchain concepts like proof-of-work, hashing, and chain validation. The project demonstrates the fundamental mechanics behind blockchain technology in a clean, understandable way. Here are the key components:
+
+  - **SHA-256 Hashing**: The blockchain uses cryptographic hashing (SHA-256) to secure each block's contents, creating immutable links between blocks.
+
+  - **Proof-of-Work System**: Implemented a mining mechanism where blocks must meet a difficulty target (leading zeros in the hash) to be added to the chain.
+
+  - **Block Validation**: The system includes integrity checks to detect any tampering by verifying both individual block hashes and inter-block relationships.
+
+  - **Interactive Menu**: A user-friendly console interface allows for:
+    - Adding new blocks with custom data
+    - Viewing the complete chain
+    - Validating chain integrity
+    - Running tamper-detection demos
+
+  - **Educational Demonstrations**: Special demo modes show:
+    - How proof-of-work protects the chain
+    - What happens when blocks are altered
+    - The self-healing nature of valid blockchain systems
+
+  This project provided hands-on experience with blockchain's core security mechanisms and data structures. I gained practical understanding of how blocks are cryptographically linked, why proof-of-work is computationally expensive, and how distributed systems can verify data integrity without central authority. The clean Python implementation makes these concepts accessible while maintaining the essential security properties of real blockchain systems.
