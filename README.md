@@ -5736,3 +5736,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - The self-healing nature of valid blockchain systems
 
   This project provided hands-on experience with blockchain's core security mechanisms and data structures. I gained practical understanding of how blocks are cryptographically linked, why proof-of-work is computationally expensive, and how distributed systems can verify data integrity without central authority. The clean Python implementation makes these concepts accessible while maintaining the essential security properties of real blockchain systems.
+* Day 418: 🏗️ Distinct Paths Counter in Grid with Visualization 📊
+
+  Today, I worked on a Distinct Paths Counter in Grid using Python, implementing both combinatorial mathematics and dynamic programming approaches to count all valid paths from top-left to bottom-right in a grid. The project focuses on algorithmic problem-solving with visualization. Below are the key highlights:
+
+  - **Dual Algorithm Implementation**: The project features two distinct calculation methods - a combinatorial approach using binomial coefficients and a dynamic programming solution that builds up the path count progressively. Both methods yield identical results but demonstrate different problem-solving perspectives.
+
+  - **Grid Visualization**: Using matplotlib, the program generates clear visualizations of the grid structure, highlighting start and end points in green and red respectively. A sample path is displayed in orange to demonstrate valid movement patterns (right and down only).
+
+  - **Mathematical Foundations**: The combinatorial solution applies the "n choose k" principle (binomial coefficients) to calculate path counts efficiently, while the DP approach showcases classic bottom-up tabulation techniques for grid traversal problems.
+
+  - **Interactive Parameters**: Users can input any grid dimensions (n×m) to explore how path counts scale with grid size. The visualization automatically adjusts to display grids of different proportions while maintaining clarity.
+
+  - **Educational Visualization**: The plot includes coordinate labels, proper grid scaling, and a legend to make the path-counting concept immediately understandable. The title dynamically displays the total path count for the current grid size.
+
+  This project provided excellent practice in implementing mathematical concepts through code and creating effective visualizations to demonstrate algorithmic solutions. Working through both combinatorial and DP approaches deepened my understanding of their respective strengths in different problem contexts. The visualization component proved particularly valuable for intuitively grasping how path counts grow exponentially with grid size.
