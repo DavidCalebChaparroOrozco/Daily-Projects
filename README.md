@@ -5751,3 +5751,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Educational Visualization**: The plot includes coordinate labels, proper grid scaling, and a legend to make the path-counting concept immediately understandable. The title dynamically displays the total path count for the current grid size.
 
   This project provided excellent practice in implementing mathematical concepts through code and creating effective visualizations to demonstrate algorithmic solutions. Working through both combinatorial and DP approaches deepened my understanding of their respective strengths in different problem contexts. The visualization component proved particularly valuable for intuitively grasping how path counts grow exponentially with grid size.
+* Day 419: Technical Test "wordBreakII" and "hasCycle" [LeetCode](https://leetcode.com/problems/)  
+
+  - **wordBreakII**: Implemented a solution for the "Word Break II" problem, where the task is to construct sentences by adding spaces to a string `s` such that each word exists in a given dictionary. The solution uses backtracking with memoization to efficiently explore all possible valid word breaks. The time complexity is O(n^2 * 2^n) in the worst case, where `n` is the length of the string, due to the recursive exploration of all possible segmentations.  
+    [Problem Description: wordBreakII](https://leetcode.com/problems/word-break-ii/description/)  
+
+  - **hasCycle**: Solved the "Linked List Cycle" problem, which determines if a linked list contains a cycle using Floyd's Tortoise and Hare algorithm. The solution efficiently detects cycles with O(n) time complexity and O(1) space complexity by using two pointers moving at different speeds through the list.  
+    [Problem Description: hasCycle](https://leetcode.com/problems/linked-list-cycle/description/)   
