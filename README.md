@@ -5758,3 +5758,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **hasCycle**: Solved the "Linked List Cycle" problem, which determines if a linked list contains a cycle using Floyd's Tortoise and Hare algorithm. The solution efficiently detects cycles with O(n) time complexity and O(1) space complexity by using two pointers moving at different speeds through the list.  
     [Problem Description: hasCycle](https://leetcode.com/problems/linked-list-cycle/description/)   
+* Day 420: 🥞 Pancake Sorting Algorithm in Python 🔄
+
+  Today, I implemented the Pancake Sorting algorithm using Python, focusing on recursive operations to sort arrays by strategically flipping portions of the data. This project demonstrates fundamental algorithm concepts and recursive problem-solving techniques. Below are the key highlights:
+
+  - **Recursive Flip Operations**: The core of the project uses recursive flipping to position the largest unsorted element in its correct place with each iteration. The algorithm efficiently sorts by only performing flip operations on the array.
+
+  - **Interactive Menu System**: The implementation includes a user-friendly menu that allows testing the algorithm with different input methods: manual entry, random generation, and visualization options.
+
+  - **Step-by-Step Visualization**: When enabled, the program displays each flip operation, showing how the array transforms during the sorting process, which helps understand the algorithm's mechanics.
+
+  - **Dual Mode Implementation**: The sorter offers both verbose (with visual steps) and silent modes, making it suitable for both educational demonstrations and efficient sorting.
+
+  - **Clean Recursive Logic**: The project demonstrates proper recursive programming, with each recursion handling a smaller subset of the array until the base case (single element) is reached.
+
+  This project provided excellent practice in implementing a classic algorithm with recursive techniques. I gained deeper understanding of how to approach sorting problems with constrained operations (only flips allowed), and how to effectively visualize algorithmic processes. The recursive approach proved particularly elegant for this problem, naturally handling the decreasing problem size with each iteration.
