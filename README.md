@@ -5773,3 +5773,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Clean Recursive Logic**: The project demonstrates proper recursive programming, with each recursion handling a smaller subset of the array until the base case (single element) is reached.
 
   This project provided excellent practice in implementing a classic algorithm with recursive techniques. I gained deeper understanding of how to approach sorting problems with constrained operations (only flips allowed), and how to effectively visualize algorithmic processes. The recursive approach proved particularly elegant for this problem, naturally handling the decreasing problem size with each iteration.
+* Day 421: 🏚️ Virtual Post-Apocalypse Community Simulator 🌆
+
+  Today, I developed a Virtual Post-Apocalypse Community Simulator in Python, implementing a comprehensive MVC architecture to simulate survival in a resource-limited world. The project focuses on managing survivors, resources, and community dynamics in a post-apocalyptic setting. Below are the key highlights:
+
+  - **MVC Architecture**: The project follows a strict Model-View-Controller pattern, with clear separation between data management (Model), user interface (View), and game logic (Controller). This demonstrates professional-grade application structure.
+
+  - **Survivor System**: Each survivor has detailed attributes including health, hunger, morale, and skills. The system tracks individual status changes over time, with realistic consequences like starvation or injuries affecting community dynamics.
+
+  - **Resource Management**: The simulator includes four key resources (food, water, medicine, building materials) with different replenishment rates, requiring strategic allocation and prioritization.
+
+  - **Day Advancement System**: Time progresses in discrete days, with automatic status updates for all survivors and resources. Each day brings potential random events that can help or hinder the community.
+
+  - **Multiple Game Actions**: Players can assign work, organize rest periods, scavenge for supplies, improve shelter, and manage food distribution - each with different risk/reward tradeoffs.
+
+  - **Comprehensive Reporting**: The system provides detailed status reports on community resources, survivor conditions, and event logs to inform player decisions.
+
+  This project was an excellent exercise in complex system modeling and user interface design. I gained valuable experience implementing game mechanics with real consequences, managing interdependent systems, and creating an intuitive menu-driven interface. The object-oriented approach proved particularly effective for tracking multiple entities with complex relationships and behaviors.
