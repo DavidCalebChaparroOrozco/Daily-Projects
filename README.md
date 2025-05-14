@@ -5807,3 +5807,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Object-Oriented Design**: The project demonstrates clean Python OOP principles with separate classes for player data and management logic, along with type hints for better code quality.
 
   This project was an excellent exercise in building complete data management applications with proper error handling and persistence. I gained practical experience in implementing input validation, file I/O operations, and user interface design. The system's architecture demonstrates how to organize code for maintainability while providing all essential features expected in a professional application.
+* Day 423: 📊 Bank Marketing Analysis with Decision Trees in Python 🌐 [Bank Marketing Dataset - UCI](https://archive.ics.uci.edu/dataset/222/bank+marketing)
+
+  Today, I worked on a Bank Marketing Analysis project using Python, leveraging a dataset from the UCI Machine Learning Repository that contains marketing campaign data of a Portuguese banking institution. The project focuses on decision tree algorithms and classification techniques to predict client subscription to term deposits. Below are the key highlights:
+
+  * **Dataset Overview**: The dataset includes attributes related to customer information, campaign details, and socio-economic context. This data provides a comprehensive foundation for building predictive models in the financial domain.
+
+  * **Decision Tree Classifier**: The core of the project uses the DecisionTreeClassifier from scikit-learn to model client behavior. The tree recursively splits data based on feature thresholds to separate classes, aiming to minimize impurity and maximize information gain.
+
+  * **Feature Preprocessing**: Categorical variables were encoded using techniques like One-Hot Encoding and Label Encoding. Missing data handling and feature normalization were applied where needed to prepare the data for effective training.
+
+  * **Model Evaluation**: Model performance was assessed using metrics such as accuracy, precision, recall, and F1-score. A confusion matrix was generated to provide insight into the classifier’s ability to distinguish between positive and negative classes.
+
+  * **Visualization**: The decision tree was visualized using `plot_tree` from scikit-learn, showing the structure of splits and class probabilities. This helped interpret the model's logic and assess which features had the highest influence on predictions.
+
+  * **Customizable Parameters**: The decision tree depth, criterion (Gini or entropy), and minimum sample split were configurable, enabling experiments with model complexity and overfitting control.
+
+  This project was an excellent exercise in exploring supervised learning algorithms and understanding decision-making structures in machine learning. I gained practical experience in data preprocessing, model training, and result interpretation, while working with a real-world dataset.
