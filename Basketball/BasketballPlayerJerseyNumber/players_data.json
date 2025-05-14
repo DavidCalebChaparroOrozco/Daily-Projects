@@ -1,10 +1,14 @@
 [
   {
-    "name": "Test",
-    "jersey_number": 1
-  },
-  {
     "name": "David Caleb",
     "jersey_number": 10
+  },
+  {
+    "name": "Caleb",
+    "jersey_number": 98
+  },
+  {
+    "name": "Test 02",
+    "jersey_number": 24
   }
 ]

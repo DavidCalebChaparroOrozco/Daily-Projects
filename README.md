@@ -5790,4 +5790,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Comprehensive Reporting**: The system provides detailed status reports on community resources, survivor conditions, and event logs to inform player decisions.
 
   This project was an excellent exercise in complex system modeling and user interface design. I gained valuable experience implementing game mechanics with real consequences, managing interdependent systems, and creating an intuitive menu-driven interface. The object-oriented approach proved particularly effective for tracking multiple entities with complex relationships and behaviors.
-* Day 422: 
+* Day 422: 🏀 Player Jersey Number Checker System 🔢
+
+  Today, I developed a comprehensive Player Jersey Number Checker System in Python, implementing a full-featured application to manage player databases with jersey numbers. The project focuses on data management, input validation, and persistent storage. Below are the key highlights:
+
+  - **Player Management System**: The core of the project handles all CRUD operations (Create, Read, Update, Delete) for player records, storing both names and jersey numbers with proper validation.
+
+  - **Search Functionality**: The system offers dual search capabilities - by player name (supporting partial matches) and by exact jersey number, making it versatile for different lookup needs.
+
+  - **Data Persistence**: Implemented JSON-based storage to maintain player records between sessions, with automatic loading on startup and saving after modifications.
+
+  - **Input Validation**: Robust validation ensures jersey numbers are within the valid range (1-99), prevents duplicate numbers, and checks for empty names.
+
+  - **User-Friendly Interface**: Features an intuitive menu system with clear prompts and feedback for all operations, including confirmation messages and error handling.
+
+  - **Object-Oriented Design**: The project demonstrates clean Python OOP principles with separate classes for player data and management logic, along with type hints for better code quality.
+
+  This project was an excellent exercise in building complete data management applications with proper error handling and persistence. I gained practical experience in implementing input validation, file I/O operations, and user interface design. The system's architecture demonstrates how to organize code for maintainability while providing all essential features expected in a professional application.
