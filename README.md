@@ -5824,3 +5824,19 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   * **Customizable Parameters**: The decision tree depth, criterion (Gini or entropy), and minimum sample split were configurable, enabling experiments with model complexity and overfitting control.
 
   This project was an excellent exercise in exploring supervised learning algorithms and understanding decision-making structures in machine learning. I gained practical experience in data preprocessing, model training, and result interpretation, while working with a real-world dataset.
+* Day 424: 🐍 Mamba Mentality Motivator for Windows 💜💛  
+
+  Today, I developed a **Mamba Mentality Motivator** in Python that delivers Kobe Bryant's inspirational quotes through Windows notifications at random intervals. The project focuses on combating impostor syndrome with unexpected bursts of motivation. Key highlights:  
+
+  - **Randomized Notifications**: The motivator delivers quotes at unpredictable intervals (30 min to 4 hours by default), making each notification feel like a genuine surprise.  
+  - **Mamba Mentality Collection**: Features 15+ handpicked quotes from Kobe Bryant about perseverance, self-belief, and overcoming challenges.  
+  - **Smart Timing**: Avoids late-night interruptions (8AM–10PM only) to ensure notifications arrive during productive hours.  
+  - **Windows Integration**: Uses `win10toast` for native Windows notifications that appear in the action center.  
+  - **Adjustable Frequency**: Customizable minimum/maximum wait times between messages.  
+
+  This project was a practical exercise in:  
+  - **System notifications** with Python  
+  - **Time-based randomization** for behavioral impact  
+  - **Lightweight background processes**  
+
+  The random delivery mimics Kobe's own relentless, unpredictable work ethic—keeping motivation fresh when it's needed most.  
