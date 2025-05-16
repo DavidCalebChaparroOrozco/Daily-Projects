@@ -5840,3 +5840,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Lightweight background processes**  
 
   The random delivery mimics Kobe's own relentless, unpredictable work ethic—keeping motivation fresh when it's needed most.  
+* Day 425: Technical Test "detectCycle" and "reorderList" [LeetCode](https://leetcode.com/problems/)  
+
+    - **detectCycle**: Implemented a solution for the "Linked List Cycle II" problem, where the task is to detect if there is a cycle in a linked list and return the node where the cycle begins. The approach uses Floyd's Tortoise and Hare algorithm with two pointers to detect the cycle and then find the starting node. The time complexity is O(N), where N is the number of nodes in the linked list.  
+      [Problem Description: detectCycle](https://leetcode.com/problems/linked-list-cycle-ii/description/)  
+
+    - **reorderList**: Solved the "Reorder List" problem, which involves reordering a singly linked list such that the nodes are interleaved in a specific way: the first node is followed by the last node, the second node by the second last node, and so on. The solution involves finding the middle of the list, reversing the second half, and then merging the two halves alternately. The time complexity is O(N), where N is the number of nodes in the linked list.  
+      [Problem Description: reorderList](https://leetcode.com/problems/reorder-list/)
