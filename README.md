@@ -5847,3 +5847,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
     - **reorderList**: Solved the "Reorder List" problem, which involves reordering a singly linked list such that the nodes are interleaved in a specific way: the first node is followed by the last node, the second node by the second last node, and so on. The solution involves finding the middle of the list, reversing the second half, and then merging the two halves alternately. The time complexity is O(N), where N is the number of nodes in the linked list.  
       [Problem Description: reorderList](https://leetcode.com/problems/reorder-list/)
+* Day 426: 🏀 Hot Hand Effect Simulation in Python 🔥
+
+  Today, I worked on a Hot Hand Effect Simulation using Python, implementing recursive algorithms to analyze basketball shooting streaks. The project examines whether players experience statistically significant streaks of successful shots. Below are the key highlights:
+
+  - **Recursive Streak Analysis**: The core of the project uses recursive functions to identify and analyze sequences of consecutive successful shots ('H' for hit) in simulated shooting data. The algorithm tracks shot streaks of specified minimum lengths.
+
+  - **Probability Calculations**: The simulation calculates both the baseline shooting probability and the conditional probability of making a shot following a streak of hits, comparing them to detect potential Hot Hand effects.
+
+  - **Parameter Control**: The generator offers adjustable parameters including sequence length (number of shots), success probability (baseline shooting percentage), and minimum streak length to analyze.
+
+  - **Statistical Comparison**: The analysis compares observed streak probabilities against expected values, highlighting potential Hot Hand effects when observed probabilities exceed expectations.
+
+  - **Clear Visualization**: Results are presented in an organized format showing total shots, expected vs observed success rates, streak counts, and conditional probabilities with clear indicators of potential Hot Hand effects.
+
+  This project provided valuable experience in implementing recursive algorithms for pattern detection in sequences and analyzing statistical phenomena in sports. The recursive approach proved particularly effective for identifying and evaluating shooting streaks of varying lengths within the data. The simulation offers a practical framework for examining the psychological concept of the Hot Hand effect through statistical analysis.
