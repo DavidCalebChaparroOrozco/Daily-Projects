@@ -5862,3 +5862,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Clear Visualization**: Results are presented in an organized format showing total shots, expected vs observed success rates, streak counts, and conditional probabilities with clear indicators of potential Hot Hand effects.
 
   This project provided valuable experience in implementing recursive algorithms for pattern detection in sequences and analyzing statistical phenomena in sports. The recursive approach proved particularly effective for identifying and evaluating shooting streaks of varying lengths within the data. The simulation offers a practical framework for examining the psychological concept of the Hot Hand effect through statistical analysis.
+* Day 427: 🏀 Automatic Basketball Game Summarizer with NER 🏆
+
+  Today, I built an Automatic Basketball Game Summarizer using Named Entity Recognition (NER) in Python. The system processes lengthy game chronicles to extract key information about players, teams, and statistics. Here are the main features:
+
+  - **Named Entity Recognition**: Implemented custom entity recognition rules using spaCy to identify basketball-specific entities like players, teams, and statistics within game texts.
+
+  - **Key Information Extraction**: The system automatically detects:
+    - MVP candidates (players scoring >20 points)
+    - Top scorers (ranked by points)
+    - Winning team (identified through contextual analysis)
+    - Individual player statistics (points, rebounds, assists, etc.)
+
+  - **Rule-based Patterns**: Created specialized patterns for recognizing basketball entities, including player names (typically capitalized first/last names), team names (city+mascot format), and statistics (numeric values followed by terms like "points" or "rebounds").
+
+  - **Contextual Analysis**: The summarizer examines sentence context to properly associate statistics with players and determine game outcomes from victory/defeat mentions.
+
+  - **Summary Generation**: Produces structured, human-readable reports that highlight the most important game information in a clear format.
+
+  This project provided valuable experience in natural language processing techniques for sports analytics. I learned how to combine rule-based and statistical approaches for entity recognition in domain-specific contexts. The system demonstrates how NLP can transform unstructured game reports into actionable insights, with potential applications in sports journalism and analytics.
