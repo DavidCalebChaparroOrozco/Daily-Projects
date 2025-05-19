@@ -5881,3 +5881,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Summary Generation**: Produces structured, human-readable reports that highlight the most important game information in a clear format.
 
   This project provided valuable experience in natural language processing techniques for sports analytics. I learned how to combine rule-based and statistical approaches for entity recognition in domain-specific contexts. The system demonstrates how NLP can transform unstructured game reports into actionable insights, with potential applications in sports journalism and analytics.
+* Day 428: ♟️ Chess Legal Move Highlighter in Python
+
+  Today, I worked on a Chess Legal Move Highlighter using Python, implementing a console-based chess board that displays legal moves for selected pieces. The project focuses on chess piece movement rules and board visualization. Below are the key highlights:
+
+  - **Chess Board Representation**: The program uses a standard 8x8 chess board with pieces in their starting positions, represented by traditional notation (e.g., 'P' for white pawn, 'r' for black rook).
+
+  - **Piece Movement Logic**: Implemented complete movement rules for all chess pieces including pawns (with forward moves and diagonal captures), knights (L-shaped moves), bishops (diagonal movement), rooks (straight movement), queens (combination of bishop and rook), and kings (one square in any direction).
+
+  - **Interactive Display**: The board is displayed in console with proper labeling (files a-h and ranks 1-8). Legal moves are highlighted with asterisks (*) for empty squares or by showing the piece if it's a capture.
+
+  - **Algebraic Notation Support**: The program accepts and outputs positions in standard algebraic notation (e.g., "e2") and can display legal moves in this notation for better chess readability.
+
+  - **Input Validation**: Includes robust input validation to ensure users enter valid chess positions and handles edge cases like empty squares or pieces with no legal moves.
+
+  This project was an excellent exercise in understanding chess rules and implementing game logic. I gained practical experience in board game programming, movement validation, and console-based visualization techniques. The piece-by-piece implementation approach helped solidify my understanding of how different chess pieces interact with the board.
