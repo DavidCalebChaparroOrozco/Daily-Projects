@@ -5896,3 +5896,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Input Validation**: Includes robust input validation to ensure users enter valid chess positions and handles edge cases like empty squares or pieces with no legal moves.
 
   This project was an excellent exercise in understanding chess rules and implementing game logic. I gained practical experience in board game programming, movement validation, and console-based visualization techniques. The piece-by-piece implementation approach helped solidify my understanding of how different chess pieces interact with the board.
+* Day 429: 🔢 Euclidean Algorithm Visualizer in Python 📐
+
+  Today, I worked on a Euclidean Algorithm Visualizer using Python, implementing a recursive approach to demonstrate how the algorithm finds the greatest common divisor (GCD) of two numbers. The project focuses on visualizing the mathematical steps through geometric representations. Below are the key highlights:
+
+  - **Recursive GCD Calculation**: The core of the project uses the Euclidean algorithm's recursive implementation to break down the problem of finding GCD into smaller subproblems, recording each division step for visualization.
+
+  - **Geometric Visualization**: The algorithm is visualized through a series of rectangles representing the division steps, with squares showing how the larger number contains multiples of the smaller number plus a remainder.
+
+  - **Interactive Navigation**: The visualization includes interactive buttons to step through each stage of the algorithm, allowing users to see the progression from initial numbers to the final GCD solution.
+
+  - **Color-Coded Steps**: Each division operation is represented with distinct colors, making it easy to follow the transformation of the problem at each recursive step.
+
+  - **Mathematical Annotation**: The visualization clearly displays the mathematical operation (a = q × b + r) at each step, reinforcing the connection between the geometric representation and the underlying mathematics.
+
+  This project was an excellent exercise in combining mathematical algorithms with visual representation. I gained practical experience in implementing recursive solutions while developing an intuitive way to demonstrate a fundamental number theory concept. The visualization approach proved particularly valuable for understanding the relationship between the algebraic operations and their geometric interpretation.
