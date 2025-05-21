@@ -5911,3 +5911,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Mathematical Annotation**: The visualization clearly displays the mathematical operation (a = q × b + r) at each step, reinforcing the connection between the geometric representation and the underlying mathematics.
 
   This project was an excellent exercise in combining mathematical algorithms with visual representation. I gained practical experience in implementing recursive solutions while developing an intuitive way to demonstrate a fundamental number theory concept. The visualization approach proved particularly valuable for understanding the relationship between the algebraic operations and their geometric interpretation.
+* Day 430: 🚌 Bus Ticket Simulator with MVC Architecture 🎫
+
+  Today, I built a complete Bus Ticket Simulator using Python with a proper Model-View-Controller (MVC) architecture. This project demonstrates professional software design patterns and comprehensive system implementation. Below are the key highlights:
+
+  - **MVC Architecture**: The project strictly follows the Model-View-Controller pattern, with clear separation between data handling (Model), user interface (View), and business logic (Controller).
+
+  - **Core Classes**: Implemented three main classes - Bus (representing vehicles and routes), Passenger (storing traveler information), and Ticket (managing bookings and cancellations).
+
+  - **Complete Functionality**: The system supports all essential ticket operations including viewing available buses, purchasing tickets with seat selection, viewing ticket details, and cancellations with confirmation.
+
+  - **Data Validation**: Robust input validation ensures data integrity throughout the system, from passenger details to seat selection.
+
+  - **User-Friendly Interface**: The console-based interface features intuitive menus, clear prompts, and well-formatted output displays for all operations.
+
+  - **Professional Implementation**: The codebase includes comprehensive type hints, detailed docstrings, and thorough comments demonstrating production-quality Python development.
+
+  This project provided excellent practice in implementing proper software architecture patterns and handling complex business logic in a clean, maintainable way. I gained valuable experience in designing class relationships, managing application state, and creating user-friendly console interfaces. The MVC approach proved particularly effective for organizing the different system components while maintaining clear separation of concerns.
