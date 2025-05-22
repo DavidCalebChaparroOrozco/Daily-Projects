@@ -5928,3 +5928,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Professional Implementation**: The codebase includes comprehensive type hints, detailed docstrings, and thorough comments demonstrating production-quality Python development.
 
   This project provided excellent practice in implementing proper software architecture patterns and handling complex business logic in a clean, maintainable way. I gained valuable experience in designing class relationships, managing application state, and creating user-friendly console interfaces. The MVC approach proved particularly effective for organizing the different system components while maintaining clear separation of concerns.
+* Day 431: 🧩 Scrabble Word Finder in Python 🔍
+
+  Today, I built a Scrabble Word Finder using Python, implementing a recursive search algorithm with pruning to efficiently find all valid words from a given set of letters. The project focuses on dictionary processing and optimization techniques for word games. Here are the key highlights:
+
+  - **Recursive Search with Pruning**: The core of the project uses a recursive approach with early termination to explore possible word combinations efficiently, avoiding unnecessary paths in the search tree.
+
+  - **Trie Data Structure**: Implemented a trie (prefix tree) for the dictionary to enable fast prefix checking, allowing the algorithm to prune invalid branches early in the search process.
+
+  - **Wildcard Support**: The system handles blank tiles/wildcards (represented by '?') that can substitute for any letter, expanding the search possibilities while maintaining validity checks.
+
+  - **Multi-language Support**: Designed the architecture to support multiple languages (English/Spanish) with separate letter scoring systems and dictionaries for each language.
+
+  - **Scoring System**: Integrated proper Scrabble scoring calculations based on language-specific letter values, displaying both the words and their point values.
+
+  - **User Interface**: Developed an intuitive console menu system with options to input letters, set word length constraints, change languages, and save results.
+
+  This project provided excellent practice in recursive algorithm design and optimization techniques. I gained valuable experience working with tree data structures for efficient searching, implementing language-specific game rules, and creating user-friendly interfaces for game applications. The pruning strategy proved particularly effective in reducing the search space for longer letter combinations.
