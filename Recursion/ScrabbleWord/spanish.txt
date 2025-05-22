@@ -1,0 +1,16 @@
+Letters: manzana
+Language: es
+Total words: 12
+
+manzana - 18 points
+banana - 8 points
+jirafa - 16 points
+pájaro - 14 points
+limón - 6 points
+árbol - 6 points
+casa - 6 points
+gato - 5 points
+hola - 7 points
+kiwi - 15 points
+nido - 5 points
+oso - 3 points

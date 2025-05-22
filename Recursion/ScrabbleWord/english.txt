@@ -1,0 +1,17 @@
+Letters: aeplep
+Language: en
+Total words: 13
+
+banana - 8 points
+jungle - 14 points
+monkey - 15 points
+orange - 7 points
+apple - 9 points
+house - 8 points
+lemon - 7 points
+fish - 10 points
+kite - 8 points
+nest - 4 points
+pear - 6 points
+cat - 5 points
+dog - 5 points
