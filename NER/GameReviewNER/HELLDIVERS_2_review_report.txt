@@ -1,0 +1,50 @@
+ Game Review Analysis: HELLDIVERS™ 2 
+Report Generated: 2025-05-22 21:46:06
+============================================================
+
+## Overall Sentiment Summary
+Total Reviews Analyzed: 100
+Average Review Sentiment: Neutral (0.06)
+Sentiment Variability (Std Dev): 0.14
+
+**Interpretation:** This score indicates the general player reception. A positive score suggests satisfaction, while a negative score points to overall dissatisfaction.
+
+
+## Top Features Mentioned & Their Associated Sentiment
+- **gameplay** (Mentions: 35, Avg Sentiment: 0.09 - Neutral)
+- **story** (Mentions: 17, Avg Sentiment: 0.09 - Neutral)
+- **graphics** (Mentions: 8, Avg Sentiment: 0.06 - Neutral)
+- **performance** (Mentions: 8, Avg Sentiment: 0.05 - Neutral)
+- **sound** (Mentions: 6, Avg Sentiment: 0.11 - Positive)
+
+
+## Top Issues Reported & Their Associated Sentiment
+- **bug** (Mentions: 11, Avg Sentiment: 0.05 - Neutral)
+- **problem** (Mentions: 7, Avg Sentiment: 0.03 - Neutral)
+- **crash** (Mentions: 3, Avg Sentiment: -0.02 - Neutral)
+- **error** (Mentions: 1, Avg Sentiment: 0.07 - Neutral)
+
+
+## Other Key Mentions (Counts Only)
+- No other key terms found.
+
+
+## Key Review Examples for Context
+### Most Positive Review (Sentiment: 0.52):
+```
+Manageable stints of hunting bugs, bots, and the illuminate. Fun with friends, if you have them. If you don't, jump in with some randos. It's honestly all good fun no matter how you play! Just remember, it's all for SUPERRR EEEAAARRRARARRRRRTTHHHH!...
+```
+
+### Most Negative Review (Sentiment: -0.45):
+```
+I hate the DRM.  I hate Sony trying to ram PSN accounts into Steam games.  I hate how flammable John Helldiver is.  I hate that I can't stop playing.  I hate that I missed out on a year's worth of playing.  I hate that I bought in-game currency for the first time ever.  I hate what I've become.
+
+L...
+```
+
+### Most Neutral Review (Sentiment: 0.00):
+```
+I've been struggling with getting into multiplayer shooters and their competitive nature, but with this game being PVE, and everyone is collectively working towards the same goal, has made me enjoy shooters again....
+```
+
+============================================================

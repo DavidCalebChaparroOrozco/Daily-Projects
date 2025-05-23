@@ -5945,3 +5945,29 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User Interface**: Developed an intuitive console menu system with options to input letters, set word length constraints, change languages, and save results.
 
   This project provided excellent practice in recursive algorithm design and optimization techniques. I gained valuable experience working with tree data structures for efficient searching, implementing language-specific game rules, and creating user-friendly interfaces for game applications. The pruning strategy proved particularly effective in reducing the search space for longer letter combinations.
+* Day 432: 🎮 Steam Game Review Analyzer with NLP 📊
+
+  Today, I developed a comprehensive Steam Game Review Analyzer using Python and NLP techniques. This tool extracts and analyzes player reviews from Steam to provide insights about game reception, common issues, and sentiment trends. Below are the key highlights:
+
+  - **Steam API Integration**: The analyzer connects directly to Steam's API to fetch game details and player reviews, supporting both AppID searches and name-based lookups.
+
+  - **NLP Entity Recognition**: Utilizes spaCy with custom entity patterns to identify game features, platforms, reported issues, and genres mentioned in reviews.
+
+  - **Sentiment Analysis**: Incorporates TextBlob to measure sentiment polarity of each review, providing an overall sentiment score and distribution analysis.
+
+  - **Comprehensive Reporting**: Generates detailed text reports including:
+    - Overall sentiment metrics (average, variability)
+    - Top mentioned features/issues with associated sentiment
+    - Key review examples (most positive/negative/neutral)
+    - Entity frequency analysis
+
+  - **Visual Dashboard**: Creates a professional 6-panel visualization including:
+    - Sentiment distribution histogram
+    - Review length vs sentiment scatter plot
+    - Rolling sentiment trend
+    - Sentiment by review length category
+    - Word cloud of frequent terms
+
+  - **Custom Entity Patterns**: Enhanced spaCy's NER with game-specific patterns to better identify gaming terminology (features like "gameplay" or "graphics", issues like "bugs" or "crashes").
+
+  This project provided valuable experience in API integration, NLP pipeline customization, and sentiment analysis applied to real-world game data. The analysis helps identify both strengths (positively received features) and pain points (common complaints) in game reviews, making it useful for both developers and players. The visualization dashboard effectively communicates complex sentiment data through multiple complementary perspectives.
