@@ -5986,3 +5986,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Customizable Output**: Users can easily modify the network architecture through interactive controls, creating everything from simple perceptrons to deep multi-layer networks. The visualizer automatically adjusts the layout to accommodate different configurations.
 
   This project was an excellent exercise in understanding both neural network architectures and recursive visualization techniques. I gained practical experience in implementing mathematical layouts for network structures while exploring GUI development for parameter control. The recursive approach proved particularly valuable for handling the self-similar nature of network layers and their connections.
+* Day 434: Technical Test "preorderTraversal" and "postorderTraversal" [LeetCode](https://leetcode.com/problems/)  
+
+    - **preorderTraversal**: Implemented a solution for the "Binary Tree Preorder Traversal" problem, where the task is to return the preorder traversal of a binary tree's nodes' values. The approach uses either a recursive strategy or an iterative method with a stack to traverse the tree in the order: root -> left -> right. The time complexity is O(N), where N is the number of nodes in the tree.  
+      [Problem Description: preorderTraversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)  
+
+    - **postorderTraversal**: Solved the "Binary Tree Postorder Traversal" problem, which involves returning the postorder traversal of a binary tree: left -> right -> root. The implementation can be done recursively or using two stacks in an iterative approach. The solution ensures visiting all nodes in the correct order with a time complexity of O(N), where N is the number of nodes in the tree.  
+      [Problem Description: postorderTraversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
