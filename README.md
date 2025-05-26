@@ -5993,3 +5993,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
     - **postorderTraversal**: Solved the "Binary Tree Postorder Traversal" problem, which involves returning the postorder traversal of a binary tree: left -> right -> root. The implementation can be done recursively or using two stacks in an iterative approach. The solution ensures visiting all nodes in the correct order with a time complexity of O(N), where N is the number of nodes in the tree.  
       [Problem Description: postorderTraversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
+* Day 435: 🐾 CatNapper - Sleep Combinations Calculator 😺
+
+  Today I developed CatNapper, a Python program that calculates all possible nap combinations a cat can take to sleep exactly 12 hours in a day. This project explores combinatorial mathematics and recursive algorithms to solve an interesting real-world problem for cat owners. Here are the key features:
+
+  - **Combinatorial Algorithm**: The core of the project uses itertools.product to generate all possible nap duration combinations that sum to exactly 12 hours, then filters for valid solutions.
+
+  - **Flexible Nap Durations**: The program supports customizable nap duration options (default: 0.5 to 4 hours), allowing users to model different cat sleeping patterns.
+
+  - **Statistical Analysis**: Provides detailed statistics including total combinations found, minimum/maximum naps needed, most common nap duration, and average naps per combination.
+
+  - **Data Visualization**: Generates matplotlib charts showing the distribution of nap counts per combination and frequency of different nap durations.
+
+  - **User-Friendly Interface**: Features an intuitive console menu system with input validation and clear progress feedback during calculations.
+
+  - **Data Export**: Allows saving all valid nap combinations to a text file for later reference.
