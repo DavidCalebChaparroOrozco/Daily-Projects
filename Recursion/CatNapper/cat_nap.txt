@@ -1,0 +1,13 @@
+All possible nap combinations totaling 12 hours:
+
+1. 2 naps: 6, 6
+2. 3 naps: 4, 4, 4
+3. 3 naps: 3, 3, 6
+4. 3 naps: 2, 4, 6
+5. 4 naps: 2, 2, 4, 4
+6. 4 naps: 3, 3, 3, 3
+7. 4 naps: 2, 2, 2, 6
+8. 4 naps: 2, 3, 3, 4
+9. 5 naps: 2, 2, 2, 2, 4
+10. 5 naps: 2, 2, 2, 3, 3
+11. 6 naps: 2, 2, 2, 2, 2, 2
