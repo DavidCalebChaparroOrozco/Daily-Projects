@@ -6008,3 +6008,41 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Interface**: Features an intuitive console menu system with input validation and clear progress feedback during calculations.
 
   - **Data Export**: Allows saving all valid nap combinations to a text file for later reference.
+* Day 435: 📊 Extrovert vs. Introvert Behavior Data [Kaggle](https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data/data)
+
+  Today, I conducted a comprehensive analysis of personality behavior data comparing Extrovert and Introvert traits from Kaggle. The project focuses on behavioral pattern recognition, correlation analysis between social habits and personality traits, and predictive modeling using Python's data science stack including Pandas, Scikit-learn, Seaborn, and Plotly. Below are the key highlights:
+
+  - **Data Preprocessing & Exploration**:
+    - Implemented automated missing value handling (median imputation for numerical features, mode for categorical)
+    - Created detailed visualizations of feature distributions by personality type
+    - Analyzed class balance in the target variable (Personality)
+
+  - **Behavioral Pattern Analysis**:
+    - Comparative analysis of key metrics:
+      - Time spent alone (significantly higher for Introverts)
+      - Social event attendance (markedly higher for Extroverts)
+      - Friends circle size distribution
+      - Social media engagement patterns
+
+  - **Personality Prediction Model**:
+    - Built a Random Forest classifier with 85% accuracy
+    - Feature importance analysis revealed:
+      - Social_event_attendance as top predictor
+      - Time_spent_Alone as secondary strong indicator
+      - Friends_circle_size as third most important feature
+    - Confusion matrix visualization showing model performance
+
+  - **Correlation Studies**:
+    - Calculated pairwise correlations between all behavioral features
+    - Key findings:
+      - Strong negative correlation between Time_spent_Alone and Social_event_attendance
+      - Positive correlation between Friends_circle_size and Post_frequency
+      - Interesting relationship between Drained_after_socializing and Personality
+
+  - **Social Engagement Clustering**:
+    - Performed K-means clustering on engagement metrics:
+      - Identified 3 distinct engagement profiles
+      - Visualized clusters in social activity space
+      - Analyzed cluster characteristics by personality type
+
+  This analysis provided valuable insights into behavioral differences between personality types and demonstrated how machine learning can effectively classify individuals based on their social habits. The interactive dashboard offers an intuitive way to explore complex behavioral patterns.
