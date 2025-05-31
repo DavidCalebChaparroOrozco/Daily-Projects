@@ -6102,3 +6102,45 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Interface**: Features an intuitive menu system with input validation and comprehensive error handling. Includes an educational section explaining the mathematical properties of Pell numbers.
 
   This project was an excellent exercise in understanding mathematical sequences and algorithm optimization. I gained practical experience in implementing recursive algorithms with performance considerations, while also exploring visualization techniques to present numerical sequences effectively. The comparison between different implementation approaches provided valuable insights into computational efficiency.
+* Day 440: Pokémon with Stats [Kaggle](https://www.kaggle.com/datasets/abcsds/pokemon)
+
+  Today, I conducted a comprehensive analysis of Pokémon statistics data from Kaggle, exploring base stats, types, and legendary status across all generations. The project includes statistical analysis, clustering, and predictive modeling using Python's data science stack including Pandas, Scikit-learn, Seaborn, and Plotly. Below are the key highlights:
+
+  - **Data Preprocessing & Exploration**:
+    - Implemented automated missing value handling (median imputation for numerical features, 'None' for categorical)
+    - Created detailed visualizations of stat distributions by type and generation
+    - Analyzed feature correlations and unique value distributions
+
+  - **Pokémon Stat Analysis**:
+    - Comparative analysis of key metrics:
+      - Total stat distribution by generation
+      - Attack vs. Defense patterns
+      - Special Attack vs. Special Defense relationships
+      - Speed distribution differences between legendary and non-legendary Pokémon
+    - Top 10 Pokémon by total stats identified
+
+  - **Type-Based Analysis**:
+    - Detailed breakdown of stat distributions by primary type
+    - Interactive visualization of type-specific stat profiles
+    - Comparison of type prevalence across the dataset
+
+  - **Clustering & Dimensionality Reduction**:
+    - Performed K-means clustering on stat profiles (3 clusters)
+    - Applied DBSCAN clustering for outlier detection
+    - Implemented PCA for 2D visualization of stat space
+    - Analyzed cluster characteristics by Pokémon type
+
+  - **Legendary Status Prediction**:
+    - Built Random Forest and Logistic Regression classifiers
+    - Achieved strong classification performance (precision/recall metrics shown)
+    - Feature importance analysis revealed:
+      - Total stats as top predictor
+      - Speed as secondary strong indicator
+      - Special Attack as third most important feature
+
+  - **Interactive Exploration Tools**:
+    - Pokémon stat viewer with search functionality
+    - Type-specific analysis dashboard
+    - Comparative visualization tools for stat distributions
+
+  This analysis provided valuable insights into the statistical characteristics of Pokémon across different types and generations, demonstrating how machine learning can effectively classify legendary status based on base stats. The interactive components offer an engaging way to explore the rich dataset.
