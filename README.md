@@ -6144,3 +6144,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
     - Comparative visualization tools for stat distributions
 
   This analysis provided valuable insights into the statistical characteristics of Pokémon across different types and generations, demonstrating how machine learning can effectively classify legendary status based on base stats. The interactive components offer an engaging way to explore the rich dataset.
+* Day 441: Technical Test "LRUCache" and "insertionSortList" [LeetCode](https://leetcode.com/problems/)  
+
+    - **LRUCache**: Implemented a solution for the "LRU Cache" problem, which involves designing a data structure that follows the constraints of a Least Recently Used (LRU) cache. The implementation supports `get` and `put` operations in O(1) average time complexity using a combination of a hash map for quick lookups and a doubly linked list to maintain the order of usage. The cache evicts the least recently used item when it reaches its capacity.  
+      [Problem Description: LRUCache](https://leetcode.com/problems/lru-cache/)  
+
+    - **insertionSortList**: Solved the "Insertion Sort List" problem, where the task is to sort a singly linked list using the insertion sort algorithm. The solution iterates through the list, maintaining a sorted portion and inserting each subsequent node in its correct position within the sorted part. The approach efficiently handles the sorting with a time complexity of O(n^2) in the worst case, suitable for linked list operations.  
+      [Problem Description: insertionSortList](https://leetcode.com/problems/insertion-sort-list/description/)  
