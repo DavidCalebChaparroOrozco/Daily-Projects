@@ -6151,3 +6151,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
     - **insertionSortList**: Solved the "Insertion Sort List" problem, where the task is to sort a singly linked list using the insertion sort algorithm. The solution iterates through the list, maintaining a sorted portion and inserting each subsequent node in its correct position within the sorted part. The approach efficiently handles the sorting with a time complexity of O(n^2) in the worst case, suitable for linked list operations.  
       [Problem Description: insertionSortList](https://leetcode.com/problems/insertion-sort-list/description/)  
+* Day 442: 🎵 LyricsNER - Named Entity Recognition in Song Lyrics 🎶
+
+  Today, I worked on LyricsNER, a Python project for extracting named entities from song lyrics. The system identifies people, places, emotions, events, and cultural references in lyrics, with analysis capabilities by artist, theme, or genre. Here are the key highlights:
+
+  - **Enhanced Entity Recognition**: The system uses spaCy's NER model augmented with custom patterns for music-specific entities like song references, cultural terms, and emotional phrases. The recognition covers standard entities while adding domain-specific categories.
+
+  - **Genre Detection**: Implemented a scoring-based genre classifier that analyzes lyrics for genre-specific keywords across rock, pop, hiphop, country, and blues. The system only returns genre predictions when confidence thresholds are met.
+
+  - **Emotion Analysis**: Specialized emotion detection identifies both individual emotion words and common emotional phrases in lyrics, with metrics like emotion density (emotion words per total words).
+
+  - **Visualization**: Custom-colored entity visualization highlights different entity types directly in the lyrics text, with distinct colors for persons, locations, events, emotions, and cultural references.
+
+  - **Comprehensive Reporting**: The analyzer generates detailed reports including entity counts, unique entities, word statistics, and genre predictions, with sample lyrics excerpts.
+
+  This project provided valuable experience in NLP pipeline customization and domain-specific entity recognition. I gained practical knowledge in enhancing spaCy's models with custom rules, developing specialized text analysis features, and creating informative visualizations. The genre detection system was particularly interesting to implement, requiring careful balancing of keyword matching with scoring thresholds to avoid false positives.
