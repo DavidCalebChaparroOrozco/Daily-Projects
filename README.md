@@ -6166,3 +6166,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Comprehensive Reporting**: The analyzer generates detailed reports including entity counts, unique entities, word statistics, and genre predictions, with sample lyrics excerpts.
 
   This project provided valuable experience in NLP pipeline customization and domain-specific entity recognition. I gained practical knowledge in enhancing spaCy's models with custom rules, developing specialized text analysis features, and creating informative visualizations. The genre detection system was particularly interesting to implement, requiring careful balancing of keyword matching with scoring thresholds to avoid false positives.
+* Day 443: 🧬 DNA Sequence Mutations Generator in Python 🧪
+
+  Today, I worked on a DNA Sequence Mutations Generator using Python, implementing a pathfinding algorithm to generate all valid single-letter mutations from a starting sequence to a target sequence. The project focuses on biological sequence manipulation and mutation path generation. Below are the key highlights:
+
+  - **Mutation Path Generation**: The core of the project uses a breadth-first search (BFS) algorithm to explore all possible valid single-letter mutations from the start sequence to the target sequence, following biological constraints.
+
+  - **DNA Validation**: The generator includes validation for DNA sequences, ensuring they only contain valid nucleotides (A, T, C, G) and that start and target sequences are of equal length.
+
+  - **Path Visualization**: The mutation paths are presented in a clear format that highlights the exact nucleotide change at each step, showing the position and nature of each mutation.
+
+  - **BFS Implementation**: The project demonstrates an efficient BFS approach to explore all possible mutation paths without cycles, ensuring each path represents a valid biological mutation process.
+
+  - **Biological Constraints**: The generator respects biological mutation rules by only allowing single-point mutations (one nucleotide change at a time) and preventing invalid nucleotides.
+
+  This project was an excellent exercise in understanding biological sequence manipulation and pathfinding algorithms. I gained practical experience in implementing algorithms that model biological processes while ensuring valid outputs. The BFS approach proved particularly valuable for exhaustively exploring all possible mutation paths between sequences.
