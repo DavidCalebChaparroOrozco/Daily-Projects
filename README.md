@@ -6181,3 +6181,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Biological Constraints**: The generator respects biological mutation rules by only allowing single-point mutations (one nucleotide change at a time) and preventing invalid nucleotides.
 
   This project was an excellent exercise in understanding biological sequence manipulation and pathfinding algorithms. I gained practical experience in implementing algorithms that model biological processes while ensuring valid outputs. The BFS approach proved particularly valuable for exhaustively exploring all possible mutation paths between sequences.
+* Day 444: 🔍 JobPostingNER - Key Entity Detection in Job Postings 📊
+
+  Today, I developed JobPostingNER, a comprehensive system for detecting key entities in job postings using Python and spaCy. The project focuses on natural language processing techniques to extract valuable information from job descriptions. Below are the key highlights:
+
+  - **Entity Recognition Pipeline**: Implemented a hybrid approach combining spaCy's built-in NER with custom pattern matching rules to identify job roles, technologies, salaries, locations, requirements, and benefits.
+
+  - **Multi-Format Support**: The system processes job postings from various formats including CSV (with specific columns for Job Title, Company, Location), JSON (structured arrays), and plain text files.
+
+  - **Structured Analysis**: For formatted inputs, the analyzer intelligently combines fields like Job Title (as primary role), Location, and Job Types (as technologies) with NLP-extracted entities for comprehensive results.
+
+  - **Batch Processing**: Capable of analyzing hundreds of job postings in a single operation, with progress feedback and memory-efficient processing.
+
+  - **Custom Pattern Management**: Interactive interface for adding/removing entity patterns, allowing domain-specific customization without code changes.
+
+  - **Reporting & Visualization**: Generates market analysis reports with top roles, technologies, and benefits, complemented by visualizations (bar charts) saved as PNG files.
+
+  This project provided valuable experience in real-world NLP applications, particularly in handling semi-structured data with both rule-based and machine learning approaches. The hybrid recognition system proved effective for domain-specific entity extraction, while the flexible input handling demonstrates practical data pipeline design. The visualization components add immediate business value by transforming raw analysis into actionable insights.
