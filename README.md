@@ -6213,3 +6213,22 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Data Management**: The system supports importing/exporting workout data in multiple formats (TXT, CSV, JSON) while maintaining data consistency during edits and deletions.
 
   This project provided valuable experience in text processing and data extraction from unstructured inputs. I gained practical skills in transforming natural language descriptions into quantifiable metrics, while developing robust visualization tools to analyze workout patterns. The system's flexible parsing approach proved particularly effective for handling diverse exercise logging styles while maintaining data integrity.
+* Day 446: 📊 Employee Attendance Analysis System 🏢
+
+  Today, I developed an Employee Attendance Analysis System in Python that processes work time logs to generate valuable insights about workforce patterns. The system focuses on data aggregation, anomaly detection, and departmental reporting. Below are the key highlights:
+
+  - **Time Tracking Analysis**: The system calculates precise working hours from entry/exit timestamps, handling datetime conversions and time delta calculations to measure exact work durations.
+
+  - **Comprehensive Reporting**: Generates both weekly and monthly summaries of total working hours across the organization, providing insights into workforce utilization patterns over time.
+
+  - **Attendance Monitoring**: Implements late arrival detection with minute-level precision, comparing actual entry times against company policies (default 9:00 AM threshold).
+
+  - **Departmental Insights**: Offers grouped analysis by department and role, revealing which teams have the highest/lowest work hours and potential workload imbalances.
+
+  - **Visual Analytics**: Includes a stacked bar chart visualization of monthly working hours by department, making trends immediately visible at a glance.
+
+  - **Performance Metrics**: Calculates individual attendance rates and identifies frequent latecomers, enabling targeted management interventions.
+
+  - **Data Quality Checks**: Flags days with unusually low working hours (configurable threshold) that may indicate data errors or attendance issues.
+
+  This project provided valuable experience in time series analysis, pandas group operations, and workforce analytics. I particularly focused on creating clean, reusable functions for each analysis component and implementing proper datetime handling. The system outputs both visual reports and CSV exports for further analysis, demonstrating practical data pipeline construction from raw logs to business insights.
