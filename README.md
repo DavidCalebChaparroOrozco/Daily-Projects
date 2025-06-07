@@ -6232,3 +6232,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Data Quality Checks**: Flags days with unusually low working hours (configurable threshold) that may indicate data errors or attendance issues.
 
   This project provided valuable experience in time series analysis, pandas group operations, and workforce analytics. I particularly focused on creating clean, reusable functions for each analysis component and implementing proper datetime handling. The system outputs both visual reports and CSV exports for further analysis, demonstrating practical data pipeline construction from raw logs to business insights.
+* Day 447: Technical Test "sortList" and "maxPoints" [LeetCode](https://leetcode.com/problems/)  
+
+    - **sortList**: Implemented a solution for the "Sort List" problem, where the task is to sort a linked list in ascending order. The approach uses merge sort to recursively split the list into halves, sort each half, and then merge them back together. The time complexity is O(n log n), which is optimal for sorting linked lists, and the space complexity is O(log n) due to the recursion stack.
+      [Problem Description: sortList](https://leetcode.com/problems/sort-list/)  
+
+    - **maxPoints**: Solved the "Max Points on a Line" problem, which determines the maximum number of points that lie on the same straight line given an array of points on the X-Y plane. The solution calculates the slope between each pair of points, using the greatest common divisor (GCD) to simplify the slope representation and avoid floating-point precision issues. The time complexity is O(n²), where n is the number of points, as it compares each pair of points.
+      [Problem Description: maxPoints](https://leetcode.com/problems/max-points-on-a-line/description/)
