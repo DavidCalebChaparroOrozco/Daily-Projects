@@ -6239,3 +6239,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
     - **maxPoints**: Solved the "Max Points on a Line" problem, which determines the maximum number of points that lie on the same straight line given an array of points on the X-Y plane. The solution calculates the slope between each pair of points, using the greatest common divisor (GCD) to simplify the slope representation and avoid floating-point precision issues. The time complexity is O(n²), where n is the number of points, as it compares each pair of points.
       [Problem Description: maxPoints](https://leetcode.com/problems/max-points-on-a-line/description/)
+* Day 448: 🔢 Unique Digit Combinations Generator 🧩
+
+  Today, I worked on a Unique Digit Combinations Generator in Python, implementing a recursive algorithm to find all combinations of non-repeating digits (1-9) that sum exactly to a target value. This project is particularly useful for logic puzzles and selection problems. Below are the key highlights:
+
+  - **Recursive Backtracking Algorithm**: The core of the project uses recursive backtracking to systematically explore all possible combinations of digits while ensuring no digits are repeated in each combination. The algorithm efficiently prunes invalid branches when the current sum exceeds the target.
+
+  - **Parameter Control**: The generator handles constraints including the target sum (user-defined) and maximum digits (automatically limited to 9 since we're using digits 1-9 without repetition).
+
+  - **Combination Validation**: Each combination is validated to ensure it meets the exact target sum requirement before being added to the results. The algorithm avoids duplicate combinations by always progressing to higher digits in recursive calls.
+
+  - **User-Friendly Output**: The results are presented in a clear format showing each valid combination as a sum equation (e.g., "1 + 2 + 4 = 7") along with a count of all valid combinations found.
+
+  - **Customizable Search**: While the current implementation focuses on digits 1-9, the recursive approach could be easily adapted for different digit ranges or additional constraints.
+
+  This project was an excellent exercise in understanding combinatorial algorithms and recursive problem-solving techniques. I gained practical experience in implementing backtracking solutions and optimizing recursive searches by pruning invalid paths early. The solution demonstrates how recursion can elegantly handle problems that require exploring multiple possibilities while maintaining constraints.
