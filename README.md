@@ -6254,3 +6254,27 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Customizable Search**: While the current implementation focuses on digits 1-9, the recursive approach could be easily adapted for different digit ranges or additional constraints.
 
   This project was an excellent exercise in understanding combinatorial algorithms and recursive problem-solving techniques. I gained practical experience in implementing backtracking solutions and optimizing recursive searches by pruning invalid paths early. The solution demonstrates how recursion can elegantly handle problems that require exploring multiple possibilities while maintaining constraints.
+* Day 449: 🕵️ SpyNetwork – MVC Spy Management System in Python 🖥️
+
+  Today, I developed a comprehensive Spy Network Management System using Python with MVC (Model-View-Controller) architecture. This project simulates a covert intelligence operation with agents, missions, and information leaks. Key features include:
+
+  - **MVC Architecture**: Implemented a clean separation between data (Model), user interface (View), and application logic (Controller) following professional software design patterns.
+
+  - **Spy Management**: The system handles agent profiles with real names, cover identities, skills, and security clearance levels. Agents can be activated/deactivated while maintaining their operational history.
+
+  - **Mission Control**: Created a mission system with objectives, locations, priorities, and status tracking (Pending/In Progress/Completed/Failed). Spies can be assigned to missions based on required skills.
+
+  - **Information Leaks**: Implemented a secure information leak tracking system with source verification, content encryption (SHA-256), and classification levels.
+
+  - **Data Persistence**: All operational data automatically saves to JSON files, maintaining mission histories and agent records between sessions.
+
+  - **Interactive Interface**: Developed a color-coded console interface with intuitive menus, tabular data displays, and comprehensive reporting features.
+
+  This project was an excellent exercise in architectural design patterns and complex system modeling. I gained practical experience in:
+  - Implementing proper MVC separation
+  - Managing relational data structures (spies↔missions↔leaks)
+  - Creating persistent storage systems
+  - Designing intuitive user interfaces for complex data
+  - Implementing professional-grade Python applications
+
+  The MVC architecture proved particularly valuable for maintaining clean code organization while handling multiple interconnected data types and business logic requirements. The system demonstrates how proper architecture can make complex applications manageable and extensible.
