@@ -62,3 +62,4 @@ pyspellchecker
 python-whois
 ucimlrepo
 steamreviews
+tabulate

@@ -1,0 +1,12 @@
+[
+    {
+        "id": "62dbb647-b29e-4b6c-a991-6d20f0a759be",
+        "source": "78d7ab2c-85b4-4c91-adb1-b66ab7c9457b",
+        "content": "Secret",
+        "encrypted_content": "7e32a729b1226ed1270f282a8c63054d09b26bc9ec53ea69771ce38158dfade8",
+        "classification": "5",
+        "recipient": null,
+        "leak_date": "2025-06-08T21:59:23.569685",
+        "verified": false
+    }
+]
