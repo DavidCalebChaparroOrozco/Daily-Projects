@@ -6278,3 +6278,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - Implementing professional-grade Python applications
 
   The MVC architecture proved particularly valuable for maintaining clean code organization while handling multiple interconnected data types and business logic requirements. The system demonstrates how proper architecture can make complex applications manageable and extensible.
+* Day 450: 🧊 Liquid Pouring Puzzle Solver in Python 🥤
+
+  Today, I worked on a Liquid Pouring Puzzle Solver using Python, implementing a recursive algorithm to find all possible ways to measure an exact target volume using jugs of different capacities. The project explores state-space search and recursive backtracking techniques. Below are the key highlights:
+
+  - **Recursive State Exploration**: The core of the project uses recursive depth-first search to explore all possible pouring combinations between jugs. The algorithm keeps track of visited states to avoid cycles and redundant computations.
+
+  - **Pouring Simulation**: The solution includes a dedicated `pour` function that accurately simulates transferring liquid between jugs, respecting their capacities and current volumes. This forms the basis for state transitions in the search space.
+
+  - **Multiple Solution Finding**: Unlike approaches that stop at the first solution, this implementation continues searching to find all possible sequences of pours that achieve the target volume in any jug.
+
+  - **State Tracking**: The algorithm maintains a complete path of states leading to each solution, allowing users to see the exact sequence of pours required to reach the target volume.
+
+  - **Interactive Menu**: The project features a user-friendly menu system that collects jug capacities, initial amounts, and target volume, making it accessible for interactive problem-solving.
+
+  - **Type Hints**: The code uses Python type hints for better code documentation and maintainability, specifying input and output types for all functions.
+
+  This project provided valuable experience in state-space search algorithms and recursive problem-solving techniques. I gained practical insights into managing state transitions, avoiding redundant computations through memoization, and exhaustively searching solution spaces. The recursive approach proved particularly effective for exploring all possible pouring combinations while maintaining clean, modular code structure.
