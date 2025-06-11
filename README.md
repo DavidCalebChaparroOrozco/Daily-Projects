@@ -6295,3 +6295,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Type Hints**: The code uses Python type hints for better code documentation and maintainability, specifying input and output types for all functions.
 
   This project provided valuable experience in state-space search algorithms and recursive problem-solving techniques. I gained practical insights into managing state transitions, avoiding redundant computations through memoization, and exhaustively searching solution spaces. The recursive approach proved particularly effective for exploring all possible pouring combinations while maintaining clean, modular code structure.
+* Day 451: 🎳 Mini Bowling Arcade in Python 🏆
+
+  Today, I built a Mini Bowling Arcade game using Python, implementing a text-based interface where players control force and direction to knock down pins. The project focuses on simple input/output handling and probability-based mechanics. Below are the key highlights:
+
+  - **Text-Based Interface**: The game features a clean console interface that displays pin status using simple ASCII characters, showing which pins remain standing after each throw.
+
+  - **Player Controls**: Players can adjust two parameters for each throw - force (1-5 scale) and direction (left, center, right) - which affect the probability of knocking down pins.
+
+  - **Probability Mechanics**: The core gameplay uses weighted probability calculations based on the player's chosen force and direction, with left/center/right biases affecting different pin groups.
+
+  - **Scoring System**: The game tracks both round scores (pins knocked down per frame) and total score across 10 rounds, with special feedback based on final performance.
+
+  - **Simple Randomness**: While using random number generation for pin outcomes, the system incorporates logical weightings to make player choices meaningful (stronger throws increase hit chances).
+
+  This project was a great exercise in basic game mechanics implementation and user input handling. I gained practical experience in probability-based systems and simple game state management. The force/direction mechanics create an engaging risk-reward dynamic while keeping the game accessible through straightforward text controls. The scoring feedback provides clear progression through the 10-round structure.
