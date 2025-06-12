@@ -6310,3 +6310,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Simple Randomness**: While using random number generation for pin outcomes, the system incorporates logical weightings to make player choices meaningful (stronger throws increase hit chances).
 
   This project was a great exercise in basic game mechanics implementation and user input handling. I gained practical experience in probability-based systems and simple game state management. The force/direction mechanics create an engaging risk-reward dynamic while keeping the game accessible through straightforward text controls. The scoring feedback provides clear progression through the 10-round structure.
+* Day 452: 📊 Local Logs Dashboard in Python 🖥️
+
+  Today, I worked on a Local Logs Dashboard using Python, implementing a Flask-based web interface to monitor and visualize log files. The project focuses on log analysis and web visualization techniques for DevOps monitoring. Below are the key highlights:
+
+  - **Log Collection System**: The core of the project scans a designated directory for log files, supporting .log and .txt extensions. It automatically detects new files and tracks modifications.
+
+  - **Log Analysis Engine**: The system analyzes log content with pattern matching for different log levels (ERROR, WARNING, INFO), providing statistics on message distribution and frequency.
+
+  - **Interactive Visualization**: The dashboard features Plotly charts including a log level distribution pie chart and a timeline visualization showing log entry frequency over time.
+
+  - **Web Interface**: Built with Flask, the responsive web UI displays log files with metadata (size, modification time) and allows viewing detailed analysis of each file.
+
+  - **Auto-Refresh Mechanism**: The dashboard automatically refreshes both the file list and log content at configurable intervals, providing near real-time monitoring.
+
+  This project was an excellent exercise in understanding log processing and web-based monitoring tools. I gained practical experience in building operational dashboards, log pattern recognition, and visualizing time-series log data. The integration of Flask for the web interface with Plotly for visualizations proved particularly valuable for creating an interactive monitoring tool with minimal dependencies.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Logs Dashboard</title>
+    <meta http-equiv="refresh" content="{{ refresh_interval }}">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .log-file { border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; border-radius: 5px; }
+        .log-file:hover { background-color: #f5f5f5; }
+        .file-name { font-weight: bold; font-size: 1.2em; }
+        .file-meta { color: #666; font-size: 0.9em; }
+        a { text-decoration: none; color: #0066cc; }
+        .header { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Local Logs Dashboard</h1>
+        <p>Monitoring log files in: {{ LOG_DIRECTORY }}</p>
+    </div>
+    
+    {% if not log_files %}
+        <p>No log files found in the directory.</p>
+    {% else %}
+        <h2>Available Log Files</h2>
+        {% for file in log_files %}
+            <div class="log-file">
+                <div class="file-name"><a href="/view_log/{{ file.name }}">{{ file.name }}</a></div>
+                <div class="file-meta">
+                    Size: {{ file.size|filesizeformat }} | 
+                    Modified: {{ file.modified }}
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+    
+    <div style="margin-top: 20px; color: #999; font-size: 0.8em;">
+        Page will refresh every {{ refresh_interval }} seconds.
+    </div>
+</body>
+</html>

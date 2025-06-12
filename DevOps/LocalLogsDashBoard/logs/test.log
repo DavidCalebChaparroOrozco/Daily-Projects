@@ -1,0 +1,31 @@
+2025-06-11 08:30:45 INFO Application started successfully. Version: 1.2.3
+2025-06-11 08:31:12 INFO Database connection established
+2025-06-11 08:32:05 WARNING Cache size approaching limit (85%)
+2025-06-11 08:35:22 INFO User 'admin' logged in from 192.168.1.10
+2025-06-11 08:36:40 ERROR Database query failed: timeout
+2025-06-11 08:36:40 ERROR Failed to load user preferences
+2025-06-11 08:37:15 WARNING Retrying database connection (attempt 1/3)
+2025-06-11 08:37:18 INFO Database connection re-established
+2025-06-11 08:40:33 INFO Scheduled backup started
+2025-06-11 08:42:10 INFO Backup completed successfully. Size: 45MB
+2025-06-11 08:45:00 CRITICAL Main service crashed! Attempting restart...
+2025-06-11 08:45:05 INFO Service restarted successfully
+2025-06-11 08:50:22 WARNING High memory usage detected: 89%
+2025-06-11 08:52:30 INFO Memory usage normalized: 65%
+2025-06-11 08:55:18 ERROR Payment processing failed for transaction ID: TXN-78945
+2025-06-11 08:56:40 INFO New configuration loaded
+2025-06-11 08:58:15 NOTICE System maintenance scheduled for 2025-06-11 02:00:00
+2025-06-11 09:00:00 INFO Performance metrics collected
+2025-06-11 09:05:33 WARNING Disk space low on /var: 15% remaining
+2025-06-11 09:10:45 INFO User 'jdoe' logged in from 192.168.1.15
+2025-06-11 09:12:20 ERROR Email service unavailable
+2025-06-11 09:13:05 INFO Fallback to local queue
+2025-06-11 09:15:30 WARNING Unusual activity detected from IP: 192.168.1.99
+2025-06-11 09:16:45 INFO Security alert sent to admin
+2025-06-11 09:20:00 INFO Daily report generated
+2025-06-11 09:25:33 ERROR Failed to send report to 3 recipients
+2025-06-11 09:26:10 INFO Retrying failed emails
+2025-06-11 09:28:45 INFO 2/3 emails sent successfully
+2025-06-11 09:30:00 WARNING Last email still in queue
+2025-06-11 09:35:22 INFO Cache cleared. New size: 45%
+2025-06-11 09:40:10 INFO User 'admin' logged out
