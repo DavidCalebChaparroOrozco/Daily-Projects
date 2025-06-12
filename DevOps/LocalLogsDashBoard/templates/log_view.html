@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Viewing: {{ filename }}</title>
+    <meta http-equiv="refresh" content="{{ refresh_interval }}">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .log-content { 
+            background-color: #f8f8f8; 
+            border: 1px solid #ddd; 
+            padding: 10px; 
+            font-family: monospace; 
+            white-space: pre; 
+            overflow-x: auto;
+            max-height: 400px;
+            overflow-y: scroll;
+        }
+        .chart-container { margin: 20px 0; }
+        .header { margin-bottom: 20px; }
+        .stats { margin: 10px 0; color: #666; }
+        .nav { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="/">← Back to all logs</a>
+    </div>
+    
+    <div class="header">
+        <h1>Viewing: {{ filename }}</h1>
+        <div class="stats">
+            Total lines: {{ log_stats.total_lines }} | 
+            Errors: {{ log_stats.log_levels.get('error', 0) }} | 
+            Warnings: {{ log_stats.log_levels.get('warning', 0) }} | 
+            Info: {{ log_stats.log_levels.get('info', 0) }}
+        </div>
+    </div>
+    
+    {% if level_chart %}
+    <div class="chart-container">
+        {{ level_chart|safe }}
+    </div>
+    {% endif %}
+    
+    {% if timeline_chart %}
+    <div class="chart-container">
+        {{ timeline_chart|safe }}
+    </div>
+    {% endif %}
+    
+    <h2>Recent Log Entries</h2>
+    <div class="log-content" id="logContent">
+        {% for line in log_stats.last_lines %}
+            {{ line }}
+        {% endfor %}
+    </div>
+    
+    <div style="margin-top: 20px; color: #999; font-size: 0.8em;">
+        Page will refresh every {{ refresh_interval }} seconds.
+    </div>
+    
+    <script>
+        // AJAX update for log content
+        setTimeout(function() {
+            fetch('/tail_log/{{ filename }}')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('logContent').innerHTML = data;
+                });
+        })
+        // ,{{ refresh_interval * 1000 }});
+    </script>
+</body>
+</html>
