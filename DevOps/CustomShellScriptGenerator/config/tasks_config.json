@@ -1,0 +1,18 @@
+{
+    "script_name": "automated_backup",
+    "description": "Automates backup tasks",
+    "tasks": [
+        {
+        "name": "Update system packages",
+        "command": "sudo apt update && sudo apt upgrade -y"
+        },
+        {
+        "name": "Create backup folder",
+        "command": "mkdir -p ~/backups"
+        },
+        {
+        "name": "Backup documents",
+        "command": "cp -r ~/Documents ~/backups/"
+        }
+    ]
+}
