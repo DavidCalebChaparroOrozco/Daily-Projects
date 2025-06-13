@@ -1,0 +1,8 @@
+#!/bin/bash
+# Generated Script - {{ script_name }}
+# Description: {{ description }}
+
+{% for task in tasks %}
+echo "Executing: {{ task.name }}"
+{{ task.command }}
+{% endfor %}
