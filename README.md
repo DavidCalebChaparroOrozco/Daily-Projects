@@ -6340,3 +6340,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   * **Backup and Dry-Run Support**: The generator can create backups of previously generated scripts with timestamps and supports an optional dry-run mode for safe testing of command output without execution.
 
   This project was an excellent exercise in building customizable scripting tools and working with Jinja2 for infrastructure-as-code automation. I gained practical experience in dynamic script generation, command validation, and managing reusable automation templates for DevOps workflows.
+* Day 454: 🤝 Recursive Social Network Traversal in Python  
+
+  Today I implemented a Recursive Social Network Traversal system that explores friendship connections up to n degrees of separation. This project demonstrates graph traversal algorithms in a social networking context. Key aspects:
+
+  - **User Network Structure**: Created a User class with bidirectional friend relationships, forming a complete social graph where connections are mutual (undirected edges).
+
+  - **Recursive Traversal Algorithm**: Implemented depth-limited recursive traversal to discover all friends within specified degrees of separation (n-level connections).
+
+  - **Circle Detection**: The system organizes discovered connections into clearly defined circles by degree (direct friends, friends-of-friends, etc.), stored in a dictionary structure.
+
+  - **Cycle Prevention**: Incorporated visited-node tracking to avoid infinite loops while maintaining complete connection mapping.
+
+  - **Network Visualization**: The output clearly displays friends grouped by their degree of separation from the starting user, providing intuitive relationship mapping.
+
+  This was valuable practice in recursive graph algorithms and social network analysis. The implementation handles both dense and sparse networks efficiently, and the circle-based output format makes relationship degrees immediately understandable. The project demonstrates core concepts used in real-world social platforms for friend recommendations and connection visualization.
