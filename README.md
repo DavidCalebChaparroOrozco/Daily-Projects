@@ -6370,3 +6370,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Flexible Input**: Supports both local directory paths and GitHub URLs (with automatic cloning functionality), making it adaptable to different workflow needs.
 
   This project provided valuable experience in working with Git programmatically through GitPython, understanding repository states, and automating version control reporting. The implementation of recursive directory scanning combined with detailed Git metadata extraction proved particularly useful for maintaining awareness across multiple projects. The ability to handle both local repositories and clone remote ones makes this a versatile tool for codebase management.
+* Day 456: 🔥 Recursive BBQ Cooking Timer in Python 🍖  
+
+  Today, I developed a Recursive BBQ Cooking Timer that simulates cooking different cuts of meat, where some cuts start cooking while others are already in process. The project focuses on recursive algorithms and process visualization for culinary timing. Below are the key highlights:  
+
+  - **Recursive Cooking System**: The core of the project uses recursion to simulate adding new cuts to the grill while others are cooking, with each cut having its own cooking time (ribs, sausage, blood sausage, chicken, brisket).  
+
+  - **Timing Simulation**: The system tracks start and end times for each cut, calculating when items should be added based on half of the current cut's cooking time.  
+
+  - **Process Visualization**: The cooking sequence is visualized as a tree using NetworkX and Matplotlib, showing the hierarchical relationship between cuts added during the cooking process.  
+
+  - **Grill State Tracking**: The dashboard displays the current state of all items on the grill, including their start/end times and cooking status (DONE or COOKING).  
+
+  - **Fallback Mechanisms**: If graph visualization fails (missing pydot/graphviz), the system provides a text-based representation of the cooking tree.  
+
+  This project was an excellent exercise in understanding recursive algorithms and process visualization. I gained practical experience in timing simulations, hierarchical data representation, and graceful fallback handling for visualization dependencies. The combination of recursive logic with graph-based visualization proved particularly valuable for modeling real-world cooking processes where tasks overlap in time.
