@@ -1,0 +1,31 @@
+Historical Documents NER Analysis
+==================================================
+
+Document: Gettysburg Address
+Source: Abraham Lincoln
+Persons: None found
+Places: Liberty
+Dates: seven years ago
+Events: None found
+
+Document: Declaration of Independence
+Source: Continental Congress
+Persons: None found
+Places: None found
+Dates: July 4, 1776, 1776
+Events: None found
+
+Document: I Have a Dream
+Source: Martin Luther King Jr.
+Persons: Martin Luther King Jr.
+Places: Washington
+Dates: March, August 28, 1963, one day, 1963
+Events: None found
+
+Document: The Council of Elrond Speech
+Source: Frodo Baggins
+Persons: None found
+Places: None found
+Dates: None found
+Events: None found
+

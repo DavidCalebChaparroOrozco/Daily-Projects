@@ -6385,3 +6385,25 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Fallback Mechanisms**: If graph visualization fails (missing pydot/graphviz), the system provides a text-based representation of the cooking tree.  
 
   This project was an excellent exercise in understanding recursive algorithms and process visualization. I gained practical experience in timing simulations, hierarchical data representation, and graceful fallback handling for visualization dependencies. The combination of recursive logic with graph-based visualization proved particularly valuable for modeling real-world cooking processes where tasks overlap in time.
+* Day 457: 📜 Historical Documents NER with Python 🏛️
+
+  Today, I developed a Named Entity Recognition (NER) system for historical documents using Python, implementing spaCy's NLP capabilities to extract key entities from speeches, letters, and archival texts. The project focuses on historical text analysis and chronological visualization. Below are the key highlights:
+
+  - **Document Processing System**: The core of the project processes historical documents in English, supporting structured analysis of speeches, declarations, and other archival texts with metadata including source and year.
+
+  - **Entity Extraction Engine**: The system identifies and categorizes key historical elements including:
+    - Persons (historical figures)
+    - Places (locations and geopolitical entities)
+    - Dates (both explicit and year-based)
+    - Events (historical occurrences)
+
+  - **Chronological Visualization**: Features Matplotlib timeline visualizations showing documents in historical context with extracted entities displayed for each entry.
+
+  - **Analysis Interface**: Includes both console reporting and graphical output, with options to:
+    - View extracted entities by document
+    - See temporal relationships between documents
+    - Export results to text files
+
+  - **Extensible Architecture**: Built as a class-based system that allows easy addition of new documents and customization of entity extraction rules.
+
+  This project provided valuable experience in historical text processing and temporal data visualization. Working with spaCy's NER model helped me understand the challenges of entity extraction from historical texts, where language usage often differs from contemporary texts. The integration of NLP processing with chronological visualization proved particularly valuable for understanding historical contexts and relationships between documents.
