@@ -6414,3 +6414,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **reverseWords**: Solved the "Reverse Words in a String" problem, which involves reversing the order of words in a given string while ensuring proper spacing (single spaces between words and no leading/trailing spaces). The solution splits the string into words, reverses their order, and joins them back with single spaces. The approach efficiently handles edge cases such as multiple spaces between words. The time complexity is O(n), where n is the length of the string.  
     [Problem Description: reverseWords](https://leetcode.com/problems/reverse-words-in-a-string/description/)
+* Day 459: 🔥 Recursive BBQ Invitation Chain in Python 🌳
+
+  Today I built a Recursive BBQ Invitation Chain model in Python, implementing a tree structure to simulate how invitations spread through social connections. This project explores recursive relationships and tree visualization techniques. Here are the key features:
+
+  - **Guest Relationship Modeling**: The core system tracks each guest's invitation path, recording who invited them and whom they subsequently invited, creating a hierarchical tree structure.
+
+  - **BFS Guest Search**: Implemented Breadth-First Search to efficiently locate any guest in the growing invitation tree, enabling accurate relationship tracking as the guest list expands.
+
+  - **Tree Visualization**: The project generates both textual and graphical representations of the invitation hierarchy, with NetworkX creating a color-coded diagram showing invitation levels.
+
+  - **Invitation Statistics**: Tracks key metrics including total guest count and maximum invitation depth, providing insights into the spread of the BBQ invitations.
+
+  - **Error Handling**: Includes validation to prevent orphaned invitations by ensuring new guests can only be added by existing members of the invitation tree.
+
+  This project was a great exercise in recursive data structures and social network modeling. I gained practical experience with tree traversal algorithms, graph visualization using NetworkX, and hierarchical data representation. The combination of object-oriented design with recursive relationships proved particularly valuable for modeling real-world social invitation chains.
