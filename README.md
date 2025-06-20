@@ -6429,3 +6429,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Error Handling**: Includes validation to prevent orphaned invitations by ensuring new guests can only be added by existing members of the invitation tree.
 
   This project was a great exercise in recursive data structures and social network modeling. I gained practical experience with tree traversal algorithms, graph visualization using NetworkX, and hierarchical data representation. The combination of object-oriented design with recursive relationships proved particularly valuable for modeling real-world social invitation chains.
+* Day 460: 🎆 Python Fireworks Show with Turtle Graphics 🐢
+
+  Today, I created an animated fireworks show using Python's Turtle graphics module. This project focuses on procedural generation and visual effects through simple geometric patterns. Below are the key highlights:
+
+  - **Visual Fireworks Simulation**: The program generates colorful firework explosions at random positions on the screen, each with unique spark patterns and colors.
+
+  - **Dynamic Graphics Engine**: Using Turtle's drawing capabilities, the simulation creates realistic firework bursts with radiating sparks of varying lengths and directions.
+
+  - **Randomized Parameters**: Each firework features random characteristics including position (x,y), number of sparks (10-20), explosion angle (0-360), and spark length (20-80 pixels).
+
+  - **Color Palette**: A vibrant selection of colors including red, yellow, blue, green, magenta, cyan, white, orange, and violet makes each explosion visually distinct.
+
+  - **Animation Timing**: The show includes timed delays between explosions (0.3s) and brief display periods (0.2s) to create a rhythmic visual experience.
+
+  This project was a fun exercise in understanding basic animation principles and procedural generation using simple geometric shapes. Working with Turtle graphics provided valuable insights into coordinate-based drawing systems and frame-by-frame animation techniques. The combination of random elements with controlled timing created surprisingly realistic firework effects with minimal code.
