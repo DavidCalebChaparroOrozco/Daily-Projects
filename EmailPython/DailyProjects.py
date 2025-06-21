@@ -25,7 +25,7 @@ signature = """
     <span style="font-weight: bold; font-style: italic;">davidcaleb1998@gmail.com</span><br>
     <span style="font-weight: bold; font-style: italic;">
         <a href="https://www.linkedin.com/in/caleb1998/" style="color: #003366; text-decoration: none;">LinkedIn</a> |
-        <a href="https://github.com/DavidCalebChaparroOrozco/Daily-Projects" style="color: #003366; text-decoration: none;">Portfolio</a>
+        <a href="https://github.com/DavidCalebChaparroOrozco/Daily-Projects/" style="color: #003366; text-decoration: none;">Portfolio</a>
     </span>
 </div>
 """
