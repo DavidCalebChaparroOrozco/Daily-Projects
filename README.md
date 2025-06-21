@@ -6444,3 +6444,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Animation Timing**: The show includes timed delays between explosions (0.3s) and brief display periods (0.2s) to create a rhythmic visual experience.
 
   This project was a fun exercise in understanding basic animation principles and procedural generation using simple geometric shapes. Working with Turtle graphics provided valuable insights into coordinate-based drawing systems and frame-by-frame animation techniques. The combination of random elements with controlled timing created surprisingly realistic firework effects with minimal code.
+* Day 461: ✉️ Project Email Sender in Python 📬
+
+  Today, I developed a Project Email Sender in Python that allows users to send a daily project description via email by entering a specific day number. The script reads from a central `README.md` file and uses `smtplib` for email delivery. Below are the key highlights:
+
+  - **Day Lookup System**: The application reads and extracts the project description for the specified day from a structured `README.md` file, using regular expressions to match formatted entries.
+
+  - **Content Sanitization**: The system removes bold markdown syntax (double asterisks) to ensure clean HTML output for emails, while preserving readable formatting such as bullet points.
+
+  - **Email Dispatching Engine**: Using the `smtplib` and `email.mime` libraries, the script composes and sends emails with the retrieved project content, including a personalized signature.
+
+  - **Dynamic Recipient Input**: The program prompts the user to enter any recipient email address, enabling flexible sharing of specific project entries.
+
+  - **Styled Email Signature**: The email includes a custom HTML signature formatted in Trebuchet MS with styling for name, role, contact details, and relevant links like LinkedIn and portfolio.
+
+  This project was a practical exercise in combining file parsing, string processing, and automated email delivery in Python. It reinforced skills in HTML email formatting, user interaction via terminal input, and secure credential management using environment variables.
