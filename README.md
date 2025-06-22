@@ -6459,3 +6459,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Styled Email Signature**: The email includes a custom HTML signature formatted in Trebuchet MS with styling for name, role, contact details, and relevant links like LinkedIn and portfolio.
 
   This project was a practical exercise in combining file parsing, string processing, and automated email delivery in Python. It reinforced skills in HTML email formatting, user interaction via terminal input, and secure credential management using environment variables.
+* Day 462: 📧 Email Scheduler with NLP in Python ✉️
+
+  Today, I developed an Email Scheduler with NLP capabilities using Python, implementing a sophisticated system to schedule and send emails based on natural language commands. The project focuses on email automation and natural language processing techniques. Below are the key highlights:
+
+  - **NLP Command Parser**: The core of the project uses spaCy to parse natural language commands, extracting recipient, subject, body, and scheduling information from user input with pattern matching for dates and times.
+
+  - **Email Scheduling System**: The system supports various scheduling options including one-time emails, daily emails, and weekly recurring emails on specific days, all managed through the schedule library.
+
+  - **SMTP Integration**: Implements secure email sending through Gmail's SMTP server with TLS encryption, including HTML formatting and a professional signature template.
+
+  - **Interactive CLI Interface**: Features a command-line interface that allows users to schedule emails, list scheduled emails, clear schedules, and run the scheduler in the background.
+
+  - **Error Handling & Validation**: Includes comprehensive error handling for email credentials, command parsing, and scheduling conflicts, with validation for email formats and date/time parsing.
+
+  This project was an excellent exercise in understanding email protocols, natural language processing, and task scheduling. I gained practical experience in building automation tools, text parsing with spaCy, and working with SMTP servers. The integration of NLP for command parsing with email scheduling proved particularly valuable for creating an intuitive user interface with complex backend functionality.
