@@ -6474,3 +6474,21 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Error Handling & Validation**: Includes comprehensive error handling for email credentials, command parsing, and scheduling conflicts, with validation for email formats and date/time parsing.
 
   This project was an excellent exercise in understanding email protocols, natural language processing, and task scheduling. I gained practical experience in building automation tools, text parsing with spaCy, and working with SMTP servers. The integration of NLP for command parsing with email scheduling proved particularly valuable for creating an intuitive user interface with complex backend functionality.
+* Day 463: 🏀 Basketball Defense Visualization in Python  
+
+  Today, I developed an interactive Basketball Defense Visualizer using Python and Matplotlib. The project models zone defense strategies (2-3 and 3-2 formations) with dynamic coverage adjustments based on ball movement. Key features include:  
+
+  - **Defensive Formations**: Supports both 2-3 and 3-2 zone defenses with accurate initial player positioning.  
+  - **Recursive Coverage Algorithm**: Defenders dynamically expand their coverage zones based on ball proximity using a depth-limited recursive approach.  
+  - **Interactive Visualization**:  
+    - Drag-and-drop functionality for defenders, attackers, and the ball  
+    - Real-time updates of defensive coverage areas  
+    - Clear visual distinction between players (▲ defenders, ● attackers)  
+  - **Court Rendering**: Detailed half-court markings including three-point line, key/paint area, and basket.  
+
+  This project provided valuable insights into:  
+  - Recursive algorithms for spatial coverage  
+  - Interactive matplotlib visualizations  
+  - Basketball defensive strategies and positioning  
+
+  The implementation combines mathematical position analysis with sports strategy, creating a useful tool for coaching and game analysis. The clean object-oriented structure makes it easy to extend with additional formations or defensive rules.  
