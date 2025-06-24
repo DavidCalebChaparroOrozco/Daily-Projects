@@ -6492,3 +6492,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - Basketball defensive strategies and positioning  
 
   The implementation combines mathematical position analysis with sports strategy, creating a useful tool for coaching and game analysis. The clean object-oriented structure makes it easy to extend with additional formations or defensive rules.  
+* Day 464: Technical Test "maxProduct" and "findMin" [LeetCode](https://leetcode.com/problems/)
+
+  - **maxProduct**: Implemented a solution for the "Maximum Product Subarray" problem, where the task is to find the contiguous subarray within an integer array that has the largest product. The approach involves tracking both the current maximum and minimum products at each step, as multiplying by a negative number can flip the min and max products. The solution efficiently computes the result in O(n) time with O(1) space complexity.
+    [Problem Description: maxProduct](https://leetcode.com/problems/maximum-product-subarray/description/)
+
+  - **findMin**: Solved the "Find Minimum in Rotated Sorted Array" problem, which requires finding the minimum element in a rotated sorted array with unique elements. The solution uses binary search to efficiently locate the pivot point (minimum element) by comparing the middle element with the rightmost element. The algorithm runs in O(log n) time, making it optimal for large input sizes.
+    [Problem Description: findMin](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
