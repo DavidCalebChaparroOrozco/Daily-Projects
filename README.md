@@ -6499,3 +6499,23 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **findMin**: Solved the "Find Minimum in Rotated Sorted Array" problem, which requires finding the minimum element in a rotated sorted array with unique elements. The solution uses binary search to efficiently locate the pivot point (minimum element) by comparing the middle element with the rightmost element. The algorithm runs in O(log n) time, making it optimal for large input sizes.
     [Problem Description: findMin](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+* Day 465: 🌌 Aurora Borealis Simulation in Python
+
+  Today, I developed an **Aurora Borealis simulator** using Python and Matplotlib, creating a dynamic and visually striking animation of the northern lights. This project combines mathematical wave functions with artistic visualization techniques to mimic the natural phenomenon. Key features include:  
+
+  - **Wave Pattern Generation**: The core of the simulation uses combined sine/cosine waves with exponential decay to create organic, flowing aurora shapes. Multiple wave layers (`wave1`, `wave2`, etc.) interact to produce complex movements.  
+
+  - **Custom Color Mapping**: Designed a specialized colormap (`aurora_cmap`) blending greens, blues, and purples to replicate the natural colors of auroras, with adjustable transparency for depth effects.  
+
+  - **Dynamic Animation**: The animation updates in real-time with smooth transitions, using `FuncAnimation` to render frame-by-frame variations in wave patterns and intensity.  
+
+  - **Realistic Enhancements**: Added subtle noise for texture and a starry background with twinkling effects to create a complete night-sky environment.  
+
+  - **Parameter Customization**: The simulation allows tuning of wave frequencies, speeds, and amplitudes (e.g., `3*X + frame*0.1`) to generate different auroral displays, from subtle glows to vibrant storms.  
+
+  This project was a fascinating exploration of how mathematical models can emulate natural phenomena. I gained insights into:  
+  - Using `numpy` meshgrids and trigonometric functions for fluid motion.  
+  - Optimizing `matplotlib` animations for performance and visual quality.  
+  - Balancing artistic expression with scientific approximation in simulations.  
+
+  The result is a mesmerizing visualization that captures the ethereal beauty of auroras, demonstrating Python’s capabilities beyond data analysis and into generative art.  
