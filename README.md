@@ -6519,3 +6519,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - Balancing artistic expression with scientific approximation in simulations.  
 
   The result is a mesmerizing visualization that captures the ethereal beauty of auroras, demonstrating Python’s capabilities beyond data analysis and into generative art.  
+* Day 466: 🌳 Family Tree Manager in Python  
+
+  Today, I developed a Family Tree Manager using Python, implementing a hierarchical data structure to represent and visualize family relationships. The project focuses on tree data structures and genealogy visualization techniques. Below are the key highlights:  
+
+  - **Tree Data Structure**: The core of the project uses a custom `FamilyMember` class to represent individuals, with children stored in a list, forming a hierarchical family tree structure.  
+
+  - **Interactive Visualization**: The system generates visual family trees using NetworkX and Matplotlib, automatically positioning nodes for clear relationship representation.  
+
+  - **Generation Analysis**: The program tracks and counts individuals per generation, providing statistical data that can be exported to Excel for further analysis.  
+
+  - **User-Friendly Interface**: A console-based menu system allows easy addition of family members and navigation through different functionalities.  
+
+  - **Data Export**: Built-in functionality exports generation statistics to Excel files using pandas, enabling data analysis outside the program.  
+
+  This project was an excellent exercise in understanding tree data structures and their visualization. I gained practical experience in recursive algorithms for tree traversal, graph visualization with NetworkX, and data export with pandas. The combination of object-oriented design for the family structure with visualization capabilities proved particularly valuable for creating an intuitive genealogy tool.
