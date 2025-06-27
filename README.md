@@ -6534,3 +6534,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Data Export**: Built-in functionality exports generation statistics to Excel files using pandas, enabling data analysis outside the program.  
 
   This project was an excellent exercise in understanding tree data structures and their visualization. I gained practical experience in recursive algorithms for tree traversal, graph visualization with NetworkX, and data export with pandas. The combination of object-oriented design for the family structure with visualization capabilities proved particularly valuable for creating an intuitive genealogy tool.
+* Day 467: 🏰 Medieval Currency Converter in Python ⚔️
+
+  Today, I developed a Medieval Currency Converter using Python, implementing a versatile system for converting between historical and fantasy currency systems. The project focuses on mathematical conversions and user interaction for historical/gaming applications. Below are the key highlights:
+
+  - **Multi-System Conversion**: The core of the project supports three distinct currency systems: Standard Fantasy (gold/silver/copper), Westeros (Game of Thrones), and Historical Medieval England (pounds/shilling/penny).
+
+  - **Bidirectional Conversion Engine**: Unlike simple one-way converters, this system can convert between any two currencies within a system, handling all conversion rates internally.
+
+  - **Interactive Menu System**: Features a numbered menu interface with clear navigation, allowing users to select between conversion modes, view rates, or change currency systems.
+
+  - **Currency System Management**: Includes predefined conversion rates and symbols for each system, with the ability to easily expand to additional historical systems.
+
+  - **Robust Input Handling**: Implements comprehensive validation for both numeric amounts and currency types, preventing crashes from invalid inputs.
+
+  This project was an excellent exercise in understanding currency systems and conversion algorithms. I gained practical experience in building interactive console applications, managing complex conversion logic, and creating user-friendly interfaces. The class-based structure with separated concerns proved particularly valuable for maintaining clean, organized code while supporting multiple currency systems.
