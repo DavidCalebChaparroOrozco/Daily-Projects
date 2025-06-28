@@ -6549,3 +6549,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Robust Input Handling**: Implements comprehensive validation for both numeric amounts and currency types, preventing crashes from invalid inputs.
 
   This project was an excellent exercise in understanding currency systems and conversion algorithms. I gained practical experience in building interactive console applications, managing complex conversion logic, and creating user-friendly interfaces. The class-based structure with separated concerns proved particularly valuable for maintaining clean, organized code while supporting multiple currency systems.
+* Day 468: 🍖 BBQ Menu Generator in Python 🍍
+
+  Today, I developed a BBQ Menu Generator using Python, creating a versatile tool that suggests balanced menus for grilling events. The project focuses on meal planning and automated shopping list generation. Below are the key highlights:
+
+  - **Menu Generation System**: The core of the project offers random menu combinations with support for dietary preferences (gluten-free, vegetarian), selecting appropriate meats, sides, salads, and drinks.
+
+  - **Quantity Calculator**: The system automatically calculates ingredient quantities based on the number of guests, using per-person multipliers for different food categories (meats, sides, etc.).
+
+  - **Shopping List Generator**: Creates a comprehensive shopping list including all menu items and BBQ essentials (charcoal, utensils, etc.) with calculated amounts.
+
+  - **Structured Data Handling**: Uses pandas DataFrames to organize and display the shopping list in a clean, categorized format with proper quantity units.
+
+  - **Dietary Adaptability**: The menu database contains separate options for regular, gluten-free, and vegetarian preferences, ensuring appropriate combinations for all diets.
+
+  This project was an excellent exercise in practical Python programming for everyday applications. I gained valuable experience in data organization, quantity calculations, and user preference handling. The implementation of pandas for structured output and random selection algorithms proved particularly valuable for creating a flexible menu planning tool with clean results.
