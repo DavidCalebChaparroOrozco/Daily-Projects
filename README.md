@@ -6586,4 +6586,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **MinStack**: Designed a stack that supports push, pop, top, and retrieving the minimum element in constant time. The solution uses two stacks: one to store all elements and another to keep track of the minimum elements. This ensures that each operation (push, pop, top, getMin) is performed in O(1) time complexity, making the implementation efficient and optimal for stack operations with minimum element tracking.
     [Problem Description: MinStack](https://leetcode.com/problems/min-stack/description/)
-* Day 471: 
+* Day 471: 🔄 Recursive Compression (Run-Length Encoding) in Python  
+
+  Today, I implemented a recursive Run-Length Encoding (RLE) algorithm in Python that handles nested sequences. The project focuses on data compression techniques with recursive pattern detection. Below are the key highlights:  
+
+  - **Recursive Compression**: The algorithm compresses consecutive duplicate characters and can recursively process already compressed sequences, handling nested patterns efficiently.  
+
+  - **Base and Recursive Cases**: The implementation includes proper base case handling to prevent infinite recursion while still allowing multiple compression passes for optimal results.  
+
+  - **Group Detection**: The compressor identifies repeated groups (marked with parentheses) and applies RLE to both individual characters and nested structures.  
+
+  - **Decompression Function**: A matching decompression function reconstructs the original string from the compressed format, handling nested compressed sequences recursively.  
+
+  - **Test Validation**: Includes test cases demonstrating compression and decompression of various patterns, including simple repetitions and nested compressed groups.  
+
+  This project was a great exercise in understanding recursive algorithms and data compression techniques. Working with nested structures in RLE provided valuable insights into pattern recognition and recursive problem-solving. The implementation shows how compression can be optimized by applying the algorithm recursively to already compressed segments.
