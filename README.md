@@ -6586,3 +6586,4 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **MinStack**: Designed a stack that supports push, pop, top, and retrieving the minimum element in constant time. The solution uses two stacks: one to store all elements and another to keep track of the minimum elements. This ensures that each operation (push, pop, top, getMin) is performed in O(1) time complexity, making the implementation efficient and optimal for stack operations with minimum element tracking.
     [Problem Description: MinStack](https://leetcode.com/problems/min-stack/description/)
+* Day 471: 
