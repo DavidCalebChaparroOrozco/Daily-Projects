@@ -6579,3 +6579,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Responsive UI Elements**: Created a professional toggle button with dynamic labeling that changes based on the current mode (day/night).
 
   This project was an excellent exercise in understanding turtle graphics animation techniques and event-driven programming. I gained practical experience in creating smooth animations, managing multiple turtle objects, and implementing interactive elements. The integration of threading for independent animations while maintaining the main event loop proved particularly valuable for creating responsive visual effects.
+* Day 470: Technical Test "findMinSortedArrayII" and "MinStack" [LeetCode](https://leetcode.com/problems/)
+
+  - **findMinSortedArrayII**: Implemented a solution for finding the minimum element in a rotated sorted array that may contain duplicates. The approach uses a modified binary search to efficiently locate the minimum element by comparing middle elements with the right boundary and adjusting the search range accordingly. When duplicates are encountered, the right boundary is decremented to ensure correctness. The solution has an average time complexity of O(log n), but degrades to O(n) in the worst case when all elements are the same.
+    [Problem Description: findMinSortedArrayII](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)
+
+  - **MinStack**: Designed a stack that supports push, pop, top, and retrieving the minimum element in constant time. The solution uses two stacks: one to store all elements and another to keep track of the minimum elements. This ensures that each operation (push, pop, top, getMin) is performed in O(1) time complexity, making the implementation efficient and optimal for stack operations with minimum element tracking.
+    [Problem Description: MinStack](https://leetcode.com/problems/min-stack/description/)
