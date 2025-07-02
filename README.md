@@ -6601,3 +6601,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Test Validation**: Includes test cases demonstrating compression and decompression of various patterns, including simple repetitions and nested compressed groups.  
 
   This project was a great exercise in understanding recursive algorithms and data compression techniques. Working with nested structures in RLE provided valuable insights into pattern recognition and recursive problem-solving. The implementation shows how compression can be optimized by applying the algorithm recursively to already compressed segments.
+* Day 472: 📈 Normal Distribution Data Generator in Python 🧮  
+
+  Today, I worked on a **Normal Distribution Data Generator** using Python, implementing a script that generates random data following a normal distribution with customizable parameters. The project focuses on statistical data generation and visualization using NumPy and Matplotlib. Below are the key highlights:  
+
+  - **Customizable Distribution Parameters**: The script allows setting the mean (μ) and standard deviation (σ) to generate normally distributed data, with validation to ensure σ is positive.  
+
+  - **Dynamic Data Generation**: Uses `numpy.random.normal()` to produce random samples based on user-defined parameters, including adjustable sample size.  
+
+  - **Interactive Visualization**: Plots a histogram of the generated data along with the theoretical probability density function (PDF) for comparison, using Matplotlib.  
+
+  - **Jupyter Notebook Integration**: Includes an interactive version with `ipywidgets` sliders for real-time adjustment of μ, σ, and sample size, making it ideal for data exploration.  
+
+  - **Clean and Documented Code**: The script is well-structured with docstrings and comments, ensuring clarity and reusability.  
+
+  This project was a great exercise in understanding statistical distributions and interactive data visualization. I gained practical experience in generating synthetic datasets, plotting probability distributions, and creating user-friendly tools for data analysis. The combination of NumPy for computation and Matplotlib for visualization proved effective for building a simple yet powerful data generator.  
