@@ -6616,4 +6616,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Clean and Documented Code**: The script is well-structured with docstrings and comments, ensuring clarity and reusability.  
 
   This project was a great exercise in understanding statistical distributions and interactive data visualization. I gained practical experience in generating synthetic datasets, plotting probability distributions, and creating user-friendly tools for data analysis. The combination of NumPy for computation and Matplotlib for visualization proved effective for building a simple yet powerful data generator.  
-* Day 473
+* 🧠 Day 473: Card Game AI with ML Strategy in Python 🃏 
+
+  Today, I built a Strategic Card Game AI using Python, combining a rule-based system with machine learning to optimize decision-making across multiple rounds. The project consists of two complementary files: `BasicCardMinAI.py` for basic heuristic logic, and `app.py` for advanced AI behavior using Random Forest classification. Below are the key highlights:
+
+  * **Heuristic AI Module**: The `BasicCardMinAI.py` file implements a baseline AI that uses card parity and simple win-rate estimation based on available moves. This serves as a foundation to compare performance with the machine learning-based agent.
+
+  * **Machine Learning Integration**: The `app.py` file enhances the AI by training a `RandomForestClassifier` on past game data. It learns to select the best card to maximize win probability given the current round and opponent’s card color.
+
+  * **Dynamic Learning System**: After every round, the game appends the AI’s choice and result to a dataset (`CSV`), which continuously trains the model over time for better predictions.
+
+  * **Turn-Based Game Logic**: The game supports interactive matches where the user chooses whether to go first, and the round flow alternates between the player and the AI.
+
+  * **Match History Visualization**: At the end of the game, a bar chart summarizes the number of total wins for the player, the AI, and drawn matches using Matplotlib, providing insights into overall performance trends.
+
+  This project was a hands-on exploration of decision-making AI in a constrained environment. I learned how to design adaptive agents using both logic-based strategies and supervised machine learning. The iterative training and historical plotting aspects made the project especially engaging and measurable over repeated plays.
