@@ -6631,3 +6631,19 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   * **Match History Visualization**: At the end of the game, a bar chart summarizes the number of total wins for the player, the AI, and drawn matches using Matplotlib, providing insights into overall performance trends.
 
   This project was a hands-on exploration of decision-making AI in a constrained environment. I learned how to design adaptive agents using both logic-based strategies and supervised machine learning. The iterative training and historical plotting aspects made the project especially engaging and measurable over repeated plays.
+* Day 474: ✨ Constellation Drawer in Python 🌌
+
+  Today, I created a Constellation Drawer application using Python's Tkinter library. This interactive tool allows users to draw custom star constellations with a simple and intuitive interface. Here are the key features:
+
+  - **Star Placement System**: Users can click anywhere on the canvas to place stars, represented as white circles. The application intelligently detects nearby stars to facilitate connecting them.
+
+  - **Line Drawing Functionality**: The tool allows connecting stars by clicking on them sequentially, creating constellation lines between them with customizable colors.
+
+  - **Interactive UI Elements**: The interface includes clear buttons for managing drawings:
+    - Clear All: Resets the entire canvas
+    - Undo Last Line: Removes the most recently drawn line
+    - Color Picker: Changes the color of future lines
+
+  - **User-Friendly Design**: The application features a dark canvas that mimics the night sky, with white stars and colored constellation lines for clear visibility.
+
+  This project provided valuable experience in building interactive graphical applications with Tkinter. I particularly enjoyed implementing the star connection logic and color customization features. The challenge of managing canvas elements and their coordinates was an excellent exercise in graphical programming fundamentals.
