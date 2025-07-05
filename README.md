@@ -6647,3 +6647,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Design**: The application features a dark canvas that mimics the night sky, with white stars and colored constellation lines for clear visibility.
 
   This project provided valuable experience in building interactive graphical applications with Tkinter. I particularly enjoyed implementing the star connection logic and color customization features. The challenge of managing canvas elements and their coordinates was an excellent exercise in graphical programming fundamentals.
+* Day 475: 🔄 Recursive Dependency Manager in Python 🧩
+
+  Today, I developed a Recursive Dependency Manager in Python, simulating package management systems like pip with advanced version conflict resolution. The project focuses on dependency graph traversal and recursive conflict resolution algorithms. Below are the key highlights:
+
+  - **Dependency Graph System**: The core implements a graph data structure to represent packages and their versioned dependencies, allowing complex relationships modeling.
+
+  - **Recursive Resolution Engine**: At the heart of the project is a recursive algorithm that traverses dependency trees, detecting both direct and transitive version conflicts.
+
+  - **Version Constraint Solver**: The system includes a version comparison mechanism that handles semantic versioning requirements (>, >=, <, <=, ==).
+
+  - **Conflict Detection**: Advanced checks identify various conflict types including version mismatches, circular dependencies, and missing packages.
+
+  - **Installation Simulation**: The manager simulates package installation by determining the correct installation order based on resolved dependencies.
+
+  This project provided deep insight into dependency management systems and graph algorithms. I gained valuable experience in recursive problem solving, semantic version comparison, and dependency graph traversal. The implementation of a complete resolution engine with conflict detection proved particularly valuable for understanding how package managers work under the hood.
