@@ -6662,3 +6662,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Installation Simulation**: The manager simulates package installation by determining the correct installation order based on resolved dependencies.
 
   This project provided deep insight into dependency management systems and graph algorithms. I gained valuable experience in recursive problem solving, semantic version comparison, and dependency graph traversal. The implementation of a complete resolution engine with conflict detection proved particularly valuable for understanding how package managers work under the hood.
+* Day 476: 🤖 CartPole AI with Q-Learning 🎯
+
+  Today, I implemented a Q-Learning solution for the CartPole problem using Gymnasium. The project focuses on reinforcement learning techniques for controlling the classic control problem. Below are the key highlights:
+
+  - **State Discretization**: Developed a method to convert continuous state space (cart position, velocity, pole angle, angular velocity) into discrete buckets, making the problem tractable for Q-Learning.
+
+  - **Q-Learning Implementation**: Built a Q-table to store state-action values and implemented the core Q-learning algorithm with the Bellman equation for value updates.
+
+  - **Adaptive Exploration**: Incorporated ε-greedy policy with decaying exploration rate, balancing exploration and exploitation during training.
+
+  - **Training System**: The training process automatically adjusts learning parameters over 1000 episodes, with progress tracking and score reporting.
+
+  - **Demonstration Mode**: After training, the system can run demonstrations using the learned policy, showing the AI successfully balancing the pole.
+
+  This project provided valuable hands-on experience with fundamental reinforcement learning concepts. Working with Gymnasium's environment gave me practical understanding of state spaces, actions, and rewards in RL systems. The discretization approach proved particularly interesting for handling continuous observation spaces in simple Q-learning implementations.
