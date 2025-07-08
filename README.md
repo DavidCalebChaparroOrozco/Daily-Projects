@@ -6692,3 +6692,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Dynamic Geometry**: The algorithm maintains clean center patterns by implementing minimum radius thresholds and optimized angle rotations.  
 
   This project was an excellent exercise in creative coding and GUI integration. I gained practical experience with Turtle graphics, color theory applications in code, and building user-friendly interfaces for artistic tools. The combination of mathematical patterns with visual aesthetics proved particularly valuable for exploring generative art concepts with Python.
+* 🃏 Day 478: Blackjack AI Simulation and Training ♠️♦️ 
+
+  Today, I worked on a Blackjack project that combines AI training using Monte Carlo methods with a full-featured gameplay simulator built in Python. The project focuses on reinforcement learning and decision-making under uncertainty in a casino card game environment. Below are the key highlights:
+
+  * **AI Policy Training (BlackJack.ipynb)**: Using the `Blackjack-v1` environment from Gymnasium, I implemented Monte Carlo control with an epsilon-greedy strategy. The AI learned an optimal policy to play Blackjack over 1,000,000 simulated episodes. The final policy maps each game state to the best action (stick or hit), and was visualized using heatmaps for both usable and non-usable ace scenarios.
+
+  * **Policy Visualization**: Leveraging Seaborn and Matplotlib, the notebook includes clear heatmaps that show the learned decisions across different player totals and dealer cards. Additionally, a reward convergence graph illustrates the improvement of the agent's performance throughout training.
+
+  * **Interactive Gameplay (app.py)**: I developed a Python-based Blackjack game that supports two modes: Human vs AI vs Dealer and AI vs Dealer simulation. The interface includes ASCII-rendered cards, game logic with ace adjustments, and a trained AI that plays based on the learned policy.
+
+  * **Simulation & Logging**: The system tracks outcomes (WIN, LOSE, TIE) for both Human and AI players, storing game results in a log file. It also features options to simulate 1000 AI vs Dealer games and generate bar charts to analyze performance.
+
+  * **Stats Visualization**: Game results are visualized using Matplotlib. The app provides bar charts comparing Human vs AI results and showing AI’s performance in large-scale simulations.
+
+  This project was a great exercise in applying Monte Carlo reinforcement learning to a real game setting. I improved my understanding of policy learning, AI-based decision systems, and how to integrate trained agents into interactive Python applications. The blend of Jupyter-based training and console simulation made the development both rigorous and engaging.
+
+  
