@@ -6707,5 +6707,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   * **Stats Visualization**: Game results are visualized using Matplotlib. The app provides bar charts comparing Human vs AI results and showing AI’s performance in large-scale simulations.
 
   This project was a great exercise in applying Monte Carlo reinforcement learning to a real game setting. I improved my understanding of policy learning, AI-based decision systems, and how to integrate trained agents into interactive Python applications. The blend of Jupyter-based training and console simulation made the development both rigorous and engaging.
+* Day 479: 🌳 Recursive Probability Tree in Python 🧠
 
-  
+  Today, I worked on a Recursive Probability Tree using Python, simulating a decision tree where each node represents a probabilistic outcome. The project focuses on recursive traversal, dynamic user input, and probability path analysis. Below are the key highlights:
+
+  - **Interactive Tree Builder**: The core of the project allows users to construct a decision tree interactively by specifying node names and transition probabilities. Each decision point can branch into multiple outcomes.
+
+  - **Recursive Traversal Engine**: The system recursively traverses the tree to compute the total probability of reaching each leaf node. All paths are tracked and printed along with their cumulative probabilities.
+
+  - **Graph-Based Visualization**: The tree is visualized using NetworkX and Matplotlib. Nodes are labeled with names and local probabilities, and edges are annotated with transition probabilities, forming a complete decision tree graph.
+
+  - **User-Guided Decisions**: Built for interactivity, the terminal prompts guide users through building realistic decision scenarios such as investments, risks, or game outcomes with full customization.
+
+  - **No External Dependencies**: The visualization avoids reliance on external Graphviz tools, using a spring layout to render the tree structure directly within Matplotlib.
+
+  This project was an excellent exercise in recursive data structures, decision modeling, and visualizing probability-driven paths. I gained practical experience in user-guided recursion, tree construction, and graph visualization using native Python libraries.
