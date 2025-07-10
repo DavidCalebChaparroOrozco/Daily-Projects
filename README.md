@@ -6722,3 +6722,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **No External Dependencies**: The visualization avoids reliance on external Graphviz tools, using a spring layout to render the tree structure directly within Matplotlib.
 
   This project was an excellent exercise in recursive data structures, decision modeling, and visualizing probability-driven paths. I gained practical experience in user-guided recursion, tree construction, and graph visualization using native Python libraries.
+* Day 480: 💬 Colorful Terminal Chat in Python 🎨
+
+  Today, I built a Colorful Terminal Chat application using Python, focusing on socket programming and terminal UI enhancement with color formatting. The project emphasizes network communication, user identity management, and CLI-based design. Below are the key highlights:
+
+  - **Multiclient Server Architecture**: The core of the project is a TCP server that supports multiple simultaneous client connections using multithreading. Each client is identified by a unique username.
+
+  - **Real-Time Communication**: Users can send and receive messages in real-time. The server handles broadcasting incoming messages to all connected clients, ensuring synchronized communication.
+
+  - **Username Identification**: Upon connection, users are prompted to input a username, which is then displayed alongside each message. This allows for clear identification of message authors.
+
+  - **Color-Coded Interface**: Built with `colorama`, the terminal UI uses colors to distinguish message types: green for own messages, cyan for others, yellow for join/leave events, and red for system errors.
+
+  - **Threaded Client Handling**: The server uses Python's threading module to manage each client independently, ensuring responsiveness and concurrent message handling.
+
+  This project was an excellent exercise in network programming and interactive terminal UI design. I gained practical experience in building multiclient socket systems, managing user state, and enhancing text-based interfaces with color for improved usability and readability.
