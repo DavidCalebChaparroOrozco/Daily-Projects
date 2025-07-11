@@ -6737,3 +6737,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Threaded Client Handling**: The server uses Python's threading module to manage each client independently, ensuring responsiveness and concurrent message handling.
 
   This project was an excellent exercise in network programming and interactive terminal UI design. I gained practical experience in building multiclient socket systems, managing user state, and enhancing text-based interfaces with color for improved usability and readability.
+* Day 481: Technical Test "getIntersectionNode" and "findPeakElement" [LeetCode](https://leetcode.com/problems/)
+
+  - **getIntersectionNode**: Implemented a solution for the "Intersection of Two Linked Lists" problem, where the task is to find the node at which the two singly linked lists intersect. The approach uses a two-pointer technique to traverse both lists, ensuring that the pointers meet at the intersection node by switching lists upon reaching the end. The time complexity is O(m + n), where m and n are the lengths of the two linked lists.
+    [Problem Description: getIntersectionNode](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
+
+  - **findPeakElement**: Solved the "Find Peak Element" problem, which identifies a peak element in an array where the element is strictly greater than its neighbors. The solution employs binary search to efficiently locate a peak by comparing middle elements with their neighbors and narrowing the search space. The algorithm runs in O(log n) time, making it optimal for large arrays.
+    [Problem Description: findPeakElement](https://leetcode.com/problems/find-peak-element/description/)
