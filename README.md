@@ -6744,4 +6744,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **findPeakElement**: Solved the "Find Peak Element" problem, which identifies a peak element in an array where the element is strictly greater than its neighbors. The solution employs binary search to efficiently locate a peak by comparing middle elements with their neighbors and narrowing the search space. The algorithm runs in O(log n) time, making it optimal for large arrays.
     [Problem Description: findPeakElement](https://leetcode.com/problems/find-peak-element/description/)
-* Day 482: 
+* Day 482: 🧠 Face Recognition System with CNNs and MediaPipe
+
+  Today, I worked on a Face Recognition System using Python, implementing a real-time camera interface combined with facial recognition through CNN models. The project focuses on biometric identification and face verification using Deep Learning and MediaPipe. Below are the key highlights:
+
+  * **Face Detection with MediaPipe**: The system uses MediaPipe's face detection module to verify the presence of a face before processing, ensuring accurate input for recognition tasks and reducing unnecessary computation.
+
+  * **Face Comparison with CNNs**: By leveraging DeepFace and pre-trained models like Facenet, the system compares captured images against a labeled image database. It calculates embedding distances to identify individuals or flag them as unknown.
+
+  * **Image Database Matching**: The project includes an organized image directory (`images/`) with labeled subgroups (e.g., Kobe, Freeman, Caleb). For each identification attempt, the system compares the input with all known individuals and computes an average similarity score per class.
+
+  * **Webcam Integration**: A live camera feed is used to capture facial images in real time. The user can press the spacebar to take a snapshot, which is then processed and matched against the database.
+
+  * **Threshold-Based Classification**: Identification is based on a configurable distance threshold. If the average embedding distance to any person in the database is below the threshold, the person is identified; otherwise, they are labeled as unknown.
+
+  This project was an excellent exercise in integrating real-time video capture, facial landmark detection, and deep learning-based identity verification. I gained practical experience in working with facial embeddings, distance-based classification, and combining traditional CV tools with neural network-based recognition.
