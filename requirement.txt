@@ -63,3 +63,4 @@ python-whois
 ucimlrepo
 steamreviews
 tabulate
+deepface
