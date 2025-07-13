@@ -6759,3 +6759,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   * **Threshold-Based Classification**: Identification is based on a configurable distance threshold. If the average embedding distance to any person in the database is below the threshold, the person is identified; otherwise, they are labeled as unknown.
 
   This project was an excellent exercise in integrating real-time video capture, facial landmark detection, and deep learning-based identity verification. I gained practical experience in working with facial embeddings, distance-based classification, and combining traditional CV tools with neural network-based recognition.
+* Day 482: 🤖 Face Recognition with MobileNetV2 in Python 📸
+
+  Today, I worked on a Face Recognition system using Python, implementing a Transfer Learning approach with MobileNetV2 to improve generalization across different face images. The project integrates real-time face detection via webcam with deep learning-based classification. Below are the key highlights:
+
+  * **Dataset Preparation**: A custom dataset was created with labeled images for each person. The images were preprocessed by detecting and cropping faces using OpenCV's Haar Cascade classifier to ensure consistent input dimensions.
+
+  * **Transfer Learning Model**: Leveraging the MobileNetV2 architecture pre-trained on ImageNet, the model was fine-tuned on the custom face dataset. Dropout was added to prevent overfitting, enhancing the model's ability to generalize to new face images.
+
+  * **Data Augmentation**: To increase dataset diversity and robustness, data augmentation techniques such as rotation, shifting, brightness adjustment, and horizontal flipping were applied during training.
+
+  * **Real-Time Face Detection and Classification**: The system captures video feed from the webcam, detects faces in real-time, and classifies them into predefined categories. A confidence threshold was implemented to label uncertain predictions as "Unknown."
+
+  * **Model Saving and Loading**: The trained model and label map were saved for reuse, enabling easy deployment of the recognition system without retraining.
+
+  This project was an excellent exercise in applying Transfer Learning for computer vision tasks. I gained practical experience in combining real-time video processing with deep learning, handling data augmentation, and optimizing model performance through regularization techniques like Dropout.
