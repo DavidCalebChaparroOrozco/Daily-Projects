@@ -6774,3 +6774,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   * **Model Saving and Loading**: The trained model and label map were saved for reuse, enabling easy deployment of the recognition system without retraining.
 
   This project was an excellent exercise in applying Transfer Learning for computer vision tasks. I gained practical experience in combining real-time video processing with deep learning, handling data augmentation, and optimizing model performance through regularization techniques like Dropout.
+* Day 484: 🌠 Meteor Shower Simulation with Tkinter 🌌
+
+  Today, I worked on a Meteor Shower Simulation using Python and Tkinter, creating an engaging graphical representation of a meteor rain with dynamic effects. The project focuses on animation rendering and visual aesthetics in desktop GUI applications. Below are the key highlights:
+
+  * **Meteor Animation**: The core of the project simulates multiple meteorites falling across the screen with randomized speeds and warm color tones like red, orange, and yellow.
+
+  * **Gradient Trails**: Each meteor leaves a trailing effect with a gradient color transition, creating a realistic fading effect as the meteor descends.
+
+  * **Twinkling Stars Background**: The simulation includes a starfield background where stars randomly blink, enhancing the depth and dynamism of the night sky.
+
+  * **Responsive Rendering**: The rendering loop efficiently clears and redraws all elements, ensuring smooth animation across frames while maintaining performance.
+
+  * **Tkinter Canvas**: Built entirely with Tkinter’s canvas, the GUI showcases the capabilities of Python’s standard library for creating visually rich applications without external dependencies.
+
+  This project was an excellent exercise in GUI animation and aesthetic design. I gained practical experience in layering visual elements, controlling animation timing, and enhancing the visual appeal of simulations with gradients and dynamic backgrounds.
