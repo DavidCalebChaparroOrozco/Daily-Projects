@@ -6789,3 +6789,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   * **Tkinter Canvas**: Built entirely with Tkinter’s canvas, the GUI showcases the capabilities of Python’s standard library for creating visually rich applications without external dependencies.
 
   This project was an excellent exercise in GUI animation and aesthetic design. I gained practical experience in layering visual elements, controlling animation timing, and enhancing the visual appeal of simulations with gradients and dynamic backgrounds.
+* Day 485: ⛹🏾‍♂️ Basketball Training Roulette in Python 🏀
+
+  Today, I developed a Basketball Training Roulette application using Python, creating a versatile tool that randomly selects training exercises with customizable options. The project focuses on sports training automation and user interaction design. Below are the key highlights:
+
+  - **Exercise Database System**: The core of the project organizes basketball drills into categorized collections (shooting, conditioning, fundamentals) with difficulty ratings, allowing for structured exercise selection.
+
+  - **Smart Randomization Engine**: The system features intelligent exercise selection with filters for category and difficulty level, providing both completely random and targeted training options.
+
+  - **Training Session Tracking**: The application records completed exercises during each session, maintaining a history that can be reviewed at any time.
+
+  - **Custom Exercise Creation**: Users can expand the exercise database by adding their own drills with custom names, categories, and difficulty levels.
+
+  - **Session Analytics**: The tool automatically tracks session duration and provides a summary of completed exercises at the end of each training session.
+
+  This project was an excellent exercise in building practical sports training tools with Python. I gained valuable experience in creating configurable randomization systems, user interaction flows, and session tracking mechanisms. The object-oriented approach with clear separation of concerns proved particularly effective for managing the exercise database and user interface components.
