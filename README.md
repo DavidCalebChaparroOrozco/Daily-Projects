@@ -6804,3 +6804,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Session Analytics**: The tool automatically tracks session duration and provides a summary of completed exercises at the end of each training session.
 
   This project was an excellent exercise in building practical sports training tools with Python. I gained valuable experience in creating configurable randomization systems, user interaction flows, and session tracking mechanisms. The object-oriented approach with clear separation of concerns proved particularly effective for managing the exercise database and user interface components.
+* Day 486: 🧑‍💻 Face Detection with Haar Cascade & MTCNN in Python 📸
+
+  Today, I worked on a Face Detection project in Python, implementing two distinct methods: Haar Cascade (traditional computer vision) and MTCNN (deep learning-based). The project focuses on detecting and cropping faces from images using both techniques for comparison. Below are the key highlights:
+
+  * **Haar Cascade Detection**: Leveraging OpenCV's pre-trained Haar Cascade classifier, the system detects frontal faces in grayscale images, draws bounding boxes, and saves both the annotated images and cropped face regions.
+
+  * **MTCNN Detection**: Utilizing the MTCNN (Multi-task Cascaded Convolutional Networks) model, the system processes RGB images to detect faces with higher precision, particularly in varied lighting and angle conditions, and saves the cropped face outputs.
+
+  * **Result Saving**: For each detection method, the project saves two outputs per image: one with rectangles highlighting detected faces, and another set of cropped faces for further analysis or training datasets.
+
+  * **Face Detection Summary**: The system logs images where no faces are detected and visually displays a sample of these for manual inspection.
+
+  * **Image Processing Control**: The pipeline processes a limited number of images from a structured directory, facilitating efficient testing and evaluation.
+
+  This project was an excellent exercise in understanding and comparing classical computer vision techniques with deep learning approaches for face detection. I gained practical experience in handling image preprocessing, applying different face detection algorithms, and managing output datasets for analysis or model training.
