@@ -6819,3 +6819,21 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   * **Image Processing Control**: The pipeline processes a limited number of images from a structured directory, facilitating efficient testing and evaluation.
 
   This project was an excellent exercise in understanding and comparing classical computer vision techniques with deep learning approaches for face detection. I gained practical experience in handling image preprocessing, applying different face detection algorithms, and managing output datasets for analysis or model training.
+* Day 487: 🐳 Docker Installation Tool in Python 🛠️
+
+  Today, I developed a cross-platform Docker Installation Tool using Python, creating a unified interface to install Docker and Docker Compose on different operating systems. The project focuses on system administration and package management automation. Below are the key highlights:
+
+  - **Cross-Platform Support**: The tool automatically detects the operating system (Linux, macOS, Windows) and provides the appropriate installation method for each platform.
+
+  - **Dependency Verification**: Includes comprehensive checks for existing Docker and Docker Compose installations, displaying current versions when available.
+
+  - **Interactive Installation**: Features a user-friendly prompt system that requests confirmation before proceeding with installations, with proper error handling for admin privileges.
+
+  - **Platform-Specific Implementations**:
+    - **Linux**: Automated installation via apt-get including repository setup and user permissions configuration
+    - **macOS**: Homebrew-based installation of Docker Desktop with automatic Homebrew installation if missing
+    - **Windows**: Administrator check and Docker Desktop installer download/execution
+
+  - **Post-Installation Validation**: After installation attempts, the tool verifies the success of the process by checking the installed versions and provides specific instructions for each OS.
+
+  This project provided valuable experience in cross-platform development, system command execution, and package management automation. I gained practical knowledge in handling OS-specific installation procedures, subprocess management in Python, and creating user-friendly CLI tools for system administration tasks. The integration of platform detection with appropriate installation workflows proved particularly useful for creating a unified installation experience.
