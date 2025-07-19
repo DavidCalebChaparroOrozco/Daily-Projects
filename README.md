@@ -6852,3 +6852,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   * **Performance Optimization**: Implemented image processing limits for efficient testing and evaluation of the YOLO model.
 
   This extension to Day 486's project provided valuable insights into real-time object detection systems and their application in face detection. The YOLO implementation completes the trilogy of face detection approaches (traditional CV with Haar, deep learning with MTCNN, and real-time detection with YOLO), offering a comprehensive comparison of different computer vision techniques for the same task. The PDF processing capability also expands the project's applicability to document analysis scenarios.
+* Day 489: 🏛️ Interactive Towers of Hanoi in Python 🎮
+
+  Today, I built an Interactive Towers of Hanoi game using Python and Pygame, implementing a classic puzzle with modern visualizations and gameplay mechanics. The project focuses on game development fundamentals and recursive problem-solving visualization. Below are the key highlights:
+
+  - **Game Core Implementation**: Developed the classic Towers of Hanoi puzzle logic with disk movement rules and win condition detection, using object-oriented programming principles.
+
+  - **Visual Representation**: Created a clean visual interface with color-coded disks, towers, and bases, making the puzzle state immediately understandable.
+
+  - **Difficulty System**: Implemented selectable difficulty levels (3-5 disks) that modify the puzzle's complexity according to the mathematical nature of the problem.
+
+  - **Interactive Controls**: Designed intuitive mouse-based controls where players select source and destination towers with visual feedback for selected towers.
+
+  - **Move Counter**: Added a move tracker to help players monitor their progress toward the optimal solution (2^n - 1 moves).
+
+  - **Animation System**: Basic but effective visual animations showing disk movements between towers with smooth transitions.
+
+  This project was an excellent exercise in game development fundamentals and recursive algorithm visualization. I gained practical experience in Pygame's rendering system, game state management, and user interaction patterns. The combination of mathematical puzzle logic with interactive gameplay elements proved particularly valuable for understanding how to make abstract concepts tangible through visualization.
