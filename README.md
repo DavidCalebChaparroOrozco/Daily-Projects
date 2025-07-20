@@ -6869,3 +6869,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Animation System**: Basic but effective visual animations showing disk movements between towers with smooth transitions.
 
   This project was an excellent exercise in game development fundamentals and recursive algorithm visualization. I gained practical experience in Pygame's rendering system, game state management, and user interaction patterns. The combination of mathematical puzzle logic with interactive gameplay elements proved particularly valuable for understanding how to make abstract concepts tangible through visualization.
+* Day 490: 🏀 Basketball Jersey Designer in Python 🎨
+
+  Today, I developed a Basketball Jersey Designer application using Python, implementing a graphical interface for customizing basketball uniforms. The project focuses on color manipulation and text placement for sports apparel design. Below are the key highlights:
+
+  - **Jersey Customization System**: The core of the project allows users to modify jersey and shorts colors independently, with a color picker interface for precise color selection.
+
+  - **Text Personalization**: Users can add player names and numbers to both front and back of the jersey, with automatic text centering and size adjustment.
+
+  - **Template-Based Design**: The application uses a base jersey template image and programmatically applies color fills to specific areas (jersey front/back, shorts front/back).
+
+  - **Graphical Interface**: Built with Tkinter, the UI provides intuitive controls for all customization options and displays a live preview of the design.
+
+  - **Export Functionality**: Designed jerseys can be saved as PNG images with transparent backgrounds, suitable for further editing or printing.
+
+  This project was an excellent exercise in understanding image manipulation with PIL (Pillow) and building interactive graphical applications with Tkinter. I gained practical experience in coordinate-based image processing, color management, and dynamic text rendering. The integration of Pillow for image processing with Tkinter for the user interface proved particularly valuable for creating a responsive design tool with visual feedback.
