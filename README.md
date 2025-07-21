@@ -6884,3 +6884,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Export Functionality**: Designed jerseys can be saved as PNG images with transparent backgrounds, suitable for further editing or printing.
 
   This project was an excellent exercise in understanding image manipulation with PIL (Pillow) and building interactive graphical applications with Tkinter. I gained practical experience in coordinate-based image processing, color management, and dynamic text rendering. The integration of Pillow for image processing with Tkinter for the user interface proved particularly valuable for creating a responsive design tool with visual feedback.
+* Day 491: 🏀 Basketball Jersey Designer in Python 🎨
+
+  Today, I developed a Basketball Jersey Designer application using Python, implementing a Tkinter-based GUI for customizing basketball jerseys. The project focuses on graphic manipulation and user interface design for sports apparel customization. Below are the key highlights:
+
+  - **Custom Color Selection**: The application allows users to choose custom colors for jersey, shorts, and text using a color picker dialog, providing RGB color flexibility for design personalization.
+
+  - **Dynamic Template Manipulation**: The core of the project uses PIL (Python Imaging Library) to dynamically modify a jersey template image by applying user-selected colors to specific regions defined by polygon coordinates.
+
+  - **Text Customization**: Users can input player names and numbers which are automatically centered and rendered on both front and back views of the jersey using TrueType fonts.
+
+  - **Interactive Preview**: The GUI features a live preview canvas that updates in real-time as design parameters are changed, providing immediate visual feedback.
+
+  - **Export Functionality**: Designed jerseys can be saved as PNG files with customizable file names and locations through a file dialog interface.
+
+  This project was an excellent exercise in understanding image manipulation and GUI development. I gained practical experience in working with coordinate-based graphic operations, font rendering, and color management. The integration of Tkinter for the user interface with PIL for image processing proved particularly valuable for creating a responsive design tool with visual output capabilities.
