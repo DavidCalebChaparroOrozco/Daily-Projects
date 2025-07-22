@@ -6899,3 +6899,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Example Implementation**: Demonstrated with a sample ancient text about the Battle of Thermopylae, showing recognition of Spartan context, divine interventions, and multiple historical locations.
 
   This project provided valuable experience in custom NLP entity recognition and historical text processing. The combination of spaCy's linguistic capabilities with domain-specific pattern matching proved particularly effective for analyzing ancient narratives. The structured reporting output offers clear insights into the mythological and historical elements present in classical texts.
+* Day 492: 🔐 Recursive Password Cracker (Simulated) in Python 🖥️
+
+  Today, I worked on a Recursive Password Cracker simulation using Python, implementing an intelligent brute-force approach with pruning optimizations. The project explores combinatorial generation and constraint-based searching techniques for security testing. Below are the key highlights:
+
+  - **Intelligent Search Algorithm**: The core of the project uses recursive backtracking to explore password combinations while pruning invalid branches early based on known constraints (prefix/suffix).
+
+  - **Constraint-Based Pruning**: The system intelligently skips entire branches of the search tree that can't possibly match the known password structure, significantly reducing the search space.
+
+  - **Configurable Parameters**: Supports customizable character sets, maximum password length, and optional prefix/suffix constraints to simulate real-world password cracking scenarios.
+
+  - **Performance Metrics**: Tracks and reports attempts made and elapsed time, providing insights into the efficiency of the pruning approach versus brute-force methods.
+
+  - **Modular Design**: The implementation separates the combinatorial generation from the password checking logic, making it adaptable for different use cases.
+
+  This project was an excellent exercise in understanding recursive algorithms and search space optimization. I gained practical experience in combinatorial generation, early pruning techniques, and constraint-based searching. The simulation approach proved particularly valuable for studying password security without actual malicious intent, focusing instead on the algorithmic challenges of efficient search.
