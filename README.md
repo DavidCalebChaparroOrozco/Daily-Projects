@@ -6914,3 +6914,10 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Modular Design**: The implementation separates the combinatorial generation from the password checking logic, making it adaptable for different use cases.
 
   This project was an excellent exercise in understanding recursive algorithms and search space optimization. I gained practical experience in combinatorial generation, early pruning techniques, and constraint-based searching. The simulation approach proved particularly valuable for studying password security without actual malicious intent, focusing instead on the algorithmic challenges of efficient search.
+* Day 493: Technical Test "maximumGap" and "compareVersion" [LeetCode](https://leetcode.com/problems/)
+
+  - **maximumGap**: Implemented a solution for the "Maximum Gap" problem, where the task is to find the maximum difference between two successive elements in the sorted form of an integer array. The solution must run in linear time and use linear extra space. The approach uses bucket sort to distribute the elements into buckets, ensuring that the maximum gap is found between elements of different buckets rather than within the same bucket. The time complexity is O(n), where n is the number of elements in the array.
+    [Problem Description: maximumGap](https://leetcode.com/problems/maximum-gap/description/)
+
+  - **compareVersion**: Solved the "Compare Version Numbers" problem, which involves comparing two version strings composed of revisions separated by dots. The solution splits the version strings into individual revisions, converts them to integers to ignore leading zeros, and compares each corresponding revision from left to right. If one version has fewer revisions, the missing revisions are treated as zero. The solution efficiently handles the comparison in linear time relative to the length of the version strings.
+    [Problem Description: compareVersion](https://leetcode.com/problems/compare-version-numbers/description/)
