@@ -64,3 +64,4 @@ ucimlrepo
 steamreviews
 tabulate
 deepface
+fuzzywuzzy

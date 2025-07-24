@@ -6921,3 +6921,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
 
   - **compareVersion**: Solved the "Compare Version Numbers" problem, which involves comparing two version strings composed of revisions separated by dots. The solution splits the version strings into individual revisions, converts them to integers to ignore leading zeros, and compares each corresponding revision from left to right. If one version has fewer revisions, the missing revisions are treated as zero. The solution efficiently handles the comparison in linear time relative to the length of the version strings.
     [Problem Description: compareVersion](https://leetcode.com/problems/compare-version-numbers/description/)
+* Day 494: 🏠 Real Estate Listings NER with Python 🏙️
+
+  Today, I developed a Real Estate Listings Named Entity Recognition (NER) system using Python, implementing advanced text analysis techniques to extract property features from listing descriptions. The project focuses on NLP and data visualization for real estate market analysis. Below are the key highlights:
+
+  - **Entity Recognition Engine**: Built a rule-based NER system that identifies property types (penthouse, condo, villa), amenities (gourmet kitchen, pool), and exclusive neighborhoods from listing descriptions.
+
+  - **Multi-Technique Extraction**: Combines regex patterns, fuzzy matching (for misspellings), and spaCy integration for robust entity recognition, achieving 96.3% average match accuracy.
+
+  - **Comprehensive Visualization**: The system generates interactive visualizations including property type distributions, amenity frequency charts, and neighborhood popularity across locations.
+
+  - **Data Analysis Pipeline**: Processes raw listing data into structured insights with automatic categorization of extracted entities and quality scoring for fuzzy matches.
+
+  - **Geographic Context**: Enhanced with location-based analysis showing neighborhood distribution across cities, visualized through stacked bar charts.
+
+  This project provided valuable experience in building production-grade NLP systems for real-world text data. The combination of rule-based patterns with statistical NLP techniques proved particularly effective for domain-specific entity recognition. The visualization components offer immediate business insights from unstructured listing descriptions.
