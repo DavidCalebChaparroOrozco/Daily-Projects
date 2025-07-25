@@ -6936,3 +6936,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Geographic Context**: Enhanced with location-based analysis showing neighborhood distribution across cities, visualized through stacked bar charts.
 
   This project provided valuable experience in building production-grade NLP systems for real-world text data. The combination of rule-based patterns with statistical NLP techniques proved particularly effective for domain-specific entity recognition. The visualization components offer immediate business insights from unstructured listing descriptions.
+* Day 495: 🍂 Falling Leaves Animation in Python 🎨
+
+  Today, I created a Falling Leaves animation using Python and Pygame, implementing simple physics for an autumn-themed visualization. The project focuses on particle systems and natural motion simulation. Below are the key highlights:
+
+  - **Leaf Physics System**: Each leaf follows realistic physics with gravity acceleration and random wind effects that change over time, creating natural-looking movement patterns.
+
+  - **Visual Variety**: The simulation features multiple leaf shapes (oval, pointy, maple-like) in autumnal colors (oranges, reds, yellows) with randomized sizes for visual diversity.
+
+  - **Rotation Mechanics**: Leaves rotate naturally as they fall, with individual rotation speeds that combine with the wind effects for organic motion.
+
+  - **Particle Recycling**: When leaves fall off-screen, they reset at the top with new random properties, maintaining a continuous animation without memory leaks.
+
+  - **Performance Optimization**: The implementation uses efficient Pygame surface transformations and alpha blending for smooth animation even with dozens of leaves.
+
+  This project was an excellent exercise in understanding simple physics simulations and particle systems. I gained practical experience in implementing natural motion, wind effects, and object rotation in 2D space. The combination of Pygame's rendering capabilities with basic physics principles proved particularly valuable for creating visually appealing animations with relatively simple code.
