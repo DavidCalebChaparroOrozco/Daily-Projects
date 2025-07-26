@@ -65,3 +65,4 @@ steamreviews
 tabulate
 deepface
 fuzzywuzzy
+gradio
