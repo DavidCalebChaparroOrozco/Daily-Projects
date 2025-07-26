@@ -6951,3 +6951,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Performance Optimization**: The implementation uses efficient Pygame surface transformations and alpha blending for smooth animation even with dozens of leaves.
 
   This project was an excellent exercise in understanding simple physics simulations and particle systems. I gained practical experience in implementing natural motion, wind effects, and object rotation in 2D space. The combination of Pygame's rendering capabilities with basic physics principles proved particularly valuable for creating visually appealing animations with relatively simple code.
+* Day 496: ✍️ Handwritten Digit Recognition with MNIST 🎨
+
+  Today, I developed a Handwritten Digit Recognition system using the MNIST dataset, implementing a complete deep learning pipeline from model training to interactive web interface. The project focuses on computer vision and deep learning techniques for digit classification. Below are the key highlights:
+
+  - **CNN Model Architecture**: Built a convolutional neural network with PyTorch featuring two convolutional layers, max pooling, dropout for regularization, and fully connected layers for classification.
+
+  - **Data Processing Pipeline**: Implemented proper data loading with train/validation splits, normalization using MNIST statistics (mean=0.1307, std=0.3081), and efficient batching with DataLoader.
+
+  - **Training System**: Developed a complete training loop with Adam optimizer, cross-entropy loss, and validation monitoring, achieving ~98% validation accuracy.
+
+  - **Interactive Interface**: Created a Gradio web interface with sketchpad input for drawing digits, real-time prediction display, and probability visualization.
+
+  - **Preprocessing Engine**: Built robust image preprocessing that handles multiple input formats (numpy arrays, PIL images, dictionaries) and performs necessary transformations (grayscale conversion, inversion, resizing).
+
+  This project provided valuable experience in building end-to-end deep learning systems, from model development to deployment. The integration of PyTorch for model training with Gradio for interactive visualization proved particularly effective for creating an accessible digit recognition demo. The system demonstrates practical applications of CNNs for image classification tasks.
