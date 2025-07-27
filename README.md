@@ -6966,3 +6966,20 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Preprocessing Engine**: Built robust image preprocessing that handles multiple input formats (numpy arrays, PIL images, dictionaries) and performs necessary transformations (grayscale conversion, inversion, resizing).
 
   This project provided valuable experience in building end-to-end deep learning systems, from model development to deployment. The integration of PyTorch for model training with Gradio for interactive visualization proved particularly effective for creating an accessible digit recognition demo. The system demonstrates practical applications of CNNs for image classification tasks.
+* 🟨 Day 497: 🎨 Flood Fill Simulator in Python 🟦 
+
+  Today, I worked on a Flood Fill Simulator using Python, which replicates the classic "paint bucket" behavior found in programs like Microsoft Paint. The project focuses on recursion and 2D matrix manipulation to fill connected regions in a grid. Below are the key highlights:
+
+  * **Recursive Algorithm**: The project uses a recursive depth-first approach to implement the flood fill. Starting from a given cell, it replaces all adjacent cells of the same color with a new one, continuing in four directions (up, down, left, right).
+
+  * **Validation Logic**: Before filling a cell, the algorithm checks whether the coordinates are within bounds and if the current cell matches the target color. This prevents invalid accesses and infinite recursion loops.
+
+  * **Matrix Manipulation**: The grid is implemented as a 2D list of characters, each representing a color. The algorithm operates directly on this grid, updating cells in place based on user input for the starting point and the replacement color.
+
+  * **Input-Driven Execution**: The simulator prompts the user for the starting row and column, as well as the new color to fill. This interactive behavior makes it easy to test different scenarios dynamically.
+
+  * **Edge Case Handling**: The code ensures that filling is not attempted if the target and replacement colors are the same, thereby avoiding redundant operations or unnecessary recursion.
+
+  * **Display Functionality**: A utility function prints the grid in a readable format before and after the flood fill operation. This helps visualize the changes and understand the algorithm’s effect on the matrix.
+
+  This project was an excellent exercise in applying recursion to solve a classic matrix-based problem. I had the opportunity to practice condition-based recursion, input validation, and interactive simulation using basic Python structures—all while mimicking a practical and visually intuitive algorithm.
