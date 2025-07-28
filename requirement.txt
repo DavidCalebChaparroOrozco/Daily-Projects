@@ -66,3 +66,5 @@ tabulate
 deepface
 fuzzywuzzy
 gradio
+prophet
+xgboost

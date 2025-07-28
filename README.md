@@ -6983,3 +6983,18 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   * **Display Functionality**: A utility function prints the grid in a readable format before and after the flood fill operation. This helps visualize the changes and understand the algorithm’s effect on the matrix.
 
   This project was an excellent exercise in applying recursion to solve a classic matrix-based problem. I had the opportunity to practice condition-based recursion, input validation, and interactive simulation using basic Python structures—all while mimicking a practical and visually intuitive algorithm.
+* Day 498: 📈 Pharmacy Sales Analytics with Python 💊
+
+  Today, I conducted a comprehensive analysis of pharmacy sales data using Python, implementing advanced time series forecasting, machine learning, and interactive dashboards. The project focuses on retail analytics techniques for pharmaceutical sales optimization. Below are the key highlights:  
+
+  - **Exploratory Data Analysis**: Performed in-depth EDA with 11 visualizations including monthly trends, product performance heatmaps, and salesperson benchmarking. Identified Antiseptic Cream as the top product (56 transactions) and USA as the dominant market (23% of sales).  
+
+  - **Time Series Forecasting**: Implemented Prophet for 12-week sales predictions with holiday effects, achieving clear visibility into future revenue trends. The model captures weekly and monthly seasonality patterns critical for inventory planning.  
+
+  - **Machine Learning Pipeline**: Developed a classification model to predict high-value transactions (precision: 1.00 for True class, 0.87 for False) and regression models for revenue prediction. Feature importance analysis revealed boxes shipped and weekday as top predictors.  
+
+  - **Interactive Dashboards**: Built Plotly visualizations including a product-country revenue heatmap and sunburst charts for sales team performance. The dashboards enable drill-down analysis by product, country, and salesperson.  
+
+  - **Anomaly Detection**: Identified pricing inconsistencies through Revenue_per_Box analysis (range: $2.75-$49.41), flagging potential discounting issues or data errors.  
+
+  This project provided valuable experience in end-to-end retail analytics, from data cleaning to production-ready models. The integration of scikit-learn for machine learning with Plotly for interactive dashboards proved particularly effective for business intelligence applications. The forecasting components offer actionable insights for supply chain optimization, while the classification model helps prioritize high-value customer interactions.
