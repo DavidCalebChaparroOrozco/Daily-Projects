@@ -6998,4 +6998,34 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **Anomaly Detection**: Identified pricing inconsistencies through Revenue_per_Box analysis (range: $2.75-$49.41), flagging potential discounting issues or data errors.  
 
   This project provided valuable experience in end-to-end retail analytics, from data cleaning to production-ready models. The integration of scikit-learn for machine learning with Plotly for interactive dashboards proved particularly effective for business intelligence applications. The forecasting components offer actionable insights for supply chain optimization, while the classification model helps prioritize high-value customer interactions.
-* Day 499: 
+* Day 499: 🏅 Olympic Medalist Dataset [Kaggle](https://www.kaggle.com/datasets/cahyaalkahfi/olympic-medalist-dataset-18962024/data) 
+
+  Today, I conducted an extensive analysis of the Olympic Medalist Dataset (1896-2024) from Kaggle using Python. The project focused on historical performance analysis, country comparisons, and athlete achievement tracking using Pandas, Seaborn, Matplotlib, and Plotly. Below are the key highlights:
+
+  - **Dataset Overview**: The cleaned dataset contains 20,247 medal records across 128 years of Olympic history, with detailed information about athletes, countries, sports, and medal types.
+
+  - **Comprehensive Data Exploration**:
+    - Created a function `overview()` that provides shape, data types, summary statistics, and unique value counts
+    - Implemented data cleaning to handle missing values (427 unknown athletes and 4 incomplete records)
+    - Added derived features like decade calculation and team/individual event flags
+
+  - **Key Visualizations**:
+    - Historical medal trends with annotations for World Wars
+    - Country performance analysis showing USA's dominance with 2,568 medals
+    - Gender distribution trends revealing 72.1% of medals came from men's events
+    - Sport specialization patterns through country-sport heatmaps
+    - Top athlete achievements including career longevity analysis
+
+  - **Advanced Analysis**:
+    - Medal trend analysis by country showing decadal performance shifts
+    - Gender parity index calculation across different sports
+    - Identification of athletes with 3+ medals in single Olympics
+    - Interactive choropleth map of global medal distribution
+
+  - **Actionable Insights**:
+    - Athletics accounts for 20.8% of all medals (4,211 total)
+    - The United States has won 15.8% of all Olympic medals
+    - Women's participation has grown from 0% in 1896 to 35% in recent games
+    - Team events represent approximately 18% of all medals
+
+  This project provided valuable experience in analyzing historical sports data and visualizing complex temporal patterns. The analysis revealed fascinating insights about Olympic history, national performance trends, and the evolution of gender equality in sports.
