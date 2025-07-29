@@ -6983,7 +6983,7 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   * **Display Functionality**: A utility function prints the grid in a readable format before and after the flood fill operation. This helps visualize the changes and understand the algorithm’s effect on the matrix.
 
   This project was an excellent exercise in applying recursion to solve a classic matrix-based problem. I had the opportunity to practice condition-based recursion, input validation, and interactive simulation using basic Python structures—all while mimicking a practical and visually intuitive algorithm.
-* Day 498: 📈 Pharmacy Sales Analytics with Python 💊
+* Day 498: 📈 Pharmacy Sales Analytics with Python [Kaggle](https://www.kaggle.com/datasets/atharvasoundankar/pharmacy-otc-sales-data-2022)💊
 
   Today, I conducted a comprehensive analysis of pharmacy sales data using Python, implementing advanced time series forecasting, machine learning, and interactive dashboards. The project focuses on retail analytics techniques for pharmaceutical sales optimization. Below are the key highlights:  
 
