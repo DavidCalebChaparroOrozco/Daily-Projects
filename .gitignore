@@ -9,5 +9,7 @@ plugin.drawio
 .gitignore
 Chess/ChessPiecesDetectionbyDavidCaleb/chess-pieces-detection-images-dataset
 CNN/FaceVerification/images/caleb*
-CNN/HaarVsMTCNNFaceDetector/photo/*Kaggle/AllOlympicMedalist/model/stacked_model.pkl 
-Kaggle/AllOlympicMedalist/model/stacked_model.pkl 
+CNN/HaarVsMTCNNFaceDetector/photo/*
+CNN/MNISTDigitRecognition/data*
+RemoveWatermark/*
+Kaggle/AllOlympicMedalist/model/stacked_model.pkl
