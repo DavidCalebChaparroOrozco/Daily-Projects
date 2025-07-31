@@ -3315,15 +3315,11 @@ Today, we embarked on the development of a Graphical User Interface (GUI) for an
 
   This project was an excellent opportunity to apply OOP principles and MVC architecture in creating a practical application. I refined my understanding of how encapsulation and abstraction contribute to building clean and maintainable code while enhancing user functionality through thoughtful design choices.
 * Day 286: Technical Test "levelOrder" and "zigzagLevelOrder" [LeetCode](https://leetcode.com/problems/)
-
-* Day 286: Technical Test "levelOrder" and "zigzagLevelOrder" [LeetCode](https://leetcode.com/problems/)
-
   - **levelOrder**: Implemented a solution for the "Binary Tree Level Order Traversal" problem, which requires returning the values of nodes in a binary tree level by level from left to right. The approach uses a breadth-first search (BFS) strategy with a queue to traverse each level of the tree. For each level, we collect node values and store them in a list. The time complexity of this solution is \(O(n)\), where \(n\) is the number of nodes in the tree.
     [Problem Description: levelOrder](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
 
   - **zigzagLevelOrder**: Developed a solution for the "Binary Tree Zigzag Level Order Traversal" problem, which returns the values of nodes in a binary tree in a zigzag pattern. This means that for each level, the traversal alternates between left-to-right and right-to-left. The implementation also uses BFS with a queue, but it toggles the order of insertion into the result list based on the current level's direction. The time complexity for this solution is also \(O(n)\), where \(n\) is the number of nodes in the tree.
     [Problem Description: zigzagLevelOrder](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
-Here’s a `README.md` for your math visualization project, formatted to match the style of your previous entry:
 * Day 287: 📊 Simple Math Visualizations with Python 📈
 
   Today, I developed a project focused on visualizing basic mathematical concepts using Python and Matplotlib. The project includes functions to plot linear equations, quadratic functions, and sine waves. Below are the key highlights:
