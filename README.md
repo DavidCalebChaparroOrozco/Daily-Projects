@@ -6008,7 +6008,7 @@ Here’s a `README.md` for your math visualization project, formatted to match t
   - **User-Friendly Interface**: Features an intuitive console menu system with input validation and clear progress feedback during calculations.
 
   - **Data Export**: Allows saving all valid nap combinations to a text file for later reference.
-* Day 435: 📊 Extrovert vs. Introvert Behavior Data [Kaggle](https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data/data)
+* Day 436: 📊 Extrovert vs. Introvert Behavior Data [Kaggle](https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data/data)
 
   Today, I conducted a comprehensive analysis of personality behavior data comparing Extrovert and Introvert traits from Kaggle. The project focuses on behavioral pattern recognition, correlation analysis between social habits and personality traits, and predictive modeling using Python's data science stack including Pandas, Scikit-learn, Seaborn, and Plotly. Below are the key highlights:
 
