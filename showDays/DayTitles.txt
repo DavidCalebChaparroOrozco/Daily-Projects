@@ -1,0 +1,500 @@
+Day 01: Polar Plots in Python with Matplotlib by Neural Nine
+Day 02: Spotify Oldies Dataset 🎶: A Treasury of Classics [Kaggle](https://www.kaggle.com/datasets/kanchana1990/spotify-oldies-dataset/data)
+Day 03: Pomodoro Timer GUI
+Day 04: To Do App
+Day 05: ContactManager
+Day 06: Income Prediction Adult Income [Kaggle](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset)
+Day 07: Pokedex GUI Application
+Day 08: Flet Chat Application
+Day 09: Video Game Sales [Kaggle](https://www.kaggle.com/datasets/gregorut/videogamesales/data)
+Day 10: Summarize News Articles
+Day 11: Sudoku Solver
+Day 12: Snake Pygame
+Day 13: Titanic Dataset 🚢 [Kaggle](https://www.kaggle.com/c/titanic)
+Day 14: Email Python
+Day 15: Guess the Number
+Day 16: Virtual Bookshelves
+Day 17: RSS Feed Reader
+Day 18: Customer Manager JSON
+Day 19: Expense Tracking App
+Day 20: Hangman
+Day 21: Image Editor
+Day 22: Faker User
+Day 23: Simple Stock Price (Steamlit)
+Day 24: Quality Of Wine [Kaggle](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)
+Day 25: Extract Dominant Colors
+Day 26: Tree Node
+Day 27: ML with FastAPI
+Day 28: Tutorial Guide (Python Types Intro) [FastAPI](https://fastapi.tiangolo.com/python-types/)
+Day 29: Parking Space Counter
+Day 30: [TensorFlow](https://www.tensorflow.org/tutorials/keras/classification) Guide (Beginner ~ ML Basics with Keras)
+Day 31: Spam Emails Dataset [Kaggle](https://www.kaggle.com/datasets/venky73/spam-mails-dataset/code)
+Day 32: Dijkstra's Algorithm Implementation
+Day 33: Technical Test "Add Two Numbers" and "FizzBuzz" [LeetCode](https://leetcode.com/problems/)
+Day 34: Quicksort
+Day 35: Live Weather Forecast Flask App
+Day 36: Random Passwords Generator
+Day 37: Site Connectivity Checker
+Day 38: Heart Attack Analysis & Prediction Dataset [Kaggle](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset/data)
+Day 39: [TensorFlow](https://www.tensorflow.org/tutorials/keras/classification) Guide Basic text Classification (Beginner ~ ML Basics with Keras)
+Day 40: Technical Test "Minimum Height Trees" and "Zigzag Conversion" [LeetCode](https://leetcode.com/problems/)
+Day 41: Tkinter - Map View
+Day 42: Tkinter - Digital Clock
+Day 43: PySpark (Quickstart: DataFrame)[https://spark.apache.org/docs/3.3.1/api/python/getting_started/quickstart_df.html]
+Day 44: Daily Routine with Desktop Notifications
+Day 45: Language Detection
+Day 46: Technical Test "MedianSortedArrays" and "lengthOfLongestSubstring" [LeetCode](https://leetcode.com/problems/)
+Day 47: Currency Converter
+Day 48: Perceptron
+Day 49: Technical Test "Reverse Integer" and "Longest Palindromic Substring" [LeetCode](https://leetcode.com/problems/)
+Day 50: Students Performance in Exams [Kaggle](https://www.kaggle.com/datasets/whenamancodes/students-performance-in-exams/data)
+Day 51: Interactive Menu for YouTube and Web Searches
+Day 52: Task Manager Performance
+Day 53: Technical Test "Integer to Roman" and "Container With Most Water" [LeetCode](https://leetcode.com/problems/)
+Day 54: Background Remove Flask
+Day 55: Multiple Files Renamer
+Day 56: Technical Test "threeSum" and "threeSumClosest" [LeetCode](https://leetcode.com/problems/)
+Day 57: KeyLogger
+Day 58: Matrix Effect
+Day 59: Dice-Rolling [realpython.com](https://realpython.com/python-dice-roll/#step-1-code-the-tui-of-your-python-dice-rolling-app)
+Day 60: Technical Test "letterCombinations" and "4Sum" [LeetCode](https://leetcode.com/problems/)
+Day 61: Anemia Types Classification [Kaggle](https://www.kaggle.com/datasets/ehababoelnaga/anemia-types-classification/data)
+Day 62: Cinema Management System using OOP
+Day 63: Technical Test "removeNthFromEnd" and "isMatch" [LeetCode](https://leetcode.com/problems/).
+Day 64: Contour Plots in Matplotlib - Visualize 3D Functions in 2D [NeuralNine](https://www.youtube.com/watch?v=DYn9HdTmt0E)
+Day 65: Technical Test "isValidParentheses" and "MergeTwoSortedLists" [LeetCode](https://leetcode.com/problems/).
+Day 66: Web Scraping Job Listings with Python
+Day 67: [TensorFlow](https://www.tensorflow.org/tutorials/keras/regression) Regression (Beginner ~ ML Basics with Keras)
+Day 68: Recursion "SierpinskiTriangle" and "FractalTree".
+Day 69: Ticket management GUI
+Day 70: Scientific GUI Calculator
+Day 71: Technical Test "generateParenthesis" and "mergeKLists" [LeetCode](https://leetcode.com/problems/).
+Day 72: Knight's Tour Problem Solver
+Day 73: Tic-Tac-Toe Multiplayer [NeuralNine](https://youtu.be/s6HOPw_5XuY?si=ZlnrpRTxmJiYtGv8)
+Day 74: Technical Test "twoSum" and "myAtoi" [LeetCode](https://leetcode.com/problems/).
+Day 75: Spotify Songs Album [Kaggle](https://www.kaggle.com/datasets/zeesolver/spotfy/data)
+Day 76: Bank Queue Management System
+Day 77: Inventory Management GUI
+Day 78: Technical Test "swapPairs" and "reverseKGroup" [LeetCode](https://leetcode.com/problems/).
+Day 79: Minesweeper GUI Pygame
+Day 80: Student Practice Management System
+Day 81: Random Roulette
+Day 82: Test Projects "celsius_to_fahrenheit"
+Day 83: Technical Test "removeDuplicates" and "removeElement" [LeetCode](https://leetcode.com/problems/).
+Day 84: Complaint Management System
+Day 85: Convert Word Files To PDF [NeuralNine](https://www.youtube.com/watch?v=i57uYpW5Ng8)
+Day 86: Goldner-Harary Graph in 3D
+Day 87: Building Management System
+Day 88: Technical Test "strStr" and "divide" [LeetCode](https://leetcode.com/problems/).
+Day 89: Dragon Ball Radar Animation with DBSCAN Clustering
+Day 90: Pong Game Development in Python
+Day 91: Flask-based Online Survey Application
+Day 92: Tower of Hanoi and N Queens Problem Solutions
+Day 93: Word Search Puzzle GUI
+Day 94: Technical Test "findSubstring" and "nextPermutation" [LeetCode](https://leetcode.com/problems/).
+Day 95: PhishGuard - Anti-Phishing Email and Website Filter
+Day 96: World Clock GUI
+Day 97: Pipelines for inference [🤗 Transformers](https://huggingface.co/docs/transformers/pipeline_tutorial)
+Day 98: Vehicle Management System
+Day 99: 🌬️ Asthma Disease Dataset 🌬️ [Kaggle](https://www.kaggle.com/datasets/rabieelkharoua/asthma-disease-dataset/data)
+Day 100: 🎮 2048 Game with Flask 🎮
+Day 101: Technical Test "longestValidParentheses" and "search" [LeetCode](https://leetcode.com/problems/).
+Day 102: 🍦 Object-Oriented Programming in Python with Ice Cream Example 🍦
+Day 103: [TensorFlow](https://www.tensorflow.org/tutorials/keras/text_classification_with_hub) Text classification with TF Hub
+Day 104: Battleship Game with Flask
+Day 105: Technical Test "searchRange" and "searchInsert" [LeetCode](https://leetcode.com/problems/).
+Day 106: Create a Multipage App with Streamlit [Streamlit Tutorial](https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app)
+Day 107: Twenty One Card Game GUI
+Day 108: Character-Level Language Model with RNN
+Day 109: PolarsVSPandas (Polars Is The Faster Pandas) [NeuralNine](https://www.youtube.com/watch?v=zthI91ASV58)
+Day 110: Technical Test "isValidSudoku" and "solveSudoku" [LeetCode](https://leetcode.com/problems/).
+Day 111: Library Management System
+Day 112: Maze Generator and Solver
+Day 113: Basketball Scoreboard in Flask
+Day 114: Internet Speed Test Application
+Day 115: Steganography Application using Flask
+Day 116: Technical Test "countAndSay" and "combinationSum" [LeetCode](https://leetcode.com/problems/).
+Day 117: Recursion "BinaryTreeExpressionEvaluator"
+Day 118: Shirt Store
+Day 119: Household Basket
+Day 120: Copa America 2024 Groups [Dataset](https://en.wikipedia.org/wiki/2024_Copa_Am%C3%A9rica)
+Day 121: Technical Test "combinationSum2" and "firstMissingPositive" [LeetCode](https://leetcode.com/problems/).
+Day 122: Recursion "Knapsack"
+Day 123: [TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+Day 124: 🏫 Object-Oriented Programming in Python with University Enrollment System 🏫
+Day 125: Technical Test "trap" and "multiply" [LeetCode](https://leetcode.com/problems/).
+Day 126: Basketball Ground Using Turtle
+Day 127: Employee Hours
+Day 128: Recursion "Letter Combinations"
+Day 129: Pneumonia Detection Using Deep Learning
+Day 130: Technical Test "WildcardisMatch" and "jump" [LeetCode](https://leetcode.com/problems/)
+Day 131: 🐕 Dogs vs Cats 🐈 [Kaggle](https://www.kaggle.com/datasets/salader/dogs-vs-cats)
+Day 132: 🎬 Object-Oriented Programming in Python with Movie Subscription System 🎬
+Day 133: 🤖 Implementing a Simple Neural Network in Python with Backpropagation 🤖
+Day 134: ♟️ Building a Chess Game in Python with Object-Oriented Programming ♟️
+Day 135: ☕ Analyzing Worldwide Coffee Consumption Trends with Python ☕
+Day 136: Technical Test "permute" and "permuteUnique" [LeetCode](https://leetcode.com/problems/)
+Day 137: Test Projects "NotesManager"
+Day 138: 🐾 Developing a Pet Store Management System in Python with Unit Testing 🐾
+Day 139: Top 20 Play Store App Reviews [Kaggle](https://www.kaggle.com/datasets/odins0n/top-20-play-store-app-reviews-daily-update/data)
+Day 140: 🎮 Memory Game 🎮
+Day 141: 🧮 EMI Calculator with Tkinter and Matplotlib 📊
+Day 142: Technical Test "rotate" and "groupAnagrams" [LeetCode](https://leetcode.com/problems/)
+Day 143: 🎵 Object-Oriented Programming in Python with Music Subscription System 🎵
+Day 144: 🌀 Mandelbrot Set Visualization 🌀
+Day 145: 🌳 Recursive Tree Animation 🌳
+Day 146: 🏦 ATM Machine Simulation 🏦
+Day 147: Technical Test "myPow" and "NQueens" [LeetCode](https://leetcode.com/problems/)
+Day 148: 🎮 Video Game Subscription System in Python 🎮
+Day 149: 🧩 Wordle Game with Flask and CSS 🖥️
+Day 150: 🧠 Brain Tumor Dataset 🧠 Analysis [Kaggle](https://www.kaggle.com/datasets/odins0n/brain-tumor-dataset)
+Day 151: 🏗️ Tower of Babel - Recursive Algorithm 🏗️
+Day 152: Technical Test "totalNQueens" and "maxSubArray" [LeetCode](https://leetcode.com/problems/)
+Day 153: 🎮 Rock Paper Scissor Game with Tkinter 🎮
+Day 154: 🏥 Medical Appointment System in Python 🩺
+Day 155: 🎬 Movie Ratings Analysis with PySpark and Seaborn 🎥 [Dataset](https://grouplens.org/datasets/rating-disposition-2023/)
+Day 156: 🗒️ To-Do List Application with Flet 📝
+Day 157: Technical Test "spiralOrder" and "canJump" [LeetCode](https://leetcode.com/problems/)
+Day 158: 🖌️ Floodfill Image Color Changer with Tkinter 🖌️
+Day 159: 🏠 Real Estate Data Visualization with Folium 🗺️
+Day 160: Top 1000 Global Tech Companies Dataset (2024) [Kaggle](https://www.kaggle.com/datasets/muhammadehsan000/top-1000-global-tech-companies-dataset-2024/code)
+Day 161: 🏨 Hotel Reservation System in Python 🏢
+Day 162: 🌀 Gray Code Generator - Recursive Algorithm 🌀
+Day 163: Technical Test "merge_intervals" and "insert_intervals" [LeetCode](https://leetcode.com/problems/)
+Day 164: 🧮 BMI Calculator with Tkinter and Matplotlib 📊
+Day 165: 🗂️ File Manager Pro with Python 🖥️
+Day 166: 🥤 Soda Combinations Generator - Recursive Algorithm 🥤
+Day 167: Technical Test "lengthOfLastWord" and "generateMatrix" [LeetCode](https://leetcode.com/problems/)
+Day 168: Compound Interest Calculator in Python by [NeuralNine](https://www.youtube.com/watch?v=OqCqFfLfFsk)
+Day 169: 🌱 Plant Management System for "La Planta Feliz" Nursery 🌿
+Day 170: 🍕🍽️ Pizza Restaurant Sales [Kaggle](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales/data)
+Day 171: 🔍 Partitioning a List into Two Equal Subsets - Recursive Algorithm 🔍
+Day 172: 🏀 Basketball Player Statistics Generator with Python 📊
+Day 173: 🎵 Discord Music Bot with Python and discord.py 🎶
+Day 174: Technical Test "getPermutation" and "rotateRight" [LeetCode](https://leetcode.com/problems/)
+Day 175: Build Your Own News Hub in Python - RSS Feed Aggregator by [NeuralNine](https://www.youtube.com/watch?v=5mEmE7pBI1A)
+Day 176: 🔺 Maximum Sum Path in a Triangle - Recursive Algorithm 🔺
+Day 177: 📂 File System Management in Python 🖥️
+Day 178: 🛒📊 Customer Purchasing Behaviors [Kaggle](https://www.kaggle.com/datasets/hanaksoy/customer-purchasing-behaviors/data)
+Day 179: Movie Recommendation App with Streamlit
+Day 180: Technical Test "uniquePaths" and "uniquePathsWithObstacles" [LeetCode](https://leetcode.com/problems/)
+Day 181: 🏀 Basketball Team Generator and Visualizer with Python 📊
+Day 182: 🍽️ Restaurant Management System in Python 🍴
+Day 183: 🌊 Crossing the River Problem - Recursive Solution 🌊
+Day 184: Technical Test "minPathSum" and "isNumber" [LeetCode](https://leetcode.com/problems/)
+Day 185: Estimating Pi with Monte Carlo Method
+Day 186: BMI Calculator in Python - Flask Application
+Day 187: 🎲 Lottery Simulator in Python 🎯
+Day 188: Technical Test "addBinary" and "plusOne" [LeetCode](https://leetcode.com/problems/)
+Day 189: 🔍 Longest Common Subsequence (LCS)
+Day 190: 🧠 MNIST Neural Network with Hyperparameter Tuning in Python 🤖
+Day 191: 🚗 Vehicle Management System in Python 🚙
+Day 192: 💤💪 Health and Sleep Statistics [Kaggle](https://www.kaggle.com/datasets/hanaksoy/health-and-sleep-statistics/data)
+Day 193: 🔍 Anagram Finder in Python 🧩
+Day 194: Technical Test "fullJustify" and "mySqrt" [LeetCode](https://leetcode.com/problems/)
+Day 195: 📊 Final Exam Score Calculator in Python 🎓
+Day 196: 🧩 Sudoku Solver in Python 🔢
+Day 197: 🏀 Three-Point Shot Success Calculator in Flask 🎯
+Day 198: 🐾 Cats Dataset [Kaggle](https://www.kaggle.com/datasets/waqi786/cats-dataset/data)
+Day 199: 📚 Book Subscription System in Python 📖
+Day 200: Technical Test "climbStairs" and "simplifyPath" [LeetCode](https://leetcode.com/problems/)
+Day 201: 🌊 Count Islands in a Grid Using Recursion 🏝️
+Day 202: 🃏 Flashcard Creator with Tkinter 🎓
+Day 203: ♟️ FEN Notation Converter for Chess in Python ♟️
+Day 204: 🚗🔋 Electric Vehicle Charging Patterns Dataset [Kaggle](https://www.kaggle.com/datasets/valakhorasani/electric-vehicle-charging-patterns/data)
+Day 205: 📚 Lesson Subscription and Management System in Python 🎓
+Day 206: Technical Test "minDistance" and "setZeroes" [LeetCode](https://leetcode.com/problems/)
+Day 207: 🎨 Painting Problem in Python 🌈
+Day 208: ♟️ Chess Move Validator in Python ♟️
+Day 209: 📱 Cellphone Inventory Management System in Python 📊
+Day 210: Technical Test "searchMatrix" and "sortColors" [LeetCode](https://leetcode.com/problems/)
+Day 211: 🧩 Tiling Problem Solver in Python 🎲
+Day 212: 🎳 Bowling Scoreboard App in Python 🎯
+Day 213: 🛤️ Self-Avoiding Walk in Python 🚶‍♂️
+Day 214: Technical Test "minWindow" and "combine" [LeetCode](https://leetcode.com/problems/)
+Day 215: 🎳 Console-Based Bowling Game in Python 🕹️
+Day 216: 📊 Leetcode Questions Dataset Analysis [Kaggle](https://www.kaggle.com/datasets/mohitkumar282/leetcode-questions-dataset/data)
+Day 217: 🖼️ Art Store Management System in Python 🎨
+Day 218: Technical Test "Subsets" and "WordSearch" [LeetCode](https://leetcode.com/problems/)
+Day 219: 🎨 Tkinter Color Picker
+Day 220: 💰 Tip Calculator with Tkinter
+Day 221: 🌍 Choropleth Map Generator with Flask 🗺️
+Day 222: 💼 LevelUp Jobs - MVC Python Application 🖥️
+Day 223: Technical Test "removeDuplicatesII" and "searchII" [LeetCode](https://leetcode.com/problems/)
+Day 224: 💵 Recursive Investment Growth Calculator in Python 📈
+Day 225: 🌳 Company Organizational Structure Tree in Python 📊
+Day 226: 📱 Mobile Device Usage and User Behavior Dataset 📱 [Kaggle](https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user-behavior-dataset/data)
+Day 227: 🍏 Food Inventory Management System in Python 🥦
+Day 228: Technical Test "deleteDuplicates" and "deleteDuplicatesll" [LeetCode](https://leetcode.com/problems/)
+Day 229: ⏳ Recursive Countdown Timer in Python ⏲️
+Day 230: 🎃 Jack-o'-Lantern in Python with Turtle Graphics 🎨
+Day 231: 🔐 Password Manager in Python 🛡️
+Day 232: 🎮 Pong Game in Python with Kivy 🕹️
+Day 233: 🍬 Candy Inventory Management System in Python 🍭
+Day 234: Technical Test "largestRectangleArea" and "maximalRectangle" [LeetCode](https://leetcode.com/problems/)
+Day 235: 🏠 Rent Houses Management System in Python 🏡
+Day 236: 🥗 Total Daily Energy Expenditure (TDEE) Calculator in Python ⚖️
+Day 237: 📝 Word Counter Application in Python 🖥️
+Day 238: 📚 Data Structure Management System in Python 📊
+Day 239: 🏀 Basketball Team Manager in Python 🏆
+Day 240: Technical Test "partitionList" and "isScramble" [LeetCode](https://leetcode.com/problems/)
+Day 241: 📈 Fibonacci Sequence Calculator in Python 🔢
+Day 242: ♟️ Simple Chess Game in Python ♟️
+Day 243: 🧴 Lotion Management System in Python 🌿
+Day 244: Guava Fruit Disease Dataset [Kaggle](https://www.kaggle.com/datasets/asadullahgalib/guava-disease-dataset/data)
+Day 245: Technical Test "merge" and "grayCode" [LeetCode](https://leetcode.com/problems/)
+Day 246: 🗂️ Task Prioritization Matrix in Python 📊
+Day 247: 🏥 Medication Reminder System in Flask 💊
+Day 248: ⏱️ Chess Clock Simulation in Python ♟️
+Day 249: 🏀 Basketball Tournament Management System in Python 🏆
+Day 250: Technical Test "subsetsWithDup" and "numDecodings" [LeetCode](https://leetcode.com/problems/)
+Day 251: 🍞 Bakery Management System in Python 🥐
+Day 252: 🎶 Music Melody Generator in Python 🎵
+Day 253: 🧠 Stroke Prediction Dataset [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data)
+Day 254: 📝 Note Taking Application in Python 🗒️
+Day 255: 🛒 Shopping List Notification System in Python 📬
+Day 256: 📚 Study Notification System in Python ⏰
+Day 257: Technical Test "reverseBetween" and "restoreIpAddresses" [LeetCode](https://leetcode.com/problems/)
+Day 258: 🏨 Hotel Booking System in Python 🛏️
+Day 259: 📊 Data Processing Pipeline in Python 🐍
+Day 260: 🌌 Koch Curve Fractal in Python 🌊
+Day 261: ⏳ Pomodoro Timer System in Python 🍅
+Day 262: 📈 Video Game Stocks Analysis[Kaggle](https://www.kaggle.com/datasets/datadrivenx/video-game-stocks-financial-market-data/data)
+Day 263: Technical Test "inorderTraversal" and "generateTrees" [LeetCode](https://leetcode.com/problems/)
+Day 264: 🛒 E-Commerce Shopping Cart in Python 🛍️
+Day 265: 🏀 Basketball Injury Tracker in Python 🏥
+Day 266: 📊 Collatz Conjecture Sequence Visualizer in Python 🌌
+Day 267: 🎯 Subset Sum to Target in Python 🧮
+Day 268: 🛠️ Team Role Management System in Python 👥
+Day 269: 🏥 Medical Cost Personal Datasets Analysis
+Day 270: Pose Estimation Project with Python 🤖
+Day 271: Technical Test "numTrees" and "isInterleave" [LeetCode](https://leetcode.com/problems/)
+Day 272: 🔺 Pascal's Triangle Row Finder in Python 🔺
+Day 273: 🏺 Mythical Characters Management System in Python 🐉
+Day 274: 🧪 Synthetic Data Generator in Python 🗃️
+Day 275: Technical Test "isValidBST" and "recoverTree" [LeetCode](https://leetcode.com/problems/)
+Day 276: 📊 Custom Dashboard Generator in Python 🖥️
+Day 277: 🌊 Koch Curve Visualization in Python 📈
+Day 278: User Story Management System in Python 📖
+Day 279: ETL Process with Python for SQL Server to PostgreSQL
+Day 280: Technical Test "isSameTree" and "isSymmetric" [LeetCode](https://leetcode.com/problems/)
+Day 281: 📝 Note-taking Application in Python 📓
+Day 282: 💎 Diamonds [Kaggle](https://www.kaggle.com/datasets/shivam2503/diamonds/data)
+Day 283: 🎄 Christmas Tree Generator in Python 🎅
+Day 284: ❄️ Snowfall Simulation in Python with Pygame ☃️
+Day 285: 🎄 Christmas Gift Manager in Python 🎁
+Day 286: Technical Test "levelOrder" and "zigzagLevelOrder" [LeetCode](https://leetcode.com/problems/)
+Day 287: 📊 Simple Math Visualizations with Python 📈
+Day 288: 🎄 Recursive Advent Calendar in Python 🎁
+Day 289:🏋️ Fitness Tracker in Python 📊
+Day 290: 🎄 Holiday Expense Tracker in Python 💰
+Day 291: 🎉 Countdown Timer to New Year in Python 🎆
+Day 292: 🏦 Family Budget Planner Application in Python 💰
+Day 293: Technical Test "maxDepth" and "BuildTree" [LeetCode](https://leetcode.com/problems/)
+Day 294: 🌌 Zodiac Sign Calculator in Python ♈️🐉
+Day 295: 📦 Mail/Package Service Application in Python 📬
+Day 296: 💰 Optimal Coin Change in Python 💵
+Day 297: 🥭 Named Entity Recognition (NER) Model in Python 🧠
+Day 298: 🪙 Coin Flip Simulation in Python 🎲
+Day 299: 💰 Expense Splitter in Python 📊
+Day 300: Technical Test "isBalanced" and "minDepth" [LeetCode](https://leetcode.com/problems/)
+Day 301: 🍕 Pizza Drawing with Python Turtle 🎨
+Day 302: 🧑‍💻 Job Notification Script in Python 📬
+Day 303: 🪙 Coin Game with Minimax Algorithm in Python 🎮
+Day 304: 🐦 Bird Study Service in Python 📚
+Day 305: 🏀 Shooting Efficiency Tracker in Python 📊
+Day 306: Technical Test "hasPathSum" and "pathSum" [LeetCode](https://leetcode.com/problems/)
+Day 307: 🎓 Grade Converter in Python 📊
+Day 308: [Data Colombia: Traffic Accidents](https://www.datos.gov.co/dataset/MUERTES-ACCIDENTES-DE-TRANSITO-2012-2022-MARZO/wwir-6riq/about_data)
+Day 309: 🍦 Ice Cream Combination Generator in Python 🍨
+Day 310: 🍳 NER for Recipe Extraction in Python 📜
+Day 311: Technical Test "flatten" and "numDistinct" [LeetCode](https://leetcode.com/problems/)
+Day 312: 📊 Advanced Sales Dashboard with Flask and Plotly
+Day 313:🌍 Tourist Location NER (Named Entity Recognition) Project 🏛️
+Day 314: 📦 Box Management System in Python 🗃️
+Day 315: 🎲 Coin Toss Sequences with Recursion
+Day 316: 🩺 Diabetes Analysis and Prediction in Python 📊 [Diabetes Dataset on Kaggle](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset/data)
+Day 317: Technical Test "generate" and "getRow" [LeetCode](https://leetcode.com/problems/)
+Day 318: Basketball Warm-Up Routine Generator in Python
+Day 319: Car Price [Car Price Dataset on Kaggle](https://www.kaggle.com/datasets/asinow/car-price-dataset)
+Day 320: 🤖 Generative AI with DeepSeek and GPT-2 in Python 🧠
+Day 321: 🏀 Basketball Win-Loss Tracker in Python 🏆
+Day 322: 🎯 Intent Recognition System with BERT 🤖
+Day 323: 🎬 Emotion Classifier in Text using Python 🧠
+Day 324: ⚽ Football Match Outcome Predictor using Machine Learning 🤖
+Day 325: ✨ Simple Spell Checker with Dark Theme in Python 🖤
+Day 326: 🧩 Maze Solver with Deep Learning in Python 🧠
+Day 327: 👗 Fashion Image Classifier with TensorFlow 🖼️
+Day 328: Technical Test "minimumTotal" and "maxProfit" [LeetCode](https://leetcode.com/problems/)
+Day 329: 🏀 Basketball Play Generator with TensorFlow 🧠
+Day 330: 📰 Topic Classifier with Scikit-learn and NLP 📊
+Day 331: 🐱 Pet Database Management in Python 🐾
+Day 332: 🎭 Shakespeare Text Generator in Python 🖋️
+Day 333: 🏋️ Muscle Fatigue Simulation in Python 💪
+Day 334: 🤖 Intent Classifier for Messages using Python 🧠
+Day 335: 🐦 Twitter US Airline Sentiment Analysis [Twitter US Airline Sentiment Dataset on Kaggle](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment/)
+Day 336: 🎯 Josephus Problem Solver in Python 🧮
+Day 337: 🎳 Bowling Score Calculator in Python 🏆
+Day 338: Technical Test "maxProfitll" and "maxProfitlll" [LeetCode](https://leetcode.com/problems/)
+Day 339: 👨‍💼 Employee Management System in Python 🏢
+Day 340: [Mall Customer Segmentation Data on Kaggle](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python/data)
+Day 341:🏥 MedNER: Medical Named Entity Recognition (NER) Project 💊
+Day 342: 🌍 Travel Planner App in Python 🗺️
+Day 343: 🔒 Metadata Analysis Tool in Python 📂
+Day 344: 🎮 Nim Game Solver in Python 🧠
+Day 345: Technical Test "maxPathSum" and "isPalindrome" [LeetCode](https://leetcode.com/problems/)
+Day 346: 🌳 Tree Mirror in Python 🪞
+Day 347: 📊 Data Visualization and Report Generation in Python 📈
+Day 348: Sales Data Analysis [Kaggle](https://www.kaggle.com/datasets/beekiran/sales-data-analysis/data)
+Day 349: 🎳 Bowling League Manager in Python 🏆
+Day 350: 🔢 Recursive Number to Words Converter in Python 🧮
+Day 351: Technical Test "findLadders" and "findLaddersI" [LeetCode](https://leetcode.com/problems/)
+Day 352: 🔒 SSL Certificate Checker in Python 🌐
+Day 353: 🌐 WHOIS Lookup Tool in Python 🔍
+Day 354: 🔥 Simple Firewall Application in Python 🛡️
+Day 355: 🏀 Basketball Player Stats Analyzer in Python 🏀
+Day 356: 🚗 Car Maintenance Tracker in Python 🛠️
+Day 357: 🏗️ Pyramid Block Counter and Visualizer in Python 🧱
+Day 358: 🌹 International Women's Day Tribute with Python Turtle 🐢
+Day 359: Technical Test "longestConsecutive" and "sumNumbers" [LeetCode](https://leetcode.com/problems/)
+Day 360: 🔒 Web Application Security Scanner in Python 🛡️
+Day 361: 🛒 Price Notifier System in Python 💰
+Day 362: 📅 Recursive Calendar Generator in Python 🗓️
+Day 363: 🔐 Caesar Cipher GUI in Python 🖥️
+Day 364: 🏀 Basketball Shot Clock in Python ⏱️
+Day 365: Comprehensive Data Analysis Portfolio 📊
+Day 366: 🌌 Wave Function Collapse Simulator in Python 🌀
+Day 367: 🏦 Banking System in Python 💰
+Day 368: 📈 Time Series Forecasting with LSTM in Python 🕒
+Day 369: 🎤 Speech-to-Text Transcription with Wav2Vec2 🎧
+Day 370: Technical Test "Surrounded Regions" and "Palindrome Partitioning" [LeetCode](https://leetcode.com/problems/)
+Day 371: 🌐 Recursive Voronoi Diagram Generator in Python 🖼️
+Day 372: 👵 ElderlyCare – Health and Medication Monitoring System in Python 🩺
+Day 373: 🌿 3D L-System Algorithm in Python 🐢
+Day 374: 🌳 Lowest Common Ancestor in BST with Visualization 📊
+Day 375: 🌳 Mirror Binary Tree in Python 🔄
+Day 376: 🌳 Prefix Tree (Trie) for Name Search System 🔍
+Day 377: 🌳 Fenwick Tree (Binary Indexed Tree) Implementation in Python
+Day 378: 🎮 Word Raider - A Word Guessing Game in Python 🔠
+Day 379: Technical Test "minCut" and "cloneGraph" [LeetCode](https://leetcode.com/problems/)
+Day 380: 🏀 Basketball Position Recommender in Python
+Day 381: 📈 Catalan Numbers Visualization in Python 🔢
+Day 382: 💤 SleepAnalyzer - Python Sleep Tracking System 📊
+Day 383: 🗃️ LRU Cache Implementation in Python 🏗️
+💻 Day 384: Chess Piece Classification [Kaggle](https://www.kaggle.com/datasets/anshulmehtakaggl/chess-pieces-detection-images-dataset)
+🗓️ Day 385: Lambda Function Plotter [Python + Tkinter + Matplotlib]
+Day 386: Recursive Regex Matcher
+🗓️ Day 387: AVL Tree Balancer
+Day 388: 🌍 Global Spice Consumption Analysis [Kaggle](https://www.kaggle.com/datasets/harishthakur995/global-spice-consumption/code)
+Day 389: Recursive Circle Packing Animation
+Day 390: Technical Test "canCompleteCircuit" and "candy" [LeetCode](https://leetcode.com/problems/)
+Day 391: 🎯 Random Fortune Roulette in Python 🎡
+Day 392:🎮 Guess the Word Game in Python 🔠
+Day 393: 🏔️ Recursive Landscape Generator in Python 🌄
+Day 394: Technical Test "singleNumber" and "singleNumberII" [LeetCode](https://leetcode.com/problems/)
+Day 395: 🏛️ Interactive Museum Guide System in Python 🖼️
+🧠 Day 396: Arithmetic Puzzle Solver with Recursion and Visualization 📊
+Day 397: 🌀 Colorful Spiral Art with Python Turtle 🎨
+🧠 Day 398: 🌲 Recursive Trie (Prefix Tree) Implementation in Python 🔍
+Day 399: 🔐 Egyptian Code Book in Python 𓁹
+Day 400: 🏛️ Babylonian Sexagesimal Calculator in Python 🔢
+Day 401: 🏰 Roman Catapult Game in Python 🪨
+Day 402: ❄️ FrozenLake AI Agent with Q-Learning 🏆
+Day 403: 🌿 Barnsley Fern Fractal Generator in Python 🖥️
+Day 404: 🎲 Lost Link - Network Dice Game 🌐
+Day 405: 🧺 Laundry Service Management System in Python 🚿
+Day 406: Technical Test "copyRandomList" and "wordBreak" [LeetCode](https://leetcode.com/problems/)
+Day 407: 🕵️ Alan Turing's Enigma Machine Simulator in Python
+Day 408: 📊 Precious Metals Analysis [Kaggle](https://www.kaggle.com/datasets/romanfonel/precious-metals-history-since-2000-with-news/code)
+Day 409: ✨ Magic Squares Generator in Python 🔢
+Day 410: 🧩 Cross Sums Puzzle Game in Python 🎲
+Day 411: ♟️ Chess Notation Trainer in Python 📝
+Day 412: 📂 SmartFolder - Automated File Organizer 🤖
+Day 413: 📂 Recent File Finder with Tkinter 🔍
+Day 414: 🛒 Customer Retention Analysis with UCI Online Retail Dataset 📊
+Day 415: 🖥️ Comprehensive Windows Inspector in Python 🔍
+Day 416: 🔐 Shamir's Secret Sharing System in Python
+Day 417: ⛓️ Minimalist Blockchain in Python 🔗
+Day 418: 🏗️ Distinct Paths Counter in Grid with Visualization 📊
+Day 419: Technical Test "wordBreakII" and "hasCycle" [LeetCode](https://leetcode.com/problems/)
+Day 420: 🥞 Pancake Sorting Algorithm in Python 🔄
+Day 421: 🏚️ Virtual Post-Apocalypse Community Simulator 🌆
+Day 422: 🏀 Player Jersey Number Checker System 🔢
+Day 423: 📊 Bank Marketing Analysis with Decision Trees in Python 🌐 [Bank Marketing Dataset - UCI](https://archive.ics.uci.edu/dataset/222/bank+marketing)
+Day 424: 🐍 Mamba Mentality Motivator for Windows 💜💛
+Day 425: Technical Test "detectCycle" and "reorderList" [LeetCode](https://leetcode.com/problems/)
+Day 426: 🏀 Hot Hand Effect Simulation in Python 🔥
+Day 427: 🏀 Automatic Basketball Game Summarizer with NER 🏆
+Day 428: ♟️ Chess Legal Move Highlighter in Python
+Day 429: 🔢 Euclidean Algorithm Visualizer in Python 📐
+Day 430: 🚌 Bus Ticket Simulator with MVC Architecture 🎫
+Day 431: 🧩 Scrabble Word Finder in Python 🔍
+Day 432: 🎮 Steam Game Review Analyzer with NLP 📊
+Day 433: � Neural Network Structure Visualizer in Python 🧠
+Day 434: Technical Test "preorderTraversal" and "postorderTraversal" [LeetCode](https://leetcode.com/problems/)
+Day 435: 🐾 CatNapper - Sleep Combinations Calculator 😺
+Day 436: 📊 Extrovert vs. Introvert Behavior Data [Kaggle](https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data/data)
+Day 437: �️ Fairy Tale NER System with spaCy 🧙‍♂️
+Day 438: 🗳️ Election System Simulation in Python 🏛️
+Day 439: 🔢 Pell Numbers Generator in Python
+Day 440: Pokémon with Stats [Kaggle](https://www.kaggle.com/datasets/abcsds/pokemon)
+Day 441: Technical Test "LRUCache" and "insertionSortList" [LeetCode](https://leetcode.com/problems/)
+Day 442: 🎵 LyricsNER - Named Entity Recognition in Song Lyrics 🎶
+Day 443: 🧬 DNA Sequence Mutations Generator in Python 🧪
+Day 444: 🔍 JobPostingNER - Key Entity Detection in Job Postings 📊
+Day 445: 🏋️ Physical Activity Tracking System in Python 📊
+Day 446: 📊 Employee Attendance Analysis System 🏢
+Day 447: Technical Test "sortList" and "maxPoints" [LeetCode](https://leetcode.com/problems/)
+Day 448: 🔢 Unique Digit Combinations Generator 🧩
+Day 449: 🕵️ SpyNetwork – MVC Spy Management System in Python 🖥️
+Day 450: 🧊 Liquid Pouring Puzzle Solver in Python 🥤
+Day 451: 🎳 Mini Bowling Arcade in Python 🏆
+Day 452: 📊 Local Logs Dashboard in Python 🖥️
+Day 453: ⚙️ Custom Shell Script Generator in Python 🐚
+Day 454: 🤝 Recursive Social Network Traversal in Python
+Day 455: 📝 Repository Status Reporter in Python 🖥️
+Day 456: 🔥 Recursive BBQ Cooking Timer in Python 🍖
+Day 457: 📜 Historical Documents NER with Python 🏛️
+Day 458: Technical Test "evalRPN" and "reverseWords" [LeetCode](https://leetcode.com/problems/)*
+Day 459: 🔥 Recursive BBQ Invitation Chain in Python 🌳
+Day 460: 🎆 Python Fireworks Show with Turtle Graphics 🐢
+Day 461: ✉️ Project Email Sender in Python 📬
+Day 462: 📧 Email Scheduler with NLP in Python ✉️
+Day 463: 🏀 Basketball Defense Visualization in Python
+Day 464: Technical Test "maxProduct" and "findMin" [LeetCode](https://leetcode.com/problems/)
+Day 465: 🌌 Aurora Borealis Simulation in Python
+Day 466: 🌳 Family Tree Manager in Python
+Day 467: 🏰 Medieval Currency Converter in Python ⚔️
+Day 468: 🍖 BBQ Menu Generator in Python 🍍
+Day 469: 🐱 Realistic Cartoon Cat Animation with Python Turtle 🎨
+Day 470: Technical Test "findMinSortedArrayII" and "MinStack" [LeetCode](https://leetcode.com/problems/)
+Day 471: 🔄 Recursive Compression (Run-Length Encoding) in Python
+Day 472: 📈 Normal Distribution Data Generator in Python 🧮
+🧠 Day 473: Card Game AI with ML Strategy in Python 🃏
+Day 474: ✨ Constellation Drawer in Python 🌌
+Day 475: 🔄 Recursive Dependency Manager in Python 🧩
+Day 476: 🤖 CartPole AI with Q-Learning 🎯
+Day 477: 🌀 Spiral Symphony with Python Turtle 🎨
+🃏 Day 478: Blackjack AI Simulation and Training ♠️♦️
+Day 479: 🌳 Recursive Probability Tree in Python 🧠
+Day 480: 💬 Colorful Terminal Chat in Python 🎨
+Day 481: Technical Test "getIntersectionNode" and "findPeakElement" [LeetCode](https://leetcode.com/problems/)
+Day 482: 🧠 Face Recognition System with CNNs and MediaPipe
+Day 483: 🤖 Face Recognition with MobileNetV2 in Python 📸
+Day 484: 🌠 Meteor Shower Simulation with Tkinter 🌌
+Day 485: ⛹🏾‍♂️ Basketball Training Roulette in Python 🏀
+Day 486: 🧑‍💻 Face Detection with Haar Cascade & MTCNN in Python 📸
+Day 487: 🐳 Docker Installation Tool in Python 🛠️
+Day 488: 🚀 Face Detection with YOLO (Complementary to Day 486) 🖼️
+Day 489: 🏛️ Interactive Towers of Hanoi in Python 🎮
+Day 490: 🏀 Basketball Jersey Designer in Python 🎨
+Day 491: � Ancient Text Entity Recognizer in Python 📜
+Day 492: 🔐 Recursive Password Cracker (Simulated) in Python 🖥️
+Day 493: Technical Test "maximumGap" and "compareVersion" [LeetCode](https://leetcode.com/problems/)
+Day 494: 🏠 Real Estate Listings NER with Python 🏙️
+Day 495: 🍂 Falling Leaves Animation in Python 🎨
+Day 496: ✍️ Handwritten Digit Recognition with MNIST 🎨
+🟨 Day 497: 🎨 Flood Fill Simulator in Python 🟦
+Day 498: 📈 Pharmacy Sales Analytics with Python [Kaggle](https://www.kaggle.com/datasets/atharvasoundankar/pharmacy-otc-sales-data-2022)💊
+Day 499: 🏅 Olympic Medalist Dataset [Kaggle](https://www.kaggle.com/datasets/cahyaalkahfi/olympic-medalist-dataset-18962024/data)
+Day 500: 🏅 Olympic Medalist Dataset Analysis [Kaggle](https://www.kaggle.com/datasets/cahyaalkahfi/olympic-medalist-dataset-18962024/data)
